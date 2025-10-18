@@ -1,0 +1,9 @@
+github:
+  description: "Apache Texera Website"
+  homepage: "https://texera.apache.org/"
+  labels:
+    - texera
+    - website
+ 
+publish:
+  whoami:  main
