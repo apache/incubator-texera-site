@@ -10,4 +10,4 @@ staging:
   whoami:  staging
  
 publish:
-  whoami:  wordpress
+  whoami:  main
