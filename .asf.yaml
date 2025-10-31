@@ -8,6 +8,8 @@ github:
 staging:
   profile: ~
   whoami:  staging
+  subdir:  public
  
 publish:
   whoami:  main
+  subdir:  public
