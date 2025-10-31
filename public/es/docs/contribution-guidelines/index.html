@@ -1,0 +1,529 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="es" class="no-js">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="alternate" type="text/html" href="http://localhost:1313/es/_print/docs/contribution-guidelines/">
+<link rel="alternate" type="application/rss&#43;xml" href="http://localhost:1313/es/docs/contribution-guidelines/index.xml">
+<meta name="robots" content="noindex, nofollow">
+
+
+<link rel="shortcut icon" href="/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
+
+<title>Guía de Contribución | Texera</title>
+<meta name="description" content="Cómo contribuir al código y la documentación de Texera.">
+<meta property="og:url" content="http://localhost:1313/es/docs/contribution-guidelines/">
+  <meta property="og:site_name" content="Texera">
+  <meta property="og:title" content="Guía de Contribución">
+  <meta property="og:description" content="Cómo contribuir al código y la documentación de Texera.">
+  <meta property="og:locale" content="es">
+  <meta property="og:type" content="website">
+
+  <meta itemprop="name" content="Guía de Contribución">
+  <meta itemprop="description" content="Cómo contribuir al código y la documentación de Texera.">
+  <meta itemprop="dateModified" content="2025-10-30T21:02:34-07:00">
+  <meta itemprop="wordCount" content="654">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Guía de Contribución">
+  <meta name="twitter:description" content="Cómo contribuir al código y la documentación de Texera.">
+<link href="/scss/main.css" rel="stylesheet">
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous"></script>
+
+  </head>
+  <body class="td-section">
+    <header>
+      <nav class="td-navbar js-navbar-scroll" data-bs-theme="dark">
+    <div class="container-fluid flex-column flex-md-row">
+        <a class="navbar-brand" href="/es/"><span class="navbar-brand__logo navbar-logo">
+              
+                <img src="/icons/logo.png" alt="Texera" height="40" class="brand-logo">
+              
+            </span><span class="navbar-brand__name">Texera</span></a>
+        <div class="td-navbar-nav-scroll ms-md-auto" id="main_navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/es/docs/"><span>Documentación</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/es/blog/"><span>Blog</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/es/community/"><span>Comunidad</span></a>
+                </li>
+                <li class="nav-item dropdown d-none d-lg-block">
+                    <div class="dropdown">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Español</a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="/docs/contribution-guidelines/">English</a></li>
+    </ul>
+</div></li>
+                </ul>
+        </div>
+        <div class="d-none d-lg-block">
+            <div class="td-search">
+  <div class="td-search__icon"></div>
+  <input type="search" class="td-search__input form-control td-search-input" placeholder="Buscar en este sitio…" aria-label="Buscar en este sitio…" autocomplete="off">
+</div>
+        </div>
+    </div>
+</nav>
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            <div id="td-sidebar-menu" class="td-sidebar__inner">
+  <form class="td-sidebar__search d-flex align-items-center">
+    <div class="td-search">
+  <div class="td-search__icon"></div>
+  <input type="search" class="td-search__input form-control td-search-input" placeholder="Buscar en este sitio…" aria-label="Buscar en este sitio…" autocomplete="off">
+</div>
+    <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ms-3 fas fa-bars" type="button" data-bs-toggle="collapse" data-bs-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  <nav class="td-sidebar-nav collapse" id="td-section-nav">
+    <div class="td-sidebar-nav__section nav-item dropdown d-block d-lg-none">
+      <div class="dropdown">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Español</a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="/docs/contribution-guidelines/">English</a></li>
+    </ul>
+</div>
+    </div>
+    <ul class="td-sidebar-nav__section pe-md-3 ul-0">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-esdocs-li">
+  <a href="/es/docs/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-esdocs"><span class="">Documentación de Texera</span></a>
+  <ul class="ul-1">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-esdocsoverview-li">
+  <a href="/es/docs/overview/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-esdocsoverview"><span class="">Descripción General</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-esdocsgetting-started-li">
+  <a href="/es/docs/getting-started/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-esdocsgetting-started"><span class="">Comenzando</span></a>
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-esdocsgetting-startedsingle-node-instruction-li">
+  <a href="/es/docs/getting-started/single-node-instruction/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-esdocsgetting-startedsingle-node-instruction"><span class="">Instalación en Nodo Único</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-esdocsgetting-startedaccesslogin-li">
+  <a href="/es/docs/getting-started/accesslogin/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-esdocsgetting-startedaccesslogin"><span class="">Acceso / Inicio de Sesión en Texera</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-esdocsgetting-startedui-overview-li">
+  <a href="/es/docs/getting-started/ui-overview/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-esdocsgetting-startedui-overview"><span class="">Descripción General de la Interfaz de Usuario de Texera</span></a>
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-esdocsconcepts-li">
+  <a href="/es/docs/concepts/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-esdocsconcepts"><span class="">Conceptos</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-esdocsexamples-li">
+  <a href="/es/docs/examples/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-esdocsexamples"><span class="">Ejemplos</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-esdocstutorials-li">
+  <a href="/es/docs/tutorials/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-esdocstutorials"><span class="">Tutoriales</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-esdocsreference-li">
+  <a href="/es/docs/reference/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-esdocsreference"><span class="">Referencia</span></a>
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-esdocsreferenceconfiguration-li">
+  <a href="/es/docs/reference/configuration/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-esdocsreferenceconfiguration"><span class="">Configuración</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-esdocsreferenceproject-structure-li">
+  <a href="/es/docs/reference/project-structure/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-esdocsreferenceproject-structure"><span class="">Estructura del Proyecto</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-esdocsreferenceengine-li">
+  <a href="/es/docs/reference/engine/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-esdocsreferenceengine"><span class="">Motor</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-esdocsreferenceoperators-li">
+  <a href="/es/docs/reference/operators/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-esdocsreferenceoperators"><span class="">Operadores</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-esdocsreferencefrontend-li">
+  <a href="/es/docs/reference/frontend/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-esdocsreferencefrontend"><span class="">Interfaz Frontal</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-esdocsreferencestorage-li">
+  <a href="/es/docs/reference/storage/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-esdocsreferencestorage"><span class="">Almacenamiento</span></a>
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-esdocscontribution-guidelines-li">
+  <a href="/es/docs/contribution-guidelines/" class="align-left ps-0 active td-sidebar-link td-sidebar-link__section" id="m-esdocscontribution-guidelines"><span class="td-sidebar-nav-active-item">Guía de Contribución</span></a>
+</li>
+  </ul>
+</li>
+    </ul>
+  </nav>
+</div>
+
+          </aside>
+          <aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none">
+            <div class="td-page-meta ms-2 pb-1 pt-2 mb-0">
+<a href="https://github.com/apache/texera-site/tree/main/content/es/docs/contribution-guidelines/_index.md" class="td-page-meta--view td-page-meta__view" target="_blank" rel="noopener"><i class="fa-solid fa-file-lines fa-fw"></i> Ver el código fuente de la página</a>
+  <a href="https://github.com/apache/texera-site/edit/main/content/es/docs/contribution-guidelines/_index.md" class="td-page-meta--edit td-page-meta__edit" target="_blank" rel="noopener"><i class="fa-solid fa-pen-to-square fa-fw"></i> Editar esta página</a>
+  <a href="https://github.com/apache/texera-site/new/main/content/es/docs/contribution-guidelines?filename=change-me.md&amp;value=---%0Atitle%3A&#43;%22Long&#43;Page&#43;Title%22%0AlinkTitle%3A&#43;%22Short&#43;Nav&#43;Title%22%0Aweight%3A&#43;100%0Adescription%3A&#43;%3E-%0A&#43;&#43;&#43;&#43;&#43;Page&#43;description&#43;for&#43;heading&#43;and&#43;indexes.%0A---%0A%0A%23%23&#43;Heading%0A%0AEdit&#43;this&#43;template&#43;to&#43;create&#43;your&#43;new&#43;page.%0A%0A%2A&#43;Give&#43;it&#43;a&#43;good&#43;name%2C&#43;ending&#43;in&#43;%60.md%60&#43;-&#43;e.g.&#43;%60getting-started.md%60%0A%2A&#43;Edit&#43;the&#43;%22front&#43;matter%22&#43;section&#43;at&#43;the&#43;top&#43;of&#43;the&#43;page&#43;%28weight&#43;controls&#43;how&#43;its&#43;ordered&#43;amongst&#43;other&#43;pages&#43;in&#43;the&#43;same&#43;directory%3B&#43;lowest&#43;number&#43;first%29.%0A%2A&#43;Add&#43;a&#43;good&#43;commit&#43;message&#43;at&#43;the&#43;bottom&#43;of&#43;the&#43;page&#43;%28%3C80&#43;characters%3B&#43;use&#43;the&#43;extended&#43;description&#43;field&#43;for&#43;more&#43;detail%29.%0A%2A&#43;Create&#43;a&#43;new&#43;branch&#43;so&#43;you&#43;can&#43;preview&#43;your&#43;new&#43;file&#43;and&#43;request&#43;a&#43;review&#43;via&#43;Pull&#43;Request.%0A" class="td-page-meta--child td-page-meta__child" target="_blank" rel="noopener"><i class="fa-solid fa-pen-to-square fa-fw"></i> Crear página secundaria</a>
+  <a href="https://github.com/apache/texera-site/issues/new?title=Gu%c3%ada%20de%20Contribuci%c3%b3n" class="td-page-meta--issue td-page-meta__issue" target="_blank" rel="noopener"><i class="fa-solid fa-list-check fa-fw"></i> Crear incidencia de documentación</a>
+  <a href="https://github.com/apache/texera/issues/new" class="td-page-meta--project td-page-meta__project-issue" target="_blank" rel="noopener"><i class="fa-solid fa-list-check fa-fw"></i> Crear incidencia del proyecto</a>
+  <a id="print" href="/es/_print/docs/contribution-guidelines/"><i class="fa-solid fa-print fa-fw"></i> Imprimir toda la sección</a>
+
+</div>
+
+            <div class="td-toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#-roles-en-el-proyecto">👥 Roles en el Proyecto</a></li>
+    <li><a href="#-cómo-contribuir-código">🛠 Cómo Contribuir Código</a>
+      <ul>
+        <li><a href="#1-haz-un-fork-del-repositorio">1. Haz un Fork del Repositorio</a></li>
+        <li><a href="#2-encuentra-o-crea-un-issue">2. Encuentra o Crea un Issue</a></li>
+        <li><a href="#3-crea-y-envía-un-pull-request">3. Crea y Envía un Pull Request</a></li>
+      </ul>
+    </li>
+    <li><a href="#-pruebas-y-verificación-de-calidad">🧪 Pruebas y Verificación de Calidad</a>
+      <ul>
+        <li><a href="#backend-scala">Backend (Scala)</a></li>
+        <li><a href="#frontend-angular">Frontend (Angular)</a></li>
+      </ul>
+    </li>
+    <li><a href="#-proceso-de-revisión-de-pull-requests">🔍 Proceso de Revisión de Pull Requests</a></li>
+    <li><a href="#-encabezado-de-licencia-apache">📝 Encabezado de Licencia Apache</a></li>
+    <li><a href="#-contribuir-a-la-documentación">✍️ Contribuir a la Documentación</a>
+      <ul>
+        <li><a href="#pasos-rápidos">Pasos Rápidos</a></li>
+        <li><a href="#vista-previa-local">Vista Previa Local</a></li>
+      </ul>
+    </li>
+    <li><a href="#-recursos">📚 Recursos</a></li>
+  </ul>
+</nav>
+      </div>
+    
+            <div class="taxonomy taxonomy-terms-cloud taxo-tags">
+      <h5 class="taxonomy-title">Tag Cloud</h5>
+      <ul class="taxonomy-terms">
+        <li><a class="taxonomy-term" href="http://localhost:1313/es/tags/configuraci%C3%B3n/" data-taxonomy-term="configuraci%C3%B3n"><span class="taxonomy-label">Configuración</span><span class="taxonomy-count">2</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/es/tags/desarrollador/" data-taxonomy-term="desarrollador"><span class="taxonomy-label">Desarrollador</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/es/tags/descripci%C3%B3n-general/" data-taxonomy-term="descripci%C3%B3n-general"><span class="taxonomy-label">Descripción-General</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/es/tags/docker/" data-taxonomy-term="docker"><span class="taxonomy-label">Docker</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/es/tags/instalaci%C3%B3n/" data-taxonomy-term="instalaci%C3%B3n"><span class="taxonomy-label">Instalación</span><span class="taxonomy-count">2</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/es/tags/nodo-%C3%BAnico/" data-taxonomy-term="nodo-%C3%BAnico"><span class="taxonomy-label">Nodo-Único</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/es/tags/panel/" data-taxonomy-term="panel"><span class="taxonomy-label">Panel</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/es/tags/ui/" data-taxonomy-term="ui"><span class="taxonomy-label">Ui</span><span class="taxonomy-count">1</span></a></li>
+        </ul>
+    </div>
+  <div class="taxonomy taxonomy-terms-cloud taxo-categories">
+      <h5 class="taxonomy-title">Categories</h5>
+      <ul class="taxonomy-terms">
+        <li><a class="taxonomy-term" href="http://localhost:1313/es/categories/texera/" data-taxonomy-term="texera"><span class="taxonomy-label">Texera</span><span class="taxonomy-count">3</span></a></li>
+        </ul>
+    </div>
+  
+	
+          </aside>
+          <main class="col-12 col-md-9 col-xl-8 ps-md-5" role="main">
+            
+  
+
+            <nav aria-label="breadcrumb" class="td-breadcrumbs">
+  <ol class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a href="/es/docs/">Documentación de Texera</a></li>
+  <li class="breadcrumb-item active" aria-current="page">
+    Guía de Contribución</li>
+  </ol>
+</nav>
+<div class="td-content">
+	<h1>Guía de Contribución</h1>
+  <div class="lead">Cómo contribuir al código y la documentación de Texera.</div>
+	<header class="article-meta">
+		
+  </header>
+	
+
+<div class="pageinfo pageinfo-primary">
+<p>¡Gracias por tu interés en contribuir a Texera! Esta guía explica cómo contribuir tanto al <strong>código fuente de Texera</strong> como a su <strong>documentación</strong>.<br>
+Seguimos un flujo de trabajo basado en <em>forks</em> y adoptamos el estándar <a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional Commits</a> para los mensajes de commit.</p>
+
+</div>
+
+<h1 id="contribuir-a-texera">Contribuir a Texera<a class="td-heading-self-link" href="#contribuir-a-texera" aria-label="Heading self-link"></a></h1>
+<p>Texera da la bienvenida a contribuciones de todos — ya sea corrigiendo errores, mejorando la documentación o agregando nuevas funciones.</p>
+<hr>
+<h2 id="-roles-en-el-proyecto">👥 Roles en el Proyecto<a class="td-heading-self-link" href="#-roles-en-el-proyecto" aria-label="Heading self-link"></a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Rol</th>
+          <th>Permisos Clave</th>
+          <th>Cómo Unirse</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Contribuidor</strong></td>
+          <td>Enviar issues y PRs, participar en discusiones</td>
+          <td>Comienza a contribuir — no se requiere proceso formal</td>
+      </tr>
+      <tr>
+          <td><strong>Committer</strong></td>
+          <td>Fusionar PRs, subir código, votar cambios de código</td>
+          <td>Nombrado por el PPMC basado en contribuciones de calidad</td>
+      </tr>
+      <tr>
+          <td><strong>Miembro del PPMC</strong></td>
+          <td>Gobernanza, votación de lanzamientos, aprobación de nuevos committers</td>
+          <td>Votado por los miembros actuales del PPMC</td>
+      </tr>
+      <tr>
+          <td><strong>Mentor</strong></td>
+          <td>Guiar el proyecto y asegurar el cumplimiento con Apache</td>
+          <td>Designado por el Incubator PMC</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="-cómo-contribuir-código">🛠 Cómo Contribuir Código<a class="td-heading-self-link" href="#-c%c3%b3mo-contribuir-c%c3%b3digo" aria-label="Heading self-link"></a></h2>
+<h3 id="1-haz-un-fork-del-repositorio">1. Haz un Fork del Repositorio<a class="td-heading-self-link" href="#1-haz-un-fork-del-repositorio" aria-label="Heading self-link"></a></h3>
+<p>Haz un fork del <a href="https://github.com/Texera/texera">repositorio de Texera</a> en GitHub y clónalo localmente.</p>
+<h3 id="2-encuentra-o-crea-un-issue">2. Encuentra o Crea un Issue<a class="td-heading-self-link" href="#2-encuentra-o-crea-un-issue" aria-label="Heading self-link"></a></h3>
+<ul>
+<li>Elige un issue existente o crea uno nuevo describiendo tu propuesta o error.</li>
+<li>Discute tu enfoque con los committers antes de comenzar a programar para llegar a un consenso.</li>
+</ul>
+<h3 id="3-crea-y-envía-un-pull-request">3. Crea y Envía un Pull Request<a class="td-heading-self-link" href="#3-crea-y-env%c3%ada-un-pull-request" aria-label="Heading self-link"></a></h3>
+<ul>
+<li>Desarrolla en una nueva rama de tu fork.</li>
+<li>Cuando esté listo, envía un PR al repositorio principal de Texera.</li>
+<li><strong>Permite ediciones de los mantenedores</strong> para que los committers puedan realizar pequeños ajustes si es necesario.</li>
+</ul>
+<h4 id="formato-del-título-del-pr-y-de-los-commits">Formato del Título del PR y de los Commits<a class="td-heading-self-link" href="#formato-del-t%c3%adtulo-del-pr-y-de-los-commits" aria-label="Heading self-link"></a></h4>
+<p>Usamos <a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional Commits</a>:</p>
+<ul>
+<li>Ejemplos de títulos:
+<ul>
+<li><code>feat: agregar nuevo operador join</code></li>
+<li><code>fix(ui): resolver fallo en el panel de flujo de trabajo</code></li>
+<li><code>chore(deps): actualizar versiones de dependencias</code></li>
+</ul>
+</li>
+<li>El título del PR se convierte en el mensaje final del commit al fusionar.</li>
+</ul>
+<h4 id="la-descripción-del-pr-debe-incluir">La Descripción del PR Debe Incluir:<a class="td-heading-self-link" href="#la-descripci%c3%b3n-del-pr-debe-incluir" aria-label="Heading self-link"></a></h4>
+<ul>
+<li><strong>Propósito:</strong> usa <code>Closes #1234</code> para cerrar automáticamente un issue.</li>
+<li><strong>Resumen:</strong> breve descripción de tus cambios.</li>
+<li>Opcional: <strong>documento de diseño</strong>, <strong>diagrama técnico</strong> o <strong>capturas de pantalla</strong>.</li>
+</ul>
+<p>Evita incluir:</p>
+<ul>
+<li>Archivos de configuración local (por ejemplo, <code>python_udf.conf</code>)</li>
+<li>Secretos o credenciales</li>
+<li>Archivos binarios o de compilación</li>
+</ul>
+<hr>
+<h2 id="-pruebas-y-verificación-de-calidad">🧪 Pruebas y Verificación de Calidad<a class="td-heading-self-link" href="#-pruebas-y-verificaci%c3%b3n-de-calidad" aria-label="Heading self-link"></a></h2>
+<h3 id="backend-scala">Backend (Scala)<a class="td-heading-self-link" href="#backend-scala" aria-label="Heading self-link"></a></h3>
+<ol>
+<li>Ejecuta el linter:
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sbt <span style="color:#4e9a06">&#34;scalafixAll --check&#34;</span>
+</span></span></code></pre></div>Corrige con:
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sbt scalafixAll
+</span></span></code></pre></div></li>
+<li>Ejecuta el formateador:
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sbt scalafmtCheckAll
+</span></span></code></pre></div>Corrige con:
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sbt scalafmtAll
+</span></span></code></pre></div></li>
+<li>Ejecuta las pruebas:
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#204a87">cd</span> core
+</span></span><span style="display:flex;"><span>sbt <span style="color:#204a87">test</span>
+</span></span></code></pre></div></li>
+</ol>
+<blockquote>
+<p>Para usuarios de IntelliJ: asegúrate de que el directorio de trabajo coincida con el módulo (<code>amber</code> para pruebas del motor, <code>core</code> para servicios).</p>
+</blockquote>
+<h3 id="frontend-angular">Frontend (Angular)<a class="td-heading-self-link" href="#frontend-angular" aria-label="Heading self-link"></a></h3>
+<ol>
+<li>Ejecuta las pruebas unitarias:
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#204a87">cd</span> core/gui
+</span></span><span style="display:flex;"><span>ng <span style="color:#204a87">test</span> --watch<span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#204a87">false</span>
+</span></span></code></pre></div></li>
+<li>Formatea el código:
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>yarn format:fix
+</span></span></code></pre></div></li>
+</ol>
+<p>Escribe pruebas <code>.spec.ts</code> para cualquier nueva funcionalidad para garantizar su estabilidad futura.</p>
+<hr>
+<h2 id="-proceso-de-revisión-de-pull-requests">🔍 Proceso de Revisión de Pull Requests<a class="td-heading-self-link" href="#-proceso-de-revisi%c3%b3n-de-pull-requests" aria-label="Heading self-link"></a></h2>
+<ol>
+<li>Solicita a un committer que revise tu PR.</li>
+<li>Añade etiquetas (por ejemplo, <code>fix</code>, <code>enhancement</code>, <code>docs</code>).</li>
+<li>Espera a que las pruebas CI pasen (<a href="https://github.com/Texera/texera/actions">GitHub Actions</a>).</li>
+<li>Marca tu PR como <strong>draft</strong> si aún no está listo.</li>
+<li>Una vez aprobado, un committer fusionará tu PR.</li>
+</ol>
+<hr>
+<h2 id="-encabezado-de-licencia-apache">📝 Encabezado de Licencia Apache<a class="td-heading-self-link" href="#-encabezado-de-licencia-apache" aria-label="Heading self-link"></a></h2>
+<p>Todos los archivos nuevos deben incluir el encabezado de la Licencia Apache.<br>
+Para automatizar esto en IntelliJ:</p>
+<ol>
+<li>Ve a <strong>Settings → Editor → Copyright → Copyright Profiles</strong>.</li>
+<li>Crea un perfil llamado <strong>Apache</strong> e incluye:
+<pre tabindex="0"><code>Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements. See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership...
+</code></pre></li>
+<li>Establece este perfil como predeterminado para el proyecto.</li>
+</ol>
+<hr>
+<h2 id="-contribuir-a-la-documentación">✍️ Contribuir a la Documentación<a class="td-heading-self-link" href="#-contribuir-a-la-documentaci%c3%b3n" aria-label="Heading self-link"></a></h2>
+<p>Texera utiliza <a href="https://gohugo.io/">Hugo</a> y el tema <a href="https://github.com/google/docsy">Docsy</a> para construir su sitio web.<br>
+Toda la documentación se almacena en el <a href="https://github.com/Texera/texera">repositorio de GitHub de Texera</a>.</p>
+<h3 id="pasos-rápidos">Pasos Rápidos<a class="td-heading-self-link" href="#pasos-r%c3%a1pidos" aria-label="Heading self-link"></a></h3>
+<ol>
+<li>Haz clic en <strong>Edit this page</strong> en la parte superior de cualquier página de documentación para editar directamente en GitHub.</li>
+<li>Realiza tus ediciones y abre un Pull Request.</li>
+<li>El sitio genera automáticamente una vista previa mediante Netlify.</li>
+<li>Espera la aprobación y fusión.</li>
+</ol>
+<h3 id="vista-previa-local">Vista Previa Local<a class="td-heading-self-link" href="#vista-previa-local" aria-label="Heading self-link"></a></h3>
+<p>Para previsualizar localmente:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server
+</span></span></code></pre></div><p>Visita <code>http://localhost:1313</code> para ver el sitio mientras editas.</p>
+<hr>
+<h2 id="-recursos">📚 Recursos<a class="td-heading-self-link" href="#-recursos" aria-label="Heading self-link"></a></h2>
+<ul>
+<li><a href="https://github.com/Texera/texera">Repositorio de Texera en GitHub</a></li>
+<li><a href="https://www.conventionalcommits.org/en/v1.0.0/">Especificación de Conventional Commits</a></li>
+<li><a href="https://help.github.com/articles/about-pull-requests/">Documentación de Pull Requests en GitHub</a></li>
+</ul>
+
+	<div class="section-index">
+    
+    
+    </div>
+<style>
+  .feedback--answer {
+    display: inline-block;
+  }
+  .feedback--answer-no {
+    margin-left: 1em;
+  }
+  .feedback--response {
+    display: none;
+    margin-top: 1em;
+  }
+  .feedback--response__visible {
+    display: block;
+  }
+</style>
+<div class="d-print-none">
+<h2 class="feedback--title">Comentarios</h2>
+<p class="feedback--question">¿Fue útil esta página?</p>
+<button class="btn btn-primary mb-4 feedback--answer feedback--answer-yes">Sí</button>
+<button class="btn btn-primary mb-4 feedback--answer feedback--answer-no">No</button>
+<p class="feedback--response feedback--response-yes">
+  Glad to hear it! Please <a href="https://github.com/apache/texera-site/issues/new">tell us how we can improve</a>.
+</p>
+<p class="feedback--response feedback--response-no">
+  Sorry to hear that. Please <a href="https://github.com/apache/texera-site/issues/new">tell us how we can improve</a>.
+</p>
+</div>
+<script>
+  const yesButton = document.querySelector('.feedback--answer-yes');
+  const noButton = document.querySelector('.feedback--answer-no');
+  const yesResponse = document.querySelector('.feedback--response-yes');
+  const noResponse = document.querySelector('.feedback--response-no');
+  const disableButtons = () => {
+    yesButton.disabled = true;
+    noButton.disabled = true;
+  };
+  const sendFeedback = (value) => {
+    if (typeof gtag !== 'function') return;
+    gtag('event', 'page_helpful', {
+      'event_category': 'Helpful',
+      'event_label': window.location.pathname,
+      'value': value
+    });
+  };
+  yesButton.addEventListener('click', () => {
+    yesResponse.classList.add('feedback--response__visible');
+    disableButtons();
+    sendFeedback( 100 );
+  });
+  noButton.addEventListener('click', () => {
+    noResponse.classList.add('feedback--response__visible');
+    disableButtons();
+    sendFeedback(0);
+  });
+</script>
+<br />
+<div class="td-page-meta__lastmod">
+  Última modificación 30-10-2025: <a data-proofer-ignore href="https://github.com/apache/texera-site/commit/9f84473a27abe5db2f6205ba0a11eded6e832284">testing texera website pipeline (9f84473)</a>
+</div>
+</div>
+
+          </main>
+        </div>
+      </div>
+      <footer class="td-footer row d-print-none">
+  <div class="container-fluid">
+    <div class="row mx-md-2">
+      <div class="td-footer__left col-6 col-sm-4 order-sm-1">
+        <ul class="td-footer__links-list">
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="User mailing list" aria-label="User mailing list">
+    <a target="_blank" rel="noopener" href="https://incubator.apache.org/projects/texera.html" aria-label="User mailing list">
+      <i class="fa fa-envelope"></i>
+    </a>
+  </li>
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Announcements" aria-label="Announcements">
+    <a target="_blank" rel="noopener" href="https://incubator.apache.org/projects/texera.html" aria-label="Announcements">
+      <i class="fa fa-bullhorn"></i>
+    </a>
+  </li>
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="GitHub Discussions" aria-label="GitHub Discussions">
+    <a target="_blank" rel="noopener" href="https://github.com/apache/texera/discussions" aria-label="GitHub Discussions">
+      <i class="fab fa-github"></i>
+    </a>
+  </li>
+  
+</ul>
+
+      </div><div class="td-footer__right col-6 col-sm-4 order-sm-3">
+        <ul class="td-footer__links-list">
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="GitHub" aria-label="GitHub">
+    <a target="_blank" rel="noopener" href="https://github.com/apache/texera" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+  </li>
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Dev mailing list" aria-label="Dev mailing list">
+    <a target="_blank" rel="noopener" href="https://lists.apache.org/list.html?dev@texera.apache.org" aria-label="Dev mailing list">
+      <i class="fa fa-envelope"></i>
+    </a>
+  </li>
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Issues" aria-label="Issues">
+    <a target="_blank" rel="noopener" href="https://github.com/apache/texera/issues" aria-label="Issues">
+      <i class="fa fa-tasks"></i>
+    </a>
+  </li>
+  
+</ul>
+
+      </div><div class="td-footer__center col-12 col-sm-4 py-2 order-sm-2">
+        <span class="td-footer__copyright">&copy;
+    2018&ndash;2025
+    <span class="td-footer__authors">Apache Texera Contributors | © The Apache Software Foundation</span></span><span class="td-footer__all_rights_reserved">Todos los derechos reservados</span><span class="ms-2"><a href="https://www.apache.org/foundation/policies/privacy.html" target="_blank" rel="noopener">Política de privacidad</a></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <script src="/js/main.js"></script>
+<script defer src="/js/click-to-copy.js" crossorigin="anonymous"></script>
+<script src='/js/tabpane-persist.js'></script>
+
+  </body>
+</html>
