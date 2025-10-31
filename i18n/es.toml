@@ -1,0 +1,90 @@
+# Cadenas de la interfaz de usuario. Botones y similares.
+
+[ui_pager_prev]
+other = "Anterior"
+
+[ui_pager_next]
+other = "Siguiente"
+
+[ui_read_more]
+other = "Leer más"
+
+[ui_search]
+other = "Buscar en este sitio…"
+
+# Usado en frases como "Publicado en Noticias"
+[ui_in]
+other = "en"
+
+# Usado en frases como "Todas las etiquetas"
+[ui_all]
+other = "todas"
+
+# Texto del pie de página
+[footer_all_rights_reserved]
+other = "Todos los derechos reservados"
+
+[footer_privacy_policy]
+other = "Política de privacidad"
+
+# Publicaciones (blog, artículos, etc.)
+[post_byline_by]
+other = "Por"
+[post_created]
+other = "Creado"
+[post_last_mod]
+other = "Última modificación"
+[post_edit_this]
+other = "Editar esta página"
+[post_view_this]
+other = "Ver el código fuente de la página"
+[post_create_child_page]
+other = "Crear página secundaria"
+[post_create_issue]
+other = "Crear incidencia de documentación"
+[post_create_project_issue]
+other = "Crear incidencia del proyecto"
+[post_posts_in]
+other = "Publicaciones en"
+[post_reading_time]
+other = "minuto de lectura"
+[post_less_than_a_minute_read]
+other = "menos de un minuto"
+
+# Soporte de impresión
+[print_printable_section]
+other = "Esta es la vista imprimible de varias páginas de esta sección."
+[print_click_to_print]
+other = "Haz clic aquí para imprimir"
+[print_show_regular]
+other = "Volver a la vista normal de esta página"
+[print_entire_section]
+other = "Imprimir toda la sección"
+
+# Comunidad
+[community_join]
+other = "Únete a la comunidad de {{ .Site.Title }}"
+[community_introduce]
+other = "{{ .Site.Title }} es un proyecto de código abierto que cualquier persona en la comunidad puede usar, mejorar y disfrutar. ¡Nos encantaría que te unieras! Aquí tienes algunas formas de descubrir lo que está pasando y participar."
+[community_learn]
+other = "Aprender y Conectarse"
+[community_using]
+other = "¿Usas o quieres usar {{ .Site.Title }}? Descubre más aquí:"
+[community_develop]
+other = "Desarrollar y Contribuir"
+[community_contribute]
+other = "Si quieres involucrarte más contribuyendo a {{ .Site.Title }}, únete aquí:"
+[community_how_to]
+other = "Puedes aprender cómo contribuir a {{ .Site.Title }} en nuestras"
+[community_guideline]
+other = "Guías de Contribución"
+
+# Retroalimentación
+[feedback_title]
+other = "Comentarios"
+[feedback_question]
+other = "¿Fue útil esta página?"
+[feedback_positive]
+other = "Sí"
+[feedback_negative]
+other = "No"

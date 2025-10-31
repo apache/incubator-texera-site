@@ -1,0 +1,11 @@
+/public
+resources/
+node_modules/
+package-lock.json
+.hugo_build.lock
+
+# Local/IDE/dev files
+.idea/
+_vendor/
+docsy.work
+docsy.work.sum
