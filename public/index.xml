@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apache Texera on Texera</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Apache Texera on Texera</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Single Node Installation</title>
+      <link>http://localhost:1313/docs/getting-started/single-node-instructions/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/getting-started/single-node-instructions/</guid>
+      <description>&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;&#xA;&lt;p&gt;This document describes how to set up and run Texera on a single machine using &lt;strong&gt;Docker Compose&lt;/strong&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#prerequisites&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Before starting, make sure your computer meets the following requirements:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Resource Type&lt;/th&gt;&#xA;          &lt;th&gt;Minimum&lt;/th&gt;&#xA;          &lt;th&gt;Recommended&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;CPU Cores&lt;/td&gt;&#xA;          &lt;td&gt;2&lt;/td&gt;&#xA;          &lt;td&gt;8&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Memory&lt;/td&gt;&#xA;          &lt;td&gt;4GB&lt;/td&gt;&#xA;          &lt;td&gt;16GB&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Disk Space&lt;/td&gt;&#xA;          &lt;td&gt;20GB&lt;/td&gt;&#xA;          &lt;td&gt;50GB&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;You also need to install and launch Docker Desktop on your computer. Choose the right installation link for your computer:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Operating System&lt;/th&gt;&#xA;          &lt;th&gt;Installation Link&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;macOS&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://docs.docker.com/desktop/install/mac-install/&#34;&gt;Docker Desktop for Mac&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Windows&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://docs.docker.com/desktop/install/windows-install/&#34;&gt;Docker Desktop for Windows&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Linux&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://docs.docker.com/desktop/install/linux-install/&#34;&gt;Docker Desktop for Linux&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;After installing and launching Docker Desktop, verify that Docker and Docker Compose are available by running the following commands from the command line:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Configuration</title>
+      <link>http://localhost:1313/docs/reference/configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/reference/configuration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Overview</title>
+      <link>http://localhost:1313/docs/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/overview/</guid>
+      <description>&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;&#xA;&lt;p&gt;Texera is an open-source system that supports collaborative data science at scale using Web-based workflows.&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Texera combines powerful backend dataflow execution with an intuitive, drag-and-drop web interface.&lt;br&gt;&#xA;It’s ideal for building, executing, and sharing complex data workflows across teams.&lt;/p&gt;&#xA;&lt;h3 id=&#34;key-features&#34;&gt;Key Features&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#key-features&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Web-based workflows:&lt;/strong&gt; no installation required on clients.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Collaborative editing:&lt;/strong&gt; multiple users can build together.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Scalable execution:&lt;/strong&gt; distributed workflow execution engine.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Extensible:&lt;/strong&gt; easy to develop new operators and visual components.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Texera enables you to move from prototype to production data pipelines seamlessly.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project Structure</title>
+      <link>http://localhost:1313/docs/reference/project-structure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/reference/project-structure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Access/Login to Texera</title>
+      <link>http://localhost:1313/docs/getting-started/accesslogin/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/getting-started/accesslogin/</guid>
+      <description>&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;&#xA;&lt;p&gt;Guide to use Texera on your local machine or development environment.&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#prerequisites&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;We assume you either went through&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Texera/texera/wiki/Installing-Texera-on-a-Single-Node&#34;&gt;Single Node Instruction&lt;/a&gt;, or&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Texera/texera/wiki/Guide-for-Developers&#34;&gt;Guide for Texera Developers&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Texera should be &lt;strong&gt;up-and-running on your laptop&lt;/strong&gt; before proceeding.&lt;/p&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;&#xA;&lt;h4 class=&#34;alert-heading&#34;&gt;Note&lt;/h4&gt;&#xA;&#xA;    Ensure Docker and Docker Compose are installed before building Texera.&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;access-texera-through-browser&#34;&gt;Access Texera through Browser&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#access-texera-through-browser&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Enter Texera&amp;rsquo;s URL in your browser to access the interface.&lt;/p&gt;&#xA;&lt;p&gt;By default, an &lt;strong&gt;admin account&lt;/strong&gt; is pre-created:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Engine</title>
+      <link>http://localhost:1313/docs/reference/engine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/reference/engine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Texera UI Overview</title>
+      <link>http://localhost:1313/docs/getting-started/ui-overview/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/getting-started/ui-overview/</guid>
+      <description>&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;&#xA;&lt;p&gt;Understand the layout and functionality of Texera’s User Dashboard.&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;user-dashboard&#34;&gt;User Dashboard&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#user-dashboard&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Once logged in, you should see the following page:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://github.com/user-attachments/assets/baa3d599-99c6-401f-a772-4300cbc7c9a9&#34; alt=&#34;Texera Dashboard&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;navigation-bar&#34;&gt;Navigation Bar&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#navigation-bar&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;On the left sidebar, you can switch between different resource modules:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Workflows&lt;/strong&gt; — manage workflow projects.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Datasets&lt;/strong&gt; — upload and manage data files.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Quota&lt;/strong&gt; — check usage statistics and resource consumption.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Admin&lt;/strong&gt; — manage system users (visible only to admins).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;&#xA;&lt;h4 class=&#34;alert-heading&#34;&gt;Tip&lt;/h4&gt;&#xA;&#xA;    Hover over the navigation icons to see quick tooltips for each section.&#xA;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Operators</title>
+      <link>http://localhost:1313/docs/reference/operators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/reference/operators/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend</title>
+      <link>http://localhost:1313/docs/reference/frontend/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/reference/frontend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Storage</title>
+      <link>http://localhost:1313/docs/reference/storage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/reference/storage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Search Results</title>
+      <link>http://localhost:1313/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/search/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

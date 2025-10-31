@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Desarrollador on Texera</title>
+    <link>http://localhost:1313/es/tags/desarrollador/</link>
+    <description>Recent content in Desarrollador on Texera</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 30 Oct 2025 21:02:34 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/tags/desarrollador/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acceso / Inicio de Sesión en Texera</title>
+      <link>http://localhost:1313/es/docs/getting-started/accesslogin/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/docs/getting-started/accesslogin/</guid>
+      <description>&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;&#xA;&lt;p&gt;Guía para usar Texera en tu máquina local o entorno de desarrollo.&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;requisitos-previos&#34;&gt;Requisitos Previos&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#requisitos-previos&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Asumimos que ya seguiste&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;las &lt;a href=&#34;https://github.com/Texera/texera/wiki/Installing-Texera-on-a-Single-Node&#34;&gt;Instrucciones de Nodo Único&lt;/a&gt;, o&lt;/li&gt;&#xA;&lt;li&gt;la &lt;a href=&#34;https://github.com/Texera/texera/wiki/Guide-for-Developers&#34;&gt;Guía para Desarrolladores de Texera&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Texera debe estar &lt;strong&gt;en funcionamiento en tu computadora portátil&lt;/strong&gt; antes de continuar.&lt;/p&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;&#xA;&lt;h4 class=&#34;alert-heading&#34;&gt;Nota&lt;/h4&gt;&#xA;&#xA;    Asegúrate de que Docker y Docker Compose estén instalados antes de compilar Texera.&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;acceder-a-texera-a-través-del-navegador&#34;&gt;Acceder a Texera a través del Navegador&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#acceder-a-texera-a-trav%c3%a9s-del-navegador&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Ingresa la URL de Texera en tu navegador para acceder a la interfaz.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
