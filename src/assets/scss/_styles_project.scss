@@ -1,0 +1,21 @@
+/* Apache subfooter */
+.td-apachefooter {
+  font-size: 0.875rem;
+
+  .apache-license-text {
+    max-width: 500px;
+    line-height: 1.4;
+  }
+
+  .apache-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 0.25rem;
+
+    &:hover,
+    &:focus {
+      color: #ddd;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {{ $links := .Site.Params.links -}}
-{{ $contribUrl := .Params.contributingUrl | default "docs/contribution-guidelines" -}}
+{{ $contribUrl := .Site.Params.contributingUrl | default "https://github.com/apache/texera/blob/main/CONTRIBUTING.md" -}}
 
 <section class="row td-box td-box--white td-box--height-auto linkbox">
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
