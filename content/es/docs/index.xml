@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentación de Texera on Texera</title>
+    <link>http://localhost:1313/es/docs/</link>
+    <description>Recent content in Documentación de Texera on Texera</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <atom:link href="http://localhost:1313/es/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Descripción General</title>
+      <link>http://localhost:1313/es/docs/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/docs/overview/</guid>
+      <description>&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;&#xA;&lt;p&gt;Texera es un sistema de código abierto que admite la ciencia de datos colaborativa a gran escala mediante flujos de trabajo basados en la web.&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Texera combina una potente ejecución de flujos de datos en el backend con una interfaz web intuitiva de arrastrar y soltar.&lt;br&gt;&#xA;Es ideal para crear, ejecutar y compartir flujos de trabajo de datos complejos entre equipos.&lt;/p&gt;&#xA;&lt;h3 id=&#34;funciones-clave&#34;&gt;Funciones Clave&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#funciones-clave&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Flujos de trabajo basados en la web:&lt;/strong&gt; no se requiere instalación en los clientes.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Edición colaborativa:&lt;/strong&gt; múltiples usuarios pueden construir juntos.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Ejecución escalable:&lt;/strong&gt; motor de ejecución distribuida de flujos de trabajo.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Extensible:&lt;/strong&gt; fácil de desarrollar nuevos operadores y componentes visuales.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Texera te permite pasar sin problemas del prototipo a los flujos de datos en producción.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
