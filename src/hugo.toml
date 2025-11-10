@@ -59,11 +59,11 @@ weight = 1
 [languages.en.params]
 title = "Texera"
 description = "Apache Texera: interactive, scalable dataflow analytics"
-[languages.en.menu]
-[[languages.en.menu.main]]
-name = "Docs"
-url  = "/docs/"
-weight = 10
+#[languages.en.menu]
+#[[languages.en.menu.main]]
+#name = "Docs"
+#url  = "/docs/"
+#weight = 10
 
 [languages.es]
 languageName = "Español"
@@ -76,11 +76,11 @@ description = "Apache Texera: flujos de datos interactivos y escalables"
 time_format_default = "02-01-2006"
 time_format_blog = "2 de enero de 2006"
 # Optional: ES menus so the top navbar is populated
-[languages.es.menu]
-[[languages.es.menu.main]]
-name = "Documentación"
-url  = "/es/docs/"
-weight = 10
+#[languages.es.menu]
+#[[languages.es.menu.main]]
+#name = "Documentación"
+#url  = "/es/docs/"
+#weight = 10
 
 [markup]
 [markup.goldmark]
@@ -99,7 +99,9 @@ section = ["HTML", "print", "RSS"]
 
 # Everything below this are Site Params
 [params]
-privacy_policy = "https://www.apache.org/foundation/policies/privacy.html"
+#privacy_policy = "https://www.apache.org/foundation/policies/privacy.html"
+contributingUrl = "https://github.com/apache/texera/blob/main/CONTRIBUTING.md"
+
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/texera-card.png"]
@@ -122,13 +124,13 @@ github_project_repo = "https://github.com/apache/texera"
 github_branch = "main"
 
 # Search (comment out to disable)
-gcs_engine_id = "d72aa9b2712488cc3"
+gcs_engine_id = "1262f7daaadac4699"
 offlineSearch = false
 prism_syntax_highlighting = false
 
-[params.copyright]
-authors = "Apache Texera Contributors | © The Apache Software Foundation"
-from_year = 2018
+#[params.copyright]
+#authors = "Apache Texera Contributors"
+#from_year = 2018
 
 # User interface configuration
 [params.ui]
@@ -155,25 +157,25 @@ icon = "fa fa-envelope"
 desc = "Discussion and help from fellow users"
 [[params.links.user]]
 name = "Announcements"
-url = "https://incubator.apache.org/projects/texera.html"
+url = "#CommingSoon"
 icon = "fa fa-bullhorn"
 desc = "ASF-wide release and news announcements"
 [[params.links.user]]
-name = "GitHub Discussions"
-url = "https://github.com/apache/texera/discussions"
+name = "GitHub"
+url = "https://github.com/apache/texera/"
 icon = "fab fa-github"
 desc = "Questions, ideas, and Q&A"
 
 # Developer relevant links (right side footer & community page)
 [[params.links.developer]]
-name = "GitHub"
-url = "https://github.com/apache/texera"
-icon = "fab fa-github"
+name = "Slack"
+url = "#ComingSoon"
+icon = "fab fa-slack"
 desc = "Development happens here"
 [[params.links.developer]]
-name = "Dev mailing list"
-url = "https://lists.apache.org/list.html?dev@texera.apache.org"
-icon = "fa fa-envelope"
+name = "YouTube"
+url = "#CommingSoon"
+icon = "fab fa-youtube"
 desc = "Development discussions"
 [[params.links.developer]]
 name = "Issues"

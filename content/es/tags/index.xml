@@ -6,63 +6,6 @@
     <description>Recent content in Tags on Texera</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 30 Oct 2025 21:02:34 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/es/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Configuración</title>
-      <link>http://localhost:1313/es/tags/configuraci%C3%B3n/</link>
-      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/tags/configuraci%C3%B3n/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Desarrollador</title>
-      <link>http://localhost:1313/es/tags/desarrollador/</link>
-      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/tags/desarrollador/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Descripción-General</title>
-      <link>http://localhost:1313/es/tags/descripci%C3%B3n-general/</link>
-      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/tags/descripci%C3%B3n-general/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Docker</title>
-      <link>http://localhost:1313/es/tags/docker/</link>
-      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/tags/docker/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Instalación</title>
-      <link>http://localhost:1313/es/tags/instalaci%C3%B3n/</link>
-      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/tags/instalaci%C3%B3n/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nodo-Único</title>
-      <link>http://localhost:1313/es/tags/nodo-%C3%BAnico/</link>
-      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/tags/nodo-%C3%BAnico/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Panel</title>
-      <link>http://localhost:1313/es/tags/panel/</link>
-      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/tags/panel/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ui</title>
-      <link>http://localhost:1313/es/tags/ui/</link>
-      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/tags/ui/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
