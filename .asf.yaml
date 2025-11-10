@@ -7,7 +7,7 @@ github:
 
 staging:
   profile: ~
-  whoami:  staging1
+  whoami:  staging
  
 publish:
   whoami:  main
