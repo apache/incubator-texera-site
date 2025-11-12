@@ -5,9 +5,9 @@ github:
     - texera
     - website
 
-staging:
-  profile: ~
-  whoami:  staging
+#staging:
+#  profile: ~
+#  whoami:  staging
  
-publish:
-  whoami:  main
+#publish:
+#  whoami:  main
