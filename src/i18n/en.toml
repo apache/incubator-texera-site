@@ -88,3 +88,27 @@ other = "Was this page helpful?"
 other = "Yes"
 [feedback_negative]
 other = "No"
+
+[userMailingList_desc]
+other = "Discussion and help from fellow users"
+
+[announcements_desc]
+other = "ASF-wide release and news announcements"
+
+[github_desc]
+other = "Questions, ideas, and Q&A"
+
+[slack_desc]
+other = "Development happens here"
+
+[youtube_desc]
+other = "Development discussions"
+
+[issues_desc]
+other = "Report bugs and track features"
+
+[userLinksTitle]
+other = "User Links"
+
+[devLinksTitle]
+other = "Developer Links"

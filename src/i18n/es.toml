@@ -14,7 +14,7 @@ other = "Buscar en este sitio…"
 
 # Usado en frases como "Publicado en Noticias"
 [ui_in]
-other = "en"
+other = "es"
 
 # Usado en frases como "Todas las etiquetas"
 [ui_all]
@@ -88,3 +88,28 @@ other = "¿Fue útil esta página?"
 other = "Sí"
 [feedback_negative]
 other = "No"
+
+
+[userMailingList_desc]
+other = "Discusión y ayuda entre usuarios"
+
+[announcements_desc]
+other = "Comunicados y noticias sobre lanzamientos de la ASF"
+
+[github_desc]
+other = "Preguntas, ideas y respuestas (Q&A)"
+
+[slack_desc]
+other = "Aquí ocurre el desarrollo"
+
+[youtube_desc]
+other = "Charlas y debates sobre desarrollo"
+
+[issues_desc]
+other = "Reporta errores y haz seguimiento de funciones"
+
+[userLinksTitle]
+other = "Enlaces para usuarios"
+
+[devLinksTitle]
+other = "Enlaces para desarrolladores"

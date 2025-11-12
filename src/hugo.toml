@@ -149,39 +149,45 @@ no = 'Sorry to hear that. Please <a href="https://github.com/apache/texera-site/
 enable = false
 
 [params.links]
+
 # End user relevant links (left side footer & community page)
 [[params.links.user]]
 name = "User mailing list"
 url = "https://incubator.apache.org/projects/texera.html"
 icon = "fa fa-envelope"
-desc = "Discussion and help from fellow users"
+desc_key = "userMailingList_desc"
+
 [[params.links.user]]
 name = "Announcements"
-url = "#CommingSoon"
+url = "#ComingSoon"
 icon = "fa fa-bullhorn"
-desc = "ASF-wide release and news announcements"
+desc_key = "announcements_desc"
+
 [[params.links.user]]
 name = "GitHub"
 url = "https://github.com/apache/texera/"
 icon = "fab fa-github"
-desc = "Questions, ideas, and Q&A"
+desc_key = "github_desc"
 
 # Developer relevant links (right side footer & community page)
 [[params.links.developer]]
 name = "Slack"
 url = "#ComingSoon"
 icon = "fab fa-slack"
-desc = "Development happens here"
+desc_key = "slack_desc"
+
 [[params.links.developer]]
 name = "YouTube"
-url = "#CommingSoon"
+url = "#ComingSoon"
 icon = "fab fa-youtube"
-desc = "Development discussions"
+desc_key = "youtube_desc"
+
 [[params.links.developer]]
 name = "Issues"
 url = "https://github.com/apache/texera/issues"
 icon = "fa fa-tasks"
-desc = "Report bugs and track features"
+desc_key = "issues_desc"
+
 
 # hugo module configuration
 [module]
