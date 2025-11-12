@@ -1,0 +1,20 @@
+<section class="services-section">
+    <h3 class="services-title">Texera Features</h3>
+    {{- $lang := .Site.Language.Lang -}}
+    {{- $langData := index .Site.Data $lang -}}
+    {{- $data := cond (and $langData (index $langData "features")) $langData .Site.Data -}}
+    {{- $featuresContainer := index $data "features" -}}
+    {{- $features := $featuresContainer.features -}}
+
+    <div class="services-grid">
+        {{- range $i, $f := $features -}}
+        <div class="service">
+            <i class="{{ $f.icon }}"></i>
+            <h4>{{ $f.title }}</h4>
+            <p>{{ $f.desc }}</p>
+            {{- with $f.cta_url -}}
+            {{- end -}}
+        </div>
+        {{- end -}}
+    </div>
+</section>

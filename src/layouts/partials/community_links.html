@@ -27,7 +27,7 @@
 {{ range . -}}
   <li title="{{ .name }}">
     <a target="_blank" rel="noopener" href="{{ .url }}"><i class="{{ .icon }}"></i> {{ .name }}</a>:
-    {{ .desc }}
+    {{T .desc_key }}
   </li>
 {{ end }}
 </ul>

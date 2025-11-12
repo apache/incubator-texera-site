@@ -19,3 +19,111 @@
     }
   }
 }
+
+/* --- Feature grid (services) --- */
+.services-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.services-title {
+  font-weight: 700;
+  color: #333;
+  font-size: 3.2rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.services-grid {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.service {
+  background: #fff;
+  padding: 35px 25px;
+  border-radius: 12px;
+  text-align: center;
+  flex: 1 1 calc(33.333% - 30px);
+  border: 2px solid #e7e7e7;
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.service:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0,0,0,.08);
+}
+
+.service i {
+  font-size: 4rem;
+  margin: 1rem 0 .75rem;
+}
+
+.service h4 {
+  font-weight: 700;
+  color: #333;
+  font-size: 1.5rem;
+  margin: 1rem 0 .5rem;
+}
+
+.service p {
+  color: #666;
+  margin: .5rem 0 1.2rem;
+  line-height: 1.65;
+  font-size: 1.05rem;
+}
+
+/* --- Responsive adjustments --- */
+@media (max-width: 900px) {
+  .service {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 600px) {
+  .service {
+    flex: 1 1 100%;
+  }
+}
+
+.service a.cta {
+  color: inherit;
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  text-transform: uppercase;
+  font-size: .8rem;
+  letter-spacing: .04em;
+  margin: 0;
+  align-self: center;
+}
+
+.service .fa-angle-right { font-size: .7rem; }
+
+///* Accent colors per “slot” */
+.service i, .service h4, .service .cta { color: #42b7ca; }
+//.service:hover {
+//  border-color: #42b7ca;
+//  cursor: pointer;
+//}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .service { flex: 1 1 calc(50% - 20px); }
+}
+@media (max-width: 640px) {
+  .service { flex: 1 1 100%; }
+}
+
+/* Dark-mode tweak */
+@media (prefers-color-scheme: dark) {
+  .service { background: $dark; border-color: $secondary; }
+  .service h4 { color: #eaecef; }
+  .service p { color: #c5cbd3; }
+}
+
