@@ -2,67 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/es/</loc>
+    <loc>https://texera.staged.apache.org/es/</loc>
     <lastmod>2025-10-30T03:12:39-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="https://texera.staged.apache.org/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/"
+                href="https://texera.staged.apache.org/es/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/categories/</loc>
+    <loc>https://texera.staged.apache.org/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="https://texera.staged.apache.org/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/categories/"
+                href="https://texera.staged.apache.org/es/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/community/</loc>
+    <loc>https://texera.staged.apache.org/es/community/</loc>
     <lastmod>2025-10-30T03:12:39-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/community/"
+                href="https://texera.staged.apache.org/community/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/community/"
+                href="https://texera.staged.apache.org/es/community/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/search/</loc>
+    <loc>https://texera.staged.apache.org/es/search/</loc>
     <lastmod>2025-10-30T03:12:39-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/search/"
+                href="https://texera.staged.apache.org/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/search/"
+                href="https://texera.staged.apache.org/es/search/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/tags/</loc>
+    <loc>https://texera.staged.apache.org/es/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="https://texera.staged.apache.org/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/"
+                href="https://texera.staged.apache.org/es/tags/"
                 />
   </url>
 </urlset>

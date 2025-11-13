@@ -15,7 +15,11 @@ Try Now <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 {{< blocks/link-down color="info" >}}
 {{< /blocks/cover >}}
 
+{{% blocks/section color="light" type="row" color="bg-white" %}}
+
 {{< features_grid >}}
+
+{{% /blocks/section %}}
 
 {{% blocks/section color="light" type="row" color="bg-white" %}}
     

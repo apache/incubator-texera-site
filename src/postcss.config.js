@@ -1,1 +1,5 @@
-npm i -D postcss postcss-cli autoprefixer
+module.exports = {
+    plugins: {
+        autoprefixer: {},
+    },
+};
