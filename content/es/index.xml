@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apache Texera on Texera</title>
-    <link>https://texera.staged.apache.org/es/</link>
+    <link>http://localhost:1313/es/</link>
     <description>Recent content in Apache Texera on Texera</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <atom:link href="https://texera.staged.apache.org/es/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Search Results</title>
-      <link>https://texera.staged.apache.org/es/search/</link>
+      <link>http://localhost:1313/es/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://texera.staged.apache.org/es/search/</guid>
+      <guid>http://localhost:1313/es/search/</guid>
       <description></description>
     </item>
   </channel>
