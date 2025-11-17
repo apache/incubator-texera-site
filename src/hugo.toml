@@ -157,11 +157,11 @@ url = "https://incubator.apache.org/projects/texera.html"
 icon = "fa fa-envelope"
 desc_key = "userMailingList_desc"
 
-[[params.links.user]]
-name = "Announcements"
-url = "#ComingSoon"
-icon = "fa fa-bullhorn"
-desc_key = "announcements_desc"
+#[[params.links.user]]
+#name = "Announcements"
+#url = "#ComingSoon"
+#icon = "fa fa-bullhorn"
+#desc_key = "announcements_desc"
 
 [[params.links.user]]
 name = "GitHub"
@@ -170,15 +170,15 @@ icon = "fab fa-github"
 desc_key = "github_desc"
 
 # Developer relevant links (right side footer & community page)
-[[params.links.developer]]
-name = "Slack"
-url = "#ComingSoon"
-icon = "fab fa-slack"
-desc_key = "slack_desc"
+#[[params.links.developer]]
+#name = "Slack"
+#url = "#ComingSoon"
+#icon = "fab fa-slack"
+#desc_key = "slack_desc"
 
 [[params.links.developer]]
 name = "YouTube"
-url = "#ComingSoon"
+url = "https://www.youtube.com/@texeraprojectgeneral"
 icon = "fab fa-youtube"
 desc_key = "youtube_desc"
 
