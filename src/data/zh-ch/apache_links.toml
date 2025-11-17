@@ -1,0 +1,34 @@
+[[links]]
+id  = "license"
+name = "许可证"
+url  = "https://www.apache.org/licenses/"
+
+[[links]]
+id  = "donate"
+name = "捐赠"
+url  = "https://www.apache.org/foundation/sponsorship.html"
+
+[[links]]
+id  = "events"
+name = "活动"
+url  = "https://events.apache.org/"
+
+[[links]]
+id  = "thanks"
+name = "致谢"
+url  = "https://www.apache.org/foundation/thanks.html"
+
+[[links]]
+id  = "security"
+name = "安全"
+url  = "https://www.apache.org/security/"
+
+[[links]]
+id  = "privacy"
+name = "隐私政策"
+url  = "https://privacy.apache.org/policies/privacy-policy-public.html"
+
+[[links]]
+id  = "coc"
+name = "行为准则"
+url  = "https://airflow.apache.org/code-of-conduct/"

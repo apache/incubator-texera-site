@@ -45,6 +45,7 @@
                     </a>
                 </li>
                 {{ end -}}
+                {{ partial "navbar_apache_links.html" .}}
                 {{ if .Site.Params.versions -}}
                 <li class="nav-item dropdown d-none d-lg-block">
                     {{ partial "navbar-version-selector.html" . -}}

@@ -1,5 +1,5 @@
 baseURL = "https://texera.staged.apache.org"
-title = "Texera"
+title = "Apache Texera (Incubating)"
 
 # Language settings
 defaultContentLanguage = "en"
@@ -53,34 +53,45 @@ anchor = "smart"
 [languages]
 [languages.en]
 languageName = "English"
-title = "Texera"
+title = "Apache Texera"
 contentDir = "content/en"
 weight = 1
 [languages.en.params]
-title = "Texera"
+title = "Apache Texera"
 description = "Apache Texera: interactive, scalable dataflow analytics"
-#[languages.en.menu]
-#[[languages.en.menu.main]]
-#name = "Docs"
-#url  = "/docs/"
-#weight = 10
+[languages.en.menu]
+[[languages.en.menu.main]]
+name = "GitHub"
+url  = "https://github.com/apache/texera"
+pre = "<i class='fab fa-github'></i>"
 
 [languages.es]
 languageName = "Español"
-title = "Texera"
+title = "Apache Texera"
 contentDir = "content/es"
 weight = 2
 [languages.es.params]
-title = "Texera"
+title = "Apache Texera"
 description = "Apache Texera: flujos de datos interactivos y escalables"
-time_format_default = "02-01-2006"
-time_format_blog = "2 de enero de 2006"
-# Optional: ES menus so the top navbar is populated
-#[languages.es.menu]
-#[[languages.es.menu.main]]
-#name = "Documentación"
-#url  = "/es/docs/"
-#weight = 10
+[languages.es.menu]
+[[languages.es.menu.main]]
+name = "GitHub"
+url  = "https://github.com/apache/texera"
+pre = "<i class='fab fa-github'></i>"
+
+[languages.zh-ch]
+languageName = "中文"
+title = "Apache Texera"
+contentDir = "content/zh-ch"
+weight = 3
+[languages.zh-ch.params]
+title = "Apache Texera"
+description = "Apache Texera：交互式、可扩展的数据流分析"
+[languages.zh-ch.menu]
+[[languages.zh-ch.menu.main]]
+name = "GitHub"
+url  = "https://github.com/apache/texera"
+pre = "<i class='fab fa-github'></i>"
 
 [markup]
 [markup.goldmark]
@@ -124,9 +135,9 @@ github_project_repo = "https://github.com/apache/texera"
 github_branch = "main"
 
 # Search (comment out to disable)
-gcs_engine_id = "1262f7daaadac4699"
-offlineSearch = false
-prism_syntax_highlighting = false
+#gcs_engine_id = "1262f7daaadac4699"
+#offlineSearch = false
+#prism_syntax_highlighting = false
 
 #[params.copyright]
 #authors = "Apache Texera Contributors"

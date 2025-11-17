@@ -1,0 +1,34 @@
+[[links]]
+id  = "license"
+name = "License"
+url  = "https://www.apache.org/licenses/"
+
+[[links]]
+id  = "donate"
+name = "Donate"
+url  = "https://www.apache.org/foundation/sponsorship.html"
+
+[[links]]
+id  = "events"
+name = "Events"
+url  = "https://events.apache.org/"
+
+[[links]]
+id  = "thanks"
+name = "Thanks"
+url  = "https://www.apache.org/foundation/thanks.html"
+
+[[links]]
+id  = "security"
+name = "Security"
+url  = "https://www.apache.org/security/"
+
+[[links]]
+id  = "privacy"
+name = "Privacy"
+url  = "https://privacy.apache.org/policies/privacy-policy-public.html"
+
+[[links]]
+id  = "coc"
+name = "Code of Conduct"
+url  = "https://airflow.apache.org/code-of-conduct/"

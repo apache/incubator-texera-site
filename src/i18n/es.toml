@@ -113,3 +113,15 @@ other = "Enlaces para usuarios"
 
 [devLinksTitle]
 other = "Enlaces para desarrolladores"
+
+[apache_footer_copyright]
+other = "© {{ .Year }} La Fundación Apache de Software."
+
+[apache_footer_trademark]
+other = """
+Apache Texera (en incubación), Apache, Texera, el logotipo de Texera y el logotipo de Apache
+son marcas registradas o marcas comerciales de
+<a href="https://apache.org/" target="_blank" rel="noopener">The Apache Software Foundation</a>.
+Todos los demás nombres de productos o marcas son propiedad de sus respectivos dueños,
+incluida The Apache Software Foundation.
+"""
