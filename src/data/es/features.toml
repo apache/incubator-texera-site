@@ -1,0 +1,41 @@
+[[features]]
+icon = "fa-solid fa-users"
+title = "Ciencia de Datos Colaborativa"
+desc = "Trabaja en tiempo real desde cualquier navegador. Comparte datos y flujos de trabajo, edita simultáneamente y realiza un seguimiento de cada cambio con control de versiones integrado."
+cta_text = "Leer más"
+cta_url = "#"
+
+[[features]]
+icon = "fa-solid fa-diagram-project"
+title = "Interfaz Gráfica de Flujos de Trabajo"
+desc = "Crea flujos de trabajo de forma visual con herramientas de arrastrar y soltar. Observa actualizaciones en tiempo real e interactúa con las ejecuciones mientras se desarrollan."
+cta_text = "Leer más"
+cta_url = "#"
+
+[[features]]
+icon = "fa-solid fa-robot"
+title = "Acceso Ampliable a IA/ML"
+desc = "Utiliza operadores de inteligencia artificial y aprendizaje automático con el editor integrado. Compatible con Python, R y Java/Scala para un desarrollo flexible."
+cta_text = "Leer más"
+cta_url = "#"
+
+[[features]]
+icon = "fa-solid fa-database"
+title = "Acceso Unificado a Datos"
+desc = "Conéctate a bases de datos, almacenamiento en la nube y API. Combina fácilmente diferentes fuentes de datos en un solo flujo de trabajo optimizado."
+cta_text = "Leer más"
+cta_url = "#"
+
+[[features]]
+icon = "fa-solid fa-chart-pie"
+title = "Visualización Interactiva"
+desc = "Observa los resultados a medida que trabajas. Supervisa el rendimiento, explora los resultados y comparte gráficos interactivos al instante."
+cta_text = "Leer más"
+cta_url = "#"
+
+[[features]]
+icon = "fa-solid fa-plug"
+title = "Integración y Extensibilidad"
+desc = "Amplía Texera con complementos personalizados o conéctalo a diversas herramientas. Diseñado para crecer junto con tu ecosistema de datos."
+cta_text = "Leer más"
+cta_url = "#"

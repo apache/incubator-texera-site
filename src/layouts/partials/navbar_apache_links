@@ -1,0 +1,30 @@
+{{/* layouts/partials/navbar_apache_links.html */}}
+
+{{ $lang := .Site.Language.Lang }}
+{{ $langData := index .Site.Data $lang }}
+
+{{ with $langData.apache_links.links }}
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle"
+     href="#"
+     role="button"
+     data-bs-toggle="dropdown"
+     aria-haspopup="true"
+     aria-expanded="false">
+    ASF
+  </a>
+
+  <ul class="dropdown-menu">
+    {{ range . }}
+    <li>
+      <a class="dropdown-item"
+         href="{{ .url }}"
+         target="_blank"
+         rel="noopener">
+        {{ .name }}
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</li>
+{{ end }}
