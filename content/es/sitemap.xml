@@ -11,6 +11,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-ch"
+                href="https://texera.staged.apache.org/zh-ch/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="es"
                 href="https://texera.staged.apache.org/es/"
                 />
@@ -20,6 +25,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://texera.staged.apache.org/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-ch"
+                href="https://texera.staged.apache.org/zh-ch/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -36,6 +46,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-ch"
+                href="https://texera.staged.apache.org/zh-ch/community/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="es"
                 href="https://texera.staged.apache.org/es/community/"
                 />
@@ -49,6 +64,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-ch"
+                href="https://texera.staged.apache.org/zh-ch/search/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="es"
                 href="https://texera.staged.apache.org/es/search/"
                 />
@@ -58,6 +78,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://texera.staged.apache.org/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-ch"
+                href="https://texera.staged.apache.org/zh-ch/tags/"
                 />
     <xhtml:link
                 rel="alternate"

@@ -1,0 +1,29 @@
+[badges]
+license_label = "许可证"
+license_value = "Apache 2.0"
+
+[labels]
+users = "用户数"
+projects = "项目数"
+workflows = "工作流"
+executions = "执行次数"
+workflow_versions = "工作流版本"
+deployments = "部署数"
+largest_deployment = "最大部署"
+
+[stats]
+users = "332"
+projects = "86"
+workflows = "2,481"
+executions = "51K"
+workflow_versions = "357K"
+deployments = "7"
+largest_deployment = "100 个节点，400 个核心"
+
+[repo]
+url = "https://github.com/apache/texera"
+name = "apache/texera"
+description = "基于工作流的协作式机器学习中心数据分析平台"
+language = "Scala"
+stars = "208"
+forks = "109"

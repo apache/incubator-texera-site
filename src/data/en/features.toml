@@ -1,0 +1,41 @@
+[[features]]
+icon = "fa-solid fa-users"
+title = "Collaborative Data Science"
+desc = "Work together in real time from any browser. Share data and workflows, edit simultaneously, and track every change with built-in version control."
+cta_text = "Read More"
+cta_url = "#"
+
+[[features]]
+icon = "fa-solid fa-diagram-project"
+title = "Graphical Workflow Interface"
+desc = "Build workflows visually with drag-and-drop tools. See live status updates and interact with executions as they run."
+cta_text = "Read More"
+cta_url = "#"
+
+[[features]]
+icon = "fa-solid fa-robot"
+title = "Expandable AI/ML Access"
+desc = "Use AI and ML operators with the integrated editor. Supports Python, R, and Java/Scala for flexible development."
+cta_text = "Read More"
+cta_url = "#"
+
+[[features]]
+icon = "fa-solid fa-database"
+title = "Unified Data Access"
+desc = "Connect to databases, cloud storage, and APIs. Combine different data sources easily in one streamlined workflow."
+cta_text = "Read More"
+cta_url = "#"
+
+[[features]]
+icon = "fa-solid fa-chart-pie"
+title = "Interactive Visualization"
+desc = "Watch results appear as you work. Monitor performance, explore outputs, and share interactive charts instantly."
+cta_text = "Read More"
+cta_url = "#"
+
+[[features]]
+icon = "fa-solid fa-plug"
+title = "Integration & Extensibility"
+desc = "Extend Texera with custom plugins or connect to various tools. Designed to grow with your data ecosystem."
+cta_text = "Read More"
+cta_url = "#"

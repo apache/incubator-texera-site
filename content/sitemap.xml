@@ -15,4 +15,9 @@
     
   </sitemap>
   
+  <sitemap>
+    <loc>https://texera.staged.apache.org/zh-ch/sitemap.xml</loc>
+    
+  </sitemap>
+  
 </sitemapindex>
