@@ -124,3 +124,12 @@ Apache Texera（孵化中）、Apache、Texera、Texera 标志以及 Apache 标�
 的注册商标或商标。
 所有其他产品名称或品牌名称均为其各自所有者的商标，包括 Apache 软件基金会。
 """
+
+[apache_footer_disclaimer]
+other = """
+Apache Texera 是一个在 Apache 软件基金会（ASF）孵化中的项目，由 ASF 赞助。
+所有新接受的项目都需要经过孵化，直到进一步的审查确认其基础设施、
+沟通方式和决策过程已经稳定，并与 ASF 其他成功项目保持一致。
+虽然孵化状态不一定反映代码的完整性或稳定性，但它确实表明
+该项目尚未获得 ASF 的完全认可。
+"""
