@@ -127,3 +127,63 @@
   .service p { color: #c5cbd3; }
 }
 
+.community-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.community-link-item {
+  margin-bottom: 1rem;
+}
+
+.community-link-box {
+  display: block;
+  padding: 0.9rem 1.1rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  text-decoration: none;
+  text-align: left;
+  transition:
+          transform 0.15s ease-out,
+          box-shadow 0.15s ease-out,
+          border-color 0.15s ease-out,
+          background-color 0.15s ease-out;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.linkbox.text-center .community-link-box {
+  text-align: left;
+}
+
+.community-link-box:hover,
+.community-link-box:focus,
+.community-link-box:active {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  border-color: rgba(0, 123, 255, 0.5);
+  background-color: #f8fbff;
+}
+
+.community-link-main {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.community-link-main i {
+  font-size: 1.1rem;
+}
+
+.community-link-name {
+  font-weight: 600;
+}
+
+.community-link-desc {
+  display: block;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
