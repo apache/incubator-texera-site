@@ -1,34 +1,42 @@
+{{/* Get links and contribution URL from site params */}}
 {{ $links := .Site.Params.links -}}
 {{ $contribUrl := .Site.Params.contributingUrl | default "https://github.com/apache/texera/blob/main/CONTRIBUTING.md" -}}
 
-<section class="row td-box td-box--white td-box--height-auto linkbox">
-  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <h2>{{ T "community_learn" }}</h2>
-    <p>{{ T "community_using" . }}</p>
-    {{ with index $links "user" -}}
-      {{ template "community-links-list" . -}}
-    {{ end }}
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <h2>{{ T "community_develop" }}</h2>
-    <p>{{ T "community_contribute" . }}</p>
-    {{ with index $links "developer" -}}
-      {{ template "community-links-list" . -}}
-    {{ end }}
-    <p>
-      {{ T "community_how_to" . }}
-      <a href="{{ $contribUrl | relURL }}">{{ T "community_guideline" }}</a>.
-    </p>
-  </div>
+<section class="row td-box td-box--white td-box--height-auto linkbox text-center">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <h2>{{ T "community_learn" }}</h2>
+        <p>{{ T "community_using" . }}</p>
+        {{ with index $links "user" -}}
+            {{ template "community-links-list" . -}}
+        {{ end }}
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <h2>{{ T "community_develop" }}</h2>
+        <p>{{ T "community_contribute" . }}</p>
+        {{ with index $links "developer" -}}
+            {{ template "community-links-list" . -}}
+        {{ end }}
+        <p>
+            {{ T "community_how_to" . }}
+            <a href="{{ $contribUrl | relURL }}">{{ T "community_guideline" }}</a>.
+        </p>
+    </div>
 </section>
 
+{{/* Renders the link lists as rounded, clickable boxes */}}
 {{ define "community-links-list" -}}
-<ul>
-{{ range . -}}
-  <li title="{{ .name }}">
-    <a target="_blank" rel="noopener" href="{{ .url }}"><i class="{{ .icon }}"></i> {{ .name }}</a>:
-    {{T .desc_key }}
-  </li>
-{{ end }}
+<ul class="community-links">
+    {{ range . -}}
+    <li class="community-link-item" title="{{ .name }}">
+        <a class="community-link-box" target="_blank" rel="noopener" href="{{ .url }}">
+            <div class="community-link-main">
+                <i class="{{ .icon }}"></i>
+                <span class="community-link-name">{{ .name }}</span>
+            </div>
+            <span class="community-link-desc">{{ T .desc_key }}</span>
+        </a>
+    </li>
+    {{ end }}
 </ul>
 {{- end }}
