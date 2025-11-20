@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apache Texera</title><link>https://texera.staged.apache.org/</link><description>Recent content on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Single Node Installation</title><link>https://texera.staged.apache.org/docs/getting-started/single-node-instructions/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/getting-started/single-node-instructions/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;This document describes how to set up and run Texera on a single machine using &lt;strong&gt;Docker Compose&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;a class="td-heading-self-link" href="#prerequisites" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Before starting, make sure your computer meets the following requirements:&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Resource Type&lt;/th&gt;
+ &lt;th&gt;Minimum&lt;/th&gt;
+ &lt;th&gt;Recommended&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;CPU Cores&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;8&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Memory&lt;/td&gt;
+ &lt;td&gt;4GB&lt;/td&gt;
+ &lt;td&gt;16GB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Disk Space&lt;/td&gt;
+ &lt;td&gt;20GB&lt;/td&gt;
+ &lt;td&gt;50GB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;You also need to install and launch Docker Desktop on your computer. Choose the right installation link for your computer:&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Operating System&lt;/th&gt;
+ &lt;th&gt;Installation Link&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;macOS&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://docs.docker.com/desktop/install/mac-install/"&gt;Docker Desktop for Mac&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Windows&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://docs.docker.com/desktop/install/windows-install/"&gt;Docker Desktop for Windows&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://docs.docker.com/desktop/install/linux-install/"&gt;Docker Desktop for Linux&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;After installing and launching Docker Desktop, verify that Docker and Docker Compose are available by running the following commands from the command line:&lt;/p&gt;</description></item><item><title>Configuration</title><link>https://texera.staged.apache.org/docs/reference/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/configuration/</guid><description/></item><item><title>Overview</title><link>https://texera.staged.apache.org/docs/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/overview/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;Texera is an open-source system that supports collaborative data science at scale using Web-based workflows.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Texera combines powerful backend dataflow execution with an intuitive, drag-and-drop web interface.&lt;br&gt;
+It’s ideal for building, executing, and sharing complex data workflows across teams.&lt;/p&gt;
+&lt;h3 id="key-features"&gt;Key Features&lt;a class="td-heading-self-link" href="#key-features" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Web-based workflows:&lt;/strong&gt; no installation required on clients.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Collaborative editing:&lt;/strong&gt; multiple users can build together.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scalable execution:&lt;/strong&gt; distributed workflow execution engine.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extensible:&lt;/strong&gt; easy to develop new operators and visual components.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Texera enables you to move from prototype to production data pipelines seamlessly.&lt;/p&gt;</description></item><item><title>Project Structure</title><link>https://texera.staged.apache.org/docs/reference/project-structure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/project-structure/</guid><description/></item><item><title>Access/Login to Texera</title><link>https://texera.staged.apache.org/docs/getting-started/accesslogin/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/getting-started/accesslogin/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;Guide to use Texera on your local machine or development environment.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;a class="td-heading-self-link" href="#prerequisites" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We assume you either went through&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/Texera/texera/wiki/Installing-Texera-on-a-Single-Node"&gt;Single Node Instruction&lt;/a&gt;, or&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Texera/texera/wiki/Guide-for-Developers"&gt;Guide for Texera Developers&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Texera should be &lt;strong&gt;up-and-running on your laptop&lt;/strong&gt; before proceeding.&lt;/p&gt;
+
+
+&lt;div class="alert alert-warning" role="alert"&gt;
+&lt;h4 class="alert-heading"&gt;Note&lt;/h4&gt;
+
+ Ensure Docker and Docker Compose are installed before building Texera.
+
+&lt;/div&gt;
+
+&lt;h2 id="access-texera-through-browser"&gt;Access Texera through Browser&lt;a class="td-heading-self-link" href="#access-texera-through-browser" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Enter Texera&amp;rsquo;s URL in your browser to access the interface.&lt;/p&gt;
+&lt;p&gt;By default, an &lt;strong&gt;admin account&lt;/strong&gt; is pre-created:&lt;/p&gt;</description></item><item><title>Engine</title><link>https://texera.staged.apache.org/docs/reference/engine/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/engine/</guid><description/></item><item><title>Texera UI Overview</title><link>https://texera.staged.apache.org/docs/getting-started/ui-overview/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/getting-started/ui-overview/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;Understand the layout and functionality of Texera’s User Dashboard.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id="user-dashboard"&gt;User Dashboard&lt;a class="td-heading-self-link" href="#user-dashboard" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Once logged in, you should see the following page:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/baa3d599-99c6-401f-a772-4300cbc7c9a9" alt="Texera Dashboard"&gt;&lt;/p&gt;
+&lt;h3 id="navigation-bar"&gt;Navigation Bar&lt;a class="td-heading-self-link" href="#navigation-bar" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;On the left sidebar, you can switch between different resource modules:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Workflows&lt;/strong&gt; — manage workflow projects.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Datasets&lt;/strong&gt; — upload and manage data files.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Quota&lt;/strong&gt; — check usage statistics and resource consumption.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Admin&lt;/strong&gt; — manage system users (visible only to admins).&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div class="alert alert-success" role="alert"&gt;
+&lt;h4 class="alert-heading"&gt;Tip&lt;/h4&gt;
+
+ Hover over the navigation icons to see quick tooltips for each section.
+
+&lt;/div&gt;</description></item><item><title>Operators</title><link>https://texera.staged.apache.org/docs/reference/operators/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/operators/</guid><description/></item><item><title>Frontend</title><link>https://texera.staged.apache.org/docs/reference/frontend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/frontend/</guid><description/></item><item><title>Storage</title><link>https://texera.staged.apache.org/docs/reference/storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/storage/</guid><description/></item><item><title>Search Results</title><link>https://texera.staged.apache.org/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/search/</guid><description/></item></channel></rss>
