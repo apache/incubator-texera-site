@@ -1,9 +1,9 @@
 staging:
   profile: ~
-  whoami:  staging
+  whoami:  staging-publish
 
 publish:
-  whoami:  main
+  whoami:  publish
 
 notifications:
   commits:              commits@texera.apache.org
