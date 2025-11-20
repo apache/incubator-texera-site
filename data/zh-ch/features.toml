@@ -1,0 +1,41 @@
+[[features]]
+icon = "fa-solid fa-users"
+title = "协作式数据科学"
+desc = "从任意浏览器实时协作。共享数据与工作流、同步编辑，并通过内置版本控制追踪所有变更。"
+cta_text = "阅读更多"
+cta_url = "#"
+
+[[features]]
+icon = "fa-solid fa-diagram-project"
+title = "可视化工作流界面"
+desc = "使用拖放式工具直观构建工作流。查看实时状态更新，并在执行过程中交互式操作。"
+cta_text = "阅读更多"
+cta_url = "#"
+
+[[features]]
+icon = "fa-solid fa-robot"
+title = "可扩展的 AI/ML 支持"
+desc = "使用集成编辑器调用 AI 和机器学习算子。支持 Python、R 和 Java/Scala，便于灵活开发。"
+cta_text = "阅读更多"
+cta_url = "#"
+
+[[features]]
+icon = "fa-solid fa-database"
+title = "统一数据访问"
+desc = "连接数据库、云存储和 API。轻松将不同数据源组合到同一个流畅工作流中。"
+cta_text = "阅读更多"
+cta_url = "#"
+
+[[features]]
+icon = "fa-solid fa-chart-pie"
+title = "交互式可视化"
+desc = "在操作过程中实时查看结果。监控性能、探索输出，并即时分享交互式图表。"
+cta_text = "阅读更多"
+cta_url = "#"
+
+[[features]]
+icon = "fa-solid fa-plug"
+title = "集成与可扩展性"
+desc = "通过自定义插件扩展 Texera，或连接到多种工具。为不断增长的数据生态系统而设计。"
+cta_text = "阅读更多"
+cta_url = "#"

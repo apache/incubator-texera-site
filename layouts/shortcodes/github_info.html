@@ -1,0 +1,42 @@
+{{- $lang := .Site.Language.Lang -}}
+{{- $langData := index .Site.Data $lang -}}
+{{- $data := cond (and $langData (index $langData "github_info")) $langData .Site.Data -}}
+{{- $g := index $data "github_info" -}}
+
+<div class="col-lg-6 d-flex align-items-center justify-content-center mb-4 mb-lg-0">
+    <img src="/images/texera-overview.png" alt="Texera screenshot" class="img-fluid rounded shadow">
+</div>
+<div class="col-lg-6 d-flex align-items-center justify-content-center text-center">
+    <div>
+        <img src="/images/apache-incubator.png" alt="Apache Incubator" class="img-fluid mb-3" style="max-width:300px;">
+        <div class="mb-3">
+            <span class="badge bg-secondary me-2">{{ $g.badges.license_label }}</span>
+            <span class="badge bg-info">{{ $g.badges.license_value }}</span>
+        </div>
+        <div class="d-flex flex-wrap justify-content-center gap-2 mb-4">
+            <span class="badge rounded-pill bg-primary">{{ $g.labels.users }} <span class="fw-bold ms-1">{{ $g.stats.users }}</span></span>
+            <span class="badge rounded-pill bg-primary">{{ $g.labels.projects }} <span class="fw-bold ms-1">{{ $g.stats.projects }}</span></span>
+            <span class="badge rounded-pill bg-primary">{{ $g.labels.workflows }} <span class="fw-bold ms-1">{{ $g.stats.workflows }}</span></span>
+            <span class="badge rounded-pill bg-secondary">{{ $g.labels.executions }} <span class="fw-bold ms-1">{{ $g.stats.executions }}</span></span>
+            <span class="badge rounded-pill bg-secondary">{{ $g.labels.workflow_versions }} <span class="fw-bold ms-1">{{ $g.stats.workflow_versions }}</span></span>
+            <span class="badge rounded-pill bg-dark">{{ $g.labels.deployments }} <span class="fw-bold ms-1">{{ $g.stats.deployments }}</span></span>
+            <span class="badge rounded-pill bg-success">{{ $g.labels.largest_deployment }} <span class="fw-bold ms-1">{{ $g.stats.largest_deployment }}</span></span>
+        </div>
+        <div class="card shadow-sm mx-auto" style="max-width:420px;">
+            <div class="card-body">
+                <h5 class="card-title mb-2">
+                    <i class="far fa-file me-2"></i>
+                    <a href="{{ $g.repo.url }}" class="stretched-link">{{ $g.repo.name }}</a>
+                </h5>
+                <p class="card-text text-muted mb-3">
+                    {{ $g.repo.description }}
+                </p>
+                <div class="d-flex justify-content-center align-items-center gap-3 small text-muted">
+                    <span><i class="fas fa-circle me-1" style="font-size:0.55rem;"></i>{{ $g.repo.language }}</span>
+                    <span><i class="far fa-star me-1"></i>{{ $g.repo.stars }}</span>
+                    <span><i class="fas fa-code-branch me-1"></i>{{ $g.repo.forks }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

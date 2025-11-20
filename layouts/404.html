@@ -1,0 +1,22 @@
+{{ define "main" -}}
+<div class="td-content texera-404">
+
+    <h1 class="texera-404-title">404 — Page Not Found</h1>
+
+    <p class="texera-404-message">
+        Oops! The page you’re looking for doesn’t exist, moved, or may be part of a different Texera module.
+    </p>
+
+    <p class="texera-404-actions">
+        ➜ Return to the <a href="{{ "" | relURL }}">Texera home page</a><br>
+        ➜ Explore the <a href="https://github.com/Texera/texera" target="_blank" rel="noopener">Texera GitHub repository</a>
+    </p>
+
+    <div class="texera-404-search">
+<!--        <p>You can also try searching:</p>-->
+        {{ partial "search-input.html" . }}
+    </div>
+
+    <hr>
+</div>
+{{- end }}

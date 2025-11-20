@@ -1,0 +1,135 @@
+# UI strings. Buttons and similar.
+
+[ui_pager_prev]
+other = "上一页"
+
+[ui_pager_next]
+other = "下一页"
+
+[ui_read_more]
+other = "阅读更多"
+
+[ui_search]
+other = "搜索本站…"
+
+# Used in sentences such as "Posted in News"
+[ui_in]
+other = "于"
+
+# Used in sentences such as "All Tags"
+[ui_all]
+other = "全部"
+
+# Footer text
+[footer_all_rights_reserved]
+other = "版权所有"
+
+[footer_privacy_policy]
+other = "隐私政策"
+
+# Post (blog, articles etc.)
+[post_byline_by]
+other = "作者"
+[post_created]
+other = "创建于"
+[post_last_mod]
+other = "最后修改于"
+[post_edit_this]
+other = "编辑此页面"
+[post_view_this]
+other = "查看页面源文件"
+[post_create_child_page]
+other = "创建子页面"
+[post_create_issue]
+other = "创建文档问题"
+[post_create_project_issue]
+other = "创建项目问题"
+[post_posts_in]
+other = "文章分类"
+[post_reading_time]
+other = "分钟阅读"
+[post_less_than_a_minute_read]
+other = "少于 1 分钟"
+
+# Print support
+[print_printable_section]
+other = "这是本章节的可打印多页面视图。"
+[print_click_to_print]
+other = "点击此处打印"
+[print_show_regular]
+other = "返回此页面的常规视图"
+[print_entire_section]
+other = "打印整个章节"
+
+# Community
+[community_join]
+other = "加入 {{ .Site.Title }} 社区"
+[community_introduce]
+other = "{{ .Site.Title }} 是一个开源项目，社区中的任何人都可以使用、改进并享受它。我们欢迎你加入！以下是一些了解项目动态和参与贡献的方式。"
+[community_learn]
+other = "学习与交流"
+[community_using]
+other = "正在使用或想要使用 {{ .Site.Title }}？请从这里了解更多："
+[community_develop]
+other = "开发与贡献"
+[community_contribute]
+other = "如果你想通过贡献更深入地参与 {{ .Site.Title }}，欢迎加入我们："
+[community_how_to]
+other = "你可以在以下位置了解如何为 {{ .Site.Title }} 做出贡献："
+[community_guideline]
+other = "贡献指南"
+
+# Feedback
+[feedback_title]
+other = "反馈"
+[feedback_question]
+other = "此页面对你有帮助吗？"
+[feedback_positive]
+other = "是"
+[feedback_negative]
+other = "否"
+
+
+[userMailingList_desc]
+other = "来自其他用户的讨论与帮助"
+
+[announcements_desc]
+other = "ASF 范围内的发布与新闻公告"
+
+[github_desc]
+other = "问题、想法与问答"
+
+[slack_desc]
+other = "开发在此进行"
+
+[youtube_desc]
+other = "开发讨论"
+
+[issues_desc]
+other = "报告错误与跟踪功能"
+
+[userLinksTitle]
+other = "用户链接"
+
+[devLinksTitle]
+other = "开发者链接"
+
+[apache_footer_copyright]
+other = "© {{ .Year }} Apache 软件基金会。"
+
+[apache_footer_trademark]
+other = """
+Apache Texera（孵化中）、Apache、Texera、Texera 标志以及 Apache 标志都是
+<a href="https://apache.org/" target="_blank" rel="noopener">Apache 软件基金会</a>
+的注册商标或商标。
+所有其他产品名称或品牌名称均为其各自所有者的商标，包括 Apache 软件基金会。
+"""
+
+[apache_footer_disclaimer]
+other = """
+Apache Texera 是一个在 Apache 软件基金会（ASF）孵化中的项目，由 ASF 赞助。
+所有新接受的项目都需要经过孵化，直到进一步的审查确认其基础设施、
+沟通方式和决策过程已经稳定，并与 ASF 其他成功项目保持一致。
+虽然孵化状态不一定反映代码的完整性或稳定性，但它确实表明
+该项目尚未获得 ASF 的完全认可。
+"""

@@ -1,0 +1,29 @@
+[badges]
+license_label = "Licencia"
+license_value = "Apache 2.0"
+
+[labels]
+users = "Usuarios"
+projects = "Proyectos"
+workflows = "Flujos de trabajo"
+executions = "Ejecuciones"
+workflow_versions = "Versiones de flujos de trabajo"
+deployments = "Despliegues"
+largest_deployment = "Despliegue más grande"
+
+[stats]
+users = "332"
+projects = "86"
+workflows = "2,481"
+executions = "51K"
+workflow_versions = "357K"
+deployments = "7"
+largest_deployment = "100 nodos, 400 núcleos"
+
+[repo]
+url = "https://github.com/apache/texera"
+name = "apache/texera"
+description = "Analítica de datos colaborativa y centrada en aprendizaje automático mediante flujos de trabajo"
+language = "Scala"
+stars = "208"
+forks = "109"
