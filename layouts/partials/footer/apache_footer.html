@@ -4,39 +4,32 @@
 {{ $langData := index .Site.Data $lang }}
 {{ $links := $langData.apache_links.links }}
 
-<div class="td-apachefooter mt-3 py-4 bg-secondary">
-    <div class="container-fluid">
-        <div class="row mx-md-2">
-
-            <!-- Left: Apache License (i18n enabled) -->
-            <div class="col-12 col-md text-white small">
-                <div class="apache-license-text">
-
-                    <!-- copyright line -->
-                    {{ i18n "apache_footer_copyright" (dict "Year" (now.Year)) }}
-                    <br><br>
-
-                    <!-- trademark paragraph -->
-                    {{ i18n "apache_footer_trademark" | safeHTML }}
-                </div>
-            </div>
-
-            <!-- Right: Apache links (data-driven) -->
-            <div class="col-12 col-md-auto text-md-end small apache-links">
-                {{ with $links }}
-                {{ range $i, $link := . }}
-                {{ if gt $i 0 }} | {{ end }}
-                <a href="{{ $link.url }}" target="_blank" rel="noopener">
-                    {{ $link.name }}
-                </a>
-                {{ end }}
-                {{ end }}
-                <br><br>
-                <div class="apache-license-text">
-                    {{ i18n "apache_footer_disclaimer" | safeHTML }}
-                </div>
-            </div>
-
-        </div>
+<!-- Unified Apache Footer -->
+<div class="td-apachefooter mt-3 py-4 bg-secondary text-center">
+    <!-- Logo Placeholder -->
+    <div class="footer-logo mb-3">
+        <img src="/images/apache-incubator.png" alt="Logo Placeholder" style="max-width:120px;">
     </div>
+
+    <!-- Links Below Logo -->
+    <div class="apache-links small mb-3">
+        {{ with $links }}
+        {{ range $i, $link := . }}
+        {{ if gt $i 0 }} | {{ end }}
+        <a href="{{ $link.url }}" target="_blank" rel="noopener" class="text-white">
+            {{ $link.name }}
+        </a>
+        {{ end }}
+        {{ end }}
+    </div>
+    <!-- Disclaimer Centered -->
+    <div class="apache-license-text text-white small mb-2 container-fluid">
+        {{ i18n "apache_footer_disclaimer" | safeHTML }}
+    </div>
+
+    <!-- Copyright Below Disclaimer -->
+    <div class="apache-copyright text-white small">
+        {{ i18n "apache_footer_copyright" (dict "Year" (now.Year)) }}
+    </div>
+
 </div>
