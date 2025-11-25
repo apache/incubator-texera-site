@@ -1,6 +1,6 @@
 staging:
   profile: ~
-  whoami:  staging
+  whoami:  staging-publish
 
 publish:
   whoami:  main
