@@ -1,0 +1,56 @@
+name: Build & Publish Hugo site
+
+on:
+  push:
+    branches: [ main, staging ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    # Extra safety: don't run on other refs even via workflow_dispatch
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/staging'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install PostCSS dependencies
+        run: |
+          npm install --no-fund --no-audit --save-dev postcss postcss-cli autoprefixer
+
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.152.2'
+          extended: true
+
+      - name: Build Hugo site
+        run: |
+          hugo --minify -d public
+
+      - name: Determine publish branch
+        id: vars
+        run: |
+          if [ "${GITHUB_REF}" = "refs/heads/main" ]; then
+            echo "branch=publish" >> "$GITHUB_OUTPUT"
+          else
+            echo "branch=staging-publish" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Deploy to publish branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: ${{ steps.vars.outputs.branch }}
