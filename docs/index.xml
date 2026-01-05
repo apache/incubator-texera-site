@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Texera Documentation on Apache Texera</title><link>https://texera.staged.apache.org/docs/</link><description>Recent content in Texera Documentation on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Overview</title><link>https://texera.staged.apache.org/docs/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/overview/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;Texera is an open-source system that supports collaborative data science at scale using Web-based workflows.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Texera combines powerful backend dataflow execution with an intuitive, drag-and-drop web interface.&lt;br&gt;
+It’s ideal for building, executing, and sharing complex data workflows across teams.&lt;/p&gt;
+&lt;h3 id="key-features"&gt;Key Features&lt;a class="td-heading-self-link" href="#key-features" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Web-based workflows:&lt;/strong&gt; no installation required on clients.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Collaborative editing:&lt;/strong&gt; multiple users can build together.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scalable execution:&lt;/strong&gt; distributed workflow execution engine.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extensible:&lt;/strong&gt; easy to develop new operators and visual components.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Texera enables you to move from prototype to production data pipelines seamlessly.&lt;/p&gt;</description></item></channel></rss>

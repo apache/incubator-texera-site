@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Texera on Apache Texera</title><link>https://texera.staged.apache.org/categories/texera/</link><description>Recent content in Texera on Apache Texera</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 20 Nov 2025 14:09:20 -0800</lastBuildDate><atom:link href="https://texera.staged.apache.org/categories/texera/index.xml" rel="self" type="application/rss+xml"/><item><title>Single Node Installation</title><link>https://texera.staged.apache.org/docs/getting-started/single-node-instructions/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/getting-started/single-node-instructions/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;This document describes how to set up and run Texera on a single machine using &lt;strong&gt;Docker Compose&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;a class="td-heading-self-link" href="#prerequisites" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Before starting, make sure your computer meets the following requirements:&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Resource Type&lt;/th&gt;
+ &lt;th&gt;Minimum&lt;/th&gt;
+ &lt;th&gt;Recommended&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;CPU Cores&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;8&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Memory&lt;/td&gt;
+ &lt;td&gt;4GB&lt;/td&gt;
+ &lt;td&gt;16GB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Disk Space&lt;/td&gt;
+ &lt;td&gt;20GB&lt;/td&gt;
+ &lt;td&gt;50GB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;You also need to install and launch Docker Desktop on your computer. Choose the right installation link for your computer:&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Operating System&lt;/th&gt;
+ &lt;th&gt;Installation Link&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;macOS&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://docs.docker.com/desktop/install/mac-install/"&gt;Docker Desktop for Mac&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Windows&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://docs.docker.com/desktop/install/windows-install/"&gt;Docker Desktop for Windows&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://docs.docker.com/desktop/install/linux-install/"&gt;Docker Desktop for Linux&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;After installing and launching Docker Desktop, verify that Docker and Docker Compose are available by running the following commands from the command line:&lt;/p&gt;</description></item><item><title>Access/Login to Texera</title><link>https://texera.staged.apache.org/docs/getting-started/accesslogin/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/getting-started/accesslogin/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;Guide to use Texera on your local machine or development environment.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;a class="td-heading-self-link" href="#prerequisites" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We assume you either went through&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/Texera/texera/wiki/Installing-Texera-on-a-Single-Node"&gt;Single Node Instruction&lt;/a&gt;, or&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Texera/texera/wiki/Guide-for-Developers"&gt;Guide for Texera Developers&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Texera should be &lt;strong&gt;up-and-running on your laptop&lt;/strong&gt; before proceeding.&lt;/p&gt;
+
+
+&lt;div class="alert alert-warning" role="alert"&gt;
+&lt;h4 class="alert-heading"&gt;Note&lt;/h4&gt;
+
+ Ensure Docker and Docker Compose are installed before building Texera.
+
+&lt;/div&gt;
+
+&lt;h2 id="access-texera-through-browser"&gt;Access Texera through Browser&lt;a class="td-heading-self-link" href="#access-texera-through-browser" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Enter Texera&amp;rsquo;s URL in your browser to access the interface.&lt;/p&gt;
+&lt;p&gt;By default, an &lt;strong&gt;admin account&lt;/strong&gt; is pre-created:&lt;/p&gt;</description></item><item><title>Texera UI Overview</title><link>https://texera.staged.apache.org/docs/getting-started/ui-overview/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/getting-started/ui-overview/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;Understand the layout and functionality of Texera’s User Dashboard.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id="user-dashboard"&gt;User Dashboard&lt;a class="td-heading-self-link" href="#user-dashboard" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Once logged in, you should see the following page:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/baa3d599-99c6-401f-a772-4300cbc7c9a9" alt="Texera Dashboard"&gt;&lt;/p&gt;
+&lt;h3 id="navigation-bar"&gt;Navigation Bar&lt;a class="td-heading-self-link" href="#navigation-bar" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;On the left sidebar, you can switch between different resource modules:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Workflows&lt;/strong&gt; — manage workflow projects.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Datasets&lt;/strong&gt; — upload and manage data files.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Quota&lt;/strong&gt; — check usage statistics and resource consumption.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Admin&lt;/strong&gt; — manage system users (visible only to admins).&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div class="alert alert-success" role="alert"&gt;
+&lt;h4 class="alert-heading"&gt;Tip&lt;/h4&gt;
+
+ Hover over the navigation icons to see quick tooltips for each section.
+
+&lt;/div&gt;</description></item><item><title>Contribution Guidelines</title><link>https://texera.staged.apache.org/docs/contribution-guidelines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/contribution-guidelines/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;Thank you for your interest in contributing to Texera! This guide explains how to contribute to both &lt;strong&gt;Texera’s codebase&lt;/strong&gt; and &lt;strong&gt;documentation&lt;/strong&gt;.&lt;br&gt;
+We follow a fork-based workflow and adopt the &lt;a href="https://www.conventionalcommits.org/en/v1.0.0/"&gt;Conventional Commits&lt;/a&gt; standard for commit messages.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h1 id="contributing-to-texera"&gt;Contributing to Texera&lt;a class="td-heading-self-link" href="#contributing-to-texera" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Texera welcomes contributions from everyone — whether you’re fixing a small bug, improving documentation, or adding new features.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-roles-in-the-project"&gt;👥 Roles in the Project&lt;a class="td-heading-self-link" href="#-roles-in-the-project" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Role&lt;/th&gt;
+ &lt;th&gt;Key Permissions&lt;/th&gt;
+ &lt;th&gt;How to Join&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Contributor&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Submit issues &amp;amp; PRs, join discussions&lt;/td&gt;
+ &lt;td&gt;Start contributing — no formal process&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Committer&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Merge PRs, push code, vote on code changes&lt;/td&gt;
+ &lt;td&gt;Nominated by PPMC based on quality contributions&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;PPMC Member&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Governance, release voting, new committer approvals&lt;/td&gt;
+ &lt;td&gt;Voted by existing PPMC members&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Mentor&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Guide project and ensure Apache compliance&lt;/td&gt;
+ &lt;td&gt;Appointed by the Incubator PMC&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="-how-to-contribute-code"&gt;🛠 How to Contribute Code&lt;a class="td-heading-self-link" href="#-how-to-contribute-code" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="1-fork-the-repository"&gt;1. Fork the Repository&lt;a class="td-heading-self-link" href="#1-fork-the-repository" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Fork the &lt;a href="https://github.com/Texera/texera"&gt;Texera repository&lt;/a&gt; on GitHub and clone it locally.&lt;/p&gt;</description></item><item><title>Operators</title><link>https://texera.staged.apache.org/docs/operators/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/operators/</guid><description/></item></channel></rss>

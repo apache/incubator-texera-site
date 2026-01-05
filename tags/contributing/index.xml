@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Contributing on Apache Texera</title><link>https://texera.staged.apache.org/tags/contributing/</link><description>Recent content in Contributing on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/contributing/index.xml" rel="self" type="application/rss+xml"/><item><title>Contribution Guidelines</title><link>https://texera.staged.apache.org/docs/contribution-guidelines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/contribution-guidelines/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;Thank you for your interest in contributing to Texera! This guide explains how to contribute to both &lt;strong&gt;Texera’s codebase&lt;/strong&gt; and &lt;strong&gt;documentation&lt;/strong&gt;.&lt;br&gt;
+We follow a fork-based workflow and adopt the &lt;a href="https://www.conventionalcommits.org/en/v1.0.0/"&gt;Conventional Commits&lt;/a&gt; standard for commit messages.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h1 id="contributing-to-texera"&gt;Contributing to Texera&lt;a class="td-heading-self-link" href="#contributing-to-texera" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Texera welcomes contributions from everyone — whether you’re fixing a small bug, improving documentation, or adding new features.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-roles-in-the-project"&gt;👥 Roles in the Project&lt;a class="td-heading-self-link" href="#-roles-in-the-project" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Role&lt;/th&gt;
+ &lt;th&gt;Key Permissions&lt;/th&gt;
+ &lt;th&gt;How to Join&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Contributor&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Submit issues &amp;amp; PRs, join discussions&lt;/td&gt;
+ &lt;td&gt;Start contributing — no formal process&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Committer&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Merge PRs, push code, vote on code changes&lt;/td&gt;
+ &lt;td&gt;Nominated by PPMC based on quality contributions&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;PPMC Member&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Governance, release voting, new committer approvals&lt;/td&gt;
+ &lt;td&gt;Voted by existing PPMC members&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Mentor&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Guide project and ensure Apache compliance&lt;/td&gt;
+ &lt;td&gt;Appointed by the Incubator PMC&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="-how-to-contribute-code"&gt;🛠 How to Contribute Code&lt;a class="td-heading-self-link" href="#-how-to-contribute-code" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="1-fork-the-repository"&gt;1. Fork the Repository&lt;a class="td-heading-self-link" href="#1-fork-the-repository" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Fork the &lt;a href="https://github.com/Texera/texera"&gt;Texera repository&lt;/a&gt; on GitHub and clone it locally.&lt;/p&gt;</description></item></channel></rss>

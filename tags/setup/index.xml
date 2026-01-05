@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Setup on Apache Texera</title><link>https://texera.staged.apache.org/tags/setup/</link><description>Recent content in Setup on Apache Texera</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 20 Nov 2025 14:09:20 -0800</lastBuildDate><atom:link href="https://texera.staged.apache.org/tags/setup/index.xml" rel="self" type="application/rss+xml"/><item><title>Single Node Installation</title><link>https://texera.staged.apache.org/docs/getting-started/single-node-instructions/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/getting-started/single-node-instructions/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;This document describes how to set up and run Texera on a single machine using &lt;strong&gt;Docker Compose&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;a class="td-heading-self-link" href="#prerequisites" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Before starting, make sure your computer meets the following requirements:&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Resource Type&lt;/th&gt;
+ &lt;th&gt;Minimum&lt;/th&gt;
+ &lt;th&gt;Recommended&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;CPU Cores&lt;/td&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;8&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Memory&lt;/td&gt;
+ &lt;td&gt;4GB&lt;/td&gt;
+ &lt;td&gt;16GB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Disk Space&lt;/td&gt;
+ &lt;td&gt;20GB&lt;/td&gt;
+ &lt;td&gt;50GB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;You also need to install and launch Docker Desktop on your computer. Choose the right installation link for your computer:&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Operating System&lt;/th&gt;
+ &lt;th&gt;Installation Link&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;macOS&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://docs.docker.com/desktop/install/mac-install/"&gt;Docker Desktop for Mac&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Windows&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://docs.docker.com/desktop/install/windows-install/"&gt;Docker Desktop for Windows&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Linux&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://docs.docker.com/desktop/install/linux-install/"&gt;Docker Desktop for Linux&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;After installing and launching Docker Desktop, verify that Docker and Docker Compose are available by running the following commands from the command line:&lt;/p&gt;</description></item><item><title>Access/Login to Texera</title><link>https://texera.staged.apache.org/docs/getting-started/accesslogin/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/getting-started/accesslogin/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;Guide to use Texera on your local machine or development environment.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;a class="td-heading-self-link" href="#prerequisites" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We assume you either went through&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/Texera/texera/wiki/Installing-Texera-on-a-Single-Node"&gt;Single Node Instruction&lt;/a&gt;, or&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Texera/texera/wiki/Guide-for-Developers"&gt;Guide for Texera Developers&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Texera should be &lt;strong&gt;up-and-running on your laptop&lt;/strong&gt; before proceeding.&lt;/p&gt;
+
+
+&lt;div class="alert alert-warning" role="alert"&gt;
+&lt;h4 class="alert-heading"&gt;Note&lt;/h4&gt;
+
+ Ensure Docker and Docker Compose are installed before building Texera.
+
+&lt;/div&gt;
+
+&lt;h2 id="access-texera-through-browser"&gt;Access Texera through Browser&lt;a class="td-heading-self-link" href="#access-texera-through-browser" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Enter Texera&amp;rsquo;s URL in your browser to access the interface.&lt;/p&gt;
+&lt;p&gt;By default, an &lt;strong&gt;admin account&lt;/strong&gt; is pre-created:&lt;/p&gt;</description></item></channel></rss>
