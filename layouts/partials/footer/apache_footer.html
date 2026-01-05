@@ -1,0 +1,35 @@
+{{/* layouts/partials/apache_footer.html */}}
+
+{{ $lang := .Site.Language.Lang }}
+{{ $langData := index .Site.Data $lang }}
+{{ $links := $langData.apache_links.links }}
+
+<!-- Unified Apache Footer -->
+<div class="td-apachefooter mt-3 py-4 bg-secondary text-center">
+    <!-- Logo Placeholder -->
+    <div class="footer-logo mb-3">
+        <img src="/images/apache-incubator.png" alt="Logo Placeholder" style="max-width:120px;">
+    </div>
+
+    <!-- Links Below Logo -->
+    <div class="apache-links small mb-3">
+        {{ with $links }}
+        {{ range $i, $link := . }}
+        {{ if gt $i 0 }} | {{ end }}
+        <a href="{{ $link.url }}" target="_blank" rel="noopener" class="text-white">
+            {{ $link.name }}
+        </a>
+        {{ end }}
+        {{ end }}
+    </div>
+    <!-- Disclaimer Centered -->
+    <div class="apache-license-text text-white small mb-2 container-fluid">
+        {{ i18n "apache_footer_disclaimer" | safeHTML }}
+    </div>
+
+    <!-- Copyright Below Disclaimer -->
+    <div class="apache-copyright text-white small">
+        {{ i18n "apache_footer_copyright" (dict "Year" (now.Year)) }}
+    </div>
+
+</div>

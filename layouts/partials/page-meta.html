@@ -1,0 +1,55 @@
+{{/* Override Docsy's page-meta partial to hide it for monthly-meetings section */}}
+{{ if eq .Section "monthly-meetings" }}
+  {{/* Return empty for monthly-meetings - no page-meta sidebar */}}
+{{ else }}
+  {{/* For other sections, we need to include the original page-meta content */}}
+  {{/* Since we can't directly call the theme's partial after overriding, we'll use a workaround */}}
+  {{/* by checking if we're in the monthly-meetings section and returning early */}}
+  
+  {{/* The original Docsy page-meta structure - we'll replicate it here for non-monthly-meetings pages */}}
+  {{ $repo := .Site.Params.github_repo -}}
+  {{ $subdir := .Site.Params.github_subdir | default "" -}}
+  {{ $branch := .Site.Params.github_branch | default "main" -}}
+  {{ $path := replace .File.Path "\\" "/" -}}
+  {{ $pathbase := path.Base $path -}}
+  {{ $editURL := printf "%s/edit/%s/%s/%s" $repo $branch $subdir $path -}}
+  {{ $viewURL := printf "%s/tree/%s/%s/%s" $repo $branch $subdir $path -}}
+  {{ $newPageURL := printf "%s/new/%s/%s/%s?filename=change-me.md&value=---%%0Atitle%%3A+%%22Long+Page+Title%%22%%0AlinkTitle%%3A+%%22Short+Nav+Title%%22%%0Aweight%%3A+100%%0Adescription%%3A+%%3E-%%0A+++++Page+description+for+heading+and+indexes.%%0A---%%0A%%0A%%23%%23+Heading%%0A%%0AEdit+this+template+to+create+your+new+page.%%0A%%0A%%2A+Give+it+a+good+name%%2C+ending+in+%%60.md%%60+-+e.g.+%%60getting-started.md%%60%%0A%%2A+Edit+the+%%22front+matter%%22+section+at+the+top+of+the+page+%%28weight+controls+how+its+ordered+amongst+other+pages+in+the+same+directory%%3B+lowest+number+first%%29.%%0A%%2A+Add+a+good+commit+message+at+the+bottom+of+the+page+%%28%%3C80+characters%%3B+use+the+extended+description+field+for+more+detail%%29.%%0A%%2A+Create+a+new+branch+so+you+can+preview+your+new+file+and+request+a+review+via+Pull+Request.%%0A" $repo $branch $subdir (path.Dir $path) -}}
+  {{ $issueURL := printf "%s/issues/new?title=%s" $repo (urlquery (printf "%s" .Title)) -}}
+  {{ $projectRepo := .Site.Params.github_project_repo | default $repo -}}
+  {{ $projectIssueURL := printf "%s/issues/new" $projectRepo -}}
+  
+  <div class="td-page-meta ms-2 pb-1 pt-2 mb-0">
+    {{ if and $viewURL .File -}}
+    <a href="{{ $viewURL }}" class="td-page-meta--view td-page-meta__view" target="_blank" rel="noopener">
+      <i class="fa-solid fa-file-lines fa-fw"></i> {{ T "post_view_this" }}
+    </a>
+    {{ end -}}
+    {{ if and $editURL .File -}}
+    <a href="{{ $editURL }}" class="td-page-meta--edit td-page-meta__edit" target="_blank" rel="noopener">
+      <i class="fa-solid fa-pen-to-square fa-fw"></i> {{ T "post_edit_this" }}
+    </a>
+    {{ end -}}
+    {{ if and $newPageURL .File -}}
+    <a href="{{ $newPageURL }}" class="td-page-meta--child td-page-meta__child" target="_blank" rel="noopener">
+      <i class="fa-solid fa-pen-to-square fa-fw"></i> {{ T "post_create_child_page" }}
+    </a>
+    {{ end -}}
+    {{ if $issueURL -}}
+    <a href="{{ $issueURL }}" class="td-page-meta--issue td-page-meta__issue" target="_blank" rel="noopener">
+      <i class="fa-solid fa-list-check fa-fw"></i> {{ T "post_create_issue" }}
+    </a>
+    {{ end -}}
+    {{ if $projectIssueURL -}}
+    <a href="{{ $projectIssueURL }}" class="td-page-meta--project td-page-meta__project-issue" target="_blank" rel="noopener">
+      <i class="fa-solid fa-list-check fa-fw"></i> {{ T "post_create_project_issue" }}
+    </a>
+    {{ end -}}
+    {{ if and .Site.Params.ui.showPrintSectionLink (ne .OutputFormats.Get "print") -}}
+    <a href="{{ .Permalink }}?print=pdf" class="td-page-meta--print td-page-meta__print" target="_blank" rel="noopener">
+      <i class="fa-solid fa-print fa-fw"></i> {{ T "print_entire_section" }}
+    </a>
+    {{ end -}}
+  </div>
+{{ end }}
+
