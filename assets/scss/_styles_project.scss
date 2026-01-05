@@ -187,3 +187,54 @@
   opacity: 0.85;
 }
 
+/* Hide the entire right sidebar (td-sidebar-toc) for monthly-meetings section */
+/* This includes page-meta, table of contents, and taxonomy clouds */
+.td-sidebar-toc {
+  /* Hide for monthly-meetings pages - using URL-based selector for reliability */
+  body:has([href*="/monthly-meetings/"]) &,
+  body:has([href*="monthly-meetings"]) & {
+    display: none !important;
+  }
+}
+
+/* Alternative: Hide based on section attribute if available */
+body[data-section="monthly-meetings"] .td-sidebar-toc,
+[data-section="monthly-meetings"] .td-sidebar-toc {
+  display: none !important;
+}
+
+/* Also hide just the page-meta div as additional safety */
+.td-page-meta {
+  body:has([href*="/monthly-meetings/"]) &,
+  body:has([href*="monthly-meetings"]) &,
+  body[data-section="monthly-meetings"] &,
+  [data-section="monthly-meetings"] & {
+    display: none !important;
+  }
+}
+
+/* Hide feedback section for monthly-meetings pages */
+/* Target common Docsy feedback section class names */
+.td-page-meta__feedback,
+.feedback,
+[data-feedback],
+.td-page-meta__feedback-wrapper,
+.td-page-meta__feedback-title,
+.td-page-meta__feedback-question,
+[class*="feedback"] {
+  body:has([href*="/monthly-meetings/"]) &,
+  body:has([href*="monthly-meetings"]) &,
+  body[data-section="monthly-meetings"] &,
+  [data-section="monthly-meetings"] & {
+    display: none !important;
+  }
+}
+
+/* Hide feedback section within page content for monthly-meetings */
+body:has([href*="/monthly-meetings/"]) .td-content .td-page-meta__feedback,
+body:has([href*="monthly-meetings"]) .td-content .td-page-meta__feedback,
+body[data-section="monthly-meetings"] .td-content .td-page-meta__feedback,
+[data-section="monthly-meetings"] .td-content .td-page-meta__feedback {
+  display: none !important;
+}
+

@@ -64,6 +64,10 @@ description = "Apache Texera: interactive, scalable dataflow analytics"
 name = "GitHub"
 url  = "https://github.com/apache/texera"
 pre = "<i class='fab fa-github'></i>"
+[[languages.en.menu.main]]
+name = "Meetings"
+url  = "/monthly-meetings/"
+weight = 100
 #[[languages.en.menu.main]]
 #name = "Docs"
 #url  = "/docs/"
