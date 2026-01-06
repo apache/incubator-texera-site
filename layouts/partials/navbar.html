@@ -10,9 +10,7 @@
         <a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}">
             {{- /**/ -}}
             <span class="navbar-brand__logo navbar-logo">
-              {{ with resources.Get "icons/logo.png" }}
-                <img src="{{ .RelPermalink }}" alt="{{ $.Site.Title }}" height="40" class="brand-logo">
-              {{ end }}
+              <img src="{{ "images/logo.png" | relURL }}" alt="{{ $.Site.Title }}" height="40" class="brand-logo">
             </span>
             {{- /**/ -}}
             <span class="navbar-brand__name">
