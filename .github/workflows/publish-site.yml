@@ -39,14 +39,41 @@ jobs:
         run: |
           hugo --minify -d public
 
-      - name: Determine publish branch
+      - name: Determine publish branch and copy `.asf.yaml` into `public`
         id: vars
         run: |
-          if [ "${GITHUB_REF}" = "refs/heads/main" ]; then
-            echo "branch=publish" >> "$GITHUB_OUTPUT"
+          src_branch="${GITHUB_REF#refs/heads/}"
+          git fetch origin "$src_branch"
+          git show "origin/${src_branch}:.asf.yaml" > /tmp/.asf.yaml || true
+
+          # determine which top-level key to read from the .asf.yaml
+          if [ "$src_branch" = "main" ]; then
+            key=publish
           else
-            echo "branch=staging-publish" >> "$GITHUB_OUTPUT"
+            key=staging
           fi
+
+          # extract whoami under the selected key (simple sed/awk parser)
+          publish_branch=$(awk -v key="$key" '
+            $0 ~ "^"key":" { inblock=1; next }
+            inblock && $0 ~ "^[^[:space:]]" { inblock=0 }
+            inblock && $0 ~ "whoami:" { print $2; exit }
+          ' /tmp/.asf.yaml)
+
+          # fallback
+          if [ -z "$publish_branch" ]; then
+            if [ "$src_branch" = "main" ]; then
+              publish_branch=publish
+            else
+              publish_branch=staging-publish
+            fi
+          fi
+
+          echo "branch=${publish_branch}" >> "$GITHUB_OUTPUT"
+
+          # copy the exact .asf.yaml from source branch into the public dir so it will be pushed
+          mkdir -p public
+          cp /tmp/.asf.yaml public/.asf.yaml
 
       - name: Deploy to publish branch
         uses: peaceiris/actions-gh-pages@v4
