@@ -58,7 +58,7 @@ contentDir = "content/en"
 weight = 1
 [languages.en.params]
 title = "Apache Texera"
-description = "Apache Texera: interactive, scalable dataflow analytics"
+description = "Apache Texera: interactive, scalable dataflow analytics!"
 [languages.en.menu]
 [[languages.en.menu.main]]
 name = "GitHub"
