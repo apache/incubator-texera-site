@@ -68,10 +68,10 @@ pre = "<i class='fab fa-github'></i>"
 name = "Meetings"
 url  = "/monthly-meetings/"
 weight = 100
-#[[languages.en.menu.main]]
-#name = "Docs"
-#url  = "/docs/"
-#weight = 100
+[[languages.en.menu.main]]
+name = "Docs"
+url  = "/docs/"
+weight = 100
 
 [languages.es]
 languageName = "Español"
