@@ -463,20 +463,4 @@ It’s ideal for building, executing, and sharing complex data workflows across 
 
  Hover over the navigation icons to see quick tooltips for each section.
 
-&lt;/div&gt;</description></item><item><title>Operators</title><link>https://texera.staged.apache.org/docs/reference/operators/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/operators/</guid><description/></item><item><title>Frontend</title><link>https://texera.staged.apache.org/docs/reference/frontend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/frontend/</guid><description/></item><item><title>Storage</title><link>https://texera.staged.apache.org/docs/reference/storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/storage/</guid><description/></item><item><title>Search Results</title><link>https://texera.staged.apache.org/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/search/</guid><description/></item><item><title>Security</title><link>https://texera.staged.apache.org/security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/security/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
-&lt;p&gt;This page provides comprehensive information about Texera&amp;rsquo;s security model, including authentication mechanisms, authorization policies, user roles, resource access control, and guidelines for reporting security vulnerabilities. Understanding these security features is essential for deployment managers and users to ensure secure operation of Texera installations.&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;h2 id="table-of-contents"&gt;Table of Contents&lt;a class="td-heading-self-link" href="#table-of-contents" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://texera.staged.apache.org/security/#security-model-overview"&gt;Security Model Overview&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://texera.staged.apache.org/security/#resources-in-texera"&gt;Resources in Texera&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://texera.staged.apache.org/security/#user-categories-and-responsibilities"&gt;User Categories and Responsibilities&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://texera.staged.apache.org/security/#ui-user-roles-and-privileges"&gt;UI User Roles and Privileges&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://texera.staged.apache.org/security/#deployments-and-computing-units"&gt;Deployments and Computing Units&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://texera.staged.apache.org/security/#what-is-not-a-security-issue"&gt;What is NOT a Security Issue&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://texera.staged.apache.org/security/#reporting-security-vulnerabilities"&gt;Reporting Security Vulnerabilities&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="security-model-overview"&gt;Security Model Overview&lt;a class="td-heading-self-link" href="#security-model-overview" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Texera&amp;rsquo;s security architecture is built around:&lt;/p&gt;</description></item></channel></rss>
+&lt;/div&gt;</description></item><item><title>Operators</title><link>https://texera.staged.apache.org/docs/reference/operators/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/operators/</guid><description/></item><item><title>Frontend</title><link>https://texera.staged.apache.org/docs/reference/frontend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/frontend/</guid><description/></item><item><title>Storage</title><link>https://texera.staged.apache.org/docs/reference/storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/storage/</guid><description/></item><item><title>Search Results</title><link>https://texera.staged.apache.org/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/search/</guid><description/></item></channel></rss>
