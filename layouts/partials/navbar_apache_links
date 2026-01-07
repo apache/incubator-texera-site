@@ -16,11 +16,11 @@
 
   <ul class="dropdown-menu">
     {{ range . }}
+    {{ $isExternal := or (hasPrefix .url "http://") (hasPrefix .url "https://") }}
     <li>
       <a class="dropdown-item"
          href="{{ .url }}"
-         target="_blank"
-         rel="noopener">
+         {{ if $isExternal }}target="_blank" rel="noopener"{{ end }}>
         {{ .name }}
       </a>
     </li>

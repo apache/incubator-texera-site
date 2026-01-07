@@ -21,7 +21,7 @@ url  = "https://www.apache.org/foundation/thanks.html"
 [[links]]
 id  = "security"
 name = "Security"
-url  = "https://www.apache.org/security/"
+url  = "/security/"
 
 [[links]]
 id  = "privacy"
