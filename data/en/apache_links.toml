@@ -4,6 +4,11 @@ name = "License"
 url  = "https://www.apache.org/licenses/"
 
 [[links]]
+id  = "apache"
+name = "Apache"
+url  = "https://www.apache.org"
+
+[[links]]
 id  = "donate"
 name = "Donate"
 url  = "https://www.apache.org/foundation/sponsorship.html"
