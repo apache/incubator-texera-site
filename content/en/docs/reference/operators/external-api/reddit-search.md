@@ -3,7 +3,6 @@ title: "Reddit Search"
 description: "Search for recent posts with python-wrapped Reddit API, PRAW"
 category: "External API"
 operator_type: "RedditSearch"
-version: "N/A"
 tags: [external-api]
 ---
 

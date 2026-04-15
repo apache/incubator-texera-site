@@ -3,7 +3,6 @@ title: "Training: Support Vector Machine"
 description: "Sklearn Training: Support Vector Machine Operator"
 category: "Sklearn Training"
 operator_type: "SklearnTrainingSVM"
-version: "N/A"
 tags: [machine-learning, sklearn, sklearn-training]
 ---
 

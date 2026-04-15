@@ -3,7 +3,6 @@ title: "MySQL Source"
 description: "Read data from a MySQL instance"
 category: "Database Connector"
 operator_type: "MySQLSource"
-version: "N/A"
 tags: [database-connector]
 ---
 

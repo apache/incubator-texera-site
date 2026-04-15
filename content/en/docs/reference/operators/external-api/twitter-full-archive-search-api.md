@@ -3,7 +3,6 @@ title: "Twitter Full Archive Search API"
 description: "Retrieve data from Twitter Full Archive Search API"
 category: "External API"
 operator_type: "TwitterFullArchiveSearch"
-version: "N/A"
 tags: [external-api]
 ---
 

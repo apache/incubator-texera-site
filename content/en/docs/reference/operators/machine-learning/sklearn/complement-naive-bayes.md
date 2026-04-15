@@ -3,7 +3,6 @@ title: "Complement Naive Bayes"
 description: "Sklearn Complement Naive Bayes Operator"
 category: "Sklearn"
 operator_type: "SklearnComplementNaiveBayes"
-version: "N/A"
 tags: [machine-learning, sklearn]
 ---
 

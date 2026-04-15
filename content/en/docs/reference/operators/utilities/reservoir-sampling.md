@@ -3,7 +3,6 @@ title: "Reservoir Sampling"
 description: "Reservoir Sampling with k items being kept randomly"
 category: "Utilities"
 operator_type: "ReservoirSampling"
-version: "N/A"
 tags: [utilities]
 ---
 

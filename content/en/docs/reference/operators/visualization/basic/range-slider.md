@@ -3,7 +3,6 @@ title: "Range Slider"
 description: "Visualize data in a Range Slider"
 category: "Basic"
 operator_type: "RangeSlider"
-version: "N/A"
 tags: [visualization, basic]
 ---
 

@@ -3,7 +3,6 @@ title: "Intersect"
 description: "Take the intersect of two inputs"
 category: "Set"
 operator_type: "Intersect"
-version: "N/A"
 tags: [set]
 ---
 

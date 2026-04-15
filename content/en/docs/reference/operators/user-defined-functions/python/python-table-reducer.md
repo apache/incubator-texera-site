@@ -3,7 +3,6 @@ title: "Python Table Reducer"
 description: "Reduce Table to Tuple"
 category: "Python"
 operator_type: "PythonTableReducer"
-version: "N/A"
 tags: [user-defined-functions, python]
 ---
 

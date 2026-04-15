@@ -3,7 +3,6 @@ title: "1-out R UDF"
 description: "User-defined function operator in R script"
 category: "R"
 operator_type: "RUDFSource"
-version: "N/A"
 tags: [user-defined-functions, r]
 ---
 

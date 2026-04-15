@@ -3,7 +3,6 @@ title: "Filled Area Plot"
 description: "Visualize data in filled area plot"
 category: "Basic"
 operator_type: "FilledAreaPlot"
-version: "N/A"
 tags: [visualization, basic]
 ---
 

@@ -3,7 +3,6 @@ title: "Multi-layer Perceptron"
 description: "Sklearn Multi-layer Perceptron Operator"
 category: "Sklearn"
 operator_type: "SklearnMultiLayerPerceptron"
-version: "N/A"
 tags: [machine-learning, sklearn]
 ---
 

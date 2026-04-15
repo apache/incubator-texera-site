@@ -3,7 +3,6 @@ title: "Dumbbell Plot"
 description: "Visualize data in a Dumbbell Plots. A dumbbell plots (also known as a lollipop chart) is typically used to compare two distinct values or time points for the same entity."
 category: "Basic"
 operator_type: "DumbbellPlot"
-version: "N/A"
 tags: [visualization, basic]
 ---
 

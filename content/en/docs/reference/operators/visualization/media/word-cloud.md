@@ -3,7 +3,6 @@ title: "Word Cloud"
 description: "Generate word cloud for   texts"
 category: "Media"
 operator_type: "WordCloud"
-version: "N/A"
 tags: [visualization, media]
 ---
 

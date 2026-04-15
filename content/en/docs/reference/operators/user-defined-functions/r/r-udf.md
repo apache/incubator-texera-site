@@ -3,7 +3,6 @@ title: "R UDF"
 description: "User-defined function operator in R script"
 category: "R"
 operator_type: "RUDF"
-version: "N/A"
 tags: [user-defined-functions, r]
 ---
 

@@ -3,7 +3,6 @@ title: "Bagging"
 description: "Sklearn Bagging Operator"
 category: "Sklearn"
 operator_type: "SklearnBagging"
-version: "N/A"
 tags: [machine-learning, sklearn]
 ---
 

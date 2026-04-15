@@ -3,7 +3,6 @@ title: "KNN Regressor"
 description: "Sklearn KNN Regressor Operator"
 category: "Advanced Sklearn"
 operator_type: "KNNRegressorTrainer"
-version: "N/A"
 tags: [machine-learning, advanced-sklearn]
 ---
 

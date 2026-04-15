@@ -3,7 +3,6 @@ title: "Linear Perceptron"
 description: "Sklearn Linear Perceptron Operator"
 category: "Sklearn"
 operator_type: "SklearnPerceptron"
-version: "N/A"
 tags: [machine-learning, sklearn]
 ---
 

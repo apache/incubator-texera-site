@@ -3,7 +3,6 @@ title: "Text Input"
 description: "Source data from manually inputted text"
 category: "Data Input"
 operator_type: "TextInput"
-version: "N/A"
 tags: [data-input]
 ---
 

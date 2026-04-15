@@ -3,7 +3,6 @@ title: "Substring Search"
 description: "Search for Substring(s) in a string column"
 category: "Search"
 operator_type: "SubstringSearch"
-version: "N/A"
 tags: [search]
 ---
 

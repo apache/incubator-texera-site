@@ -3,7 +3,6 @@ title: "SVM Regressor"
 description: "Sklearn SVM Regressor Operator"
 category: "Advanced Sklearn"
 operator_type: "SVRTrainer"
-version: "N/A"
 tags: [machine-learning, advanced-sklearn]
 ---
 

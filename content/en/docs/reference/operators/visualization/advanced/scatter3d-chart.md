@@ -3,7 +3,6 @@ title: "Scatter3D Chart"
 description: "Visualize data in a Scatter3D Plot"
 category: "Advanced"
 operator_type: "Scatter3DChart"
-version: "N/A"
 tags: [visualization, advanced]
 ---
 

@@ -3,7 +3,6 @@ title: "Sklearn Testing"
 description: "It will generate scorers for Sklearn model"
 category: "Sklearn"
 operator_type: "SklearnTesting"
-version: "N/A"
 tags: [machine-learning, sklearn]
 ---
 

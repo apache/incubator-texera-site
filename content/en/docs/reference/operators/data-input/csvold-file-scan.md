@@ -3,7 +3,6 @@ title: "CSVOld File Scan"
 description: "Scan data from a CSVOld file"
 category: "Data Input"
 operator_type: "CSVOldFileScan"
-version: "N/A"
 tags: [data-input]
 ---
 

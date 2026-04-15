@@ -3,7 +3,6 @@ title: "Arrow File Scan"
 description: "Scan data from a Arrow file"
 category: "Data Input"
 operator_type: "ArrowSource"
-version: "N/A"
 tags: [data-input]
 ---
 

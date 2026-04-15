@@ -3,7 +3,6 @@ title: "Linear Regression"
 description: "Sklearn Linear Regression Operator"
 category: "Sklearn"
 operator_type: "SklearnLinearRegression"
-version: "N/A"
 tags: [machine-learning, sklearn]
 ---
 

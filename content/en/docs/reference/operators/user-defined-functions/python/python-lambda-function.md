@@ -3,7 +3,6 @@ title: "Python Lambda Function"
 description: "Modify or add a new column with more ease"
 category: "Python"
 operator_type: "PythonLambdaFunction"
-version: "N/A"
 tags: [user-defined-functions, python]
 ---
 

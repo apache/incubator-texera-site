@@ -3,7 +3,6 @@ title: "JSONL File Scan"
 description: "Scan data from a JSONL file"
 category: "Data Input"
 operator_type: "JSONLFileScan"
-version: "N/A"
 tags: [data-input]
 ---
 

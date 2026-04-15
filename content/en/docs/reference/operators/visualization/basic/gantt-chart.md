@@ -3,7 +3,6 @@ title: "Gantt Chart"
 description: "A Gantt chart is a type of bar chart that illustrates a project schedule. The chart lists the tasks to be performed on the vertical axis, and time intervals on the horizontal axis. The width of the horizontal bars in the graph shows the duration of each activity."
 category: "Basic"
 operator_type: "GanttChart"
-version: "N/A"
 tags: [visualization, basic]
 ---
 

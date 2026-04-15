@@ -3,7 +3,6 @@ title: "Training: Passive Aggressive"
 description: "Sklearn Training: Passive Aggressive Operator"
 category: "Sklearn Training"
 operator_type: "SklearnTrainingPassiveAggressive"
-version: "N/A"
 tags: [machine-learning, sklearn, sklearn-training]
 ---
 

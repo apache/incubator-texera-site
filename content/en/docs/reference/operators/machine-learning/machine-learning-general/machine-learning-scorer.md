@@ -3,7 +3,6 @@ title: "Machine Learning Scorer"
 description: "Scorer for machine learning models"
 category: "Machine Learning General"
 operator_type: "Scorer"
-version: "N/A"
 tags: [machine-learning, machine-learning-general]
 ---
 

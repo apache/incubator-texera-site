@@ -3,7 +3,6 @@ title: "Linear Support Vector Machine"
 description: "Sklearn Linear Support Vector Machine Operator"
 category: "Sklearn"
 operator_type: "SklearnLinearSVM"
-version: "N/A"
 tags: [machine-learning, sklearn]
 ---
 

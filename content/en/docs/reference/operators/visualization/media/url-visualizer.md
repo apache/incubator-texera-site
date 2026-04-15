@@ -3,7 +3,6 @@ title: "URL Visualizer"
 description: "Render the content of URL"
 category: "Media"
 operator_type: "URLVisualizer"
-version: "N/A"
 tags: [visualization, media]
 ---
 

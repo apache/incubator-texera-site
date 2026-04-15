@@ -3,7 +3,6 @@ title: "Scatter Plot"
 description: "View the result in a scatterplot"
 category: "Basic"
 operator_type: "Scatterplot"
-version: "N/A"
 tags: [visualization, basic]
 ---
 

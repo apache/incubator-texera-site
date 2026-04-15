@@ -3,7 +3,6 @@ title: "Cartesian Product"
 description: "Append fields together to get the cartesian product of two inputs"
 category: "Join"
 operator_type: "CartesianProduct"
-version: "N/A"
 tags: [data-cleaning, join]
 ---
 

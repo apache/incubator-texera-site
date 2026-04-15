@@ -3,7 +3,6 @@ title: "Sort Partitions"
 description: "Sort Partitions"
 category: "Sort"
 operator_type: "SortPartitions"
-version: "N/A"
 tags: [data-cleaning, sort]
 ---
 

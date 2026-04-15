@@ -3,7 +3,6 @@ title: "Filter"
 description: "Performs a filter operation using OR between multiple predicates"
 category: "Data Cleaning"
 operator_type: "Filter"
-version: "N/A"
 tags: [data-cleaning]
 ---
 

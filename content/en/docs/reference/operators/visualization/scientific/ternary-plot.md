@@ -3,7 +3,6 @@ title: "Ternary Plot"
 description: "Points are graphed on a Ternary Plot using 3 specified data fields"
 category: "Scientific"
 operator_type: "TernaryPlot"
-version: "N/A"
 tags: [visualization, scientific]
 ---
 

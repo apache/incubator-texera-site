@@ -3,7 +3,6 @@ title: "Interval Join"
 description: "Join two inputs with left table join key in the range of [right table join key, right table join key + constant value]"
 category: "Join"
 operator_type: "IntervalJoin"
-version: "N/A"
 tags: [data-cleaning, join]
 ---
 

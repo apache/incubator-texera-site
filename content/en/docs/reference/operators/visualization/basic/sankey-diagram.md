@@ -3,7 +3,6 @@ title: "Sankey Diagram"
 description: "Visualize data using a Sankey diagram"
 category: "Basic"
 operator_type: "SankeyDiagram"
-version: "N/A"
 tags: [visualization, basic]
 ---
 

@@ -3,7 +3,6 @@ title: "Gradient Boosting"
 description: "Sklearn Gradient Boosting Operator"
 category: "Sklearn"
 operator_type: "SklearnGradientBoosting"
-version: "N/A"
 tags: [machine-learning, sklearn]
 ---
 

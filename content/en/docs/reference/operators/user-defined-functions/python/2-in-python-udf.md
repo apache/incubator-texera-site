@@ -3,7 +3,6 @@ title: "2-in Python UDF"
 description: "User-defined function operator in Python script"
 category: "Python"
 operator_type: "DualInputPortsPythonUDFV2"
-version: "N/A"
 tags: [user-defined-functions, python]
 ---
 

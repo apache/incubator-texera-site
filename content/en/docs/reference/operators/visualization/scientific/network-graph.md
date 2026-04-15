@@ -3,7 +3,6 @@ title: "Network Graph"
 description: "Visualize data in a network graph"
 category: "Scientific"
 operator_type: "NetworkGraph"
-version: "N/A"
 tags: [visualization, scientific]
 ---
 

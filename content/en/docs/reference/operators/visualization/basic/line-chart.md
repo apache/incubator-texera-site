@@ -3,7 +3,6 @@ title: "Line Chart"
 description: "View the result in line chart"
 category: "Basic"
 operator_type: "LineChart"
-version: "N/A"
 tags: [visualization, basic]
 ---
 

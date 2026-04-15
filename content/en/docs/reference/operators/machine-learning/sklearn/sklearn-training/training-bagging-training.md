@@ -3,7 +3,6 @@ title: "Training: Bagging Training"
 description: "Sklearn Training: Bagging Training Operator"
 category: "Sklearn Training"
 operator_type: "SklearnTrainingBagging"
-version: "N/A"
 tags: [machine-learning, sklearn, sklearn-training]
 ---
 

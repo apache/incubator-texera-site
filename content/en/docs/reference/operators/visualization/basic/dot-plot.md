@@ -3,7 +3,6 @@ title: "Dot Plot"
 description: "Visualize data using a dot plot"
 category: "Basic"
 operator_type: "DotPlot"
-version: "N/A"
 tags: [visualization, basic]
 ---
 

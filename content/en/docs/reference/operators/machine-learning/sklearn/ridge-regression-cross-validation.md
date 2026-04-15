@@ -3,7 +3,6 @@ title: "Ridge Regression Cross Validation"
 description: "Sklearn Ridge Regression Cross Validation Operator"
 category: "Sklearn"
 operator_type: "SklearnRidgeCV"
-version: "N/A"
 tags: [machine-learning, sklearn]
 ---
 

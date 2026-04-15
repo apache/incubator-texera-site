@@ -3,7 +3,6 @@ title: "K-nearest Neighbors"
 description: "Sklearn K-nearest Neighbors Operator"
 category: "Sklearn"
 operator_type: "SklearnKNN"
-version: "N/A"
 tags: [machine-learning, sklearn]
 ---
 

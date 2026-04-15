@@ -3,7 +3,6 @@ title: "Hugging Face Iris Logistic Regression"
 description: "Predict whether an iris is an Iris-setosa using a pre-trained logistic regression model"
 category: "Hugging Face"
 operator_type: "HuggingFaceIrisLogisticRegression"
-version: "N/A"
 tags: [machine-learning, hugging-face]
 ---
 

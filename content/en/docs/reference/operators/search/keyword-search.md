@@ -3,7 +3,6 @@ title: "Keyword Search"
 description: "Search for keyword(s) in a string column"
 category: "Search"
 operator_type: "KeywordSearch"
-version: "N/A"
 tags: [search]
 ---
 

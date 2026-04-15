@@ -3,7 +3,6 @@ title: "Tables Plot"
 description: "Visualize data in a table chart."
 category: "Basic"
 operator_type: "TablesPlot"
-version: "N/A"
 tags: [visualization, basic]
 ---
 

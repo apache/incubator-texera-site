@@ -3,7 +3,6 @@ title: "Bubble Chart"
 description: "a 3D Scatter Plot; Bubbles are graphed using x and y labels, and their sizes determined by a z-value."
 category: "Basic"
 operator_type: "BubbleChart"
-version: "N/A"
 tags: [visualization, basic]
 ---
 

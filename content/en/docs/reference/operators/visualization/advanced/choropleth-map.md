@@ -3,7 +3,6 @@ title: "Choropleth Map"
 description: "Visualize data using a Choropleth Map that uses shades of colors to show differences in properties or quantities between regions"
 category: "Advanced"
 operator_type: "ChoroplethMap"
-version: "N/A"
 tags: [visualization, advanced]
 ---
 

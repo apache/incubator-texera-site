@@ -3,7 +3,6 @@ title: "Unnest String"
 description: "Unnest the string values in the column separated by a delimiter to multiple values"
 category: "Utilities"
 operator_type: "UnnestString"
-version: "N/A"
 tags: [utilities]
 ---
 

@@ -3,7 +3,6 @@ title: "Training: Dummy Classifier"
 description: "Sklearn Training: Dummy Classifier Operator"
 category: "Sklearn Training"
 operator_type: "SklearnTrainingDummyClassifier"
-version: "N/A"
 tags: [machine-learning, sklearn, sklearn-training]
 ---
 

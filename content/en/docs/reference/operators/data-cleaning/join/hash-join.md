@@ -3,7 +3,6 @@ title: "Hash Join"
 description: "join two inputs"
 category: "Join"
 operator_type: "HashJoin"
-version: "N/A"
 tags: [data-cleaning, join]
 ---
 

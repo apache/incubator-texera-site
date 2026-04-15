@@ -3,7 +3,6 @@ title: "Waterfall Chart"
 description: "Visualize data as a waterfall chart"
 category: "Financial"
 operator_type: "WaterfallChart"
-version: "N/A"
 tags: [visualization, financial]
 ---
 

@@ -3,7 +3,6 @@ title: "Bar Chart"
 description: "Visualize data in a Bar Chart"
 category: "Basic"
 operator_type: "BarChart"
-version: "N/A"
 tags: [visualization, basic]
 ---
 

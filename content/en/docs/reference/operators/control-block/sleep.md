@@ -3,7 +3,6 @@ title: "Sleep"
 description: "Sleep n seconds between each tuple"
 category: "Control Block"
 operator_type: "Sleep"
-version: "N/A"
 tags: [control-block]
 ---
 

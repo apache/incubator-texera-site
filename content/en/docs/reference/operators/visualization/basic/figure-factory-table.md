@@ -3,7 +3,6 @@ title: "Figure Factory Table"
 description: "Visualize data in a figure factory table"
 category: "Basic"
 operator_type: "FigureFactoryTable"
-version: "N/A"
 tags: [visualization, basic]
 ---
 

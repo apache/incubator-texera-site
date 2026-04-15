@@ -3,7 +3,6 @@ title: "Strip Chart"
 description: "Visualize distribution of data points as a strip plot"
 category: "Statistical"
 operator_type: "StripChart"
-version: "N/A"
 tags: [visualization, statistical]
 ---
 

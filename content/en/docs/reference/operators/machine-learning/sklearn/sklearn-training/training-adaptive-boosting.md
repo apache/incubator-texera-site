@@ -3,7 +3,6 @@ title: "Training: Adaptive Boosting"
 description: "Sklearn Training: Adaptive Boosting Operator"
 category: "Sklearn Training"
 operator_type: "SklearnTrainingAdaptiveBoosting"
-version: "N/A"
 tags: [machine-learning, sklearn, sklearn-training]
 ---
 
