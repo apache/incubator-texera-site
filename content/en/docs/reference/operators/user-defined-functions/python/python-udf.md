@@ -3,7 +3,6 @@ title: "Python UDF"
 description: "User-defined function operator in Python script"
 category: "Python"
 operator_type: "PythonUDFV2"
-version: "N/A"
 tags: [user-defined-functions, python]
 ---
 

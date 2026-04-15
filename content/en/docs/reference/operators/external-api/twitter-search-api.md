@@ -3,7 +3,6 @@ title: "Twitter Search API"
 description: "Retrieve data from Twitter Search API"
 category: "External API"
 operator_type: "TwitterSearch"
-version: "N/A"
 tags: [external-api]
 ---
 

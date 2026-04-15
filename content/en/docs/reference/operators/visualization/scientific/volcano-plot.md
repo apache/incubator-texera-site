@@ -3,7 +3,6 @@ title: "Volcano Plot"
 description: "Displays statistical significance versus effect size"
 category: "Scientific"
 operator_type: "VolcanoPlot"
-version: "N/A"
 tags: [visualization, scientific]
 ---
 

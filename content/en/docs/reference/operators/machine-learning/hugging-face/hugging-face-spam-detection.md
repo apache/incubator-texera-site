@@ -3,7 +3,6 @@ title: "Hugging Face Spam Detection"
 description: "Spam Detection by SMS Spam Detection Model from Hugging Face"
 category: "Hugging Face"
 operator_type: "HuggingFaceSpamSMSDetection"
-version: "N/A"
 tags: [machine-learning, hugging-face]
 ---
 

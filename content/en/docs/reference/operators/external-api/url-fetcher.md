@@ -3,7 +3,6 @@ title: "URL fetcher"
 description: "Fetch the content of a single url"
 category: "External API"
 operator_type: "URLFetcher"
-version: "N/A"
 tags: [external-api]
 ---
 

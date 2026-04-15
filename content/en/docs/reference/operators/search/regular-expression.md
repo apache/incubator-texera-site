@@ -3,7 +3,6 @@ title: "Regular Expression"
 description: "Search a regular expression in a string column"
 category: "Search"
 operator_type: "Regex"
-version: "N/A"
 tags: [search]
 ---
 

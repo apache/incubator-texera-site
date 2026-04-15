@@ -3,7 +3,6 @@ title: "Training: Random Forest"
 description: "Sklearn Training: Random Forest Operator"
 category: "Sklearn Training"
 operator_type: "SklearnTrainingRandomForest"
-version: "N/A"
 tags: [machine-learning, sklearn, sklearn-training]
 ---
 

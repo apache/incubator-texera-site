@@ -3,7 +3,6 @@ title: "Hugging Face Sentiment Analysis"
 description: "Analyzing Sentiments with a Twitter-Based Model from Hugging Face"
 category: "Hugging Face"
 operator_type: "HuggingFaceSentimentAnalysis"
-version: "N/A"
 tags: [machine-learning, hugging-face]
 ---
 

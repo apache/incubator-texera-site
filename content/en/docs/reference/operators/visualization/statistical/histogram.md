@@ -3,7 +3,6 @@ title: "Histogram"
 description: "Visualize data in a Histogram Chart"
 category: "Statistical"
 operator_type: "Histogram"
-version: "N/A"
 tags: [visualization, statistical]
 ---
 

@@ -3,7 +3,6 @@ title: "Time Series Plot"
 description: "Visualize trends and patterns over time."
 category: "Basic"
 operator_type: "TimeSeriesPlot"
-version: "N/A"
 tags: [visualization, basic]
 ---
 

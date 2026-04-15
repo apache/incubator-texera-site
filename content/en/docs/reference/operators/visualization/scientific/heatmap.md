@@ -3,7 +3,6 @@ title: "Heatmap"
 description: "Visualize data in a HeatMap Chart"
 category: "Scientific"
 operator_type: "HeatMap"
-version: "N/A"
 tags: [visualization, scientific]
 ---
 

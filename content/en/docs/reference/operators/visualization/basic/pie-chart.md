@@ -3,7 +3,6 @@ title: "Pie Chart"
 description: "Visualize data in a Pie Chart"
 category: "Basic"
 operator_type: "PieChart"
-version: "N/A"
 tags: [visualization, basic]
 ---
 

@@ -3,7 +3,6 @@ title: "AsterixDB Source"
 description: "Read data from a AsterixDB instance"
 category: "Database Connector"
 operator_type: "AsterixDBSource"
-version: "N/A"
 tags: [database-connector]
 ---
 

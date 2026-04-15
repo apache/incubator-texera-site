@@ -3,7 +3,6 @@ title: "Training: Multinomial Naive Bayes"
 description: "Sklearn Training: Multinomial Naive Bayes Operator"
 category: "Sklearn Training"
 operator_type: "SklearnTrainingMultinomialNaiveBayes"
-version: "N/A"
 tags: [machine-learning, sklearn, sklearn-training]
 ---
 

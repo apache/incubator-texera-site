@@ -3,7 +3,6 @@ title: "Bullet Chart"
 description: "Visualize data using a Bullet Chart that shows a primary quantitative bar and delta indicator. Optional elements such as qualitative ranges (steps) and a performance threshold are displayed only when provided."
 category: "Financial"
 operator_type: "BulletChart"
-version: "N/A"
 tags: [visualization, financial]
 ---
 

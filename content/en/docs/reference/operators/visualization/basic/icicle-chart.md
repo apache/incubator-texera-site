@@ -3,7 +3,6 @@ title: "Icicle Chart"
 description: "Visualize hierarchical data from root to leaves"
 category: "Basic"
 operator_type: "IcicleChart"
-version: "N/A"
 tags: [visualization, basic]
 ---
 

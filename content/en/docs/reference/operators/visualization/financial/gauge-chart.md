@@ -3,7 +3,6 @@ title: "Gauge Chart"
 description: "Visualize a single value with a radial gauge chart, showing progress towards a goal with optional steps, threshold, and delta."
 category: "Financial"
 operator_type: "GaugeChart"
-version: "N/A"
 tags: [visualization, financial]
 ---
 

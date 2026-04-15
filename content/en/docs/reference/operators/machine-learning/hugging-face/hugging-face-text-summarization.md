@@ -3,7 +3,6 @@ title: "Hugging Face Text Summarization"
 description: "Summarize the given text content with a mini2bert pre-trained model from Hugging Face"
 category: "Hugging Face"
 operator_type: "HuggingFaceTextSummarization"
-version: "N/A"
 tags: [machine-learning, hugging-face]
 ---
 

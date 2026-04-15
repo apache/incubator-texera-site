@@ -3,7 +3,6 @@ title: "Contour Plot"
 description: "Displays terrain or gradient variations in a Contour Plot"
 category: "Scientific"
 operator_type: "ContourPlot"
-version: "N/A"
 tags: [visualization, scientific]
 ---
 

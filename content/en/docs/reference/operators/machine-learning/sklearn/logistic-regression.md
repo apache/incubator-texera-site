@@ -3,7 +3,6 @@ title: "Logistic Regression"
 description: "Sklearn Logistic Regression Operator"
 category: "Sklearn"
 operator_type: "SklearnLogisticRegression"
-version: "N/A"
 tags: [machine-learning, sklearn]
 ---
 

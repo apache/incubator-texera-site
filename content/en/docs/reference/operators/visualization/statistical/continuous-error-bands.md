@@ -3,7 +3,6 @@ title: "Continuous Error Bands"
 description: "Visualize error or uncertainty along a continuous line"
 category: "Statistical"
 operator_type: "ContinuousErrorBands"
-version: "N/A"
 tags: [visualization, statistical]
 ---
 

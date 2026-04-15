@@ -3,7 +3,6 @@ title: " File Scan"
 description: "Scan data from a  file"
 category: "Data Input"
 operator_type: "FileScan"
-version: "N/A"
 tags: [data-input]
 ---
 

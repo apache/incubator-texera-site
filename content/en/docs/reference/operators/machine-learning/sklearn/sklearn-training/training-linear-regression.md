@@ -3,7 +3,6 @@ title: "Training: Linear Regression"
 description: "Sklearn Training: Linear Regression Operator"
 category: "Sklearn Training"
 operator_type: "SklearnTrainingLinearRegression"
-version: "N/A"
 tags: [machine-learning, sklearn, sklearn-training]
 ---
 

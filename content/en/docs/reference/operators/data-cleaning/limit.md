@@ -3,7 +3,6 @@ title: "Limit"
 description: "Limit the number of output rows"
 category: "Data Cleaning"
 operator_type: "Limit"
-version: "N/A"
 tags: [data-cleaning]
 ---
 

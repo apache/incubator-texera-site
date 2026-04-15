@@ -3,7 +3,6 @@ title: "Training: Gaussian Naive Bayes"
 description: "Sklearn Training: Gaussian Naive Bayes Operator"
 category: "Sklearn Training"
 operator_type: "SklearnTrainingGaussianNaiveBayes"
-version: "N/A"
 tags: [machine-learning, sklearn, sklearn-training]
 ---
 

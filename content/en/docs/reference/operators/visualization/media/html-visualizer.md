@@ -3,7 +3,6 @@ title: "HTML Visualizer"
 description: "Render the result of HTML content"
 category: "Media"
 operator_type: "HTMLVisualizer"
-version: "N/A"
 tags: [visualization, media]
 ---
 

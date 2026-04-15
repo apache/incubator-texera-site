@@ -3,7 +3,6 @@ title: "PostgreSQL Source"
 description: "Read data from a PostgreSQL instance"
 category: "Database Connector"
 operator_type: "PostgreSQLSource"
-version: "N/A"
 tags: [database-connector]
 ---
 

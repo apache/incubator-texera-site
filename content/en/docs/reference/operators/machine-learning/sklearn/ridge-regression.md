@@ -3,7 +3,6 @@ title: "Ridge Regression"
 description: "Sklearn Ridge Regression Operator"
 category: "Sklearn"
 operator_type: "SklearnRidge"
-version: "N/A"
 tags: [machine-learning, sklearn]
 ---
 

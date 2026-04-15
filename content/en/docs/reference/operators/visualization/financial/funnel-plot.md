@@ -3,7 +3,6 @@ title: "Funnel Plot"
 description: "Visualize data in a Funnel Plot"
 category: "Financial"
 operator_type: "FunnelPlot"
-version: "N/A"
 tags: [visualization, financial]
 ---
 

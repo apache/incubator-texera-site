@@ -3,7 +3,6 @@ title: "Random K Sampling"
 description: "random sampling with given percentage"
 category: "Utilities"
 operator_type: "RandomKSampling"
-version: "N/A"
 tags: [utilities]
 ---
 

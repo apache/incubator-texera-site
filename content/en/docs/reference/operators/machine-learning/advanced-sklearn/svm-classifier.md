@@ -3,7 +3,6 @@ title: "SVM Classifier"
 description: "Sklearn SVM Classifier Operator"
 category: "Advanced Sklearn"
 operator_type: "SVCTrainer"
-version: "N/A"
 tags: [machine-learning, advanced-sklearn]
 ---
 

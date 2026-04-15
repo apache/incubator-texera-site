@@ -3,7 +3,6 @@ title: "Image Visualizer"
 description: "visualize image content"
 category: "Media"
 operator_type: "ImageVisualizer"
-version: "N/A"
 tags: [visualization, media]
 ---
 

@@ -3,7 +3,6 @@ title: "Training: Logistic Regression Cross Validation"
 description: "Sklearn Training: Logistic Regression Cross Validation Operator"
 category: "Sklearn Training"
 operator_type: "SklearnTrainingLogisticRegressionCV"
-version: "N/A"
 tags: [machine-learning, sklearn, sklearn-training]
 ---
 

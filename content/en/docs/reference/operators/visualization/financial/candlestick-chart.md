@@ -3,7 +3,6 @@ title: "Candlestick Chart"
 description: "Visualize data in a Candlestick Chart"
 category: "Financial"
 operator_type: "CandlestickChart"
-version: "N/A"
 tags: [visualization, financial]
 ---
 

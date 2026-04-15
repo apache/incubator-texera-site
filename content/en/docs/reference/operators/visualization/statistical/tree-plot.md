@@ -3,7 +3,6 @@ title: "Tree Plot"
 description: "Visualize hierarchical data as a top-down, interactive, auto-sizing tree"
 category: "Statistical"
 operator_type: "TreePlot"
-version: "N/A"
 tags: [visualization, statistical]
 ---
 

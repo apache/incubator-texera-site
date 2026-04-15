@@ -3,7 +3,6 @@ title: "Histogram2D"
 description: "Displays a bivariate histogram as a density heatmap"
 category: "Statistical"
 operator_type: "Histogram2D"
-version: "N/A"
 tags: [visualization, statistical]
 ---
 

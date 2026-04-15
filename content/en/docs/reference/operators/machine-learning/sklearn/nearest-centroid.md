@@ -3,7 +3,6 @@ title: "Nearest Centroid"
 description: "Sklearn Nearest Centroid Operator"
 category: "Sklearn"
 operator_type: "SklearnNearestCentroid"
-version: "N/A"
 tags: [machine-learning, sklearn]
 ---
 

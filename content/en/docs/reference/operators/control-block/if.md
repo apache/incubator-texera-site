@@ -3,7 +3,6 @@ title: "If"
 description: "If"
 category: "Control Block"
 operator_type: "If"
-version: "N/A"
 tags: [control-block]
 ---
 

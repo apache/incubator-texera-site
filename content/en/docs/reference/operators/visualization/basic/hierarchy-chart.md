@@ -3,7 +3,6 @@ title: "Hierarchy Chart"
 description: "Visualize data in hierarchy"
 category: "Basic"
 operator_type: "HierarchyChart"
-version: "N/A"
 tags: [visualization, basic]
 ---
 

@@ -3,7 +3,6 @@ title: "Dictionary matcher"
 description: "Matches tuples if they appear in a given dictionary"
 category: "Search"
 operator_type: "DictionaryMatcher"
-version: "N/A"
 tags: [search]
 ---
 

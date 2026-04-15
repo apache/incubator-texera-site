@@ -3,7 +3,6 @@ title: "Dendrogram"
 description: "Visualize data in a Dendrogram"
 category: "Scientific"
 operator_type: "Dendrogram"
-version: "N/A"
 tags: [visualization, scientific]
 ---
 

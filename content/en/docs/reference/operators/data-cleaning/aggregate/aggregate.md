@@ -3,7 +3,6 @@ title: "Aggregate"
 description: "Calculate different types of aggregation values"
 category: "Aggregate"
 operator_type: "Aggregate"
-version: "N/A"
 tags: [data-cleaning, aggregate]
 ---
 

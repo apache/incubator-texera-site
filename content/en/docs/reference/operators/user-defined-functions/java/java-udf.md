@@ -3,7 +3,6 @@ title: "Java UDF"
 description: "User-defined function operator in Java script"
 category: "Java"
 operator_type: "JavaUDF"
-version: "N/A"
 tags: [user-defined-functions, java]
 ---
 

@@ -3,7 +3,6 @@ title: "Type Casting"
 description: "Cast between types"
 category: "Data Cleaning"
 operator_type: "TypeCasting"
-version: "N/A"
 tags: [data-cleaning]
 ---
 

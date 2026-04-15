@@ -3,7 +3,6 @@ title: "Quiver Plot"
 description: "Visualize vector data in a Quiver Plot"
 category: "Scientific"
 operator_type: "QuiverPlot"
-version: "N/A"
 tags: [visualization, scientific]
 ---
 

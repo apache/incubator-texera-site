@@ -3,7 +3,6 @@ title: "Sort"
 description: "Sort based on the columns and sorting methods"
 category: "Sort"
 operator_type: "Sort"
-version: "N/A"
 tags: [data-cleaning, sort]
 ---
 

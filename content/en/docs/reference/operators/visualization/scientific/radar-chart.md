@@ -3,7 +3,6 @@ title: "Radar Chart"
 description: "Visualize data in a Radar Chart"
 category: "Scientific"
 operator_type: "RadarChart"
-version: "N/A"
 tags: [visualization, scientific]
 ---
 

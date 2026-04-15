@@ -3,7 +3,6 @@ title: "Distinct"
 description: "Remove duplicate tuples"
 category: "Data Cleaning"
 operator_type: "Distinct"
-version: "N/A"
 tags: [data-cleaning]
 ---
 

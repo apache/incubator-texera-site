@@ -3,7 +3,6 @@ title: "Scatter Matrix Chart"
 description: "Visualize datasets in a Scatter Matrix"
 category: "Statistical"
 operator_type: "ScatterMatrixChart"
-version: "N/A"
 tags: [visualization, statistical]
 ---
 

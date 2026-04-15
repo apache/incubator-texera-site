@@ -3,7 +3,6 @@ title: "CSV File Scan"
 description: "Scan data from a CSV file"
 category: "Data Input"
 operator_type: "CSVFileScan"
-version: "N/A"
 tags: [data-input]
 ---
 

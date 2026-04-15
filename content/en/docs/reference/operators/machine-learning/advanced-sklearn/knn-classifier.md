@@ -3,7 +3,6 @@ title: "KNN Classifier"
 description: "Sklearn KNN Classifier Operator"
 category: "Advanced Sklearn"
 operator_type: "KNNClassifierTrainer"
-version: "N/A"
 tags: [machine-learning, advanced-sklearn]
 ---
 

@@ -3,7 +3,6 @@ title: "Training: Probability Calibration"
 description: "Sklearn Training: Probability Calibration Operator"
 category: "Sklearn Training"
 operator_type: "SklearnTrainingProbabilityCalibration"
-version: "N/A"
 tags: [machine-learning, sklearn, sklearn-training]
 ---
 

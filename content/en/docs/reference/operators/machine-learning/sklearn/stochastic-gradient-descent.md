@@ -3,7 +3,6 @@ title: "Stochastic Gradient Descent"
 description: "Sklearn Stochastic Gradient Descent Operator"
 category: "Sklearn"
 operator_type: "SklearnSDG"
-version: "N/A"
 tags: [machine-learning, sklearn]
 ---
 

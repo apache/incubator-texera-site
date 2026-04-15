@@ -3,7 +3,6 @@ title: "Nested Table"
 description: "Visualize Data in a Depth Two Nested Table"
 category: "Visualization"
 operator_type: "NestedTable"
-version: "N/A"
 tags: [visualization]
 ---
 

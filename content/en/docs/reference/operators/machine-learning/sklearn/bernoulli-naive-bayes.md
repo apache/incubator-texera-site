@@ -3,7 +3,6 @@ title: "Bernoulli Naive Bayes"
 description: "Sklearn Bernoulli Naive Bayes Operator"
 category: "Sklearn"
 operator_type: "SklearnBernoulliNaiveBayes"
-version: "N/A"
 tags: [machine-learning, sklearn]
 ---
 

@@ -3,7 +3,6 @@ title: "Projection"
 description: "Keeps or drops the column"
 category: "Data Cleaning"
 operator_type: "Projection"
-version: "N/A"
 tags: [data-cleaning]
 ---
 

@@ -3,7 +3,6 @@ title: "Training: Decision Tree"
 description: "Sklearn Training: Decision Tree Operator"
 category: "Sklearn Training"
 operator_type: "SklearnTrainingDecisionTree"
-version: "N/A"
 tags: [machine-learning, sklearn, sklearn-training]
 ---
 

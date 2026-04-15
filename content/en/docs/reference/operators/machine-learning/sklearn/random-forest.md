@@ -3,7 +3,6 @@ title: "Random Forest"
 description: "Sklearn Random Forest Operator"
 category: "Sklearn"
 operator_type: "SklearnRandomForest"
-version: "N/A"
 tags: [machine-learning, sklearn]
 ---
 

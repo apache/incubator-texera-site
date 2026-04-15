@@ -3,7 +3,6 @@ title: "Sklearn Prediction"
 description: "Skleanr Prediction Operator"
 category: "Sklearn"
 operator_type: "SklearnPrediction"
-version: "N/A"
 tags: [machine-learning, sklearn]
 ---
 

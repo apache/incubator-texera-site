@@ -3,7 +3,6 @@ title: "Split"
 description: "Split data to two different ports"
 category: "Utilities"
 operator_type: "Split"
-version: "N/A"
 tags: [utilities]
 ---
 

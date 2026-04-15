@@ -3,7 +3,6 @@ title: "Training: Extra Tree"
 description: "Sklearn Training: Extra Tree Operator"
 category: "Sklearn Training"
 operator_type: "SklearnTrainingExtraTree"
-version: "N/A"
 tags: [machine-learning, sklearn, sklearn-training]
 ---
 

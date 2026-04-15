@@ -3,7 +3,6 @@ title: "Stable Merge Sort"
 description: "Stable per-partition sort with multi-key ordering (incremental stack of sorted buckets)"
 category: "Sort"
 operator_type: "StableMergeSort"
-version: "N/A"
 tags: [data-cleaning, sort]
 ---
 
