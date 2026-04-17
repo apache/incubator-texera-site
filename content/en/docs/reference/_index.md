@@ -53,7 +53,7 @@ Reference pages are often technical and version-specific. Keep them up to date b
 | `reference/configuration.md` | Environment variables, ports, and server settings. |
 | `reference/project-structure.md` | Directory overview and build system explanation. |
 | `reference/engine.md` | Detailed explanation of execution engine internals. |
-| `reference/operators.md` | Operator registration and lifecycle details. |
+| `reference/operators/` | Built-in operator catalog, grouped by category. |
 | `reference/frontend.md` | Frontend architecture and components. |
 | `reference/storage.md` | Persistence layer, catalog, and metadata handling. |
 
