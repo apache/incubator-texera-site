@@ -1,7 +1,7 @@
 ---
 title: "Hugging Face"
 description: "Operators in the Hugging Face category"
-weight: 3
+weight: 30
 categories: [Operators]
 tags: [machine-learning, hugging-face]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Single Node Installation"
 date: 2025-10-29
-weight: 1
+weight: 30
 description: >
   This document describes how to set up and run Texera on a single machine using Docker Compose.
 categories: [Texera]
@@ -93,11 +93,11 @@ http://localhost:8080
 ```
 
 An account `texera` with password `texera` is already setup and pre-filled for you. You can click on the `Sign In` button to login: 
-<img width="1100" height="500" alt="texera-login" src="https://github.com/user-attachments/assets/84cd784a-09a8-4e56-b9f5-49b53da67914" />
+<img width="1100" height="500" alt="texera-login" src="/images/github-assets/84cd784a-09a8-4e56-b9f5-49b53da67914.png" />
 
 
 You should see the following page:
-<img width="1100" height="500" alt="texera-workspace" src="https://github.com/user-attachments/assets/fb90d706-9ee1-40c2-af67-0aad540d4718" />
+<img width="1100" height="500" alt="texera-workspace" src="/images/github-assets/fb90d706-9ee1-40c2-af67-0aad540d4718.png" />
 
 
 > **Note:** Texera does **NOT** support R operators by default. To enable R support, refer to the [Advanced Settings](#advanced-settings) section.

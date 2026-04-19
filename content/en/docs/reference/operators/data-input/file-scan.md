@@ -4,6 +4,7 @@ description: "Scan data from a  file"
 category: "Data Input"
 operator_type: "FileScan"
 tags: [data-input]
+weight: 50
 ---
 
 [Home](../../) > [Data Input](../)

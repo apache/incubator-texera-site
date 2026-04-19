@@ -1,7 +1,7 @@
 ---
 title: "Operators"
 description: "Complete reference for all Texera operators organized by category"
-weight: 1
+weight: 60
 categories: [Documentation]
 tags: [operators, reference, index]
 ---

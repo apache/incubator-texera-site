@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning General"
 description: "Operators in the Machine Learning General category"
-weight: 4
+weight: 40
 categories: [Operators]
 tags: [machine-learning, machine-learning-general]
 ---

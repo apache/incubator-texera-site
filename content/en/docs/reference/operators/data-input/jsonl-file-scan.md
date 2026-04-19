@@ -4,6 +4,7 @@ description: "Scan data from a JSONL file"
 category: "Data Input"
 operator_type: "JSONLFileScan"
 tags: [data-input]
+weight: 20
 ---
 
 [Home](../../) > [Data Input](../)

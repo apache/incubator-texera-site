@@ -1,7 +1,7 @@
 ---
 title: Examples
 description: Explore example workflows and applications built with Texera.
-weight: 4
+weight: 80
 ---
 
 {{% pageinfo %}}
@@ -19,19 +19,19 @@ Each example demonstrates how Texera operators can be combined to solve differen
 
 - **Text Analytics Workflow**  
   Analyze text data using tokenization, keyword extraction, and word cloud visualization.  
-  → See the [Text Analytics Example](https://github.com/Texera/texera/wiki/Example:-Text-Analytics)
+  → See the [Text Analytics Example](/docs/examples/text-analytics/)
 
 - **Join and Filter Workflow**  
   Combine multiple datasets using joins and filters to create complex data pipelines.  
-  → See the [Join Operator Example](https://github.com/Texera/texera/wiki/Example:-Join-and-Filter)
+  → See the [Join Operator Example](/docs/examples/join-and-filter/)
 
 - **Machine Learning Workflow**  
   Build end-to-end ML workflows with data preprocessing, model training, and evaluation operators.  
-  → See the [Machine Learning Example](https://github.com/Texera/texera/wiki/Example:-Machine-Learning)
+  → See the [Machine Learning Example](/docs/examples/machine-learning/)
 
 - **Visualization Workflow**  
   Explore Texera’s interactive visual operators like scatter plots, histograms, and word clouds.  
-  → See the [Visualization Example](https://github.com/Texera/texera/wiki/Example:-Visualization)
+  → See the [Visualization Example](/docs/examples/visualization/)
 
 ---
 

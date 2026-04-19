@@ -1,7 +1,7 @@
 ---
 title: "Aggregate"
 description: "Operators in the Aggregate category"
-weight: 2
+weight: 30
 categories: [Operators]
 tags: [data-cleaning, aggregate]
 ---

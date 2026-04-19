@@ -1,7 +1,7 @@
 ---
 title: "Visualization"
 description: "Operators in the Visualization category"
-weight: 9
+weight: 90
 categories: [Operators]
 tags: [visualization]
 ---

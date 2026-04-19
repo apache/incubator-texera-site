@@ -4,6 +4,7 @@ description: "Scan data from a CSV file"
 category: "Data Input"
 operator_type: "CSVFileScan"
 tags: [data-input]
+weight: 10
 ---
 
 [Home](../../) > [Data Input](../)

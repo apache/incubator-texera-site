@@ -1,7 +1,7 @@
 ---
 title: "Basic"
 description: "Operators in the Basic category"
-weight: 1
+weight: 10
 categories: [Operators]
 tags: [visualization, basic]
 ---

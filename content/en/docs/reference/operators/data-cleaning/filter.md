@@ -4,6 +4,7 @@ description: "Performs a filter operation using OR between multiple predicates"
 category: "Data Cleaning"
 operator_type: "Filter"
 tags: [data-cleaning]
+weight: 10
 ---
 
 [Home](../../) > [Data Cleaning](../)

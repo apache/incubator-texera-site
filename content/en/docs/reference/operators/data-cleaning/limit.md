@@ -4,6 +4,7 @@ description: "Limit the number of output rows"
 category: "Data Cleaning"
 operator_type: "Limit"
 tags: [data-cleaning]
+weight: 70
 ---
 
 [Home](../../) > [Data Cleaning](../)

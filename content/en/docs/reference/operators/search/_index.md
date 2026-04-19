@@ -1,7 +1,7 @@
 ---
 title: "Search"
 description: "Operators in the Search category"
-weight: 3
+weight: 30
 categories: [Operators]
 tags: [search]
 ---
