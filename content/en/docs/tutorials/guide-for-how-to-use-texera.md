@@ -6,7 +6,7 @@ weight: 50
 Texera is an open-source system that supports collaborative data science at scale using Web-based workflows. This page includes instructions on how to install the system as a developer and do a simple workflow.
 
 ## Prerequisites
-We assume you either went through [Single Node Instruction](https://github.com/Texera/texera/wiki/Installing-Texera-on-a-Single-Node), or the [Guide for Texera Developers](https://github.com/Texera/texera/wiki/Guide-for-Developers). And Texera is up-and-running on your laptop.
+We assume you either went through [Installing Apache Texera using Docker](/docs/getting-started/installing-using-docker/), or the [Guide for Texera Developers](/docs/contribution-guidelines/guide-for-developers/). And Texera is up-and-running on your laptop.
 
 ## Access Texera through Browser
 Enter Texera's URL on your browser to access Texera.

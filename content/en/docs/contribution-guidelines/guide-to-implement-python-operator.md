@@ -3,7 +3,7 @@ title: "Guide to Implement a Python Native Operator (converting from a Python UD
 weight: 50
 ---
 
-In the [page for PythonUDF](https://github.com/Texera/texera/wiki/Guide-to-Use-a-Python-UDF), we introduced the basic concepts of PythonUDF and described each API. To let other users use the Python operators, it is necessary to implement it as a native operator.
+In the [page for PythonUDF](/docs/tutorials/guide-to-use-python-udf/), we introduced the basic concepts of PythonUDF and described each API. To let other users use the Python operators, it is necessary to implement it as a native operator.
 
 In this section, we will discuss how to implement a Python native operator and let future users drag and drop it on the UI. We will start by implementing a sample UDF then talk about how to convert it to a native operator.
 
@@ -55,7 +55,7 @@ class ProcessTableOperator(UDFTableOperator):
 ## **Convert the UDF into a Python Native Operator**
 
 Next we convert the `Treemap Visualizer` UDF into a native operator.
-As described in the[page for Java native operator](https://github.com/Texera/texera/wiki/Guide-to-Implement-a-Java-Native-Operator), a native operator requires the definitions of a descriptor (Desc), an executor (Exec), and a configuration (OpConfig). A Python native operator also requires these definitions, with some unique tweaks. We use the `Treemap Visualization` operator as an example to elaborate the differences:
+As described in the[page for Java native operator](/docs/contribution-guidelines/guide-to-implement-java-operator/), a native operator requires the definitions of a descriptor (Desc), an executor (Exec), and a configuration (OpConfig). A Python native operator also requires these definitions, with some unique tweaks. We use the `Treemap Visualization` operator as an example to elaborate the differences:
 ### Operator Descriptor (Desc)
 * Operator infomation<br>
     The operator information is the same as a Java native operator, which contains the name, description, group, input port, and output port information.

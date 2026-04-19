@@ -156,7 +156,7 @@ deployment manager access is required.
 ## Deployments and Computing Units
 Texera can be deployed in several configurations, such as local development, single-node setups, or distributed Kubernetes 
 clusters. For details on supported deployment options and their operational differences, see the deployment guides in
-our [wiki](https://github.com/apache/texera/wiki/How-to-run-Texera-on-local-Kubernetes).
+our [wiki](/docs/getting-started/run-on-kubernetes/).
 
 ### Computing Unit Types
 

@@ -15,8 +15,8 @@ Guide to use Texera on your local machine or development environment.
 ## Prerequisites
 
 We assume you either went through  
-- [Single Node Instruction](https://github.com/Texera/texera/wiki/Installing-Texera-on-a-Single-Node), or  
-- [Guide for Texera Developers](https://github.com/Texera/texera/wiki/Guide-for-Developers).
+- [Installing Apache Texera using Docker](/docs/getting-started/installing-using-docker/), or  
+- [Guide for Texera Developers](/docs/contribution-guidelines/guide-for-developers/).
 
 Texera should be **up-and-running on your laptop** before proceeding.
 

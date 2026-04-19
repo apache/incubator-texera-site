@@ -6,15 +6,15 @@ description: >
 ---
 
 {{% pageinfo %}}
-This section helps you quickly launch Texera locally and access the user interface.
+This section helps you quickly configure and launch Texera, and access the user interface.
 {{% /pageinfo %}}
 
 ## Launch Texera
 
-Follow the [Single Node Instruction](https://github.com/Texera/texera/wiki/Installing-Texera-on-a-Single-Node) or  
-the [Guide for Developers](https://github.com/Texera/texera/wiki/Guide-for-Developers) to start the system.
+To begin, please follow our [Installation Guide](/docs/getting-started/install-texera/) to set up Texera for your environment.
 
-Once Texera is running, open your web browser and navigate to its local URL.
+Once Texera is installed and running, open your web browser and navigate to its local URL:
 
 ```bash
 http://localhost:4200
+```
