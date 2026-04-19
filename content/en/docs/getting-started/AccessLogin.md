@@ -34,6 +34,6 @@ By default, an **admin account** is pre-created:
 |-----------|-----------|
 | `texera`  | `texera`  |
 
-![Texera Login](https://github.com/user-attachments/assets/ebcb10f7-3d25-4673-b908-7e2de2d3179e)
+![Texera Login](/images/github-assets/ebcb10f7-3d25-4673-b908-7e2de2d3179e.png)
 
 > Input credentials and click the **Sign in** button to log in as the admin.
