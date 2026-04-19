@@ -1,6 +1,6 @@
 ---
 title: "Installing Apache Texera using Docker"
-weight: 50
+weight: 20
 ---
 
 This document describes how to set up and run Texera on a single machine using "Docker Compose".

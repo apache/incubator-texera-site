@@ -2,7 +2,7 @@
 title: Concepts
 description: >
   Overview of the key ideas and components behind Texera. This section introduces core concepts that help users and contributors understand how Texera works.
-weight: 3
+weight: 30
 ---
 
 {{% pageinfo %}}

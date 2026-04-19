@@ -1,6 +1,7 @@
 ---
 title: Security
 description: Comprehensive guide to Texera's security model, user roles, access control, and vulnerability reporting
+weight: 70
 ---
 
 {{% pageinfo %}}

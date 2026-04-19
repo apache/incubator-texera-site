@@ -4,6 +4,7 @@ description: "Cast between types"
 category: "Data Cleaning"
 operator_type: "TypeCasting"
 tags: [data-cleaning]
+weight: 80
 ---
 
 [Home](../../) > [Data Cleaning](../)

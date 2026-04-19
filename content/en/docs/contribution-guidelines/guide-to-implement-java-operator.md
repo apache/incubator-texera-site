@@ -1,6 +1,6 @@
 ---
 title: "Guide to Implement a Java Native Operator"
-weight: 50
+weight: 40
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Output Port Modes"
 description: "Reference for operator output port modes"
-weight: 12
+weight: 120
 categories: [Reference]
 tags: [reference]
 ---

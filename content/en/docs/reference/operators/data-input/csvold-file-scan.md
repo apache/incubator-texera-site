@@ -4,6 +4,7 @@ description: "Scan data from a CSVOld file"
 category: "Data Input"
 operator_type: "CSVOldFileScan"
 tags: [data-input]
+weight: 60
 ---
 
 [Home](../../) > [Data Input](../)

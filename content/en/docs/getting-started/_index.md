@@ -1,6 +1,6 @@
 ---
 title: "Getting Started"
-weight: 2
+weight: 20
 description: >
   Quick start guide for running Texera and accessing it through the browser.
 ---

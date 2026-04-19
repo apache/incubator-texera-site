@@ -1,7 +1,7 @@
 ---
 title: "Texera UI Overview"
 date: 2025-10-29
-weight: 4
+weight: 80
 description: >
   Explore Texera's User Dashboard interface and its components.
 categories: [Texera]

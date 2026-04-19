@@ -1,7 +1,7 @@
 ---
 title: "Java"
 description: "Operators in the Java category"
-weight: 2
+weight: 20
 categories: [Operators]
 tags: [user-defined-functions, java]
 ---

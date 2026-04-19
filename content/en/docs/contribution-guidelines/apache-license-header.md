@@ -1,6 +1,6 @@
 ---
 title: "Apache License header"
-weight: 50
+weight: 70
 ---
 
 Every file must include the Apache License as a header. This can be automated in IntelliJ by

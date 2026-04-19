@@ -1,6 +1,6 @@
 ---
 title: "[VOTE] Release Apache Texera (incubating) Email Template"
-weight: 50
+weight: 80
 ---
 
 Subject: [VOTE] Release Apache Texera (incubating) ${VERSION} RC${RC_NUM}

@@ -1,7 +1,7 @@
 ---
 title: "R"
 description: "Operators in the R category"
-weight: 3
+weight: 30
 categories: [Operators]
 tags: [user-defined-functions, r]
 ---

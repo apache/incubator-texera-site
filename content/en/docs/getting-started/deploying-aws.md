@@ -1,6 +1,6 @@
 ---
 title: "Deploying Texera on Amazon Web Services(AWS)"
-weight: 50
+weight: 40
 ---
 
 ## 1. Create an EKS cluster on AWS

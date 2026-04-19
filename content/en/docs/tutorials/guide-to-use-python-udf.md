@@ -1,6 +1,6 @@
 ---
 title: "Guide to Use a Python UDF"
-weight: 50
+weight: 30
 ---
 
 ## What is Python UDF

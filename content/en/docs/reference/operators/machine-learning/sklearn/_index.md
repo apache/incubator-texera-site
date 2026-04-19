@@ -1,7 +1,7 @@
 ---
 title: "Sklearn"
 description: "Operators in the Sklearn category"
-weight: 1
+weight: 10
 categories: [Operators]
 tags: [machine-learning, sklearn]
 ---

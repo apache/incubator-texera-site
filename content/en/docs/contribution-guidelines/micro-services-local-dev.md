@@ -1,6 +1,6 @@
 ---
 title: "Build, Run and Configure micro‐services in local development environment"
-weight: 50
+weight: 60
 ---
 
 This Document is aim to provide a instruction on how to setup the local development environment for developing and deploying the `core/micro-services`.

@@ -1,7 +1,7 @@
 ---
 title: "Access/Login to Texera"
 date: 2025-10-29
-weight: 3
+weight: 70
 description: >
   Instructions on how to install and set up Texera as a developer.
 categories: [Texera]

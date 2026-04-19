@@ -1,6 +1,6 @@
 ---
 title: "Guide to Frontend Development (new gui)"
-weight: 50
+weight: 30
 ---
 
 **Author: Yinan Zhou**

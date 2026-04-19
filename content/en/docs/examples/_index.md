@@ -1,7 +1,7 @@
 ---
 title: Examples
 description: Explore example workflows and applications built with Texera.
-weight: 4
+weight: 80
 ---
 
 {{% pageinfo %}}

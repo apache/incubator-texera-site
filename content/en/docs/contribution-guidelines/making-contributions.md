@@ -1,6 +1,6 @@
 ---
 title: "Making Contributions"
-weight: 50
+weight: 10
 ---
 
 We welcome interested developers to participate in the project and make contributions. 

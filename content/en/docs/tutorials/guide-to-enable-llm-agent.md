@@ -1,6 +1,6 @@
 ---
 title: "Guide to enable the LLM‐based Texera agent"
-weight: 50
+weight: 40
 ---
 
 This guide explains how to enable the AI agent feature in Texera. For detailed explanation about this feature, see https://github.com/apache/texera/pull/4020.

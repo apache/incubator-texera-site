@@ -1,6 +1,6 @@
 ---
 title: "Guide for how to use Texera"
-weight: 50
+weight: 10
 ---
 
 Texera is an open-source system that supports collaborative data science at scale using Web-based workflows. This page includes instructions on how to install the system as a developer and do a simple workflow.

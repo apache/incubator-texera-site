@@ -4,6 +4,7 @@ description: "Source data from manually inputted text"
 category: "Data Input"
 operator_type: "TextInput"
 tags: [data-input]
+weight: 40
 ---
 
 [Home](../../) > [Data Input](../)

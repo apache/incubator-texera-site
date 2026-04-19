@@ -1,6 +1,6 @@
 ---
 title: "Install Texera"
-weight: 1
+weight: 10
 ---
 
 To install Texera, you may choose one of the two supported architectures depending on your needs:

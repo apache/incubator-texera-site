@@ -1,7 +1,7 @@
 ---
 title: "Financial"
 description: "Operators in the Financial category"
-weight: 4
+weight: 40
 categories: [Operators]
 tags: [visualization, financial]
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Create Dataset, upload data to it and use it in Workflow"
-weight: 50
+weight: 20
 ---
 
 This tutorial goes through the process of preparing data by creating dataset and creating a workflow to analyze data resided in the dataset using Texera. 

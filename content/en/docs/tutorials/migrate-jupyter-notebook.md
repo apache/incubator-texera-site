@@ -1,6 +1,6 @@
 ---
 title: "Migrate a Jupyter Notebook to a Texera Workflow"
-weight: 50
+weight: 60
 ---
 
 This document provides guidelines on how to migrate a Jupyter notebook to a Texera workflow.

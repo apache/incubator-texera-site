@@ -1,7 +1,7 @@
 ---
 title: "Parameter Reference"
 description: "Complete reference for machine learning operator parameters"
-weight: 13
+weight: 130
 categories: [Reference]
 tags: [parameters, ml, reference]
 ---

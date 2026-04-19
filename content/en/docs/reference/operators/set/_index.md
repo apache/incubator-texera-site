@@ -1,7 +1,7 @@
 ---
 title: "Set"
 description: "Operators in the Set category"
-weight: 11
+weight: 40
 categories: [Operators]
 tags: [set]
 ---

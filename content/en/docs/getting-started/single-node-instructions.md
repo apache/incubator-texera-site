@@ -1,7 +1,7 @@
 ---
 title: "Single Node Installation"
 date: 2025-10-29
-weight: 1
+weight: 30
 description: >
   This document describes how to set up and run Texera on a single machine using Docker Compose.
 categories: [Texera]

@@ -1,6 +1,6 @@
 ---
 title: "Guide for Developers"
-weight: 50
+weight: 20
 ---
 
 ## 0. Requirements

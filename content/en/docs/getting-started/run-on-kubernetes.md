@@ -1,6 +1,6 @@
 ---
 title: "How to run Texera on local Kubernetes"
-weight: 50
+weight: 60
 ---
 
 This document explains how to run Texera on Kubernetes locally for development purposes.

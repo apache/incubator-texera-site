@@ -1,7 +1,7 @@
 ---
 title: Overview
 description: High-level overview of the Texera architecture, core concepts, and use cases.
-weight: 1
+weight: 10
 ---
 
 {{% pageinfo %}}
