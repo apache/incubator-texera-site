@@ -1,7 +1,7 @@
 ---
 title: "User-defined Functions"
 description: "Operators in the User-defined Functions category"
-weight: 8
+weight: 50
 categories: [Operators]
 tags: [user-defined-functions]
 ---

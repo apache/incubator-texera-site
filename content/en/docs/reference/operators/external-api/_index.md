@@ -1,7 +1,7 @@
 ---
 title: "External API"
 description: "Operators in the External API category"
-weight: 7
+weight: 70
 categories: [Operators]
 tags: [external-api]
 ---

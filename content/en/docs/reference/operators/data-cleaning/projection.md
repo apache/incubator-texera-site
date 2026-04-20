@@ -4,6 +4,7 @@ description: "Keeps or drops the column"
 category: "Data Cleaning"
 operator_type: "Projection"
 tags: [data-cleaning]
+weight: 20
 ---
 
 [Home](../../) > [Data Cleaning](../)

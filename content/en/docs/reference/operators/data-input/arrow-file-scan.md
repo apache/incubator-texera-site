@@ -4,6 +4,7 @@ description: "Scan data from a Arrow file"
 category: "Data Input"
 operator_type: "ArrowSource"
 tags: [data-input]
+weight: 30
 ---
 
 [Home](../../) > [Data Input](../)

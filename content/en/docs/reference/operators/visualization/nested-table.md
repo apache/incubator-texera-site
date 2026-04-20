@@ -4,6 +4,7 @@ description: "Visualize Data in a Depth Two Nested Table"
 category: "Visualization"
 operator_type: "NestedTable"
 tags: [visualization]
+weight: 70
 ---
 
 [Home](../../) > [Visualization](../)

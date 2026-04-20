@@ -1,7 +1,7 @@
 ---
 title: "Data Cleaning"
 description: "Operators in the Data Cleaning category"
-weight: 4
+weight: 20
 categories: [Operators]
 tags: [data-cleaning]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Scientific"
 description: "Operators in the Scientific category"
-weight: 3
+weight: 30
 categories: [Operators]
 tags: [visualization, scientific]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Access/Login to Texera"
 date: 2025-10-29
-weight: 3
+weight: 70
 description: >
   Instructions on how to install and set up Texera as a developer.
 categories: [Texera]
@@ -15,8 +15,8 @@ Guide to use Texera on your local machine or development environment.
 ## Prerequisites
 
 We assume you either went through  
-- [Single Node Instruction](https://github.com/Texera/texera/wiki/Installing-Texera-on-a-Single-Node), or  
-- [Guide for Texera Developers](https://github.com/Texera/texera/wiki/Guide-for-Developers).
+- [Installing Apache Texera using Docker](/docs/getting-started/installing-using-docker/), or  
+- [Guide for Texera Developers](/docs/contribution-guidelines/guide-for-developers/).
 
 Texera should be **up-and-running on your laptop** before proceeding.
 
@@ -34,6 +34,6 @@ By default, an **admin account** is pre-created:
 |-----------|-----------|
 | `texera`  | `texera`  |
 
-![Texera Login](https://github.com/user-attachments/assets/ebcb10f7-3d25-4673-b908-7e2de2d3179e)
+![Texera Login](/images/github-assets/ebcb10f7-3d25-4673-b908-7e2de2d3179e.png)
 
 > Input credentials and click the **Sign in** button to log in as the admin.

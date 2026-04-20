@@ -1,7 +1,7 @@
 ---
 title: "Data Input"
 description: "Operators in the Data Input category"
-weight: 1
+weight: 10
 categories: [Operators]
 tags: [data-input]
 ---

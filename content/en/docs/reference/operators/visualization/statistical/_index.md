@@ -1,7 +1,7 @@
 ---
 title: "Statistical"
 description: "Operators in the Statistical category"
-weight: 2
+weight: 20
 categories: [Operators]
 tags: [visualization, statistical]
 ---

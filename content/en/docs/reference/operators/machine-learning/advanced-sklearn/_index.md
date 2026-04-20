@@ -1,7 +1,7 @@
 ---
 title: "Advanced Sklearn"
 description: "Operators in the Advanced Sklearn category"
-weight: 2
+weight: 20
 categories: [Operators]
 tags: [machine-learning, advanced-sklearn]
 ---

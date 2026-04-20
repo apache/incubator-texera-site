@@ -1,7 +1,7 @@
 ---
 title: "Join"
 description: "Operators in the Join category"
-weight: 1
+weight: 40
 categories: [Operators]
 tags: [data-cleaning, join]
 ---

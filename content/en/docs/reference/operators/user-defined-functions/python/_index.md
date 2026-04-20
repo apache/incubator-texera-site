@@ -1,7 +1,7 @@
 ---
 title: "Python"
 description: "Operators in the Python category"
-weight: 1
+weight: 10
 categories: [Operators]
 tags: [user-defined-functions, python]
 ---

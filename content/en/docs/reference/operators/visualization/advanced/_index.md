@@ -1,7 +1,7 @@
 ---
 title: "Advanced"
 description: "Operators in the Advanced category"
-weight: 6
+weight: 60
 categories: [Operators]
 tags: [visualization, advanced]
 ---
