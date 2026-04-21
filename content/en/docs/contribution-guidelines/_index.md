@@ -39,6 +39,8 @@ Fork the [Texera repository](https://github.com/Texera/texera) on GitHub and clo
 
 ### 3. Create and Submit a Pull Request
 - Develop in a new branch of your fork.
+  - If your PR modifies the SQL schema, be sure to modify `sql/changelog.xml`.
+  - Also omit `\c texera_db` from the top of your SQL update file as Liquibase cannot parse this line. 
 - When ready, submit a PR to the main Texera repository.
 - **Allow edits from maintainers** to let committers make small fixes if needed.
 
