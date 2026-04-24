@@ -1,7 +1,7 @@
 ---
 title: Tutorials
 description: Step-by-step guides for building workflows and applications with Texera.
-weight: 8
+weight: 40
 ---
 
 {{% pageinfo %}}
