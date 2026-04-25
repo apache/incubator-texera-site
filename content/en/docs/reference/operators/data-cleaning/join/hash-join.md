@@ -12,8 +12,8 @@ tags: [data-cleaning, join]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Left Input Attribute | ✓ | Column | - | Attribute to be joined on the Left Input |
-| Right Input Attribute | ✓ | Column | - | Attribute to be joined on the Right Input |
+| Left Input Attribute | ✓ | String | - | Attribute to be joined on the Left Input |
+| Right Input Attribute | ✓ | String | - | Attribute to be joined on the Right Input |
 | Join Type | ✓ | inner, left outer, right outer,<br>full outer | inner | Select the join type to execute |
 
 ### Output Ports

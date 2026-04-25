@@ -13,8 +13,8 @@ tags: [visualization, scientific]
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
 | Axes | ✓ | List | - | Numeric columns to use as radar axes |
-| Trace Name Column |  | Column | No Selection | Optional - Select a column to use for naming each<br>radar trace |
-| Trace Color Column |  | Column | No Selection | Optional - Select a column to use for coloring<br>each radar trace (note: if there are too many<br>traces with distinct coloring values, colors may<br>repeat) |
+| Trace Name Column |  | String | No Selection | Optional - Select a column to use for naming each<br>radar trace |
+| Trace Color Column |  | String | No Selection | Optional - Select a column to use for coloring<br>each radar trace (note: if there are too many<br>traces with distinct coloring values, colors may<br>repeat) |
 | Line Pattern | ✓ | solid, dash, dot | solid | Pattern of the lines connecting points on the<br>radar plot |
 | Max Normalize | ✓ | Boolean | true | Normalize radar plot values by scaling them<br>relative to the maximum value on their respective<br>axes |
 | Fill Trace | ✓ | Boolean | true | Fill the area within each radar trace |

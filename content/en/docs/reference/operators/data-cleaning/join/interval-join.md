@@ -16,8 +16,8 @@ tags: [data-cleaning, join]
 | Include Left Bound | ✓ | Boolean | true | Include condition left attri = right attri |
 | Include Right Bound | ✓ | Boolean | true | Include condition left attri = right attri |
 | Time interval type |  | TimeIntervalType | day | Year, Month, Day, Hour, Minute or Second |
-| Left Input attr | ✓ | Column (integer, long, double, timestamp) | - | Choose one attribute in the left table |
-| Right Input attr | ✓ | Column | - | Choose one attribute in the right table |
+| Left Input attr | ✓ | String (integer, long, double, timestamp) | - | Choose one attribute in the left table |
+| Right Input attr | ✓ | String | - | Choose one attribute in the right table |
 
 ### Output Ports
 

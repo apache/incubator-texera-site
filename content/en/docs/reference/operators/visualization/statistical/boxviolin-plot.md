@@ -12,7 +12,7 @@ tags: [visualization, statistical]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Value Column | ✓ | Column (integer, long, double) | - | Data column for box plot |
+| Value Column | ✓ | String (integer, long, double) | - | Data column for box plot |
 | Quartile Method | ✓ | linear, inclusive, exclusive | linear |  |
 | Horizontal Orientation |  | Boolean | false | Orientation style |
 | Violin Plot |  | Boolean | false | Check this box to overlay a violin plot on the<br>box plot; otherwise, show only the box plot |

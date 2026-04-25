@@ -12,7 +12,7 @@ tags: [search]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| attribute | ✓ | Column | - | Column to search substring on |
+| attribute | ✓ | String | - | Column to search substring on |
 | Substring | ✓ | String | - | Substring |
 | Case Sensitive | ✓ | Boolean | false | Whether the substring match is case sensitive |
 

@@ -27,7 +27,6 @@ tags: [machine-learning, sklearn]
 | [Gaussian Naive Bayes](gaussian-naive-bayes/) | Sklearn Gaussian Naive Bayes Operator |
 | [Gradient Boosting](gradient-boosting/) | Sklearn Gradient Boosting Operator |
 | [K-nearest Neighbors](k-nearest-neighbors/) | Sklearn K-nearest Neighbors Operator |
-| [Linear Perceptron](linear-perceptron/) | Sklearn Linear Perceptron Operator |
 | [Linear Regression](linear-regression/) | Sklearn Linear Regression Operator |
 | [Linear Support Vector Machine](linear-support-vector-machine/) | Sklearn Linear Support Vector Machine Operator |
 | [Logistic Regression](logistic-regression/) | Sklearn Logistic Regression Operator |
@@ -36,13 +35,14 @@ tags: [machine-learning, sklearn]
 | [Multinomial Naive Bayes](multinomial-naive-bayes/) | Sklearn Multinomial Naive Bayes Operator |
 | [Nearest Centroid](nearest-centroid/) | Sklearn Nearest Centroid Operator |
 | [Passive Aggressive](passive-aggressive/) | Sklearn Passive Aggressive Operator |
+| [Linear Perceptron](linear-perceptron/) | Sklearn Linear Perceptron Operator |
+| [Sklearn Prediction](sklearn-prediction/) | Sklearn Prediction Operator |
 | [Probability Calibration](probability-calibration/) | Sklearn Probability Calibration Operator |
 | [Random Forest](random-forest/) | Sklearn Random Forest Operator |
 | [Ridge Regression](ridge-regression/) | Sklearn Ridge Regression Operator |
 | [Ridge Regression Cross Validation](ridge-regression-cross-validation/) | Sklearn Ridge Regression Cross Validation Operator |
-| [Sklearn Prediction](sklearn-prediction/) | Sklearn Prediction Operator |
-| [Sklearn Testing](sklearn-testing/) | It will generate scorers for Sklearn model |
 | [Stochastic Gradient Descent](stochastic-gradient-descent/) | Sklearn Stochastic Gradient Descent Operator |
 | [Support Vector Machine](support-vector-machine/) | Sklearn Support Vector Machine Operator |
+| [Sklearn Testing](sklearn-testing/) | It will generate scorers for Sklearn model |
 
 **Total**: 28 operators

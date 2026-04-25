@@ -21,10 +21,10 @@ tags: [database-connector]
 | Limit |  | Long | - | Max output count |
 | Offset |  | Long | - | Starting point of output |
 | Keyword Search? |  | Boolean | false |  |
-| ↳ Keyword Search Column |  | Column | - |  |
+| ↳ Keyword Search Column |  | String | - |  |
 | ↳ Keywords to Search |  | String | - |  |
 | Progressive? |  | Boolean | false |  |
-| ↳ Batch by Column |  | Column | - |  |
+| ↳ Batch by Column |  | String | - |  |
 | ↳ Min |  | String | auto |  |
 | ↳ Max |  | String | auto |  |
 | ↳ Batch by Interval |  | Long | 1000000000 |  |

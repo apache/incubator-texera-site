@@ -12,9 +12,9 @@ tags: [visualization, basic]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Source Attribute | ✓ | Column | - | The source node of the Sankey diagram |
-| Target Attribute | ✓ | Column | - | The target node of the Sankey diagram |
-| Value Attribute | ✓ | Column | - | The value/volume of the flow between source and<br>target |
+| Source Attribute | ✓ | String | - | The source node of the Sankey diagram |
+| Target Attribute | ✓ | String | - | The target node of the Sankey diagram |
+| Value Attribute | ✓ | String | - | The value/volume of the flow between source and<br>target |
 
 ### Output Ports
 

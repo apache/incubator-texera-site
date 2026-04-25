@@ -12,7 +12,7 @@ tags: [search]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| attribute | ✓ | Column | - | Column to search keyword on |
+| attribute | ✓ | String | - | Column to search keyword on |
 | keywords | ✓ | String | - | Keywords |
 
 ### Output Ports

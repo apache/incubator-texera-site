@@ -12,9 +12,9 @@ tags: [visualization, advanced]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| X Column | ✓ | Column | - | Data column for the x-axis |
-| Y Column | ✓ | Column | - | Data column for the y-axis |
-| Z Column | ✓ | Column | - | Data column for the z-axis |
+| X Column | ✓ | String | - | Data column for the x-axis |
+| Y Column | ✓ | String | - | Data column for the y-axis |
+| Z Column | ✓ | String | - | Data column for the z-axis |
 
 ### Output Ports
 

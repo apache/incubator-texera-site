@@ -12,7 +12,7 @@ tags: [visualization, media]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Text column | ✓ | Column | - |  |
+| Text column | ✓ | String | - |  |
 | Number of most frequent words |  | Integer | 100 |  |
 
 ### Output Ports

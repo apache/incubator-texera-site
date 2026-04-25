@@ -12,10 +12,10 @@ tags: [visualization, scientific]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Variable 1 | ✓ | Column | - | First variable data field |
-| Variable 2 | ✓ | Column | - | Second variable data field |
-| Variable 3 | ✓ | Column | - | Third variable data field |
-| Measured Value | ✓ | Column | - | Measured value data field |
+| Variable 1 | ✓ | String | - | First variable data field |
+| Variable 2 | ✓ | String | - | Second variable data field |
+| Variable 3 | ✓ | String | - | Third variable data field |
+| Measured Value | ✓ | String | - | Measured value data field |
 
 ### Output Ports
 

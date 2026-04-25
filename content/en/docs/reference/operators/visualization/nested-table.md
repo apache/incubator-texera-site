@@ -14,7 +14,7 @@ tags: [visualization]
 |----------|-------------|------|---------|-------------|
 | Add Attribute | ✓ | List<Attribute> | - | List of columns to include in the nested table<br>chart and their subgroup |
 | ↳ Attribute group | ✓ | String | - |  |
-| ↳ Original attribute Name | ✓ | Column | - |  |
+| ↳ Original attribute Name | ✓ | String | - |  |
 | ↳ New Attribute Name |  | String | - |  |
 
 ### Output Ports

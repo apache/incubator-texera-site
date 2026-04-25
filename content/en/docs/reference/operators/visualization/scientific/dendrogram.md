@@ -13,9 +13,9 @@ tags: [visualization, scientific]
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
 | Color Threshold |  | String | - | Value at which separation of clusters will be made |
-| Value X Column | ✓ | Column | - | The x values of points in dendrogram |
-| Value Y Column | ✓ | Column | - | The y value of points in dendrogram |
-| Labels | ✓ | Column | - | The label of points in dendrogram |
+| Value X Column | ✓ | String | - | The x values of points in dendrogram |
+| Value Y Column | ✓ | String | - | The y value of points in dendrogram |
+| Labels | ✓ | String | - | The label of points in dendrogram |
 
 ### Output Ports
 

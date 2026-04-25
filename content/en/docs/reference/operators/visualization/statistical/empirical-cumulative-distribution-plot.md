@@ -12,9 +12,9 @@ tags: [visualization, statistical]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Value Column | ✓ | Column (integer, long, double) | - | Numeric column used to compute the empirical<br>cumulative distribution |
-| Color Column |  | Column | - | Optional column for coloring ECDF lines by group |
-| Separate By Column |  | Column | - | Optional column for splitting ECDF plots into<br>subplots |
+| Value Column | ✓ | String (integer, long, double) | - | Numeric column used to compute the empirical<br>cumulative distribution |
+| Color Column |  | String | - | Optional column for coloring ECDF lines by group |
+| Separate By Column |  | String | - | Optional column for splitting ECDF plots into<br>subplots |
 | Y Axis Mode |  | String | probability | Display cumulative probability, raw count, or<br>cumulative sum |
 | CDF Mode |  | String | standard | 'standard' shows P(X ≤ x), 'reversed' shows P(X ≥<br>x), 'complementary' shows 1 - P(X ≤ x) |
 | Orientation |  | String | vertical | Plot ECDF vertically or horizontally |

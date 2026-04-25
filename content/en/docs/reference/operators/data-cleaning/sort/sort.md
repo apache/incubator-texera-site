@@ -13,7 +13,7 @@ tags: [data-cleaning, sort]
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
 | Attributes | ✓ | List<Criteria Unit> | - | Column to perform sorting on |
-| ↳ Attribute | ✓ | Column | - | Attribute name to sort by |
+| ↳ Attribute | ✓ | String | - | Attribute name to sort by |
 | ↳ Sort Preference | ✓ | ASC, DESC | - | Sort preference (ASC or DESC) |
 
 ### Output Ports

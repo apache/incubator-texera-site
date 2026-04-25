@@ -13,7 +13,7 @@ tags: [user-defined-functions, python]
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
 | Output columns |  | List<Lambda Attribute Unit> | - |  |
-| ↳ Attribute Name | ✓ | Column | - |  |
+| ↳ Attribute Name | ✓ | String | - |  |
 | ↳ Expression | ✓ | String | - |  |
 | ↳ Attribute Type | ✓ | string, integer, long, double, boolean,<br>timestamp, binary, large_binary | - |  |
 

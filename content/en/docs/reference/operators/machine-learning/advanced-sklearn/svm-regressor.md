@@ -13,7 +13,7 @@ tags: [machine-learning, advanced-sklearn]
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
 | Parameter Setting | ✓ | [SklearnAdvancedSVRParameters](../../../parameters/sklearn-advanced-svr-parameters/) | - |  |
-| Ground Truth Attribute Column | ✓ | Column | - | Ground truth attribute column |
+| Ground Truth Attribute Column | ✓ | String | - | Ground truth attribute column |
 | Selected Features | ✓ | List | - | Features used to train the model |
 
 ### Output Ports

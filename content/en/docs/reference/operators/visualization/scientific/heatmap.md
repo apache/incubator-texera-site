@@ -12,9 +12,9 @@ tags: [visualization, scientific]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Value X Column | ✓ | Column | - | The values along the x-axis |
-| Value Y Column | ✓ | Column | - | The values along the y-axis |
-| Values | ✓ | Column | - | The values of the heatmap |
+| Value X Column | ✓ | String | - | The values along the x-axis |
+| Value Y Column | ✓ | String | - | The values along the y-axis |
+| Values | ✓ | String | - | The values of the heatmap |
 
 ### Output Ports
 

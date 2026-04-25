@@ -12,9 +12,9 @@ tags: [visualization, financial]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| X Column | ✓ | Column | - | Data column for the x-axis |
-| Y Column | ✓ | Column | - | Data column for the y-axis |
-| Color Column |  | Column | - | Column to categorically colorize funnel sections |
+| X Column | ✓ | String | - | Data column for the x-axis |
+| Y Column | ✓ | String | - | Data column for the y-axis |
+| Color Column |  | String | - | Column to categorically colorize funnel sections |
 
 ### Output Ports
 

@@ -12,10 +12,10 @@ tags: [visualization, scientific]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| x | ✓ | Column | - | Column for the x-coordinate of the starting point |
-| y | ✓ | Column | - | Column for the y-coordinate of the starting point |
-| u | ✓ | Column | - | Column for the vector component in the x-direction |
-| v | ✓ | Column | - | Column for the vector component in the y-direction |
+| x | ✓ | String | - | Column for the x-coordinate of the starting point |
+| y | ✓ | String | - | Column for the y-coordinate of the starting point |
+| u | ✓ | String | - | Column for the vector component in the x-direction |
+| v | ✓ | String | - | Column for the vector component in the y-direction |
 
 ### Output Ports
 

@@ -12,7 +12,7 @@ tags: [machine-learning, hugging-face]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Attribute | ✓ | Column | - | Attribute to perform text summarization on |
+| Attribute | ✓ | String | - | Attribute to perform text summarization on |
 | Result Attribute Name |  | String | summary | Attribute name of the text summary result |
 
 ### Output Ports

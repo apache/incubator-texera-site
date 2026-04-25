@@ -12,7 +12,7 @@ tags: [visualization, media]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| HTML content | ✓ | Column | - |  |
+| HTML content | ✓ | String | - |  |
 
 ### Output Ports
 

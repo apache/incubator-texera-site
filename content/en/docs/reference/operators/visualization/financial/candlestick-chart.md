@@ -12,11 +12,11 @@ tags: [visualization, financial]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Date Column | ✓ | Column | - | The date of the candlestick |
-| Opening Price Column | ✓ | Column | - | The opening price of the candlestick |
-| Highest Price Column | ✓ | Column | - | The highest price of the candlestick |
-| Lowest Price Column | ✓ | Column | - | The lowest price of the candlestick |
-| Closing Price Column | ✓ | Column | - | The closing price of the candlestick |
+| Date Column | ✓ | String | - | The date of the candlestick |
+| Opening Price Column | ✓ | String | - | The opening price of the candlestick |
+| Highest Price Column | ✓ | String | - | The highest price of the candlestick |
+| Lowest Price Column | ✓ | String | - | The lowest price of the candlestick |
+| Closing Price Column | ✓ | String | - | The closing price of the candlestick |
 
 ### Output Ports
 

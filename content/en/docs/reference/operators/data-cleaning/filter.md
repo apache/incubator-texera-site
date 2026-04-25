@@ -13,7 +13,7 @@ tags: [data-cleaning]
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
 | Predicates | ✓ | List<Filter Predicate> | - | Multiple predicates in OR |
-| ↳ Attribute | ✓ | Column | - |  |
+| ↳ Attribute | ✓ | String | - |  |
 | ↳ Condition | ✓ | =, >, >=, <, <=, !=, is null,<br>is not null | - |  |
 | ↳ Value |  | String | - |  |
 

@@ -12,7 +12,7 @@ tags: [visualization, statistical]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Edge List Column | ✓ | Column | - | Column with [parent, child] pairs |
+| Edge List Column | ✓ | String | - | Column with [parent, child] pairs |
 
 ### Output Ports
 

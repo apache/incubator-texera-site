@@ -14,9 +14,9 @@ tags: [visualization, scientific]
 |----------|-------------|------|---------|-------------|
 | Grid Size |  | String | 10 | Grid resolution of the final image |
 | Connect Gaps |  | Boolean | true | Automatically fill in the missing parts |
-| x | ✓ | Column | - | The column name of X-axis |
-| y | ✓ | Column | - | The column name of Y-axis |
-| z | ✓ | Column | - | The column name of color bar |
+| x | ✓ | String | - | The column name of X-axis |
+| y | ✓ | String | - | The column name of Y-axis |
+| z | ✓ | String | - | The column name of color bar |
 | Coloring Method |  | heatmap, lines, none | heatmap |  |
 
 ### Output Ports

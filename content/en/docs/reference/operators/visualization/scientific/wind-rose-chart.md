@@ -12,9 +12,9 @@ tags: [visualization, scientific]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Radial Values (r) | ✓ | Column | - | Numeric values representing magnitude (e.g.,<br>frequency) |
-| Angular Values (θ) | ✓ | Column | - | Direction or angle categories (e.g., N, NE, E) |
-| Color Group |  | Column | - | Optional grouping column (e.g., wind strength) |
+| Radial Values (r) | ✓ | String | - | Numeric values representing magnitude (e.g.,<br>frequency) |
+| Angular Values (θ) | ✓ | String | - | Direction or angle categories (e.g., N, NE, E) |
+| Color Group |  | String | - | Optional grouping column (e.g., wind strength) |
 
 ### Output Ports
 

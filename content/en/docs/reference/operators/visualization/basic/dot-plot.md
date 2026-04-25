@@ -12,7 +12,7 @@ tags: [visualization, basic]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Count Attribute | ✓ | Column | - | The attribute for the counting of the dot plot |
+| Count Attribute | ✓ | String | - | The attribute for the counting of the dot plot |
 
 ### Output Ports
 

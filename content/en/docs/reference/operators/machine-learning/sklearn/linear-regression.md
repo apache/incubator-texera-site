@@ -12,7 +12,7 @@ tags: [machine-learning, sklearn]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Target Attribute | ✓ | Column | - | Attribute in your dataset corresponding to target |
+| Target Attribute | ✓ | String | - | Attribute in your dataset corresponding to target |
 | Degree | ✓ | Integer | 1 | Degree of polynomial function |
 
 ### Output Ports

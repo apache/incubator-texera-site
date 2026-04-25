@@ -13,8 +13,8 @@ tags: [machine-learning, sklearn]
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
 | Regression | ✓ | Boolean | false | Choose to solve a regression task |
-| Model Attribute | ✓ | Column | model | Attribute corresponding to ML model |
-| Target Attribute | ✓ | Column | - | Attribute in your dataset corresponding to target |
+| Model Attribute | ✓ | String | model | Attribute corresponding to ML model |
+| Target Attribute | ✓ | String | - | Attribute in your dataset corresponding to target |
 
 ### Output Ports
 

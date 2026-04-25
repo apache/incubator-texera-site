@@ -12,7 +12,7 @@ tags: [data-cleaning, sort]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Attribute | ✓ | Column (integer, long, double) | - | Attribute to sort (must be numerical) |
+| Attribute | ✓ | String (integer, long, double) | - | Attribute to sort (must be numerical) |
 | Attribute Domain Min | ✓ | Long | 0 | Minimum value of the domain of the attribute |
 | Attribute Domain Max | ✓ | Long | 0 | Maximum value of the domain of the attribute |
 

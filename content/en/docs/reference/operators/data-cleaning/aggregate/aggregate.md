@@ -14,7 +14,7 @@ tags: [data-cleaning, aggregate]
 |----------|-------------|------|---------|-------------|
 | Aggregations | ✓ | List<Aggregation> | - | Multiple aggregation functions (min: 1,<br>aggregations cannot be empty) |
 | ↳ Aggregate Func | ✓ | sum, count, average, min, max, concat | - | Sum, count, average, min, max, or concat |
-| ↳ Attribute | ✓ | Column | - | Column to calculate average value |
+| ↳ Attribute | ✓ | String | - | Column to calculate average value |
 | ↳ Result Attribute | ✓ | String | - | Column name of average result |
 | Group By Keys |  | List | - | Group by columns |
 

@@ -14,7 +14,7 @@ tags: [data-cleaning]
 |----------|-------------|------|---------|-------------|
 | Drop Option | ✓ | Boolean | false | Check to drop the selected attributes |
 | Attributes | ✓ | List<Attribute Unit> | - |  |
-| ↳ Attribute | ✓ | Column | - | Attribute name in the schema |
+| ↳ Attribute | ✓ | String | - | Attribute name in the schema |
 | ↳ Alias |  | String | - | Renamed attribute name |
 
 ### Output Ports
