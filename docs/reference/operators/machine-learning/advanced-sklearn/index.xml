@@ -21,7 +21,7 @@
  &lt;tr&gt;
  &lt;td&gt;Ground Truth Attribute Column&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;Column&lt;/td&gt;
+ &lt;td&gt;String&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;Ground truth attribute column&lt;/td&gt;
  &lt;/tr&gt;
@@ -71,7 +71,7 @@
  &lt;tr&gt;
  &lt;td&gt;Ground Truth Attribute Column&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;Column&lt;/td&gt;
+ &lt;td&gt;String&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;Ground truth attribute column&lt;/td&gt;
  &lt;/tr&gt;
@@ -121,7 +121,7 @@
  &lt;tr&gt;
  &lt;td&gt;Ground Truth Attribute Column&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;Column&lt;/td&gt;
+ &lt;td&gt;String&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;Ground truth attribute column&lt;/td&gt;
  &lt;/tr&gt;
@@ -171,7 +171,7 @@
  &lt;tr&gt;
  &lt;td&gt;Ground Truth Attribute Column&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;Column&lt;/td&gt;
+ &lt;td&gt;String&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;Ground truth attribute column&lt;/td&gt;
  &lt;/tr&gt;

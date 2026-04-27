@@ -14,7 +14,7 @@
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/visualization/media/image-visualizer/"&gt;Image Visualizer&lt;/a&gt;&lt;/td&gt;
- &lt;td&gt;visualize image content&lt;/td&gt;
+ &lt;td&gt;Visualize image content&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/visualization/media/url-visualizer/"&gt;URL Visualizer&lt;/a&gt;&lt;/td&gt;
@@ -42,7 +42,7 @@
  &lt;tr&gt;
  &lt;td&gt;HTML content&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;Column&lt;/td&gt;
+ &lt;td&gt;String&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -78,7 +78,7 @@
  &lt;tr&gt;
  &lt;td&gt;image content column&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;Column&lt;/td&gt;
+ &lt;td&gt;String&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;The Binary data of the Image&lt;/td&gt;
  &lt;/tr&gt;
@@ -114,7 +114,7 @@
  &lt;tr&gt;
  &lt;td&gt;URL content&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;Column (string)&lt;/td&gt;
+ &lt;td&gt;String&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -150,7 +150,7 @@
  &lt;tr&gt;
  &lt;td&gt;Text column&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;Column&lt;/td&gt;
+ &lt;td&gt;String&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;&lt;/td&gt;
  &lt;/tr&gt;

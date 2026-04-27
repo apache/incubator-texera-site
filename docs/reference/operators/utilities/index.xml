@@ -98,11 +98,11 @@
  &lt;td&gt;Shuffle the data based on a random seed&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
- &lt;td&gt;Seed&lt;/td&gt;
+ &lt;td&gt;↳ Seed&lt;/td&gt;
  &lt;td&gt;&lt;/td&gt;
  &lt;td&gt;Integer&lt;/td&gt;
  &lt;td&gt;1&lt;/td&gt;
- &lt;td&gt;An int for reproducible output across multiple run&lt;/td&gt;
+ &lt;td&gt;An int for reproducible output across multiple&lt;br&gt;runs&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
@@ -147,7 +147,7 @@
  &lt;tr&gt;
  &lt;td&gt;Attribute&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;Column&lt;/td&gt;
+ &lt;td&gt;String&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;Column of the string to unnest&lt;/td&gt;
  &lt;/tr&gt;

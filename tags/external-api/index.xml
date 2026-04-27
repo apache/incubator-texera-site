@@ -21,8 +21,8 @@
  &lt;td&gt;Retrieve data from Twitter Search API&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
- &lt;td&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/external-api/url-fetcher/"&gt;URL fetcher&lt;/a&gt;&lt;/td&gt;
- &lt;td&gt;Fetch the content of a single url&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/external-api/url-fetcher/"&gt;URL Fetcher&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Fetch the content of a single URL&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
@@ -70,7 +70,7 @@
  &lt;tr&gt;
  &lt;td&gt;Sorting&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;&lt;code&gt;none&lt;/code&gt;, &lt;code&gt;controversial&lt;/code&gt;, &lt;code&gt;gilded&lt;/code&gt;, &lt;code&gt;hot&lt;/code&gt;&lt;br&gt;&lt;code&gt;new&lt;/code&gt;, &lt;code&gt;rising&lt;/code&gt;, &lt;code&gt;top&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;none, controversial, gilded, hot, new,&lt;br&gt;rising, top&lt;/td&gt;
  &lt;td&gt;none&lt;/td&gt;
  &lt;td&gt;The sorting method, hot, new, etc&lt;/td&gt;
  &lt;/tr&gt;
@@ -232,7 +232,7 @@
  &lt;td&gt;&lt;a href="../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>URL fetcher</title><link>https://texera.staged.apache.org/docs/reference/operators/external-api/url-fetcher/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/operators/external-api/url-fetcher/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/reference/operators/"&gt;External Api&lt;/a&gt;&lt;/p&gt;
+&lt;/table&gt;</description></item><item><title>URL Fetcher</title><link>https://texera.staged.apache.org/docs/reference/operators/external-api/url-fetcher/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/operators/external-api/url-fetcher/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/reference/operators/"&gt;External Api&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
@@ -255,7 +255,7 @@
  &lt;tr&gt;
  &lt;td&gt;Decoding&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;&lt;code&gt;UTF-8&lt;/code&gt;, &lt;code&gt;RAW BYTES&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;UTF-8, RAW BYTES&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;The decoding method for the url content&lt;/td&gt;
  &lt;/tr&gt;

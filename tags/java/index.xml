@@ -39,7 +39,7 @@
  &lt;td&gt;✓&lt;/td&gt;
  &lt;td&gt;Integer&lt;/td&gt;
  &lt;td&gt;1&lt;/td&gt;
- &lt;td&gt;Specify how many parallel workers to lunch&lt;/td&gt;
+ &lt;td&gt;Specify how many parallel workers to launch&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;Retain input columns&lt;/td&gt;
@@ -65,7 +65,7 @@
  &lt;tr&gt;
  &lt;td&gt;↳ Attribute Type&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;&lt;code&gt;string&lt;/code&gt;, &lt;code&gt;integer&lt;/code&gt;, &lt;code&gt;long&lt;/code&gt;, &lt;code&gt;double&lt;/code&gt;&lt;br&gt;&lt;code&gt;boolean&lt;/code&gt;, &lt;code&gt;timestamp&lt;/code&gt;, &lt;code&gt;binary&lt;/code&gt;&lt;br&gt;&lt;code&gt;large_binary&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;string, integer, long, double, boolean,&lt;br&gt;timestamp, binary, large_binary&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;&lt;/td&gt;
  &lt;/tr&gt;

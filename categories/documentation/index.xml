@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentation on Apache Texera</title><link>https://texera.staged.apache.org/categories/documentation/</link><description>Recent content in Documentation on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/categories/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Operators</title><link>https://texera.staged.apache.org/docs/reference/operators/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/operators/</guid><description>&lt;!-- Generated: 2026-04-14T22:02:56.256457 --&gt;
-&lt;!-- Total Operators: 153 --&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentation on Apache Texera</title><link>https://texera.staged.apache.org/categories/documentation/</link><description>Recent content in Documentation on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/categories/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Operators</title><link>https://texera.staged.apache.org/docs/reference/operators/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/operators/</guid><description>&lt;!-- Generated: 2026-04-25T14:25:46.235567 --&gt;
+&lt;!-- Total Operators: 162 --&gt;
 &lt;h2 id="quick-links"&gt;Quick Links&lt;a class="td-heading-self-link" href="#quick-links" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/parameters/"&gt;Parameter Reference&lt;/a&gt; - ML parameter specifications&lt;/li&gt;
@@ -7,12 +7,13 @@
 &lt;hr&gt;
 &lt;h2 id="operator-categories"&gt;Operator Categories&lt;a class="td-heading-self-link" href="#operator-categories" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/data-input/"&gt;Data Input&lt;/a&gt; (6 operators)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/data-input/"&gt;Data Input&lt;/a&gt; (8 operators)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/database-connector/"&gt;Database Connector&lt;/a&gt; (3 operators)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/search/"&gt;Search&lt;/a&gt; (4 operators)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/data-cleaning/"&gt;Data Cleaning&lt;/a&gt; (12 operators)
+&lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/data-cleaning/"&gt;Data Cleaning&lt;/a&gt; (16 operators)
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/data-cleaning/join/"&gt;Join&lt;/a&gt; (3 operators)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/data-cleaning/set/"&gt;Set&lt;/a&gt; (4 operators)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/data-cleaning/aggregate/"&gt;Aggregate&lt;/a&gt; (1 operator)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/data-cleaning/sort/"&gt;Sort&lt;/a&gt; (3 operators)&lt;/li&gt;
 &lt;/ul&gt;
@@ -38,16 +39,15 @@
 &lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/user-defined-functions/r/"&gt;R&lt;/a&gt; (2 operators)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/visualization/"&gt;Visualization&lt;/a&gt; (43 operators)
+&lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/visualization/"&gt;Visualization&lt;/a&gt; (50 operators)
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/visualization/basic/"&gt;Basic&lt;/a&gt; (16 operators)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/visualization/statistical/"&gt;Statistical&lt;/a&gt; (7 operators)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/visualization/scientific/"&gt;Scientific&lt;/a&gt; (8 operators)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/visualization/statistical/"&gt;Statistical&lt;/a&gt; (8 operators)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/visualization/scientific/"&gt;Scientific&lt;/a&gt; (14 operators)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/visualization/financial/"&gt;Financial&lt;/a&gt; (5 operators)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/visualization/media/"&gt;Media&lt;/a&gt; (4 operators)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/visualization/advanced/"&gt;Advanced&lt;/a&gt; (2 operators)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/control-block/"&gt;Control Block&lt;/a&gt; (2 operators)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/set/"&gt;Set&lt;/a&gt; (4 operators)&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>

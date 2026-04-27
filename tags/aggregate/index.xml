@@ -37,14 +37,14 @@
  &lt;tr&gt;
  &lt;td&gt;↳ Aggregate Func&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;&lt;code&gt;sum&lt;/code&gt;, &lt;code&gt;count&lt;/code&gt;, &lt;code&gt;average&lt;/code&gt;, &lt;code&gt;min&lt;/code&gt;, &lt;code&gt;max&lt;/code&gt;&lt;br&gt;&lt;code&gt;concat&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;sum, count, average, min, max, concat&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;Sum, count, average, min, max, or concat&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;↳ Attribute&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;Column&lt;/td&gt;
+ &lt;td&gt;String&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;Column to calculate average value&lt;/td&gt;
  &lt;/tr&gt;

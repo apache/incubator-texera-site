@@ -21,7 +21,7 @@
  &lt;tr&gt;
  &lt;td&gt;Attribute&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;Column&lt;/td&gt;
+ &lt;td&gt;String&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;Column name to match&lt;/td&gt;
  &lt;/tr&gt;
@@ -35,7 +35,7 @@
  &lt;tr&gt;
  &lt;td&gt;Matching Type&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;&lt;code&gt;Scan&lt;/code&gt;, &lt;code&gt;Substring&lt;/code&gt;, &lt;code&gt;Conjunction&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Scan, Substring, Conjunction&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -71,7 +71,7 @@
  &lt;tr&gt;
  &lt;td&gt;attribute&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;Column&lt;/td&gt;
+ &lt;td&gt;String&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;Column to search keyword on&lt;/td&gt;
  &lt;/tr&gt;
@@ -121,7 +121,7 @@
  &lt;tr&gt;
  &lt;td&gt;Attribute&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;Column&lt;/td&gt;
+ &lt;td&gt;String&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;Column to search regex on&lt;/td&gt;
  &lt;/tr&gt;
@@ -164,7 +164,7 @@
  &lt;tr&gt;
  &lt;td&gt;attribute&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;Column&lt;/td&gt;
+ &lt;td&gt;String&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;Column to search substring on&lt;/td&gt;
  &lt;/tr&gt;

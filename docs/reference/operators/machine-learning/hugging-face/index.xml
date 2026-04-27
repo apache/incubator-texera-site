@@ -14,14 +14,14 @@
  &lt;tr&gt;
  &lt;td&gt;Petal Length Cm Attribute&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;Column&lt;/td&gt;
+ &lt;td&gt;String&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;Attribute in your dataset corresponding to&lt;br&gt;PetalLengthCm&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;Petal Width Cm Attribute&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;Column&lt;/td&gt;
+ &lt;td&gt;String&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;Attribute in your dataset corresponding to&lt;br&gt;PetalWidthCm&lt;/td&gt;
  &lt;/tr&gt;
@@ -71,7 +71,7 @@
  &lt;tr&gt;
  &lt;td&gt;Attribute&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;Column&lt;/td&gt;
+ &lt;td&gt;String&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;Column to perform sentiment analysis on&lt;/td&gt;
  &lt;/tr&gt;
@@ -128,7 +128,7 @@
  &lt;tr&gt;
  &lt;td&gt;Attribute&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;Column&lt;/td&gt;
+ &lt;td&gt;String&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;Column to perform spam detection on&lt;/td&gt;
  &lt;/tr&gt;
@@ -178,7 +178,7 @@
  &lt;tr&gt;
  &lt;td&gt;Attribute&lt;/td&gt;
  &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;Column&lt;/td&gt;
+ &lt;td&gt;String&lt;/td&gt;
  &lt;td&gt;-&lt;/td&gt;
  &lt;td&gt;Attribute to perform text summarization on&lt;/td&gt;
  &lt;/tr&gt;
