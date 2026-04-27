@@ -13,9 +13,9 @@ tags: [search]
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
 | Dictionary | ✓ | String | - | Dictionary values separated by a comma |
-| Attribute | ✓ | Column | - | Column name to match |
+| Attribute | ✓ | String | - | Column name to match |
 | Result Attribute | ✓ | String | matched | Column name of the matching result |
-| Matching Type | ✓ | `Scan`, `Substring`, `Conjunction` | - |  |
+| Matching Type | ✓ | Scan, Substring, Conjunction | - |  |
 
 ### Output Ports
 

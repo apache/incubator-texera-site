@@ -4,7 +4,6 @@ description: "Keeps or drops the column"
 category: "Data Cleaning"
 operator_type: "Projection"
 tags: [data-cleaning]
-weight: 20
 ---
 
 [Home](../../) > [Data Cleaning](../)
@@ -14,8 +13,8 @@ weight: 20
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
 | Drop Option | ✓ | Boolean | false | Check to drop the selected attributes |
-| Attributes |  | List<Attribute Unit> | - |  |
-| ↳ Attribute | ✓ | Column | - | Attribute name in the schema |
+| Attributes | ✓ | List<Attribute Unit> | - |  |
+| ↳ Attribute | ✓ | String | - | Attribute name in the schema |
 | ↳ Alias |  | String | - | Renamed attribute name |
 
 ### Output Ports

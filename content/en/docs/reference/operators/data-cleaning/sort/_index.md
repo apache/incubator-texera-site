@@ -1,7 +1,7 @@
 ---
 title: "Sort"
 description: "Operators in the Sort category"
-weight: 50
+weight: 4
 categories: [Operators]
 tags: [data-cleaning, sort]
 ---

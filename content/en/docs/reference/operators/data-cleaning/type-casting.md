@@ -4,7 +4,6 @@ description: "Cast between types"
 category: "Data Cleaning"
 operator_type: "TypeCasting"
 tags: [data-cleaning]
-weight: 80
 ---
 
 [Home](../../) > [Data Cleaning](../)
@@ -14,8 +13,8 @@ weight: 80
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
 | TypeCasting Units | ✓ | List<Unit> | - | Multiple type castings |
-| ↳ Attribute | ✓ | Column | - | Attribute for type casting |
-| ↳ Cast type | ✓ | `string`, `integer`, `long`, `double`<br>`boolean`, `timestamp`, `binary`<br>`large_binary` | - | Result type after type casting |
+| ↳ Attribute | ✓ | String | - | Attribute for type casting |
+| ↳ Cast type | ✓ | string, integer, long, double, boolean,<br>timestamp, binary, large_binary | - | Result type after type casting |
 
 ### Output Ports
 

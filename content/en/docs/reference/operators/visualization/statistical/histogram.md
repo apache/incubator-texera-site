@@ -12,11 +12,11 @@ tags: [visualization, statistical]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Color Column |  | Column | - | Column for differentiating data by its value |
-| SeparateBy Column |  | Column | - | Column for separating histogram chart by its value |
+| Color Column |  | String | - | Column for differentiating data by its value |
+| SeparateBy Column |  | String | - | Column for separating histogram chart by its value |
 | Distribution Type |  | String | - | Distribution type (rug, box, violin) |
-| Pattern |  | Column | - | Add texture to the chart based on an attribute |
-| Value Column | ✓ | Column | - | Column for counting values |
+| Pattern |  | String | - | Add texture to the chart based on an attribute |
+| Value Column | ✓ | String | - | Column for counting values |
 
 ### Output Ports
 

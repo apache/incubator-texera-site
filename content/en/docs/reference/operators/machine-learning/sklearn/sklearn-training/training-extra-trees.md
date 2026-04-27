@@ -12,10 +12,10 @@ tags: [machine-learning, sklearn, sklearn-training]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Target Attribute | ✓ | Column | - | Attribute in your dataset corresponding to target |
+| Target Attribute | ✓ | String | - | Attribute in your dataset corresponding to target |
 | Count Vectorizer |  | Boolean | false | Convert a collection of text documents to a<br>matrix of token counts |
-| Text Attribute |  | String | - | Attribute in your dataset with text to vectorize |
-| Tfidf Transformer |  | Boolean | false | Transform a count matrix to a normalized tf or<br>tf-idf representation |
+| ↳ Text Attribute |  | String | - | Attribute in your dataset with text to vectorize |
+| ↳ Tfidf Transformer |  | Boolean | false | Transform a count matrix to a normalized tf or<br>tf-idf representation |
 
 ### Output Ports
 

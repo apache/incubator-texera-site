@@ -12,11 +12,11 @@ tags: [visualization, statistical]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| X Column | ✓ | Column | - | Numeric column for the X axis bins |
-| Y Column | ✓ | Column | - | Numeric column for the Y axis bins |
+| X Column | ✓ | String | - | Numeric column for the X axis bins |
+| Y Column | ✓ | String | - | Numeric column for the Y axis bins |
 | X Bins | ✓ | Integer | 10 | Number of bins along the X axis (Default: 10) |
 | Y Bins | ✓ | Integer | 10 | Number of bins along the Y axis (Default: 10) |
-| Normalization |  | `density`, `probability`, `percent` | density | Type of histogram normalization |
+| Normalization |  | density, probability, percent | density | Type of histogram normalization |
 
 ### Output Ports
 

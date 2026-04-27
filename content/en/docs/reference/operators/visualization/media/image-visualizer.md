@@ -1,6 +1,6 @@
 ---
 title: "Image Visualizer"
-description: "visualize image content"
+description: "Visualize image content"
 category: "Media"
 operator_type: "ImageVisualizer"
 tags: [visualization, media]
@@ -12,7 +12,7 @@ tags: [visualization, media]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| image content column | ✓ | Column | - | The Binary data of the Image |
+| image content column | ✓ | String | - | The Binary data of the Image |
 
 ### Output Ports
 

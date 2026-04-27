@@ -12,8 +12,8 @@ tags: [visualization, scientific]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Source Column | ✓ | Column | - | Source node for edge in graph |
-| Destination Column | ✓ | Column | - | Destination node for edge in graph |
+| Source Column | ✓ | String | - | Source node for edge in graph |
+| Destination Column | ✓ | String | - | Destination node for edge in graph |
 | Title |  | String | Network Graph |  |
 
 ### Output Ports

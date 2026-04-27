@@ -13,7 +13,7 @@ tags: [utilities]
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
 | Delimiter | ✓ | String | , | String that separates the data |
-| Attribute | ✓ | Column | - | Column of the string to unnest |
+| Attribute | ✓ | String | - | Column of the string to unnest |
 | Result Attribute | ✓ | String | unnestResult | Column name of the unnest result |
 
 ### Output Ports

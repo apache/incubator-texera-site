@@ -12,11 +12,11 @@ tags: [visualization, scientific]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Variable 1 | ✓ | Column | - | First variable data field |
-| Variable 2 | ✓ | Column | - | Second variable data field |
-| Variable 3 | ✓ | Column | - | Third variable data field |
+| Variable 1 | ✓ | String | - | First variable data field |
+| Variable 2 | ✓ | String | - | Second variable data field |
+| Variable 3 | ✓ | String | - | Third variable data field |
 | Categorize by Color |  | Boolean | false | Optionally color points using a data field |
-| Color Data Field |  | Column | - | Specify the data field to color |
+| Color Data Field |  | String | - | Specify the data field to color |
 
 ### Output Ports
 

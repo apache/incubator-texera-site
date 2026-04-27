@@ -13,7 +13,7 @@ tags: [visualization, statistical]
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
 | Selected Attributes | ✓ | List | - | The axes of each scatter plot in the matrix |
-| Color Column | ✓ | Column | - | Column to color points |
+| Color Column | ✓ | String | - | Column to color points |
 
 ### Output Ports
 

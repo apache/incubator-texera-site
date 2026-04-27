@@ -1,13 +1,13 @@
 ---
 title: "Operators"
 description: "Complete reference for all Texera operators organized by category"
-weight: 60
+weight: 1
 categories: [Documentation]
 tags: [operators, reference, index]
 ---
 
-<!-- Generated: 2026-04-14T22:02:56.256457 -->
-<!-- Total Operators: 153 -->
+<!-- Generated: 2026-04-25T14:25:46.235567 -->
+<!-- Total Operators: 162 -->
 
 ## Quick Links
 
@@ -17,11 +17,12 @@ tags: [operators, reference, index]
 
 ## Operator Categories
 
-- [Data Input](data-input/) (6 operators)
+- [Data Input](data-input/) (8 operators)
 - [Database Connector](database-connector/) (3 operators)
 - [Search](search/) (4 operators)
-- [Data Cleaning](data-cleaning/) (12 operators)
+- [Data Cleaning](data-cleaning/) (16 operators)
   - [Join](data-cleaning/join/) (3 operators)
+  - [Set](data-cleaning/set/) (4 operators)
   - [Aggregate](data-cleaning/aggregate/) (1 operator)
   - [Sort](data-cleaning/sort/) (3 operators)
 - [Machine Learning](machine-learning/) (63 operators)
@@ -36,12 +37,11 @@ tags: [operators, reference, index]
   - [Python](user-defined-functions/python/) (5 operators)
   - [Java](user-defined-functions/java/) (1 operator)
   - [R](user-defined-functions/r/) (2 operators)
-- [Visualization](visualization/) (43 operators)
+- [Visualization](visualization/) (50 operators)
   - [Basic](visualization/basic/) (16 operators)
-  - [Statistical](visualization/statistical/) (7 operators)
-  - [Scientific](visualization/scientific/) (8 operators)
+  - [Statistical](visualization/statistical/) (8 operators)
+  - [Scientific](visualization/scientific/) (14 operators)
   - [Financial](visualization/financial/) (5 operators)
   - [Media](visualization/media/) (4 operators)
   - [Advanced](visualization/advanced/) (2 operators)
 - [Control Block](control-block/) (2 operators)
-- [Set](set/) (4 operators)

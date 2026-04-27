@@ -4,7 +4,6 @@ description: "Source data from manually inputted text"
 category: "Data Input"
 operator_type: "TextInput"
 tags: [data-input]
-weight: 40
 ---
 
 [Home](../../) > [Data Input](../)
@@ -14,7 +13,7 @@ weight: 40
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
 | Text | ✓ | String | - |  |
-| Attribute Type | ✓ | `string`, `single string`, `integer`<br>`long`, `double`, `boolean`, `timestamp`<br>`binary`, `large binary` | string |  |
+| Attribute Type | ✓ | string, single string, integer, long,<br>double, boolean, timestamp, binary,<br>large binary | string |  |
 | Attribute Name | ✓ | String | line |  |
 | Limit |  | Integer | - |  |
 | Offset |  | Integer | - |  |

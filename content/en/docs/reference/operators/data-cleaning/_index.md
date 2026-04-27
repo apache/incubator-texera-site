@@ -1,7 +1,7 @@
 ---
 title: "Data Cleaning"
 description: "Operators in the Data Cleaning category"
-weight: 20
+weight: 4
 categories: [Operators]
 tags: [data-cleaning]
 ---
@@ -11,6 +11,7 @@ tags: [data-cleaning]
 ## Subcategories
 
 - [Join](join/)
+- [Set](set/)
 - [Aggregate](aggregate/)
 - [Sort](sort/)
 

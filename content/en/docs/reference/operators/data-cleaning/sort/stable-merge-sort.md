@@ -13,8 +13,8 @@ tags: [data-cleaning, sort]
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
 | Sort Keys | ✓ | List<Sort Criteria Unit> | - | List of attributes to sort by with ordering<br>preferences |
-| ↳ Sort Preference | ✓ | `ASC`, `DESC` | - | Sort preference (ASC or DESC) |
-| ↳ Attribute | ✓ | Column | - | Attribute name to sort by |
+| ↳ Attribute | ✓ | String | - | Attribute name to sort by |
+| ↳ Sort Preference | ✓ | ASC, DESC | - | Sort preference (ASC or DESC) |
 
 ### Output Ports
 

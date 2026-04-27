@@ -14,7 +14,7 @@ tags: [utilities]
 |----------|-------------|------|---------|-------------|
 | Split Percentage |  | Integer | 80 | Percentage of data going to the upper port |
 | Auto-Generate Seed |  | Boolean | true | Shuffle the data based on a random seed |
-| Seed |  | Integer | 1 | An int for reproducible output across multiple run |
+| ↳ Seed |  | Integer | 1 | An int for reproducible output across multiple<br>runs |
 
 ### Output Ports
 

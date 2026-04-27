@@ -1,6 +1,6 @@
 ---
 title: "Bubble Chart"
-description: "a 3D Scatter Plot; Bubbles are graphed using x and y labels, and their sizes determined by a z-value."
+description: "A 3D Scatter Plot; Bubbles are graphed using x and y labels, and their sizes determined by a z-value."
 category: "Basic"
 operator_type: "BubbleChart"
 tags: [visualization, basic]
@@ -12,11 +12,11 @@ tags: [visualization, basic]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| X-Column | ✓ | Column | - | Data column for the x-axis |
-| Y-Column | ✓ | Column | - | Data column for the y-axis |
-| Z-Column | ✓ | Column | - | Data column to determine bubble size |
+| X-Column | ✓ | String | - | Data column for the x-axis |
+| Y-Column | ✓ | String | - | Data column for the y-axis |
+| Z-Column | ✓ | String | - | Data column to determine bubble size |
 | Enable Color |  | Boolean | false | Colors bubbles using a data column |
-| Color-Column | ✓ | Column | - | Picks data column to color bubbles with if color<br>is enabled |
+| Color-Column | ✓ | String | - | Picks data column to color bubbles with if color<br>is enabled |
 
 ### Output Ports
 

@@ -13,11 +13,11 @@ tags: [user-defined-functions, java]
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
 | Java UDF script | ✓ | Code (java) | `See template below` | Input your code here |
-| Worker count | ✓ | Integer | 1 | Specify how many parallel workers to lunch |
+| Worker count | ✓ | Integer | 1 | Specify how many parallel workers to launch |
 | Retain input columns | ✓ | Boolean | true | Keep the original input columns? |
 | Extra output column(s) |  | List<Attribute> | - | Name of the newly added output columns that the<br>UDF will produce, if any |
 | ↳ Attribute Name | ✓ | String | - |  |
-| ↳ Attribute Type | ✓ | `string`, `integer`, `long`, `double`<br>`boolean`, `timestamp`, `binary`<br>`large_binary` | - |  |
+| ↳ Attribute Type | ✓ | string, integer, long, double, boolean,<br>timestamp, binary, large_binary | - |  |
 
 #### Default Code Template
 

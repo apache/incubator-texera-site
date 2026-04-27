@@ -15,8 +15,7 @@ tags: [user-defined-functions, python]
 | Add/Modify column(s) |  | List<Lambda Attribute Unit> | - |  |
 | ↳ Attribute Name | ✓ | String | - |  |
 | ↳ Expression | ✓ | String | - |  |
-| ↳ New Attribute Name |  | String | - |  |
-| ↳ Attribute Type | ✓ | `string`, `integer`, `long`, `double`<br>`boolean`, `timestamp`, `binary`<br>`large_binary` | - |  |
+| ↳ Attribute Type | ✓ | string, integer, long, double, boolean,<br>timestamp, binary, large_binary | - |  |
 
 ### Output Ports
 

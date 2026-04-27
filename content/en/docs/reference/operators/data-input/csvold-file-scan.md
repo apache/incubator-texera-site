@@ -4,7 +4,6 @@ description: "Scan data from a CSVOld file"
 category: "Data Input"
 operator_type: "CSVOldFileScan"
 tags: [data-input]
-weight: 60
 ---
 
 [Home](../../) > [Data Input](../)
@@ -14,7 +13,7 @@ weight: 60
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
 | File | ✓ | String | - |  |
-| File Encoding | ✓ | `UTF_8`, `UTF_16`, `US_ASCII` | UTF_8 | Decoding charset to use on input |
+| File Encoding | ✓ | UTF_8, UTF_16, US_ASCII | UTF_8 | Decoding charset to use on input |
 | Limit |  | Integer | - | Max output count |
 | Offset |  | Integer | - | Starting point of output |
 | Delimiter |  | String | , | Delimiter to separate each line into fields |

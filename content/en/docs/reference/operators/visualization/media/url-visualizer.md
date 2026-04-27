@@ -12,7 +12,7 @@ tags: [visualization, media]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| URL content | ✓ | Column (string) | - |  |
+| URL content | ✓ | String | - |  |
 
 ### Output Ports
 

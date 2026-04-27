@@ -12,8 +12,8 @@ tags: [visualization, financial]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| X Axis Values | ✓ | Column | - | The column representing categories or stages |
-| Y Axis Values | ✓ | Column | - | The column representing numeric values for each<br>stage |
+| X Axis Values | ✓ | String | - | The column representing categories or stages |
+| Y Axis Values | ✓ | String | - | The column representing numeric values for each<br>stage |
 
 ### Output Ports
 

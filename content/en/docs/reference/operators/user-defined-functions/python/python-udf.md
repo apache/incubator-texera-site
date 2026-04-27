@@ -17,7 +17,7 @@ tags: [user-defined-functions, python]
 | Retain input columns | ✓ | Boolean | true | Keep the original input columns? |
 | Extra output column(s) |  | List<Attribute> | - | Name of the newly added output columns that the<br>UDF will produce, if any |
 | ↳ Attribute Name | ✓ | String | - |  |
-| ↳ Attribute Type | ✓ | `string`, `integer`, `long`, `double`<br>`boolean`, `timestamp`, `binary`<br>`large_binary` | - |  |
+| ↳ Attribute Type | ✓ | string, integer, long, double, boolean,<br>timestamp, binary, large_binary | - |  |
 
 #### Default Code Template
 

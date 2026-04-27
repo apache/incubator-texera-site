@@ -1,6 +1,6 @@
 ---
 title: "Word Cloud"
-description: "Generate word cloud for   texts"
+description: "Generate word cloud for texts"
 category: "Media"
 operator_type: "WordCloud"
 tags: [visualization, media]
@@ -12,7 +12,7 @@ tags: [visualization, media]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Text column | ✓ | Column | - |  |
+| Text column | ✓ | String | - |  |
 | Number of most frequent words |  | Integer | 100 |  |
 
 ### Output Ports

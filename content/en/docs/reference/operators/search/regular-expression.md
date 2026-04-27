@@ -13,7 +13,7 @@ tags: [search]
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
 | Case Insensitive |  | Boolean | false | Regex match is case sensitive |
-| Attribute | ✓ | Column | - | Column to search regex on |
+| Attribute | ✓ | String | - | Column to search regex on |
 | Regex | ✓ | String | - | Regular expression |
 
 ### Output Ports

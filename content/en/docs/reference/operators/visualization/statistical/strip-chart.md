@@ -12,10 +12,10 @@ tags: [visualization, statistical]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| X-Axis Column | ✓ | Column | - | Column containing numeric values for the x-axis |
-| Y-Axis Column | ✓ | Column | - | Column containing categorical values for the<br>y-axis |
-| Color By |  | Column | - | Optional - Color points by category |
-| Facet Column |  | Column | - | Optional - Create separate subplots for each<br>category |
+| X-Axis Column | ✓ | String | - | Column containing numeric values for the x-axis |
+| Y-Axis Column | ✓ | String | - | Column containing categorical values for the<br>y-axis |
+| Color By |  | String | - | Optional - Color points by category |
+| Facet Column |  | String | - | Optional - Create separate subplots for each<br>category |
 
 ### Output Ports
 

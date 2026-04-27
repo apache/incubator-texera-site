@@ -16,7 +16,7 @@ tags: [external-api]
 | Client Secret | ✓ | String | - | Client secret that uses to access Reddit API |
 | Query | ✓ | String | - | Search query |
 | Limit | ✓ | Integer | 100 | Up to 1000 |
-| Sorting | ✓ | `none`, `controversial`, `gilded`, `hot`<br>`new`, `rising`, `top` | none | The sorting method, hot, new, etc |
+| Sorting | ✓ | none, controversial, gilded, hot, new,<br>rising, top | none | The sorting method, hot, new, etc |
 
 ### Output Ports
 

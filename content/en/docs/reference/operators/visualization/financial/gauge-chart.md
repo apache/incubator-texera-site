@@ -12,7 +12,7 @@ tags: [visualization, financial]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Gauge Value | ✓ | Column | - | The primary value displayed on the gauge chart |
+| Gauge Value | ✓ | String | - | The primary value displayed on the gauge chart |
 | Delta |  | String | - | The baseline value used to calculate the delta<br>from the gauge value |
 | Threshold Value |  | String | - | Defines a boundary or target value shown on the<br>gauge chart |
 | Steps |  | List<Step> | - | List of step ranges for the gauge |

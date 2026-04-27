@@ -12,7 +12,7 @@ tags: [visualization, scientific]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Name Column | ✓ | Column | - | Column containing entity names for each radar |
+| Name Column | ✓ | String | - | Column containing entity names for each radar |
 | Value Columns | ✓ | List | - | Columns containing numeric values for radar chart<br>axes |
 | Fill Opacity | ✓ | Double | 0.5 | Opacity value for radar chart fill from 0.0<br>(transparent) to 1.0 (opaque) |
 

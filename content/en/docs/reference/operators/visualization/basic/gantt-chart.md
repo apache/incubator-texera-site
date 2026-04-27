@@ -12,11 +12,11 @@ tags: [visualization, basic]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Pattern |  | Column | - | Add texture to the chart based on an attribute |
-| Start Datetime Column | ✓ | Column (timestamp) | - | The start timestamp of the task |
-| Finish Datetime Column | ✓ | Column (timestamp) | - | The end timestamp of the task |
-| Task Column | ✓ | Column | - | The name of the task |
-| Color Column |  | Column | - | Column to color tasks |
+| Pattern |  | String | - | Add texture to the chart based on an attribute |
+| Start Datetime Column | ✓ | String (timestamp) | - | The start timestamp of the task |
+| Finish Datetime Column | ✓ | String (timestamp) | - | The end timestamp of the task |
+| Task Column | ✓ | String | - | The name of the task |
+| Color Column |  | String | - | Column to color tasks |
 
 ### Output Ports
 

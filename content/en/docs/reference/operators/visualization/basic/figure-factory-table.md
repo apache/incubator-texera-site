@@ -16,7 +16,7 @@ tags: [visualization, basic]
 | Font Color (Hex Code) |  | String | #000000 | Font color of the Figure Factory Table |
 | Row Height |  | Double | 30 | Row height of the Figure Factory Table |
 | Add Attribute | ✓ | List<Attribute> | [1 items] | List of columns to include in the figure factory<br>table |
-| ↳ Attribute Name | ✓ | Column | - |  |
+| ↳ Attribute Name | ✓ | String | - |  |
 
 ### Output Ports
 

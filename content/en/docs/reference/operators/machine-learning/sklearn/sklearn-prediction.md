@@ -1,6 +1,6 @@
 ---
 title: "Sklearn Prediction"
-description: "Skleanr Prediction Operator"
+description: "Sklearn Prediction Operator"
 category: "Sklearn"
 operator_type: "SklearnPrediction"
 tags: [machine-learning, sklearn]
@@ -12,9 +12,9 @@ tags: [machine-learning, sklearn]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Model Attribute | ✓ | Column | model | Attribute corresponding to ML model |
+| Model Attribute | ✓ | String | model | Attribute corresponding to ML model |
 | Output Attribute Name | ✓ | String | prediction | Attribute name of the prediction result |
-| Ground Truth Attribute Name To Ignore |  | Column | - | Attribute name of the ground truth |
+| Ground Truth Attribute Name To Ignore |  | String | - | Attribute name of the ground truth |
 
 ### Output Ports
 

@@ -12,8 +12,8 @@ tags: [visualization, basic]
 
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
-| Value Column | ✓ | Column (integer, long, double) | - | The value associated with slice of pie |
-| Name Column | ✓ | Column | - | The name of the slice of pie |
+| Value Column | ✓ | String (integer, long, double) | - | The value associated with slice of pie |
+| Name Column | ✓ | String | - | The name of the slice of pie |
 
 ### Output Ports
 

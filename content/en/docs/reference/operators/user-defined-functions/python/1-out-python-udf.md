@@ -16,7 +16,7 @@ tags: [user-defined-functions, python]
 | Worker count | ✓ | Integer | 1 | Specify how many parallel workers to launch |
 | Columns |  | List<Attribute> | - | The columns of the source |
 | ↳ Attribute Name | ✓ | String | - |  |
-| ↳ Attribute Type | ✓ | `string`, `integer`, `long`, `double`<br>`boolean`, `timestamp`, `binary`<br>`large_binary` | - |  |
+| ↳ Attribute Type | ✓ | string, integer, long, double, boolean,<br>timestamp, binary, large_binary | - |  |
 
 #### Default Code Template
 

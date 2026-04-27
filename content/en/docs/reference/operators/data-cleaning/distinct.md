@@ -4,7 +4,6 @@ description: "Remove duplicate tuples"
 category: "Data Cleaning"
 operator_type: "Distinct"
 tags: [data-cleaning]
-weight: 60
 ---
 
 [Home](../../) > [Data Cleaning](../)

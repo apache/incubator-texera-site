@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning"
 description: "Operators in the Machine Learning category"
-weight: 80
+weight: 5
 categories: [Operators]
 tags: [machine-learning]
 ---

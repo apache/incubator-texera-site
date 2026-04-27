@@ -4,7 +4,6 @@ description: "Performs a filter operation using OR between multiple predicates"
 category: "Data Cleaning"
 operator_type: "Filter"
 tags: [data-cleaning]
-weight: 10
 ---
 
 [Home](../../) > [Data Cleaning](../)
@@ -14,8 +13,8 @@ weight: 10
 | Property | Requirement | Type | Default | Description |
 |----------|-------------|------|---------|-------------|
 | Predicates | ✓ | List<Filter Predicate> | - | Multiple predicates in OR |
-| ↳ Attribute | ✓ | Column | - |  |
-| ↳ Condition | ✓ | `=`, `>`, `>=`, `<`, `<=`, `!=`<br>`is null`, `is not null` | - |  |
+| ↳ Attribute | ✓ | String | - |  |
+| ↳ Condition | ✓ | =, >, >=, <, <=, !=, is null,<br>is not null | - |  |
 | ↳ Value |  | String | - |  |
 
 ### Output Ports

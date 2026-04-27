@@ -1,7 +1,7 @@
 ---
 title: "Database Connector"
 description: "Operators in the Database Connector category"
-weight: 60
+weight: 2
 categories: [Operators]
 tags: [database-connector]
 ---

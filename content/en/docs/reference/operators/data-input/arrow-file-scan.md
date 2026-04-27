@@ -1,10 +1,9 @@
 ---
 title: "Arrow File Scan"
-description: "Scan data from a Arrow file"
+description: "Scan data from an Arrow file"
 category: "Data Input"
 operator_type: "ArrowSource"
 tags: [data-input]
-weight: 30
 ---
 
 [Home](../../) > [Data Input](../)

@@ -1,6 +1,6 @@
 ---
 title: "Random K Sampling"
-description: "random sampling with given percentage"
+description: "Random sampling with given percentage"
 category: "Utilities"
 operator_type: "RandomKSampling"
 tags: [utilities]

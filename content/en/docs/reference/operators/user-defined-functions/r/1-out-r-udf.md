@@ -17,7 +17,7 @@ tags: [user-defined-functions, r]
 | Use Tuple API? | ✓ | Boolean | false | Check this box to use Tuple API, leave unchecked<br>to use Table API |
 | Columns |  | List<Attribute> | - | The columns of the source |
 | ↳ Attribute Name | ✓ | String | - |  |
-| ↳ Attribute Type | ✓ | `string`, `integer`, `long`, `double`<br>`boolean`, `timestamp`, `binary`<br>`large_binary` | - |  |
+| ↳ Attribute Type | ✓ | string, integer, long, double, boolean,<br>timestamp, binary, large_binary | - |  |
 
 #### Default Code Template
 
