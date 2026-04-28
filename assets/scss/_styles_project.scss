@@ -1,3 +1,122 @@
+/* ---- Split hero cover layout ---- */
+
+.cover-split-hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12rem;
+  width: 100%;
+  padding: 2.5rem 2rem 2rem;
+}
+
+.cover-split-logo {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.hero-logo-img {
+  width: clamp(130px, 18vw, 300px);
+  height: auto;
+  filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.45));
+  position: relative;
+  z-index: 2;
+}
+
+.cover-split-content {
+  flex: 1 1 auto;
+  max-width: 550px;
+  text-align: left;
+
+  h1 {
+    text-align: left;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    line-height: 1.2;
+    margin-bottom: 1.25rem;
+  }
+
+  p.lead {
+    text-align: left;
+    font-size: clamp(1rem, 1.6vw, 1.15rem);
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
+/* Wave at bottom of hero */
+.hero-wave {
+  position: absolute;
+  bottom: -1px;
+  /* Overlap slightly to prevent anti-aliasing gaps */
+  left: 0;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 1;
+  /* Keep it above the background but below content if needed */
+}
+
+.hero-wave svg {
+  position: relative;
+  display: block;
+  width: calc(100%);
+  height: 200px;
+  /* Adjust height for the wave effect */
+}
+
+/* Mid: stack vertically on tablet */
+@media (max-width: 768px) {
+  .cover-split-hero {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 1.5rem;
+  }
+
+  .cover-split-content {
+    text-align: center;
+
+    h1 {
+      text-align: center;
+      font-size: clamp(1.6rem, 6vw, 2.5rem);
+    }
+
+    p.lead {
+      text-align: center;
+    }
+  }
+}
+
+/* Small: hide logo entirely, center all text */
+@media (max-width: 560px) {
+  .cover-split-logo {
+    display: none;
+  }
+
+  .cover-split-hero {
+    justify-content: center;
+    padding: 1.75rem 1rem;
+  }
+
+  .cover-split-content {
+    max-width: 100%;
+    text-align: center;
+
+    h1 {
+      text-align: center;
+    }
+
+    p.lead {
+      text-align: center;
+    }
+  }
+}
+
 /* Apache subfooter */
 .td-apachefooter {
   font-size: 0.875rem;
@@ -21,11 +140,15 @@
 }
 
 /* --- Feature grid (services) --- */
+section:has(.services-section) {
+  padding-top: 0 !important;
+}
+
 .services-section {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
-  padding: 60px 40px;
+  padding: 0px 40px !important;
 }
 
 .services-title {
@@ -56,7 +179,7 @@
 
 .service:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 24px rgba(0,0,0,.08);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, .08);
 }
 
 .service i {
@@ -103,10 +226,17 @@
   align-self: center;
 }
 
-.service .fa-angle-right { font-size: .7rem; }
+.service .fa-angle-right {
+  font-size: .7rem;
+}
 
 ///* Accent colors per “slot” */
-.service i, .service h4, .service .cta { color: #42b7ca; }
+.service i,
+.service h4,
+.service .cta {
+  color: #42b7ca;
+}
+
 //.service:hover {
 //  border-color: #42b7ca;
 //  cursor: pointer;
@@ -114,17 +244,31 @@
 
 /* Responsive */
 @media (max-width: 992px) {
-  .service { flex: 1 1 calc(50% - 20px); }
+  .service {
+    flex: 1 1 calc(50% - 20px);
+  }
 }
+
 @media (max-width: 640px) {
-  .service { flex: 1 1 100%; }
+  .service {
+    flex: 1 1 100%;
+  }
 }
 
 /* Dark-mode tweak */
 @media (prefers-color-scheme: dark) {
-  .service { background: $dark; border-color: $secondary; }
-  .service h4 { color: #eaecef; }
-  .service p { color: #c5cbd3; }
+  .service {
+    background: $dark;
+    border-color: $secondary;
+  }
+
+  .service h4 {
+    color: #eaecef;
+  }
+
+  .service p {
+    color: #c5cbd3;
+  }
 }
 
 .community-links {
@@ -146,10 +290,10 @@
   text-decoration: none;
   text-align: left;
   transition:
-          transform 0.15s ease-out,
-          box-shadow 0.15s ease-out,
-          border-color 0.15s ease-out,
-          background-color 0.15s ease-out;
+    transform 0.15s ease-out,
+    box-shadow 0.15s ease-out,
+    border-color 0.15s ease-out,
+    background-color 0.15s ease-out;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 
@@ -190,6 +334,7 @@
 /* Hide the entire right sidebar (td-sidebar-toc) for monthly-meetings section */
 /* This includes page-meta, table of contents, and taxonomy clouds */
 .td-sidebar-toc {
+
   /* Hide for monthly-meetings pages - using URL-based selector for reliability */
   body:has([href*="/monthly-meetings/"]) &,
   body:has([href*="monthly-meetings"]) & {
@@ -205,6 +350,7 @@ body[data-section="monthly-meetings"] .td-sidebar-toc,
 
 /* Also hide just the page-meta div as additional safety */
 .td-page-meta {
+
   body:has([href*="/monthly-meetings/"]) &,
   body:has([href*="monthly-meetings"]) &,
   body[data-section="monthly-meetings"] &,
@@ -222,6 +368,7 @@ body[data-section="monthly-meetings"] .td-sidebar-toc,
 .td-page-meta__feedback-title,
 .td-page-meta__feedback-question,
 [class*="feedback"] {
+
   body:has([href*="/monthly-meetings/"]) &,
   body:has([href*="monthly-meetings"]) &,
   body[data-section="monthly-meetings"] &,
@@ -237,4 +384,3 @@ body[data-section="monthly-meetings"] .td-content .td-page-meta__feedback,
 [data-section="monthly-meetings"] .td-content .td-page-meta__feedback {
   display: none !important;
 }
-
