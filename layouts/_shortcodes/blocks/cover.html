@@ -1,0 +1,60 @@
+{{ $_hugo_config := `{ "version": 1 }` -}}
+{{ $blockID := printf "td-cover-block-%d" .Ordinal -}}
+{{ $promo_image := (.Page.Resources.ByType "image").GetMatch "**background*" -}}
+{{ $col_id := .Get "color" | default "dark" -}}
+{{ $image_anchor := .Get "image_anchor" | default "smart" -}}
+{{/* Height can be one of: auto, min, med, max, full. */ -}}
+{{ $height := .Get "height" | default "max" -}}
+
+{{ with $promo_image -}}
+{{ $promo_image_big := . -}}
+{{ $promo_image_small := . -}}
+{{ if ne $promo_image.MediaType.SubType "svg" -}}
+  {{ $promo_image_big = .Fill (printf "1920x1080 %s" $image_anchor) -}}
+  {{ $promo_image_small = .Fill (printf "960x540 %s" $image_anchor) -}}
+{{ end -}}
+<link rel="preload" as="image" href="{{ $promo_image_small.RelPermalink }}" media="(max-width: 1200px)">
+<link rel="preload" as="image" href="{{ $promo_image_big.RelPermalink }}" media="(min-width: 1200px)">
+<style>
+#{{ $blockID }} {
+  background-image: url({{ $promo_image_small.RelPermalink }});
+}
+@media only screen and (min-width: 1200px) {
+  #{{ $blockID }} {
+    background-image: url({{ $promo_image_big.RelPermalink }});
+  }
+}
+</style>
+{{ end -}}
+
+<section id="{{ $blockID }}" class="row td-cover-block td-cover-block--height-{{ $height -}}
+  {{ if not .Site.Params.ui.navbar_translucent_over_cover_disable }} js-td-cover
+  {{- end }} td-overlay td-overlay--dark -bg-{{ $col_id }}">
+  <div class="col-12">
+    <div class="container td-overlay__inner">
+      <div class="cover-split-hero">
+        <!-- Left: logo -->
+        <div class="cover-split-logo">
+          <img src="/images/logo.png" alt="Apache Texera Logo" class="hero-logo-img">
+        </div>
+        <!-- Right: title + content -->
+        <div class="cover-split-content">
+          {{ if eq .Page.File.Ext "md" }}
+              {{ .Inner | markdownify }}
+          {{ else }}
+              {{ .Inner | htmlUnescape | safeHTML }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ with .Get "byline" | default "" -}}
+    <div class="byline">{{ . }}</div>
+  {{- end }}
+  <div class="hero-wave">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path fill="#2b2a33" fill-opacity="1" d="M0,160 C480,320 960,0 1440,160 L1440,320 L0,320 Z"></path>
+    </svg>
+  </div>
+</section>
+{{/**/ -}}

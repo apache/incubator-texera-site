@@ -2,25 +2,25 @@
 title: Apache Texera
 ---
 
-{{< blocks/cover image_anchor="top" height="full" >}}
+{{< blocks/cover image_anchor="top" height="auto" >}}
 
-<h1 class="display-1 text-center mb-3">Apache Texera<br>(Incubating)</h1>
+<h1 class="display-1 text mb-3">Apache Texera<br>(Incubating)</h1>
+
+<p class="lead mt-2">An open-source system for human-AI collaborative data science using visual workflows. Construct, execute, and refine data analysis tasks through an intuitive GUI, assisted by AI agents that understand natural-language instructions.</p>
 
 <a class="btn btn-lg btn-primary me-3 mb-4" href="https://github.com/apache/texera">GitHub <i class="fab fa-github ms-2 "></i></a>
 <a class="btn btn-lg btn-primary me-3 mb-4" href="https://hub.texera.io">Try Now <i class="fas fa-arrow-alt-circle-right ms-2"></i></a>
 
-<p class="lead mt-2">Apache Texera is a powerful and scalable <br> workflow system for big data analytics<br>and visualization!</p>
-{{< blocks/link-down color="info" >}}
 {{< /blocks/cover >}}
 
-{{% blocks/section color="light" type="row" color="bg-white" %}}
+<div class="home-gradient-section">
 
-{{< features_grid >}}
+{{< workflow_features >}}
 
-{{% /blocks/section %}}
-
-{{% blocks/section color="light" type="row" color="bg-white" %}}
-    
+<div class="container py-5">
+<div class="row">
 {{< github_info >}}
+</div>
+</div>
 
-{{% /blocks/section %}}
+</div>
