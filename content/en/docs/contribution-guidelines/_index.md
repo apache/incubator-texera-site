@@ -41,15 +41,7 @@ Fork the [Texera repository](https://github.com/Texera/texera) on GitHub and clo
 - Develop in a new branch of your fork.
 
   > **Modifying the SQL schema?**  
-  > 1. Be sure to update `sql/changelog.xml` by adding a new `<changeSet>` element.  
-  > 2. The file format of your SQL update file should be: 
-  > ```
-  > SET search_path TO texera_db;
-  > BEGIN;
-  > [your changes here]
-  > COMMIT;
-  > ```
-  > Prior SQL update files had the line `\c texera_db` at the top, but this should be omitted — Liquibase cannot parse this line. 
+  > Be sure to update `sql/changelog.xml` by adding a new `<changeSet>` element.  
 - When ready, submit a PR to the main Texera repository.
 - **Allow edits from maintainers** to let committers make small fixes if needed.
 
