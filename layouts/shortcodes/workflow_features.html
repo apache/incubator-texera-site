@@ -1,4 +1,4 @@
-{{ $features := slice (dict "title" "AI-Powered Data Science" "icon" "fa-solid fa-robot" "color" "teal" "tags" (slice "chatbots" "natural-language" "no-code") "desc" "Conduct data science through AI chatbots using natural language — no coding required. AI agents help you build, refine, and execute analytical workflows conversationally.") (dict "title" "Visual Workflow Interface" "icon" "fa-solid fa-cubes" "color" "amber" "tags" (slice "drag-drop" "intuitive-gui" "low-code") "desc" "Construct end-to-end data analysis pipelines through an intuitive GUI. Drag-and-drop operators, visualize intermediate results, and debug workflows interactively at runtime.") (dict "title" "Scalable Processing Engine" "icon" "fa-solid fa-server" "color" "purple" "tags" (slice "parallel-engine" "big-data" "compute-storage-separation") "desc" "Process large volumes of data with a parallel backend engine. Supports separation of compute and storage for flexible, high-performance execution at scale.") (dict "title" "Real-Time Collaboration" "icon" "fa-solid fa-users" "color" "coral" "tags" (slice "collaborative-editing" "shared-execution" "multi-tenant") "desc" "Work together like Google Docs, but for data science. Co-edit workflows, share executions in real time, and manage multiple tenants with workload isolation.") (dict "title" "Multi-Language UDFs" "icon" "fa-solid fa-code" "color" "blue" "tags" (slice "python" "r-lang" "java" "scala") "desc" "Extend workflows with user-defined functions in Python, R, Java, and Scala. Go from no-code to full-code seamlessly within the same workflow environment.") (dict "title" "Cloud-Native Deployment" "icon" "fa-solid fa-cloud" "color" "green" "tags" (slice "kubernetes" "cloud-services" "extensible") "desc" "Deploy on a laptop for local use or scale to the cloud with Kubernetes. Extensible architecture integrates external web services and grows with your data ecosystem.") }}
+{{ $features := slice (dict "title" "Scalable Processing Engine" "icon" "fa-solid fa-server" "color" "purple" "tags" (slice "parallel-engine" "big-data" "compute-storage-separation") "desc" "Process large volumes of data with a parallel backend engine. Supports separation of compute and storage for flexible, high-performance execution at scale.") (dict "title" "AI-Powered Data Science" "icon" "fa-solid fa-robot" "color" "teal" "tags" (slice "chatbots" "natural-language" "no-code") "desc" "Conduct data science through AI chatbots using natural language — no coding required. AI agents help you build, refine, and execute analytical workflows conversationally.") (dict "title" "Visual Workflow Interface" "icon" "fa-solid fa-cubes" "color" "amber" "tags" (slice "drag-drop" "intuitive-gui" "low-code") "desc" "Construct end-to-end data analysis pipelines through an intuitive GUI. Drag-and-drop operators, visualize intermediate results, and debug workflows interactively at runtime.") (dict "title" "Real-Time Collaboration" "icon" "fa-solid fa-users" "color" "coral" "tags" (slice "collaborative-editing" "shared-execution" "multi-tenant") "desc" "Work together like Google Docs, but for data science. Co-edit workflows, share executions in real time, and manage multiple tenants with workload isolation.") (dict "title" "Multi-Language UDFs" "icon" "fa-solid fa-code" "color" "blue" "tags" (slice "python" "r-lang" "java" "scala") "desc" "Extend workflows with user-defined functions in Python, R, Java, and Scala. Go from no-code to full-code seamlessly within the same workflow environment.") (dict "title" "Cloud-Native Deployment" "icon" "fa-solid fa-cloud" "color" "green" "tags" (slice "kubernetes" "cloud-services" "extensible") "desc" "Deploy on a laptop for local use or scale to the cloud with Kubernetes. Extensible architecture integrates external web services and grows with your data ecosystem.") }}
 
 <section class="workflow-section">
 
@@ -14,45 +14,50 @@
 
     <div class="workflow-viewport" id="workflow-viewport">
       <div class="workflow-track" id="workflow-track">
-        {{ range $i, $f := $features }}
+        {{ range $set := seq 3 }}
+          {{ range $i, $f := $features }}
 
-          {{ if gt $i 0 }}
-            <div class="workflow-edge">
-              <div class="edge-line">
-                <div class="edge-particle"></div>
+            {{ if gt $i 0 }}
+              <div class="workflow-edge">
+                <div class="edge-line">
+                  <div class="edge-particle"></div>
+                </div>
+                <div class="edge-arrow"><i class="fa-solid fa-caret-right"></i></div>
               </div>
-              <div class="edge-arrow"><i class="fa-solid fa-caret-right"></i></div>
+            {{ else if gt $set 1 }}
+              <!-- Spacer to maintain distance between disconnected nodes -->
+              <div class="workflow-edge is-spacer" style="visibility: hidden;"></div>
+            {{ end }}
+
+            <div class="workflow-node" data-orig-index="{{ $i }}">
+              <div class="node-port input-port"></div>
+              <div class="node-port output-port"></div>
+
+              <div class="node-header">
+                <div class="node-icon badge-{{ $f.color }}">
+                  <i class="{{ $f.icon }}"></i>
+                </div>
+                <div class="node-title-group">
+                  <div class="node-label">Operator 0{{ add $i 1 }}</div>
+                  <h4 class="node-title">{{ $f.title }}</h4>
+                </div>
+                <div class="node-status">
+                  <span class="status-dot"></span>
+                  <span class="status-text">Pending</span>
+                </div>
+              </div>
+
+              <div class="node-body">
+                <div class="node-tags">
+                  {{ range $f.tags }}
+                    <span class="node-tag">{{ . }}</span>
+                  {{ end }}
+                </div>
+                <p class="node-desc">{{ $f.desc }}</p>
+              </div>
             </div>
+
           {{ end }}
-
-          <div class="workflow-node {{ if eq $i 0 }}is-active{{ else }}is-pending{{ end }}" data-index="{{ $i }}">
-            <div class="node-port input-port"></div>
-            <div class="node-port output-port"></div>
-
-            <div class="node-header">
-              <div class="node-icon badge-{{ $f.color }}">
-                <i class="{{ $f.icon }}"></i>
-              </div>
-              <div class="node-title-group">
-                <div class="node-label">Operator 0{{ add $i 1 }}</div>
-                <h4 class="node-title">{{ $f.title }}</h4>
-              </div>
-              <div class="node-status">
-                <span class="status-dot"></span>
-                <span class="status-text">{{ if eq $i 0 }}Active{{ else }}Pending{{ end }}</span>
-              </div>
-            </div>
-
-            <div class="node-body">
-              <div class="node-tags">
-                {{ range $f.tags }}
-                  <span class="node-tag">{{ . }}</span>
-                {{ end }}
-              </div>
-              <p class="node-desc">{{ $f.desc }}</p>
-            </div>
-          </div>
-
         {{ end }}
       </div>
     </div>
@@ -73,24 +78,16 @@ document.addEventListener("DOMContentLoaded", function () {
   if (!track || !viewport) return;
 
   var nodes    = Array.from(track.querySelectorAll(".workflow-node"));
-  var edges    = Array.from(track.querySelectorAll(".workflow-edge"));
+  var edges    = Array.from(track.querySelectorAll(".workflow-edge:not(.is-spacer)"));
   var dots     = Array.from(document.querySelectorAll(".progress-dot"));
   var prevBtn  = document.querySelector(".prev-btn");
   var nextBtn  = document.querySelector(".next-btn");
-  var total    = nodes.length;
-  var current  = 0;
+  
+  var totalFeatures = {{ len $features }};
+  var current  = totalFeatures; // Start precisely in the middle set (index 6)
   var isAnimating = false;
 
-  function goTo(index, animate) {
-    if (animate === undefined) animate = true;
-    if (isAnimating && animate) return;
-    if (animate) {
-      isAnimating = true;
-      setTimeout(function () { isAnimating = false; }, 650);
-    }
-    current = index;
-
-    /* 1. Update classes (width changes are instant via CSS) */
+  function updateClasses() {
     nodes.forEach(function (node, i) {
       node.classList.remove("is-active", "is-completed", "is-pending");
       var statusText = node.querySelector(".status-text");
@@ -108,54 +105,99 @@ document.addEventListener("DOMContentLoaded", function () {
 
     edges.forEach(function (edge, i) {
       edge.classList.remove("is-active", "is-completed", "is-pending");
-      if (i < current - 1)       edge.classList.add("is-completed");
-      else if (i === current - 1) edge.classList.add("is-active");
+      var setIndex = Math.floor(i / (totalFeatures - 1));
+      var localEdgeIndex = i % (totalFeatures - 1);
+      // Determine the index of the node that this edge points TO
+      var nodeB = setIndex * totalFeatures + localEdgeIndex + 1;
+      
+      if (nodeB < current)        edge.classList.add("is-completed");
+      else if (nodeB === current) edge.classList.add("is-active");
       else                        edge.classList.add("is-pending");
     });
 
     dots.forEach(function (dot, i) {
       dot.classList.remove("is-active", "is-completed");
-      if (i < current)       dot.classList.add("is-completed");
-      else if (i === current) dot.classList.add("is-active");
+      var origIndex = current % totalFeatures;
+      if (i < origIndex)        dot.classList.add("is-completed");
+      else if (i === origIndex) dot.classList.add("is-active");
     });
+  }
 
-    /* 2. Force layout so widths are final before measuring */
-    void track.offsetWidth;
-
-    /* 3. Measure and center */
+  function updateTransform() {
+    void track.offsetWidth; // Force layout to ensure accurate measurements
     var vpW        = viewport.offsetWidth;
     var activeNode = nodes[current];
     var nodeLeft   = activeNode.offsetLeft;
     var nodeW      = activeNode.offsetWidth;
     var moveX      = (vpW / 2) - nodeLeft - (nodeW / 2) + 5;
-
-    if (animate) {
-      track.style.transition = "transform 0.6s cubic-bezier(0.25, 1, 0.5, 1)";
-    } else {
-      track.style.transition = "none";
-    }
     track.style.transform = "translateX(" + moveX + "px)";
   }
 
+  function goTo(index, animate) {
+    if (animate === undefined) animate = true;
+    if (isAnimating && animate) return;
+    
+    current = index;
+    updateClasses();
+
+    if (animate) {
+      isAnimating = true;
+      track.style.transition = "transform 0.6s cubic-bezier(0.25, 1, 0.5, 1)";
+      updateTransform();
+      
+      setTimeout(function () { 
+        var snapped = false;
+        // If we crossed into the duplicate sets, seamlessly snap back to the middle
+        if (current >= totalFeatures * 2) {
+          current -= totalFeatures;
+          snapped = true;
+        } else if (current < totalFeatures) {
+          current += totalFeatures;
+          snapped = true;
+        }
+        
+        if (snapped) {
+          track.style.transition = "none";
+          updateClasses();
+          updateTransform();
+          void track.offsetWidth; // Force layout to register the instant jump invisibly
+        }
+        isAnimating = false; 
+      }, 650);
+    } else {
+      track.style.transition = "none";
+      updateTransform();
+    }
+  }
+
   nextBtn.addEventListener("click", function () {
-    goTo((current + 1) % total, true);
+    if (isAnimating) return;
+    goTo(current + 1, true);
   });
 
   prevBtn.addEventListener("click", function () {
-    goTo((current - 1 + total) % total, true);
+    if (isAnimating) return;
+    goTo(current - 1, true);
   });
 
   nodes.forEach(function (node) {
     node.addEventListener("click", function () {
-      var i = parseInt(node.dataset.index);
+      if (isAnimating) return;
+      var i = nodes.indexOf(node);
       if (i !== current) goTo(i, true);
     });
   });
 
   dots.forEach(function (dot) {
     dot.addEventListener("click", function () {
-      var i = parseInt(dot.dataset.dot);
-      if (i !== current) goTo(i, true);
+      if (isAnimating) return;
+      var targetDot = parseInt(dot.dataset.dot);
+      var currentDot = current % totalFeatures;
+      var diff = targetDot - currentDot;
+      // Take the shortest path around the loop
+      if (diff > totalFeatures / 2) diff -= totalFeatures;
+      if (diff < -totalFeatures / 2) diff += totalFeatures;
+      goTo(current + diff, true);
     });
   });
 
@@ -164,8 +206,14 @@ document.addEventListener("DOMContentLoaded", function () {
     if (e.key === "ArrowLeft")  prevBtn.click();
   });
 
-  window.addEventListener("resize", function () { goTo(current, false); });
+  window.addEventListener("resize", function () { 
+    if (!isAnimating) {
+      track.style.transition = "none";
+      updateTransform(); 
+    }
+  });
 
-  goTo(0, false);
+  // Initialize at the first node of the middle cloned set for infinite scrolling
+  goTo(totalFeatures, false);
 });
 </script>
