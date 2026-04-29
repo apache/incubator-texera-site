@@ -2,14 +2,11 @@
 title: Apache Texera
 ---
 
-{{< blocks/cover image_anchor="top" height="auto" >}}
+{{< blocks/cover image_anchor="top" height="auto" tag="header-section" >}}
 
 <h1 class="display-1 text mb-3">Apache Texera<br>(Incubating)</h1>
 
-<p class="lead mt-2">An open-source system for human-AI collaborative data science using visual workflows. Construct, execute, and refine data analysis tasks through an intuitive GUI, assisted by AI agents that understand natural-language instructions.</p>
-
-<a class="btn btn-lg btn-primary me-3 mb-4" href="https://github.com/apache/texera">GitHub <i class="fab fa-github ms-2 "></i></a>
-<a class="btn btn-lg btn-primary me-3 mb-4" href="https://hub.texera.io">Try Now <i class="fas fa-arrow-alt-circle-right ms-2"></i></a>
+<p class="lead mt-2">Apache Texera (Incubating) is an open-source system for human-AI collaborative data science using visual workflows. It enables analysts to construct, execute, and refine data analysis tasks through an intuitive GUI, assisted by AI agents that understand natural-language instructions. Texera is well suited for a wide range of applications, including “AI for Science,” by making advanced AI and data science capabilities accessible to a broader community. It can run on a laptop for local use or be deployed in the cloud to support scalable processing of large datasets.</p>
 
 {{< /blocks/cover >}}
 
