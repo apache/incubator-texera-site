@@ -13,15 +13,14 @@ title: Apache Texera
 
 {{< /blocks/cover >}}
 
+<div class="home-gradient-section">
 
-{{% blocks/section color="grey" type="row" color="bg-white" %}}
+{{< workflow_features >}}
 
-{{< features_grid >}}
-
-{{% /blocks/section %}}
-
-{{% blocks/section color="light" type="row" color="bg-white" %}}
-    
+<div class="container py-5">
+<div class="row">
 {{< github_info >}}
+</div>
+</div>
 
-{{% /blocks/section %}}
+</div>
