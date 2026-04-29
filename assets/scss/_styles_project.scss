@@ -6,7 +6,7 @@
   justify-content: center;
   gap: 12rem;
   width: 100%;
-  padding: 2.5rem 2rem 2rem;
+  padding: 1rem 2rem 2rem;
 }
 
 .cover-split-logo {
@@ -443,7 +443,8 @@ body {
 .workflow-track {
   display: inline-flex;
   align-items: center;
-  height: 400px; /* Keep height rigid to prevent vertical bobbing */
+  height: 400px;
+  /* Keep height rigid to prevent vertical bobbing */
   will-change: transform;
   padding: 0;
   transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
