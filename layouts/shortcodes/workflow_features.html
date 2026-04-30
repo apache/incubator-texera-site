@@ -1,0 +1,224 @@
+{{ $features := slice 
+  (dict "title" "Human-AI Collaborative Data Science" "icon" "fa-solid fa-robot" "color" "teal" "tags" (slice "ai-agents" "chatbots" "natural-language") "desc" "Conduct data science through AI agents using natural language. Texera lets you build, refine, and execute analytical workflows conversationally — no coding required.") 
+  (dict "title" "Agent-Powered Visual Workflows" "icon" "fa-solid fa-cubes" "color" "amber" "tags" (slice "drag-drop" "visual" "low-code") "desc" "Build end-to-end data science workflows through an intuitive graphical interface. Drag-and-drop operators, connect them visually, and inspect results as you go.") 
+  (dict "title" "Real-Time Collaboration" "icon" "fa-solid fa-users" "color" "coral" "tags" (slice "collaborative-editing" "shared-execution" "multi-user") "desc" "Collaborate on workflows like Google Docs, but for data science. Multiple users can co-edit workflows and share executions in real time within Texera.") 
+  (dict "title" "Scalable Parallel Engine" "icon" "fa-solid fa-server" "color" "purple" "tags" (slice "parallel-engine" "big-data" "scalable") "desc" "Process large volumes of data with Texera's parallel backend engine. Designed for high-performance, scalable execution across big-data workloads.") 
+  (dict "title" "Language-Agnostic Runtime" "icon" "fa-solid fa-code" "color" "blue" "tags" (slice "python" "java" "user-defined-functions") "desc" "Texera's workflow runtime is language-agnostic, with native support for Python and Java. Extend pipelines with user-defined functions in your language of choice.") 
+  (dict "title" "Cloud-Native Deployment" "icon" "fa-solid fa-cloud" "color" "green" "tags" (slice "compute-storage-separation" "cloud" "flexible") "desc" "Separation of compute and storage enables flexible cloud deployment. Scale Texera from a laptop to the cloud as your data ecosystem grows.") 
+  (dict "title" "Runtime Debugging" "icon" "fa-solid fa-bug" "color" "red" "tags" (slice "interactive-execution" "debugging" "breakpoints") "desc" "Debug workflows interactively at runtime. Inspect intermediate results, set breakpoints, and iterate on your pipeline without restarting from scratch.") 
+}}
+<section class="workflow-section">
+
+  <div class="workflow-canvas">
+    <button class="workflow-nav-btn prev-btn" aria-label="Previous Feature">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <button class="workflow-nav-btn next-btn" aria-label="Next Feature">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
+    <div class="workflow-viewport" id="workflow-viewport">
+      <div class="workflow-track" id="workflow-track">
+        {{ range $set := seq 3 }}
+          {{ range $i, $f := $features }}
+
+            {{ if gt $i 0 }}
+              <div class="workflow-edge">
+                <div class="edge-line">
+                  <div class="edge-particle"></div>
+                </div>
+                <div class="edge-arrow"><i class="fa-solid fa-caret-right"></i></div>
+              </div>
+            {{ else if gt $set 1 }}
+              <!-- Spacer to maintain distance between disconnected nodes -->
+              <div class="workflow-edge is-spacer" style="visibility: hidden;"></div>
+            {{ end }}
+
+            <div class="workflow-node" data-orig-index="{{ $i }}">
+              <div class="node-port input-port"></div>
+              <div class="node-port output-port"></div>
+
+              <div class="node-header">
+                <div class="node-icon badge-{{ $f.color }}">
+                  <i class="{{ $f.icon }}"></i>
+                </div>
+                <div class="node-title-group">
+                  <div class="node-label">Operator 0{{ add $i 1 }}</div>
+                  <h4 class="node-title">{{ $f.title }}</h4>
+                </div>
+                <div class="node-status">
+                  <span class="status-dot"></span>
+                  <span class="status-text">Pending</span>
+                </div>
+              </div>
+
+              <div class="node-body">
+                <div class="node-tags">
+                  {{ range $f.tags }}
+                    <span class="node-tag">{{ . }}</span>
+                  {{ end }}
+                </div>
+                <p class="node-desc">{{ $f.desc }}</p>
+              </div>
+            </div>
+
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="workflow-progress" id="workflow-progress">
+      {{ range $i, $f := $features }}
+        <div class="progress-dot {{ if eq $i 0 }}is-active{{ end }}" data-dot="{{ $i }}"></div>
+      {{ end }}
+    </div>
+
+  </div>
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var track    = document.getElementById("workflow-track");
+  var viewport = document.getElementById("workflow-viewport");
+  if (!track || !viewport) return;
+
+  var nodes    = Array.from(track.querySelectorAll(".workflow-node"));
+  var edges    = Array.from(track.querySelectorAll(".workflow-edge:not(.is-spacer)"));
+  var dots     = Array.from(document.querySelectorAll(".progress-dot"));
+  var prevBtn  = document.querySelector(".prev-btn");
+  var nextBtn  = document.querySelector(".next-btn");
+  
+  var totalFeatures = {{ len $features }};
+  var current  = totalFeatures; // Start precisely in the middle set (index 6)
+  var isAnimating = false;
+
+  function updateClasses() {
+    nodes.forEach(function (node, i) {
+      node.classList.remove("is-active", "is-completed", "is-pending");
+      var statusText = node.querySelector(".status-text");
+      if (i < current) {
+        node.classList.add("is-completed");
+        statusText.textContent = "Complete";
+      } else if (i === current) {
+        node.classList.add("is-active");
+        statusText.textContent = "Active";
+      } else {
+        node.classList.add("is-pending");
+        statusText.textContent = "Pending";
+      }
+    });
+
+    edges.forEach(function (edge, i) {
+      edge.classList.remove("is-active", "is-completed", "is-pending");
+      var setIndex = Math.floor(i / (totalFeatures - 1));
+      var localEdgeIndex = i % (totalFeatures - 1);
+      // Determine the index of the node that this edge points TO
+      var nodeB = setIndex * totalFeatures + localEdgeIndex + 1;
+      
+      if (nodeB < current)        edge.classList.add("is-completed");
+      else if (nodeB === current) edge.classList.add("is-active");
+      else                        edge.classList.add("is-pending");
+    });
+
+    dots.forEach(function (dot, i) {
+      dot.classList.remove("is-active", "is-completed");
+      var origIndex = current % totalFeatures;
+      if (i < origIndex)        dot.classList.add("is-completed");
+      else if (i === origIndex) dot.classList.add("is-active");
+    });
+  }
+
+  function updateTransform() {
+    void track.offsetWidth; // Force layout to ensure accurate measurements
+    var vpW        = viewport.offsetWidth;
+    var activeNode = nodes[current];
+    var nodeLeft   = activeNode.offsetLeft;
+    var nodeW      = activeNode.offsetWidth;
+    var moveX      = (vpW / 2) - nodeLeft - (nodeW / 2) + 5;
+    track.style.transform = "translateX(" + moveX + "px)";
+  }
+
+  function goTo(index, animate) {
+    if (animate === undefined) animate = true;
+    if (isAnimating && animate) return;
+    
+    current = index;
+    updateClasses();
+
+    if (animate) {
+      isAnimating = true;
+      track.style.transition = "transform 0.6s cubic-bezier(0.25, 1, 0.5, 1)";
+      updateTransform();
+      
+      setTimeout(function () { 
+        var snapped = false;
+        // If we crossed into the duplicate sets, seamlessly snap back to the middle
+        if (current >= totalFeatures * 2) {
+          current -= totalFeatures;
+          snapped = true;
+        } else if (current < totalFeatures) {
+          current += totalFeatures;
+          snapped = true;
+        }
+        
+        if (snapped) {
+          track.style.transition = "none";
+          updateClasses();
+          updateTransform();
+          void track.offsetWidth; // Force layout to register the instant jump invisibly
+        }
+        isAnimating = false; 
+      }, 650);
+    } else {
+      track.style.transition = "none";
+      updateTransform();
+    }
+  }
+
+  nextBtn.addEventListener("click", function () {
+    if (isAnimating) return;
+    goTo(current + 1, true);
+  });
+
+  prevBtn.addEventListener("click", function () {
+    if (isAnimating) return;
+    goTo(current - 1, true);
+  });
+
+  nodes.forEach(function (node) {
+    node.addEventListener("click", function () {
+      if (isAnimating) return;
+      var i = nodes.indexOf(node);
+      if (i !== current) goTo(i, true);
+    });
+  });
+
+  dots.forEach(function (dot) {
+    dot.addEventListener("click", function () {
+      if (isAnimating) return;
+      var targetDot = parseInt(dot.dataset.dot);
+      var currentDot = current % totalFeatures;
+      var diff = targetDot - currentDot;
+      // Take the shortest path around the loop
+      if (diff > totalFeatures / 2) diff -= totalFeatures;
+      if (diff < -totalFeatures / 2) diff += totalFeatures;
+      goTo(current + diff, true);
+    });
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "ArrowRight") nextBtn.click();
+    if (e.key === "ArrowLeft")  prevBtn.click();
+  });
+
+  window.addEventListener("resize", function () { 
+    if (!isAnimating) {
+      track.style.transition = "none";
+      updateTransform(); 
+    }
+  });
+
+  // Initialize at the first node of the middle cloned set for infinite scrolling
+  goTo(totalFeatures, false);
+});
+</script>

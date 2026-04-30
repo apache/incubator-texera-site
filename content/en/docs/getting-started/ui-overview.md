@@ -1,7 +1,7 @@
 ---
 title: "Texera UI Overview"
 date: 2025-10-29
-weight: 4
+weight: 80
 description: >
   Explore Texera's User Dashboard interface and its components.
 categories: [Texera]
@@ -16,7 +16,7 @@ Understand the layout and functionality of Texera’s User Dashboard.
 
 Once logged in, you should see the following page:
 
-![Texera Dashboard](https://github.com/user-attachments/assets/baa3d599-99c6-401f-a772-4300cbc7c9a9)
+![Texera Dashboard](/images/github-assets/baa3d599-99c6-401f-a772-4300cbc7c9a9.png)
 
 ### Navigation Bar
 

@@ -1,7 +1,7 @@
 ---
 title: "Contribution Guidelines"
 description: "How to contribute to Texera code and documentation."
-weight: 10
+weight: 60
 categories: [Texera, Contributing]
 tags: [contributing, development, documentation, github, workflow]
 ---

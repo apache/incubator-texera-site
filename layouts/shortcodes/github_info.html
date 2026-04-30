@@ -3,22 +3,58 @@
 {{- $data := cond (and $langData (index $langData "github_info")) $langData .Site.Data -}}
 {{- $g := index $data "github_info" -}}
 
-<div class="col-lg-6 d-flex align-items-center justify-content-center mb-4 mb-lg-0">
-    <img src="/images/texera-overview.png" alt="Texera screenshot" class="img-fluid rounded shadow">
+<div class="col-lg-7 mb-4 mb-lg-0 d-flex align-items-center justify-content-center">
+    <a href="/images/texera-overview.png" id="texeraImageLink" class="w-100 text-center" target="_blank">
+        <img src="/images/texera-overview.png" alt="Texera screenshot" class="img-fluid rounded shadow w-100" style="cursor: zoom-in;">
+    </a>
 </div>
-<div class="col-lg-6 d-flex align-items-center justify-content-center text-center">
+
+<!-- Modal -->
+<div class="modal fade" id="texeraImageModal" tabindex="-1" aria-labelledby="texeraImageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered" style="max-width: 95vw;">
+    <div class="modal-content bg-dark border-0">
+      <div class="modal-header border-0 pb-0">
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center p-3">
+        <img src="/images/texera-overview.png" alt="Texera screenshot full" class="img-fluid rounded">
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var imgLink = document.getElementById("texeraImageLink");
+    if(imgLink) {
+        imgLink.addEventListener("click", function(e) {
+            e.preventDefault();
+            var modalEl = document.getElementById('texeraImageModal');
+            if(window.bootstrap && window.bootstrap.Modal) {
+                var myModal = new bootstrap.Modal(modalEl);
+                myModal.show();
+            } else if (window.jQuery && window.jQuery().modal) {
+                window.jQuery(modalEl).modal('show');
+            } else {
+                window.open(this.href, "_blank");
+            }
+        });
+    }
+});
+</script>
+<div class="col-lg-5 d-flex align-items-center justify-content-center text-center">
     <div>
-        <img src="/images/apache-incubator.png" alt="Apache Incubator" class="img-fluid mb-3" style="max-width:300px;">
+        <img src="/images/apache-incubator.png" alt="Apache Incubator" class="img-fluid mb-3" style="max-width:250px;">
         <div class="mb-3">
-            <span class="badge bg-secondary me-2">{{ $g.badges.license_label }}</span>
+            <span class="badge bg-dark me-2">{{ $g.badges.license_label }}</span>
             <span class="badge bg-info">{{ $g.badges.license_value }}</span>
         </div>
         <div class="d-flex flex-wrap justify-content-center gap-2 mb-4">
             <span class="badge rounded-pill bg-primary">{{ $g.labels.users }} <span class="fw-bold ms-1">{{ $g.stats.users }}</span></span>
             <span class="badge rounded-pill bg-primary">{{ $g.labels.projects }} <span class="fw-bold ms-1">{{ $g.stats.projects }}</span></span>
             <span class="badge rounded-pill bg-primary">{{ $g.labels.workflows }} <span class="fw-bold ms-1">{{ $g.stats.workflows }}</span></span>
-            <span class="badge rounded-pill bg-secondary">{{ $g.labels.executions }} <span class="fw-bold ms-1">{{ $g.stats.executions }}</span></span>
-            <span class="badge rounded-pill bg-secondary">{{ $g.labels.workflow_versions }} <span class="fw-bold ms-1">{{ $g.stats.workflow_versions }}</span></span>
+            <span class="badge rounded-pill bg-dark">{{ $g.labels.executions }} <span class="fw-bold ms-1">{{ $g.stats.executions }}</span></span>
+            <span class="badge rounded-pill bg-dark">{{ $g.labels.workflow_versions }} <span class="fw-bold ms-1">{{ $g.stats.workflow_versions }}</span></span>
             <span class="badge rounded-pill bg-dark">{{ $g.labels.deployments }} <span class="fw-bold ms-1">{{ $g.stats.deployments }}</span></span>
             <span class="badge rounded-pill bg-success">{{ $g.labels.largest_deployment }} <span class="fw-bold ms-1">{{ $g.stats.largest_deployment }}</span></span>
         </div>

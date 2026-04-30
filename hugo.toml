@@ -73,33 +73,6 @@ name = "Docs"
 url  = "/docs/"
 weight = 100
 
-[languages.es]
-languageName = "Español"
-title = "Apache Texera"
-contentDir = "content/es"
-weight = 2
-[languages.es.params]
-title = "Apache Texera"
-description = "Apache Texera: flujos de datos interactivos y escalables"
-[languages.es.menu]
-[[languages.es.menu.main]]
-name = "GitHub"
-url  = "https://github.com/apache/texera"
-pre = "<i class='fab fa-github'></i>"
-
-[languages.zh-ch]
-languageName = "中文"
-title = "Apache Texera"
-contentDir = "content/zh-ch"
-weight = 3
-[languages.zh-ch.params]
-title = "Apache Texera"
-description = "Apache Texera：交互式、可扩展的数据流分析"
-[languages.zh-ch.menu]
-[[languages.zh-ch.menu.main]]
-name = "GitHub"
-url  = "https://github.com/apache/texera"
-pre = "<i class='fab fa-github'></i>"
 
 [markup]
 [markup.goldmark]
@@ -158,6 +131,7 @@ navbar_logo = true
 navbar_translucent_over_cover_disable = false
 sidebar_menu_compact = false
 sidebar_search_disable = false
+sidebar_menu_foldable = true
 
 [params.ui.feedback]
 enable = true
