@@ -1,1 +1,82 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Contribution Guidelines on Apache Texera</title><link>https://texera.staged.apache.org/docs/contribution-guidelines/</link><description>Recent content in Contribution Guidelines on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/docs/contribution-guidelines/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Contribution Guidelines on Apache Texera</title><link>https://texera.staged.apache.org/docs/contribution-guidelines/</link><description>Recent content in Contribution Guidelines on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/docs/contribution-guidelines/index.xml" rel="self" type="application/rss+xml"/><item><title>Making Contributions</title><link>https://texera.staged.apache.org/docs/contribution-guidelines/making-contributions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/contribution-guidelines/making-contributions/</guid><description>&lt;p&gt;We welcome interested developers to participate in the project and make contributions.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Follow the instructions at &lt;a href="https://github.com/apache/texera/wiki/Installing-Texera-on-a-Single-Node"&gt;https://github.com/apache/texera/wiki/Installing-Texera-on-a-Single-Node&lt;/a&gt; to install Texera on your laptop using Docker. Get familiar with the system as a user.&lt;/li&gt;
+&lt;li&gt;Follow the steps in &lt;a href="https://github.com/apache/texera/wiki"&gt;https://github.com/apache/texera/wiki&lt;/a&gt; to get on board and raise a pull request PR). It will be reviewed by the team before it can be merged.&lt;/li&gt;
+&lt;li&gt;Check issues in &lt;a href="https://github.com/apache/texera/issues"&gt;https://github.com/apache/texera/issues&lt;/a&gt; and see if you can fix some of them. Focus on the easy ones first.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After making enough contributions, you may be promoted to be a committer. If you prefer, we can also add you to our Slack workspace and invite you to join our meetings.&lt;/p&gt;</description></item><item><title>Guide for Developers</title><link>https://texera.staged.apache.org/docs/contribution-guidelines/guide-for-developers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/contribution-guidelines/guide-for-developers/</guid><description>&lt;h2 id="0-requirements"&gt;0. Requirements&lt;a class="td-heading-self-link" href="#0-requirements" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h4 id="java-11-jdk"&gt;&lt;strong&gt;Java 11 JDK&lt;/strong&gt;&lt;a class="td-heading-self-link" href="#java-11-jdk" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Install &lt;code&gt;Java JDK 11 (Java Development Kit)&lt;/code&gt; (recommend: &lt;code&gt;[adoptopenjdk](https://adoptium.net/installation/)&lt;/code&gt;). To verify the installation, run:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-console" data-lang="console"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#000;font-style:italic"&gt;java -version
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Next, set &lt;code&gt;JAVA_HOME&lt;/code&gt;. On macOS you can run:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;export JAVA_HOME=$(/usr/libexec/java_home -v 11)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;On Windows, add a system environment variable called &lt;code&gt;JAVA_HOME&lt;/code&gt; that points to the JDK directory.&lt;/p&gt;
+&lt;h4 id="311310"&gt;&lt;a href="mailto:Python@3.12"&gt;Python@3.12&lt;/a&gt;/3.11/3.10&lt;a class="td-heading-self-link" href="#311310" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Install Python 3.12 (or 3.11/3.10) from the official site or your preferred package manager.&lt;/p&gt;
+&lt;h4 id="git"&gt;&lt;strong&gt;Git&lt;/strong&gt;&lt;a class="td-heading-self-link" href="#git" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;On Windows, install the software from &lt;a href="https://gitforwindows.org/"&gt;https://gitforwindows.org/&lt;/a&gt;. &lt;code&gt;Git Bash&lt;/code&gt; is available after installing &lt;code&gt;Git&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Guide to Frontend Development (new gui)</title><link>https://texera.staged.apache.org/docs/contribution-guidelines/guide-to-frontend-development/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/contribution-guidelines/guide-to-frontend-development/</guid><description>&lt;p&gt;&lt;strong&gt;Author: Yinan Zhou&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id="introduction"&gt;Introduction:&lt;a class="td-heading-self-link" href="#introduction" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;If you are new to Texera frontend development team or have little frontend experience using angular framework (version 6), this read intends to provide you with a simple guide of how to get started.&lt;/p&gt;
+&lt;h1 id="preparation-phase"&gt;Preparation phase:&lt;a class="td-heading-self-link" href="#preparation-phase" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;In a nutshell, angular provides modularity, scalability, and robustness to traditional frontend code design. It separates a website into different individual components that can each perform a certain level of independent tasks. It then connects different components with services so they can work collaboratively. It also provides unit testing at the component level as well as application level.
+Other than these, angular largely inherits the traditional way of creating a web page. Each component contains four foundational files (.ts | .html | .css | spec.ts), corresponding to typescript (which is basically JavaScript with better scalability), HTML, CSS, and unit testing respectively. Just like how web pages were traditionally written, you will be coding in&lt;/p&gt;</description></item><item><title>Guide to Implement a Java Native Operator</title><link>https://texera.staged.apache.org/docs/contribution-guidelines/guide-to-implement-java-operator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/contribution-guidelines/guide-to-implement-java-operator/</guid><description>&lt;p&gt;In this page, we&amp;rsquo;ll explain the basic concepts in Texera and use examples to show how to implement an operator.&lt;/p&gt;
+&lt;h3 id="code-structure-of-every-operator"&gt;Code structure of every operator:&lt;a class="td-heading-self-link" href="#code-structure-of-every-operator" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Every operator ideally has three classes that are found in each operator package in &lt;code&gt;core\workflow-operator\src\main\scala\edu\uci\ics\amber\operator&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LogicalOp&lt;/li&gt;
+&lt;li&gt;OperatorExecutor&lt;/li&gt;
+&lt;li&gt;OperatorExecutorConfig&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="basic-concepts"&gt;Basic concepts:&lt;a class="td-heading-self-link" href="#basic-concepts" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;A Texera user constructs a workflow using the frontend, which consists of many operators. Each operator take input data from its previous operator(s), does some computation, and outputs the results to the next operator(s).&lt;/p&gt;</description></item><item><title>Guide to Implement a Python Native Operator (converting from a Python UDF)</title><link>https://texera.staged.apache.org/docs/contribution-guidelines/guide-to-implement-python-operator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/contribution-guidelines/guide-to-implement-python-operator/</guid><description>&lt;p&gt;In the &lt;a href="https://texera.staged.apache.org/docs/tutorials/guide-to-use-python-udf/"&gt;page for PythonUDF&lt;/a&gt;, we introduced the basic concepts of PythonUDF and described each API. To let other users use the Python operators, it is necessary to implement it as a native operator.&lt;/p&gt;
+&lt;p&gt;In this section, we will discuss how to implement a Python native operator and let future users drag and drop it on the UI. We will start by implementing a sample UDF then talk about how to convert it to a native operator.&lt;/p&gt;</description></item><item><title>Build, Run and Configure micro‐services in local development environment</title><link>https://texera.staged.apache.org/docs/contribution-guidelines/micro-services-local-dev/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/contribution-guidelines/micro-services-local-dev/</guid><description>&lt;p&gt;This Document is aim to provide a instruction on how to setup the local development environment for developing and deploying the &lt;code&gt;core/micro-services&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="prerequisite"&gt;Prerequisite&lt;a class="td-heading-self-link" href="#prerequisite" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This document requires you to finish all the setup of Texera local development environment described in &lt;code&gt;https://github.com/Texera/texera/wiki&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="what-is-micro-services"&gt;What is &lt;code&gt;micro-services&lt;/code&gt;?&lt;a class="td-heading-self-link" href="#what-is-micro-services" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;core/micro-services&lt;/code&gt; is a sbt-managed project added by the PR &lt;a href="https://github.com/Texera/texera/pull/2922"&gt;https://github.com/Texera/texera/pull/2922&lt;/a&gt;. The ongoing code separation effort will gradually migrate all the services in &lt;code&gt;core/amber&lt;/code&gt; to &lt;code&gt;core/micro-services&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Apache License header</title><link>https://texera.staged.apache.org/docs/contribution-guidelines/apache-license-header/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/contribution-guidelines/apache-license-header/</guid><description>&lt;p&gt;Every file must include the Apache License as a header. This can be automated in IntelliJ by
+adding a Copyright profile:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Go to &amp;ldquo;Settings&amp;rdquo; → &amp;ldquo;Editor&amp;rdquo; → &amp;ldquo;Copyright&amp;rdquo; → &amp;ldquo;Copyright Profiles&amp;rdquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add a new profile and name it &amp;ldquo;Apache&amp;rdquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add the following text as the license text:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements. See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership. The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+&amp;#34;License&amp;#34;); you may not use this file except in compliance
+with the License. You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &amp;#34;AS IS&amp;#34; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and 
+limitations under the License.
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Go to &amp;ldquo;Editor&amp;rdquo; → &amp;ldquo;Copyright&amp;rdquo; and choose the &amp;ldquo;Apache&amp;rdquo; profile as the default profile for this
+project.&lt;/p&gt;</description></item><item><title>[VOTE] Release Apache Texera (incubating) Email Template</title><link>https://texera.staged.apache.org/docs/contribution-guidelines/release-email-template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/contribution-guidelines/release-email-template/</guid><description>&lt;p&gt;Subject: [VOTE] Release Apache Texera (incubating) ${VERSION} RC${RC_NUM}&lt;/p&gt;
+&lt;p&gt;Hi Texera Community,&lt;/p&gt;
+&lt;p&gt;This is a call for vote to release Apache Texera (incubating) ${VERSION}.&lt;/p&gt;
+&lt;p&gt;== Release Candidate Artifacts ==&lt;/p&gt;
+&lt;p&gt;The release candidate artifacts can be found at:
+&lt;a href="https://dist.apache.org/repos/dist/dev/incubator/texera/$%7BRC_DIR%7D/"&gt;https://dist.apache.org/repos/dist/dev/incubator/texera/${RC_DIR}/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The artifacts include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;apache-texera-${VERSION}-rc${RC_NUM}-src.tar.gz (source tarball)&lt;/li&gt;
+&lt;li&gt;apache-texera-${VERSION}-rc${RC_NUM}-src.tar.gz.asc (GPG signature)&lt;/li&gt;
+&lt;li&gt;apache-texera-${VERSION}-rc${RC_NUM}-src.tar.gz.sha512 (SHA512 checksum)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;== Git Tag ==&lt;/p&gt;
+&lt;p&gt;The Git tag for this release candidate:
+&lt;a href="https://github.com/apache/incubator-texera/releases/tag/$%7BTAG_NAME%7D"&gt;https://github.com/apache/incubator-texera/releases/tag/${TAG_NAME}&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The commit hash for this tag:
+${COMMIT_HASH}&lt;/p&gt;
+&lt;p&gt;== Release Notes ==&lt;/p&gt;</description></item></channel></rss>

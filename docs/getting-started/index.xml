@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Getting Started on Apache Texera</title><link>https://texera.staged.apache.org/docs/getting-started/</link><description>Recent content in Getting Started on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/docs/getting-started/index.xml" rel="self" type="application/rss+xml"/><item><title>Single Node Installation</title><link>https://texera.staged.apache.org/docs/getting-started/single-node-instructions/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/getting-started/single-node-instructions/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
-&lt;p&gt;This document describes how to set up and run Texera on a single machine using &lt;strong&gt;Docker Compose&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;/div&gt;
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Getting Started on Apache Texera</title><link>https://texera.staged.apache.org/docs/getting-started/</link><description>Recent content in Getting Started on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/docs/getting-started/index.xml" rel="self" type="application/rss+xml"/><item><title>Install Texera</title><link>https://texera.staged.apache.org/docs/getting-started/install-texera/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/getting-started/install-texera/</guid><description>&lt;p&gt;To install Texera, you may choose one of the two supported architectures depending on your needs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Single Node Deployment&lt;/strong&gt;: ideal for quickly starting Texera on a local machine or testing deployments serving a small number of users. See &lt;a href="https://texera.staged.apache.org/docs/getting-started/installing-using-docker/"&gt;Installing Apache Texera using Docker&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Kubernetes-based Deployment&lt;/strong&gt;: recommended for production-level deployments at scale, supporting high availability serving a larger number of users. See &lt;a href="https://texera.staged.apache.org/docs/getting-started/run-on-kubernetes/"&gt;Installing Apache Texera on a Kubernetes Cluster&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Installing Apache Texera using Docker</title><link>https://texera.staged.apache.org/docs/getting-started/installing-using-docker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/getting-started/installing-using-docker/</guid><description>&lt;p&gt;This document describes how to set up and run Texera on a single machine using &amp;ldquo;Docker Compose&amp;rdquo;.&lt;/p&gt;
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;a class="td-heading-self-link" href="#prerequisites" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Before starting, make sure your computer meets the following requirements:&lt;/p&gt;
 &lt;table&gt;
@@ -54,7 +58,26 @@
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;After installing and launching Docker Desktop, verify that Docker and Docker Compose are available by running the following commands from the command line:&lt;/p&gt;</description></item><item><title>Access/Login to Texera</title><link>https://texera.staged.apache.org/docs/getting-started/accesslogin/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/getting-started/accesslogin/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;After installing and launching Docker Desktop, verify that Docker and Docker Compose are available by running the following commands from the command line:&lt;/p&gt;</description></item><item><title>How to run Texera on local Kubernetes</title><link>https://texera.staged.apache.org/docs/getting-started/run-on-kubernetes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/getting-started/run-on-kubernetes/</guid><description>&lt;p&gt;This document explains how to run Texera on Kubernetes locally for development purposes.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="1-prerequisites"&gt;1. Prerequisites&lt;a class="td-heading-self-link" href="#1-prerequisites" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Before you begin, you will need a local Kubernetes cluster manager. We use &lt;strong&gt;Minikube&lt;/strong&gt; in this instruction.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://minikube.sigs.k8s.io/docs/start/"&gt;Install Minikube&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Start your cluster:
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;minikube start
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;Verify that your node is running. You should see &lt;code&gt;minikube&lt;/code&gt; in your node list when you run:
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;kubectl get nodes
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://helm.sh/docs/intro/install/"&gt;Install Helm&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Install local path plugin:
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;kubectl apply -f https://raw.githubusercontent.com/rancher/local-path-provisioner/master/deploy/local-path-storage.yaml
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="2-install-texera-using-helm"&gt;2. Install Texera using Helm&lt;a class="td-heading-self-link" href="#2-install-texera-using-helm" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;All the necessary Kubernetes files are located in the &lt;code&gt;bin/k8s&lt;/code&gt; directory of this repository.&lt;/p&gt;</description></item><item><title>Access/Login to Texera</title><link>https://texera.staged.apache.org/docs/getting-started/accesslogin/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/getting-started/accesslogin/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
 &lt;p&gt;Guide to use Texera on your local machine or development environment.&lt;/p&gt;
 
 &lt;/div&gt;
@@ -62,8 +85,8 @@
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;a class="td-heading-self-link" href="#prerequisites" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;We assume you either went through&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/Texera/texera/wiki/Installing-Texera-on-a-Single-Node"&gt;Single Node Instruction&lt;/a&gt;, or&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Texera/texera/wiki/Guide-for-Developers"&gt;Guide for Texera Developers&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/getting-started/installing-using-docker/"&gt;Installing Apache Texera using Docker&lt;/a&gt;, or&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/contribution-guidelines/guide-for-developers/"&gt;Guide for Texera Developers&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Texera should be &lt;strong&gt;up-and-running on your laptop&lt;/strong&gt; before proceeding.&lt;/p&gt;
 
@@ -84,7 +107,7 @@
 
 &lt;h2 id="user-dashboard"&gt;User Dashboard&lt;a class="td-heading-self-link" href="#user-dashboard" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Once logged in, you should see the following page:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/baa3d599-99c6-401f-a772-4300cbc7c9a9" alt="Texera Dashboard"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://texera.staged.apache.org/images/github-assets/baa3d599-99c6-401f-a772-4300cbc7c9a9.png" alt="Texera Dashboard"&gt;&lt;/p&gt;
 &lt;h3 id="navigation-bar"&gt;Navigation Bar&lt;a class="td-heading-self-link" href="#navigation-bar" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;On the left sidebar, you can switch between different resource modules:&lt;/p&gt;
 &lt;ul&gt;
