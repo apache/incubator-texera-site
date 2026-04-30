@@ -33,8 +33,8 @@
 }
 
 .cover-split-content {
-  flex: 1;
-  max-width: 550px;
+  flex: 1 1 auto;
+  max-width: 750px;
   text-align: left;
 
   h1 {
@@ -77,35 +77,9 @@
   /* Adjust height for the wave effect */
 }
 
-/* Mid: stack vertically on tablet */
-@media (max-width: 1000px) {
-  .cover-split-hero {
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-    padding: 2rem 1.5rem;
-  }
-
-  .hero-logo-img {
-    width: 30%
-  }
-
-  .cover-split-content {
-    text-align: center;
-
-    h1 {
-      text-align: center;
-      font-size: clamp(1.6rem, 6vw, 2.5rem);
-    }
-
-    p.lead {
-      text-align: center;
-    }
-  }
-}
 
 /* Small: hide logo entirely, center all text */
-@media (max-width: 560px) {
+@media (max-width: 900px) {
   .cover-split-logo {
     display: none;
   }
