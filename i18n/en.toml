@@ -118,11 +118,8 @@ other = "© {{ .Year }} The Apache Software Foundation."
 
 [apache_footer_trademark]
 other = """
-Apache Texera (Incubating), Apache, Texera, the Texera logo, and the Apache
-logo are either registered trademarks or trademarks of
-<a href="https://apache.org/" target="_blank" rel="noopener">The Apache Software Foundation</a>.
-All other products or name brands are trademarks of their respective holders,
-including The Apache Software Foundation.
+Apache Texera, Texera, Apache, the Apache logo, and the Apache Texera project logo are either <br>
+registered trademarks or trademarks of The Apache Software Foundation in the United States and other countries.
 """
 
 [apache_footer_disclaimer]
