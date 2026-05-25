@@ -7,9 +7,9 @@ Each release page below contains the source distribution, container images, veri
 
 ## Apache Texera releases
 
-| Version | Date | Notes |
-|---|---|---|
-| [1.1.0-incubating](/releases/1.1.0-incubating/) | 2026-05-17 | First Apache Incubator release |
+| Version | Date | Docs | Artifacts | Notes |
+|---|---|---|---|---|
+| [1.1.0-incubating](/releases/1.1.0-incubating/) | 2026-05-17 | [Docs](/docs/latest/) | [Download](https://downloads.apache.org/incubator/texera/1.1.0-incubating/) | First Apache Incubator release |
 
 Older releases are kept in the [Apache archive](https://archive.apache.org/dist/incubator/texera/). The pre-incubation `1.0.0` release is not an Apache Software Foundation release and is not available on Apache mirrors.
 

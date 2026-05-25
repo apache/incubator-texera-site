@@ -936,9 +936,18 @@ body {
 
 .announcements-page {
   max-width: 880px;
-  margin: 0 auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
   padding-top: 0.5rem;
   padding-bottom: 4rem;
+}
+
+@media (min-width: 992px) {
+  .td-content.announcements-page > .announcements-list,
+  .td-content.announcements-page > .announcements-search-wrap,
+  .td-content.announcements-page > .announcements-empty {
+    max-width: 100%;
+  }
 }
 
 .announcements-search-wrap {
@@ -994,15 +1003,12 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  display: flex;
-  justify-content: center;
   box-sizing: border-box;
 }
 
 .announcement-card {
   display: block;
   width: 100%;
-  max-width: 720px;
   margin: 0 auto;
   box-sizing: border-box;
   padding: 1.5rem 1.75rem;
@@ -1092,4 +1098,36 @@ body {
   color: #5f6368;
   padding: 2rem 0;
   font-style: italic;
+}
+
+.latest-release-badge {
+  position: absolute;
+  right: 0.9rem;
+  bottom: 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-variant-numeric: tabular-nums;
+  z-index: 2;
+}
+
+.latest-release-badge a {
+  display: inline-block;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  background: rgba(20, 17, 15, 0.72);
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition:
+    background-color 0.15s ease-out,
+    transform 0.15s ease-out;
+}
+
+.latest-release-badge a:hover,
+.latest-release-badge a:focus {
+  background: rgba(20, 17, 15, 0.9);
+  transform: translateY(-1px);
+  text-decoration: none;
+  color: #ffffff;
 }
