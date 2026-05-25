@@ -1,17 +1,76 @@
 {{ define "main" -}}
+
 <div><a class="td-offset-anchor"></a></div>
-<section class="row td-box td-box--white position-relative td-box--height-auto" style="padding-top: 9rem; padding-bottom: 4rem;">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-lg-10 offset-lg-1">
-        <div class="td-content">
-          <h1>{{ .Title }}</h1>
-          {{ with .Content }}
-            {{ . }}
-          {{ end }}
-        </div>
-      </div>
+<section class="row td-box td-box--white position-relative td-box--height-auto releases-hero">
+  <div class="col-12">
+    <div class="container text-center">
+      <h1>{{ .Title }}</h1>
+      {{ with .Content }}<div class="releases-hero-lead">{{ . }}</div>{{ end }}
     </div>
   </div>
 </section>
+
+<div class="container">
+  <div class="td-content releases-page">
+    {{ if .Pages -}}
+    <div class="announcements-search-wrap">
+      <i class="fa fa-search announcements-search-icon" aria-hidden="true"></i>
+      <input type="search" id="releasesSearch" class="announcements-search" placeholder="Search releases…" aria-label="Search releases">
+    </div>
+
+    <ul class="announcements-list releases-list">
+      {{ range (.Pages.ByDate.Reverse) -}}
+      <li class="announcement-item release-item" data-search="{{ lower (printf "%s %s %s" .Title (.Params.description | default "") (delimit .Params.tags " ")) }}">
+        <div class="announcement-card release-card">
+          <h2 class="announcement-title"><a href="{{ .RelPermalink }}" class="stretched-link">{{ .Title }}</a></h2>
+          <div class="announcement-meta">
+            <time class="announcement-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format ($.Param "time_format_blog" | default "January 2, 2006") }}</time>
+            {{ with .Params.tags -}}
+            <span class="announcement-tags">
+              {{ range . -}}
+                <span class="announcement-tag">{{ . }}</span>
+              {{ end -}}
+            </span>
+            {{- end }}
+          </div>
+          {{ with .Params.description }}<p class="announcement-description">{{ . }}</p>{{ end }}
+          <div class="release-actions">
+            <a href="{{ .RelPermalink }}" class="release-action">Release notes →</a>
+            {{ with .Params.docs_url }}<a href="{{ . }}" class="release-action">Docs →</a>{{ end }}
+            {{ with .Params.artifacts_url }}<a href="{{ . }}" class="release-action" target="_blank" rel="noopener">Artifacts ↗</a>{{ end }}
+          </div>
+        </div>
+      </li>
+      {{ end -}}
+    </ul>
+    <p class="announcements-empty" hidden>No releases match your search.</p>
+    {{- end }}
+
+    <div class="releases-footer-notes">
+      <p>The pre-incubation <code>1.0.0</code> release is not an Apache Software Foundation release and is not available on Apache mirrors. Older releases are kept in the <a href="https://archive.apache.org/dist/incubator/texera/">Apache archive</a>.</p>
+      <p>All Apache Texera releases are signed by the project's <a href="https://downloads.apache.org/incubator/texera/KEYS">release signing keys</a>. Verify integrity before use, following the standard ASF procedures: <a href="https://www.apache.org/info/verification.html">https://www.apache.org/info/verification.html</a>.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  var input = document.getElementById('releasesSearch');
+  if (!input) return;
+  var items = document.querySelectorAll('.release-item');
+  var empty = document.querySelector('.announcements-empty');
+  input.addEventListener('input', function() {
+    var q = this.value.trim().toLowerCase();
+    var visible = 0;
+    items.forEach(function(item) {
+      var hay = item.getAttribute('data-search') || '';
+      var match = q === '' || hay.indexOf(q) !== -1;
+      item.hidden = !match;
+      if (match) visible++;
+    });
+    if (empty) empty.hidden = visible !== 0;
+  });
+})();
+</script>
+
 {{- end }}
