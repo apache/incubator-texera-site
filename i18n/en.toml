@@ -67,15 +67,15 @@ other = "Join the {{ .Site.Title }} community"
 [community_introduce]
 other = "{{ .Site.Title }} is an open source project that anyone in the community can use, improve, and enjoy. We'd love you to join us! Here's a few ways to find out what's happening and get involved."
 [community_learn]
-other = "Learn and Connect"
+other = "Are you a User?"
 [community_using]
-other = "Using or want to use {{ .Site.Title }}? Find out more here:"
+other = "Get started with {{ .Site.Title }}, ask questions, and report issues:"
 [community_develop]
-other = "Develop and Contribute"
+other = "Want to Contribute?"
 [community_contribute]
-other = "If you want to get more involved by contributing to {{ .Site.Title }}, join us here:"
+other = "Help shape {{ .Site.Title }} — contribute code, documentation, or ideas:"
 [community_how_to]
-other = "You can find out how to contribute to {{ .Site.Title }} in our"
+other = "For coding standards, PR workflow, and sign-off requirements, see our"
 [community_guideline]
 other = "Contribution Guidelines"
 
@@ -106,6 +106,27 @@ other = "Development discussions"
 
 [issues_desc]
 other = "Report bugs and track features"
+
+[quickstart_desc]
+other = "Install Texera and run your first workflow"
+
+[releases_desc]
+other = "Source artifacts and release notes"
+
+[docs_desc]
+other = "Tutorials, concepts, and reference"
+
+[githubDiscussions_desc]
+other = "Open-ended questions and feature ideas"
+
+[devMailingList_desc]
+other = "Design discussions, proposals, and votes"
+
+[contributing_desc]
+other = "Coding standards and PR workflow"
+
+[devGuide_desc]
+other = "Local dev setup and contribution guides"
 
 [userLinksTitle]
 other = "User Links"

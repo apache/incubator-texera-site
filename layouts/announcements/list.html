@@ -1,0 +1,65 @@
+{{ define "main" -}}
+
+<div><a class="td-offset-anchor"></a></div>
+<section class="row td-box td-box--white position-relative td-box--height-auto announcements-hero">
+  <div class="col-12">
+    <div class="container text-center">
+      <h1 class="display-3 announcements-hero-title">{{ .Title }}</h1>
+      {{ with .Content }}<div class="announcements-hero-lead">{{ . }}</div>{{ end }}
+    </div>
+  </div>
+</section>
+
+<div class="td-content announcements-page">
+  {{ if .Pages -}}
+  <div class="announcements-search-wrap">
+    <i class="fa fa-search announcements-search-icon" aria-hidden="true"></i>
+    <input type="search" id="announcementsSearch" class="announcements-search" placeholder="Search announcements…" aria-label="Search announcements">
+  </div>
+
+  <ul class="announcements-list">
+    {{ range (.Pages.ByDate.Reverse) -}}
+    <li class="announcement-item" data-search="{{ lower (printf "%s %s %s" .Title (.Params.description | default "") (delimit .Params.tags " ")) }}">
+      <a class="announcement-card" href="{{ .RelPermalink }}">
+        <h2 class="announcement-title">{{ .Title }}</h2>
+        <div class="announcement-meta">
+          <time class="announcement-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format ($.Param "time_format_blog" | default "January 2, 2006") }}</time>
+          {{ with .Params.tags -}}
+          <span class="announcement-tags">
+            {{ range . -}}
+              <span class="announcement-tag">{{ . }}</span>
+            {{ end -}}
+          </span>
+          {{- end }}
+        </div>
+        {{ with .Params.description }}<p class="announcement-description">{{ . }}</p>{{ end }}
+        <span class="announcement-readmore">{{ T "ui_read_more" }} →</span>
+      </a>
+    </li>
+    {{ end -}}
+  </ul>
+  <p class="announcements-empty" hidden>No announcements match your search.</p>
+  {{- end }}
+</div>
+
+<script>
+(function() {
+  var input = document.getElementById('announcementsSearch');
+  if (!input) return;
+  var items = document.querySelectorAll('.announcement-item');
+  var empty = document.querySelector('.announcements-empty');
+  input.addEventListener('input', function() {
+    var q = this.value.trim().toLowerCase();
+    var visible = 0;
+    items.forEach(function(item) {
+      var hay = item.getAttribute('data-search') || '';
+      var match = q === '' || hay.indexOf(q) !== -1;
+      item.hidden = !match;
+      if (match) visible++;
+    });
+    if (empty) empty.hidden = visible !== 0;
+  });
+})();
+</script>
+
+{{- end }}
