@@ -1,4 +1,4 @@
 ---
 title: Community
-menu: {main: {weight: 40}}
+menu: {main: {weight: 35}}
 ---
