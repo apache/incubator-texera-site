@@ -259,16 +259,33 @@ section:has(.services-section) {
   }
 }
 
-.community-hero h1 {
+/* Section-landing hero titles use the same default Docsy h1 styling
+   as in-content page titles (e.g. /docs/latest/overview/). Docsy only
+   bolds `.td-content > h1`, so the hero h1s need an explicit weight. */
+.community-hero h1,
+.announcements-hero h1 {
+  font-weight: $font-weight-bold;
   margin-bottom: 0.35rem;
 }
 
-.community-hero p {
+.community-hero p,
+.announcements-hero-lead {
+  margin-bottom: 0;
+  font-size: 1.1rem;
+  color: #5f6368;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.55;
+}
+
+.announcements-hero-lead p {
   margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
-  .td-default main > section.community-hero:first-of-type {
+  .td-default main > section.community-hero:first-of-type,
+  .td-default main > section.announcements-hero:first-of-type {
     padding-bottom: 1rem !important;
   }
 }
@@ -903,37 +920,6 @@ body {
 }
 
 /* Announcements page */
-.announcements-hero {
-  padding-top: 4rem;
-  padding-bottom: 2rem;
-  background: linear-gradient(180deg, #fbfbfd 0%, #ffffff 100%);
-}
-
-.announcements-hero-title {
-  font-weight: 800;
-  letter-spacing: -0.02em;
-  margin-bottom: 0.5rem;
-}
-
-.announcements-hero-lead {
-  max-width: 720px;
-  margin: 0 auto;
-  font-size: 1.1rem;
-  color: #5f6368;
-  line-height: 1.55;
-}
-
-.announcements-hero-lead p {
-  margin-bottom: 0;
-}
-
-@media (min-width: 768px) {
-  .td-default main > section.announcements-hero:first-of-type {
-    padding-top: 4.5rem !important;
-    padding-bottom: 1.75rem !important;
-  }
-}
-
 .announcements-page {
   max-width: 880px;
   margin-left: auto !important;
