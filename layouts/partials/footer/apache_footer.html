@@ -5,7 +5,7 @@
 {{ $links := $langData.apache_links.links }}
 
 <!-- Unified Apache Footer -->
-<div class="td-apachefooter mt-3 py-4 bg-secondary text-center position-relative">
+<div class="td-apachefooter mt-3 py-4 bg-secondary text-center">
     <!-- Logo Placeholder -->
     <div class="footer-logo mb-3">
         <img src="/images/apache-incubator.png" alt="Logo Placeholder" style="max-width:120px;">
@@ -37,13 +37,4 @@
         {{ i18n "apache_footer_copyright" (dict "Year" (now.Year)) }}
     </div>
 
-    {{ with .Site.Params.latest_release -}}
-    <aside class="latest-release-badge d-print-none" aria-label="Latest release {{ . }}">
-      {{ if $.Site.Params.latest_release_url -}}
-        <a href="{{ $.Site.Params.latest_release_url }}">v{{ . }}</a>
-      {{- else -}}
-        v{{ . }}
-      {{- end }}
-    </aside>
-    {{- end }}
 </div>

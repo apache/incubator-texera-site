@@ -1152,34 +1152,30 @@ body {
   font-style: italic;
 }
 
-.latest-release-badge {
-  position: absolute;
-  right: 0.9rem;
-  bottom: 0.6rem;
-  font-size: 0.75rem;
-  font-weight: 500;
+.navbar-version-badge {
+  display: inline-block;
+  margin-left: 0.6rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
   letter-spacing: 0.02em;
   font-variant-numeric: tabular-nums;
-  z-index: 2;
-}
-
-.latest-release-badge a {
-  display: inline-block;
-  padding: 0.3rem 0.65rem;
-  border-radius: 999px;
-  background: rgba(20, 17, 15, 0.72);
-  color: #ffffff;
+  background: rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.88);
   text-decoration: none;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   transition:
     background-color 0.15s ease-out,
-    transform 0.15s ease-out;
+    color 0.15s ease-out,
+    border-color 0.15s ease-out;
+  vertical-align: middle;
 }
 
-.latest-release-badge a:hover,
-.latest-release-badge a:focus {
-  background: rgba(20, 17, 15, 0.9);
-  transform: translateY(-1px);
-  text-decoration: none;
+.navbar-version-badge:hover,
+.navbar-version-badge:focus {
+  background: rgba(255, 255, 255, 0.22);
+  border-color: rgba(255, 255, 255, 0.32);
   color: #ffffff;
+  text-decoration: none;
 }

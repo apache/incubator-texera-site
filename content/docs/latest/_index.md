@@ -1,7 +1,7 @@
 ---
 title: Texera Documentation
 linkTitle: Docs
-menu: {main: {weight: 20}}
+menu: {main: {weight: 45}}
 ---
 
 {{% pageinfo %}}

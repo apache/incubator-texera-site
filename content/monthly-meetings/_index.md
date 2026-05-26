@@ -1,8 +1,13 @@
 ---
 title: Apache Monthly Meetings
+linkTitle: Meetings
 type: docs
 toc: false
 hide_feedback: true
+menu:
+  main:
+    parent: community
+    weight: 10
 ---
 
 {{% pageinfo %}}

@@ -1,4 +1,7 @@
 ---
 title: Community
-menu: {main: {weight: 35}}
+menu:
+  main:
+    identifier: community
+    weight: 35
 ---
