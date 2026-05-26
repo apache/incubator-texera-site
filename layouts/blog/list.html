@@ -1,0 +1,74 @@
+{{ define "main" -}}
+
+<div><a class="td-offset-anchor"></a></div>
+<section class="row td-box td-box--white position-relative td-box--height-auto blog-hero">
+  <div class="col-12">
+    <div class="container text-center">
+      <h1>{{ .Title }}</h1>
+      {{ with .Content }}<div class="blog-hero-lead">{{ . }}</div>{{ end }}
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="td-content blog-page">
+    {{ $posts := where .Site.RegularPages "Section" "blog" -}}
+    {{ if $posts -}}
+    <div class="announcements-search-wrap">
+      <i class="fa fa-search announcements-search-icon" aria-hidden="true"></i>
+      <input type="search" id="blogSearch" class="announcements-search" placeholder="Search blog posts…" aria-label="Search blog posts">
+    </div>
+
+    <ul class="blog-grid">
+      {{ range ($posts.ByDate.Reverse) -}}
+      <li class="blog-grid-item" data-search="{{ lower (printf "%s %s %s %s" .Title (.Params.description | default "") (.Params.author | default "") (delimit (.Params.tags | default slice) " ")) }}">
+        <a class="blog-card" href="{{ .RelPermalink }}">
+          {{ with (index .Params.images 0) -}}
+          <div class="blog-card-image">
+            <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+          </div>
+          {{- end }}
+          <div class="blog-card-body">
+            <h2 class="blog-card-title">{{ .Title }}</h2>
+            <div class="blog-card-meta">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format ($.Param "time_format_blog" | default "January 2, 2006") }}</time>
+              {{ with .Params.author }}<span class="blog-card-author">· {{ . }}</span>{{ end }}
+            </div>
+            {{ with .Params.tags -}}
+            <div class="blog-card-tags">
+              {{ range . -}}<span class="announcement-tag">{{ . }}</span>{{ end -}}
+            </div>
+            {{- end }}
+            {{ with .Params.description }}<p class="blog-card-description">{{ . }}</p>{{ end }}
+            <span class="blog-card-readmore">{{ T "ui_read_more" }} →</span>
+          </div>
+        </a>
+      </li>
+      {{ end -}}
+    </ul>
+    <p class="announcements-empty" hidden>No posts match your search.</p>
+    {{- end }}
+  </div>
+</div>
+
+<script>
+(function() {
+  var input = document.getElementById('blogSearch');
+  if (!input) return;
+  var items = document.querySelectorAll('.blog-grid-item');
+  var empty = document.querySelector('.announcements-empty');
+  input.addEventListener('input', function() {
+    var q = this.value.trim().toLowerCase();
+    var visible = 0;
+    items.forEach(function(item) {
+      var hay = item.getAttribute('data-search') || '';
+      var match = q === '' || hay.indexOf(q) !== -1;
+      item.hidden = !match;
+      if (match) visible++;
+    });
+    if (empty) empty.hidden = visible !== 0;
+  });
+})();
+</script>
+
+{{- end }}

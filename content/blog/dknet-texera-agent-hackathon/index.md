@@ -6,6 +6,7 @@ author: Matthew Ball
 description: "An in-person hackathon hosted by the NIH dkNET project and the Apache Texera team at UC Irvine, May 14–18, 2026."
 images:
   - /images/blog_hero/dknet-texera-agent-hackathon.jpg
+tags: ["hackathon", "event", "dknet", "uc-irvine"]
 ---
 
 <div style="max-width: 100%; width: 100%; margin: 0 0 32px;">
