@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Database-Connector on Apache Texera</title><link>https://texera.staged.apache.org/tags/database-connector/</link><description>Recent content in Database-Connector on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/database-connector/index.xml" rel="self" type="application/rss+xml"/><item><title>Database Connector</title><link>https://texera.staged.apache.org/docs/reference/operators/database-connector/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/operators/database-connector/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; Database Connector&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Database-Connector on Apache Texera</title><link>https://texera.staged.apache.org/tags/database-connector/</link><description>Recent content in Database-Connector on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/database-connector/index.xml" rel="self" type="application/rss+xml"/><item><title>Database Connector</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/database-connector/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/database-connector/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; Database Connector&lt;/p&gt;
 &lt;h2 id="operators"&gt;Operators&lt;a class="td-heading-self-link" href="#operators" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;
@@ -9,20 +9,20 @@
  &lt;/thead&gt;
  &lt;tbody&gt;
  &lt;tr&gt;
- &lt;td&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/database-connector/asterixdb-source/"&gt;AsterixDB Source&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/database-connector/asterixdb-source/"&gt;AsterixDB Source&lt;/a&gt;&lt;/td&gt;
  &lt;td&gt;Read data from a AsterixDB instance&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
- &lt;td&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/database-connector/mysql-source/"&gt;MySQL Source&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/database-connector/mysql-source/"&gt;MySQL Source&lt;/a&gt;&lt;/td&gt;
  &lt;td&gt;Read data from a MySQL instance&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
- &lt;td&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/database-connector/postgresql-source/"&gt;PostgreSQL Source&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/database-connector/postgresql-source/"&gt;PostgreSQL Source&lt;/a&gt;&lt;/td&gt;
  &lt;td&gt;Read data from a PostgreSQL instance&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;Total&lt;/strong&gt;: 3 operators&lt;/p&gt;</description></item><item><title>AsterixDB Source</title><link>https://texera.staged.apache.org/docs/reference/operators/database-connector/asterixdb-source/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/operators/database-connector/asterixdb-source/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/reference/operators/"&gt;Database Connector&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Total&lt;/strong&gt;: 3 operators&lt;/p&gt;</description></item><item><title>AsterixDB Source</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/database-connector/asterixdb-source/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/database-connector/asterixdb-source/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Database Connector&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
@@ -226,7 +226,7 @@
  &lt;td&gt;&lt;a href="../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>MySQL Source</title><link>https://texera.staged.apache.org/docs/reference/operators/database-connector/mysql-source/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/operators/database-connector/mysql-source/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/reference/operators/"&gt;Database Connector&lt;/a&gt;&lt;/p&gt;
+&lt;/table&gt;</description></item><item><title>MySQL Source</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/database-connector/mysql-source/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/database-connector/mysql-source/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Database Connector&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
@@ -367,7 +367,7 @@
  &lt;td&gt;&lt;a href="../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>PostgreSQL Source</title><link>https://texera.staged.apache.org/docs/reference/operators/database-connector/postgresql-source/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/operators/database-connector/postgresql-source/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/reference/operators/"&gt;Database Connector&lt;/a&gt;&lt;/p&gt;
+&lt;/table&gt;</description></item><item><title>PostgreSQL Source</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/database-connector/postgresql-source/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/database-connector/postgresql-source/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Database Connector&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
