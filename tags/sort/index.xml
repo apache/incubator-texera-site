@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sort on Apache Texera</title><link>https://texera.staged.apache.org/tags/sort/</link><description>Recent content in Sort on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/sort/index.xml" rel="self" type="application/rss+xml"/><item><title>Sort</title><link>https://texera.staged.apache.org/docs/reference/operators/data-cleaning/sort/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/operators/data-cleaning/sort/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/reference/operators/data-cleaning/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; Sort&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sort on Apache Texera</title><link>https://texera.staged.apache.org/tags/sort/</link><description>Recent content in Sort on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/sort/index.xml" rel="self" type="application/rss+xml"/><item><title>Sort</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/sort/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/sort/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; Sort&lt;/p&gt;
 &lt;h2 id="operators"&gt;Operators&lt;a class="td-heading-self-link" href="#operators" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;
@@ -9,20 +9,20 @@
  &lt;/thead&gt;
  &lt;tbody&gt;
  &lt;tr&gt;
- &lt;td&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/data-cleaning/sort/sort/"&gt;Sort&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/sort/sort/"&gt;Sort&lt;/a&gt;&lt;/td&gt;
  &lt;td&gt;Sort based on the columns and sorting methods&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
- &lt;td&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/data-cleaning/sort/sort-partitions/"&gt;Sort Partitions&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/sort/sort-partitions/"&gt;Sort Partitions&lt;/a&gt;&lt;/td&gt;
  &lt;td&gt;Sort Partitions&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
- &lt;td&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/operators/data-cleaning/sort/stable-merge-sort/"&gt;Stable Merge Sort&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/sort/stable-merge-sort/"&gt;Stable Merge Sort&lt;/a&gt;&lt;/td&gt;
  &lt;td&gt;Stable per-partition sort with multi-key ordering (incremental stack of sorted buckets)&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;Total&lt;/strong&gt;: 3 operators&lt;/p&gt;</description></item><item><title>Sort</title><link>https://texera.staged.apache.org/docs/reference/operators/data-cleaning/sort/sort/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/operators/data-cleaning/sort/sort/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/reference/operators/data-cleaning/"&gt;Sort&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Total&lt;/strong&gt;: 3 operators&lt;/p&gt;</description></item><item><title>Sort</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/sort/sort/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/sort/sort/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/"&gt;Sort&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
@@ -72,7 +72,7 @@
  &lt;td&gt;&lt;a href="../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Sort Partitions</title><link>https://texera.staged.apache.org/docs/reference/operators/data-cleaning/sort/sort-partitions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/operators/data-cleaning/sort/sort-partitions/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/reference/operators/data-cleaning/"&gt;Sort&lt;/a&gt;&lt;/p&gt;
+&lt;/table&gt;</description></item><item><title>Sort Partitions</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/sort/sort-partitions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/sort/sort-partitions/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/"&gt;Sort&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
@@ -122,7 +122,7 @@
  &lt;td&gt;&lt;a href="../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Stable Merge Sort</title><link>https://texera.staged.apache.org/docs/reference/operators/data-cleaning/sort/stable-merge-sort/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/reference/operators/data-cleaning/sort/stable-merge-sort/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/reference/operators/data-cleaning/"&gt;Sort&lt;/a&gt;&lt;/p&gt;
+&lt;/table&gt;</description></item><item><title>Stable Merge Sort</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/sort/stable-merge-sort/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/sort/stable-merge-sort/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/"&gt;Sort&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;

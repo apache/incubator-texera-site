@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Announcements on Apache Texera</title><link>https://texera.staged.apache.org/announcements/</link><description>Recent content in Announcements on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/announcements/index.xml" rel="self" type="application/rss+xml"/><item><title>Apache Texera 1.1.0-incubating released</title><link>https://texera.staged.apache.org/announcements/1.1.0-incubating-released/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/announcements/1.1.0-incubating-released/</guid><description>&lt;p&gt;We are pleased to announce the release of &lt;strong&gt;Apache Texera 1.1.0-incubating&lt;/strong&gt; — the &lt;strong&gt;first release of Apache Texera as an Apache Incubator project&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This release focuses on Apache Incubator compliance and introduces a major new capability for AI-assisted workflow construction: &lt;strong&gt;TexeraAgent&lt;/strong&gt;, an LLM agent that helps users construct workflows using natural-language instructions.&lt;/p&gt;
+&lt;h3 id="highlights"&gt;Highlights&lt;a class="td-heading-self-link" href="#highlights" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;TexeraAgent&lt;/strong&gt; — natural-language workflow construction powered by LLMs&lt;/li&gt;
+&lt;li&gt;ASF license headers, &lt;code&gt;asf.yaml&lt;/code&gt;, &lt;code&gt;NOTICE&lt;/code&gt;, and &lt;code&gt;DISCLAIMER&lt;/code&gt; for incubator compliance&lt;/li&gt;
+&lt;li&gt;Resolved outstanding license compliance issues&lt;/li&gt;
+&lt;li&gt;System repositioning to &amp;ldquo;Human-AI Collaborative Data Science Using Visual Workflows&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="get-the-release"&gt;Get the release&lt;a class="td-heading-self-link" href="#get-the-release" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://texera.staged.apache.org/releases/1.1.0-incubating/"&gt;Release notes and download artifacts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://downloads.apache.org/incubator/texera/1.1.0-incubating/"&gt;Source distribution on Apache mirrors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/apache/texera/releases/tag/v1.1.0-incubating"&gt;Git tag &lt;code&gt;v1.1.0-incubating&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/getting-started/"&gt;Quick Start&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>dkNET-AI · Apache Texera Agent Hackathon</title><link>https://texera.staged.apache.org/announcements/dknet-texera-hackathon/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/announcements/dknet-texera-hackathon/</guid><description>&lt;p&gt;The &lt;strong&gt;dkNET-AI · Apache Texera Agent Hackathon&lt;/strong&gt; brought together researchers, students, and data enthusiasts at UC Irvine from &lt;strong&gt;May 14–18, 2026&lt;/strong&gt; for an intensive four-day sprint focused on human-AI collaborative data science.&lt;/p&gt;
+&lt;p&gt;Hosted by the NIH dkNET project and the Apache Texera team, the event challenged participants to build intuitive, visual workflows in which advanced AI agents co-author data pipelines alongside humans.&lt;/p&gt;
+&lt;h3 id="by-the-numbers"&gt;By the numbers&lt;a class="td-heading-self-link" href="#by-the-numbers" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;23&lt;/strong&gt; active participants&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;46&lt;/strong&gt; hours of non-stop hacking&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;35&lt;/strong&gt; total project submissions (33 accepted for formal evaluation)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/blog/2026/05/20/dknet-ai-apache-texera-agent-hackathon/"&gt;Read the full recap on the blog →&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
