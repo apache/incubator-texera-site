@@ -54,7 +54,7 @@ anchor = "smart"
 [languages.en]
 languageName = "English"
 title = "Apache Texera"
-contentDir = "content/en"
+contentDir = "content"
 weight = 1
 [languages.en.params]
 title = "Apache Texera"
@@ -64,13 +64,6 @@ description = "Apache Texera: interactive, scalable dataflow analytics!"
 name = "GitHub"
 url  = "https://github.com/apache/texera"
 pre = "<i class='fab fa-github'></i>"
-[[languages.en.menu.main]]
-name = "Meetings"
-url  = "/monthly-meetings/"
-weight = 100
-[[languages.en.menu.main]]
-name = "Docs"
-url  = "/docs/"
 weight = 100
 
 
@@ -97,6 +90,11 @@ contributingUrl = "https://github.com/apache/texera/blob/main/CONTRIBUTING.md"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/texera-card.png"]
+
+# Latest release shown discreetly in the footer.
+# Update these two values when shipping a new version.
+latest_release = "1.1.0-incubating"
+latest_release_url = "/releases/1.1.0-incubating/"
 
 # Menu title if your navbar has a versions selector to access old versions of your site.
 version_menu = "Releases"
@@ -143,43 +141,73 @@ enable = false
 
 [params.links]
 
-# End user relevant links (left side footer & community page)
+# End user relevant links (left side footer & "Are you a User?" community section)
+[[params.links.user]]
+name = "Quick Start"
+url = "/docs/latest/getting-started/"
+icon = "fa fa-rocket"
+desc_key = "quickstart_desc"
+
+[[params.links.user]]
+name = "Releases"
+url = "/releases/"
+icon = "fa fa-download"
+desc_key = "releases_desc"
+
+[[params.links.user]]
+name = "Documentation"
+url = "/docs/latest/"
+icon = "fa fa-book"
+desc_key = "docs_desc"
+
 [[params.links.user]]
 name = "User mailing list"
-url = "https://incubator.apache.org/projects/texera.html"
+url = "mailto:users-subscribe@texera.apache.org"
 icon = "fa fa-envelope"
 desc_key = "userMailingList_desc"
 
-#[[params.links.user]]
-#name = "Announcements"
-#url = "#ComingSoon"
-#icon = "fa fa-bullhorn"
-#desc_key = "announcements_desc"
+[[params.links.user]]
+name = "GitHub Discussions"
+url = "https://github.com/apache/texera/discussions"
+icon = "fab fa-github"
+desc_key = "githubDiscussions_desc"
 
 [[params.links.user]]
-name = "GitHub"
-url = "https://github.com/apache/texera/"
-icon = "fab fa-github"
-desc_key = "github_desc"
+name = "Report a bug"
+url = "https://github.com/apache/texera/issues"
+icon = "fa fa-bug"
+desc_key = "issues_desc"
 
-# Developer relevant links (right side footer & community page)
-#[[params.links.developer]]
-#name = "Slack"
-#url = "#ComingSoon"
-#icon = "fab fa-slack"
-#desc_key = "slack_desc"
+# Contributor links (right side footer & "Want to Contribute?" community section)
+[[params.links.developer]]
+name = "Open issues"
+url = "https://github.com/apache/texera/issues"
+icon = "fa fa-tasks"
+desc_key = "issues_desc"
+
+[[params.links.developer]]
+name = "Contributing guide"
+url = "https://github.com/apache/texera/blob/main/CONTRIBUTING.md"
+icon = "fa fa-file-alt"
+desc_key = "contributing_desc"
+
+[[params.links.developer]]
+name = "Developer docs"
+url = "/docs/latest/contribution-guidelines/"
+icon = "fa fa-code"
+desc_key = "devGuide_desc"
+
+[[params.links.developer]]
+name = "Dev mailing list"
+url = "mailto:dev-subscribe@texera.apache.org"
+icon = "fa fa-envelope"
+desc_key = "devMailingList_desc"
 
 [[params.links.developer]]
 name = "YouTube"
 url = "https://www.youtube.com/@texeraprojectgeneral"
 icon = "fab fa-youtube"
 desc_key = "youtube_desc"
-
-[[params.links.developer]]
-name = "Issues"
-url = "https://github.com/apache/texera/issues"
-icon = "fa fa-tasks"
-desc_key = "issues_desc"
 
 
 # hugo module configuration

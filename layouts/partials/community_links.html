@@ -1,42 +1,124 @@
-{{/* Get links and contribution URL from site params */}}
-{{ $links := .Site.Params.links -}}
-{{ $contribUrl := .Site.Params.contributingUrl | default "https://github.com/apache/texera/blob/main/CONTRIBUTING.md" -}}
+{{/* Two-column community page sections: Are you a User? / Want to Contribute?
+     Each section renders only its heading and a grid of clickable link cards. */}}
 
-<section class="row td-box td-box--white td-box--height-auto linkbox text-center">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-        <h2>{{ T "community_learn" }}</h2>
-        <p>{{ T "community_using" . }}</p>
-        {{ with index $links "user" -}}
-            {{ template "community-links-list" . -}}
-        {{ end }}
+<section class="row td-box td-box--white td-box--height-auto linkbox">
+    <div class="col-12 col-lg-6 px-4 pt-3 pb-4">
+        <h2 class="text-center">{{ T "community_learn" }}</h2>
+        <ul class="community-links">
+            <li class="community-link-item">
+                <a class="community-link-box" href="/docs/latest/getting-started/">
+                    <div class="community-link-main">
+                        <i class="fa fa-rocket"></i>
+                        <span class="community-link-name">Quick Start</span>
+                    </div>
+                    <span class="community-link-desc">Install Texera and run your first workflow</span>
+                </a>
+            </li>
+            <li class="community-link-item">
+                <a class="community-link-box" href="/docs/latest/">
+                    <div class="community-link-main">
+                        <i class="fa fa-book"></i>
+                        <span class="community-link-name">Documentation</span>
+                    </div>
+                    <span class="community-link-desc">Tutorials, concepts, and reference</span>
+                </a>
+            </li>
+            <li class="community-link-item">
+                <a class="community-link-box" href="/releases/">
+                    <div class="community-link-main">
+                        <i class="fa fa-download"></i>
+                        <span class="community-link-name">Releases</span>
+                    </div>
+                    <span class="community-link-desc">Source artifacts and release notes</span>
+                </a>
+            </li>
+            <li class="community-link-item">
+                <a class="community-link-box" href="/announcements/">
+                    <div class="community-link-main">
+                        <i class="fa fa-bullhorn"></i>
+                        <span class="community-link-name">Announcements</span>
+                    </div>
+                    <span class="community-link-desc">Releases and community milestones</span>
+                </a>
+            </li>
+            <li class="community-link-item">
+                <a class="community-link-box" href="mailto:users-subscribe@texera.apache.org">
+                    <div class="community-link-main">
+                        <i class="fa fa-envelope"></i>
+                        <span class="community-link-name">User mailing list</span>
+                    </div>
+                    <span class="community-link-desc">Discussion and help from fellow users</span>
+                </a>
+            </li>
+            <li class="community-link-item">
+                <a class="community-link-box" href="https://github.com/apache/texera/discussions" target="_blank" rel="noopener">
+                    <div class="community-link-main">
+                        <i class="fab fa-github"></i>
+                        <span class="community-link-name">GitHub Discussions</span>
+                    </div>
+                    <span class="community-link-desc">Open-ended questions and feature ideas</span>
+                </a>
+            </li>
+            <li class="community-link-item">
+                <a class="community-link-box" href="https://github.com/apache/texera/issues" target="_blank" rel="noopener">
+                    <div class="community-link-main">
+                        <i class="fa fa-bug"></i>
+                        <span class="community-link-name">Report a bug</span>
+                    </div>
+                    <span class="community-link-desc">File issues and feature requests</span>
+                </a>
+            </li>
+        </ul>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-        <h2>{{ T "community_develop" }}</h2>
-        <p>{{ T "community_contribute" . }}</p>
-        {{ with index $links "developer" -}}
-            {{ template "community-links-list" . -}}
-        {{ end }}
-        <p>
-            {{ T "community_how_to" . }}
-            <a href="{{ $contribUrl | relURL }}">{{ T "community_guideline" }}</a>.
-        </p>
+    <div class="col-12 col-lg-6 px-4 pt-3 pb-4">
+        <h2 class="text-center">{{ T "community_develop" }}</h2>
+        <ul class="community-links">
+            <li class="community-link-item">
+                <a class="community-link-box" href="https://github.com/apache/texera/issues" target="_blank" rel="noopener">
+                    <div class="community-link-main">
+                        <i class="fa fa-tasks"></i>
+                        <span class="community-link-name">Browse open issues</span>
+                    </div>
+                    <span class="community-link-desc">Find something to work on</span>
+                </a>
+            </li>
+            <li class="community-link-item">
+                <a class="community-link-box" href="https://github.com/apache/texera/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">
+                    <div class="community-link-main">
+                        <i class="fa fa-file-alt"></i>
+                        <span class="community-link-name">Contributing guide</span>
+                    </div>
+                    <span class="community-link-desc">Coding standards and PR workflow</span>
+                </a>
+            </li>
+            <li class="community-link-item">
+                <a class="community-link-box" href="/docs/latest/contribution-guidelines/">
+                    <div class="community-link-main">
+                        <i class="fa fa-code"></i>
+                        <span class="community-link-name">Developer docs</span>
+                    </div>
+                    <span class="community-link-desc">Local dev setup and contribution guides</span>
+                </a>
+            </li>
+            <li class="community-link-item">
+                <a class="community-link-box" href="mailto:dev-subscribe@texera.apache.org">
+                    <div class="community-link-main">
+                        <i class="fa fa-envelope"></i>
+                        <span class="community-link-name">Dev mailing list</span>
+                    </div>
+                    <span class="community-link-desc">Design discussions, proposals, and votes</span>
+                </a>
+            </li>
+            <li class="community-link-item">
+                <a class="community-link-box" href="https://www.youtube.com/@texeraprojectgeneral" target="_blank" rel="noopener">
+                    <div class="community-link-main">
+                        <i class="fab fa-youtube"></i>
+                        <span class="community-link-name">YouTube</span>
+                    </div>
+                    <span class="community-link-desc">Development discussions and demos</span>
+                </a>
+            </li>
+        </ul>
     </div>
 </section>
-
-{{/* Renders the link lists as rounded, clickable boxes */}}
-{{ define "community-links-list" -}}
-<ul class="community-links">
-    {{ range . -}}
-    <li class="community-link-item" title="{{ .name }}">
-        <a class="community-link-box" target="_blank" rel="noopener" href="{{ .url }}">
-            <div class="community-link-main">
-                <i class="{{ .icon }}"></i>
-                <span class="community-link-name">{{ .name }}</span>
-            </div>
-            <span class="community-link-desc">{{ T .desc_key }}</span>
-        </a>
-    </li>
-    {{ end }}
-</ul>
-{{- end }}
