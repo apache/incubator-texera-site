@@ -1,0 +1,66 @@
+name: Sync docs from apache/texera
+
+# apache/texera is the single source of truth for documentation content
+# (apache/texera#5001). This job periodically pulls that repo's docs/ folder,
+# regenerates content/docs/latest from it (re-applying the Hugo artifacts the
+# website needs, see scripts/sync-docs.py), and commits + redeploys when the
+# rendered docs change. content/docs/latest is therefore generated, not
+# hand-maintained: edit the docs in apache/texera instead.
+
+on:
+  schedule:
+    - cron: '17 6 * * *'   # daily at 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-docs
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout site
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Checkout apache/texera docs
+        uses: actions/checkout@v4
+        with:
+          repository: apache/texera
+          ref: main
+          path: texera-src
+          sparse-checkout: docs
+          sparse-checkout-cone-mode: true
+
+      - name: Regenerate content/docs/latest from source
+        run: python3 scripts/sync-docs.py texera-src/docs content/docs/latest
+
+      - name: Commit synced docs if changed
+        id: commit
+        run: |
+          git config user.name  "Texera docs bot"
+          git config user.email "commits@texera.apache.org"
+          if [ -z "$(git status --porcelain content/docs/latest)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No documentation changes to sync."
+          else
+            src_sha=$(git -C texera-src rev-parse --short HEAD)
+            git add content/docs/latest
+            git commit -m "chore(docs): sync from apache/texera@${src_sha}"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build and deploy
+        if: steps.commit.outputs.changed == 'true'
+        uses: ./.github/actions/build-and-deploy
+        with:
+          source-branch: main
+          github-token: ${{ secrets.GITHUB_TOKEN }}

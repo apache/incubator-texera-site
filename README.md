@@ -21,6 +21,21 @@ dashboard][deploys], or this [alternate dashboard][].
 
 This is not an officially supported Google product. This project is currently maintained.
 
+## Documentation source
+
+The documentation under `content/docs/latest` is **generated, not hand-maintained**.
+[apache/texera](https://github.com/apache/texera) is the single source of truth for
+documentation content (see [apache/texera#5001](https://github.com/apache/texera/issues/5001)).
+
+The [`sync-docs`](.github/workflows/sync-docs.yml) workflow runs on a schedule, pulls the
+`docs/` folder from apache/texera, regenerates `content/docs/latest` via
+[`scripts/sync-docs.py`](scripts/sync-docs.py) (re-applying the Hugo artifacts the website
+needs, such as page `aliases` and the docs nav entry), and commits and redeploys when the
+rendered docs change. You can also trigger it manually from the Actions tab.
+
+To change the docs, edit the Markdown in apache/texera's `docs/` folder. Do not edit
+`content/docs/latest` directly: the next sync will overwrite it.
+
 ## Using the Docsy Example Project as a template
 
 A simple way to get started is to use this project as a template, which gives you a site project that is set up and ready to use. To do this:

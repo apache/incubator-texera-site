@@ -1,0 +1,79 @@
+name: Build and deploy Hugo site
+description: >
+  Build the Hugo site from the current working tree and publish the rendered
+  output to the ASF publish branch named in .asf.yaml.
+
+inputs:
+  source-branch:
+    description: Branch the build represents; selects the publish vs staging target.
+    required: true
+  github-token:
+    description: Token used to push the built site to the publish branch.
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Install Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '22'
+
+    - name: Install PostCSS dependencies
+      shell: bash
+      run: npm install --no-fund --no-audit --save-dev postcss postcss-cli autoprefixer
+
+    - name: Install Hugo
+      uses: peaceiris/actions-hugo@v3
+      with:
+        hugo-version: '0.152.2'
+        extended: true
+
+    - name: Build Hugo site
+      shell: bash
+      run: hugo --minify -d public
+
+    - name: Determine publish branch and copy `.asf.yaml` into `public`
+      id: vars
+      shell: bash
+      run: |
+        src_branch="${{ inputs.source-branch }}"
+        # Read .asf.yaml from the commit being built (works for both the
+        # push-triggered build and the sync job's freshly committed tree).
+        git show "HEAD:.asf.yaml" > /tmp/.asf.yaml || true
+
+        # determine which top-level key to read from the .asf.yaml
+        if [ "$src_branch" = "main" ]; then
+          key=publish
+        else
+          key=staging
+        fi
+
+        # extract whoami under the selected key (simple awk parser)
+        publish_branch=$(awk -v key="$key" '
+          $0 ~ "^"key":" { inblock=1; next }
+          inblock && $0 ~ "^[^[:space:]]" { inblock=0 }
+          inblock && $0 ~ "whoami:" { print $2; exit }
+        ' /tmp/.asf.yaml)
+
+        # fallback
+        if [ -z "$publish_branch" ]; then
+          if [ "$src_branch" = "main" ]; then
+            publish_branch=publish
+          else
+            publish_branch=staging-publish
+          fi
+        fi
+
+        echo "branch=${publish_branch}" >> "$GITHUB_OUTPUT"
+
+        # copy the exact .asf.yaml into the public dir so it will be pushed
+        mkdir -p public
+        cp /tmp/.asf.yaml public/.asf.yaml
+
+    - name: Deploy to publish branch
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ inputs.github-token }}
+        publish_dir: ./public
+        publish_branch: ${{ steps.vars.outputs.branch }}
