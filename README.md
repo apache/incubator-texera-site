@@ -135,7 +135,18 @@ In the command above, we used the environment variable `HUGO_MODULE_WORKSPACE` t
 
 Your project's `hugo.toml` file already contains these lines, the directive for workspace assignment is commented out, however. Remove the two trailing comment characters '//' so that this line takes effect.
 
+## Deployment (Apache)
+
+This site is published by ASF infrastructure via [`.asf.yaml`](.asf.yaml):
+
+- Merges to **`staging`** publish to **https://texera.staged.apache.org** (preview).
+- Merges to **`main`** publish to **https://texera.apache.org** (production).
+
+The Hugo build runs in [`.github/workflows/publish-site.yml`](.github/workflows/publish-site.yml), which renders the site and pushes the output to the `staging-publish` / `publish` branches; ASF gitpubsub then serves those branches.
+
 ## Troubleshooting
+
+### Local Hugo build errors
 
 As you run the website locally, you may run into the following error:
 
@@ -175,6 +186,12 @@ Error: failed to download modules: binary with name "go" not found
 
 This error occurs if the `go` programming language is not available on your system.
 See this [section](https://www.docsy.dev/docs/get-started/docsy-as-module/installation-prerequisites/#install-go-language) of the user guide for instructions on how to install `go`.
+
+### Live site not updating after a merge
+
+Occasionally a **large update** (many files / a large diff) can stall the ASF publish sync: the rendered output lands correctly on the `publish` (or `staging-publish`) branch, but the live site keeps serving the previous snapshot.
+
+**Fix:** push a small follow-up commit — e.g. a one-line whitespace change — to the same branch. The smaller change re-triggers the sync and the site updates.
 
 
 [alternate dashboard]: https://app.netlify.com/sites/goldydocs/deploys
