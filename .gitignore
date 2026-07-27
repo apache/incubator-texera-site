@@ -9,3 +9,7 @@ package-lock.json
 _vendor/
 docsy.work
 docsy.work.sum
+
+# Docs are pulled from apache/texera release branches at build time.
+/content/docs/latest/
+/content/docs/v*/
