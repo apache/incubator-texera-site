@@ -4,6 +4,13 @@ on:
   push:
     branches: [ main, staging ]
   workflow_dispatch:
+  # Fired by apache/texera's release CI when a release candidate is cut.
+  repository_dispatch:
+    types: [ docs-updated ]
+  # Safety net: rebuild daily so a new release lands even if the dispatch is
+  # missed (and so an outdated dispatch token never blocks doc updates).
+  schedule:
+    - cron: '17 6 * * *'
 
 permissions:
   contents: write
@@ -19,6 +26,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      # Pull docs from apache/texera release branches (public repo, no token).
+      # Highest release/vX.Y with docs -> content/docs/latest; older -> /v<maj>-<min>/.
+      - name: Pull release docs from apache/texera
+        run: bash scripts/pull-release-docs.sh
 
       - name: Install Node.js
         uses: actions/setup-node@v4
@@ -43,6 +55,10 @@ jobs:
         id: vars
         run: |
           src_branch="${GITHUB_REF#refs/heads/}"
+          # repository_dispatch / schedule run on the default branch (main).
+          if [ -z "$src_branch" ] || [ "$src_branch" = "$GITHUB_REF" ]; then
+            src_branch=main
+          fi
           git fetch origin "$src_branch"
           git show "origin/${src_branch}:.asf.yaml" > /tmp/.asf.yaml || true
 
