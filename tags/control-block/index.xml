@@ -1,97 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Control-Block on Apache Texera</title><link>https://texera.staged.apache.org/tags/control-block/</link><description>Recent content in Control-Block on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/control-block/index.xml" rel="self" type="application/rss+xml"/><item><title>Control Block</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/control-block/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/control-block/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; Control Block&lt;/p&gt;
-&lt;h2 id="operators"&gt;Operators&lt;a class="td-heading-self-link" href="#operators" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Operator&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/control-block/if/"&gt;If&lt;/a&gt;&lt;/td&gt;
- &lt;td&gt;If&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/control-block/sleep/"&gt;Sleep&lt;/a&gt;&lt;/td&gt;
- &lt;td&gt;Sleep n seconds between each tuple&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;Total&lt;/strong&gt;: 2 operators&lt;/p&gt;</description></item><item><title>If</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/control-block/if/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/control-block/if/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Control Block&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Condition State&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Name of the state variable to evaluate&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;1&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Sleep</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/control-block/sleep/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/control-block/sleep/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Control Block&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Sleep Time (seconds)&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;Integer&lt;/td&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Control-Block on Apache Texera</title><link>https://texera.staged.apache.org/tags/control-block/</link><description>Recent content in Control-Block on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/control-block/index.xml" rel="self" type="application/rss+xml"/><item><title>Control Block</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/control-block/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/control-block/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-control-block"&gt;title: &amp;ldquo;Control Block&amp;rdquo;
+description: &amp;ldquo;Operators in the Control Block category&amp;rdquo;
+weight: 10
+categories: [Operators]
+tags: [control-block]&lt;a class="td-heading-self-link" href="#tags-control-block" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; Control Block&lt;/p&gt;</description></item><item><title>If</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/control-block/if/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/control-block/if/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-control-block"&gt;title: &amp;ldquo;If&amp;rdquo;
+description: &amp;ldquo;If&amp;rdquo;
+category: &amp;ldquo;Control Block&amp;rdquo;
+operator_type: &amp;ldquo;If&amp;rdquo;
+tags: [control-block]&lt;a class="td-heading-self-link" href="#tags-control-block" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Control Block&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Sleep</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/control-block/sleep/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/control-block/sleep/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-control-block"&gt;title: &amp;ldquo;Sleep&amp;rdquo;
+description: &amp;ldquo;Sleep n seconds between each tuple&amp;rdquo;
+category: &amp;ldquo;Control Block&amp;rdquo;
+operator_type: &amp;ldquo;Sleep&amp;rdquo;
+tags: [control-block]&lt;a class="td-heading-self-link" href="#tags-control-block" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Control Block&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

@@ -1,1483 +1,625 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sklearn Training on Apache Texera</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/</link><description>Recent content in Sklearn Training on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/index.xml" rel="self" type="application/rss+xml"/><item><title>Training: Adaptive Boosting</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-adaptive-boosting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-adaptive-boosting/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Bagging Training</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-bagging-training/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-bagging-training/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Bernoulli Naive Bayes</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-bernoulli-naive-bayes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-bernoulli-naive-bayes/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Complement Naive Bayes</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-complement-naive-bayes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-complement-naive-bayes/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Decision Tree</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-decision-tree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-decision-tree/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Dummy Classifier</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-dummy-classifier/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-dummy-classifier/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Extra Tree</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-extra-tree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-extra-tree/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Extra Trees</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-extra-trees/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-extra-trees/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Gaussian Naive Bayes</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-gaussian-naive-bayes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-gaussian-naive-bayes/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Gradient Boosting</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-gradient-boosting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-gradient-boosting/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: K-nearest Neighbors</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-k-nearest-neighbors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-k-nearest-neighbors/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Linear Perceptron</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-linear-perceptron/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-linear-perceptron/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Linear Regression</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-linear-regression/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-linear-regression/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Linear Support Vector Machine</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-linear-support-vector-machine/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-linear-support-vector-machine/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Logistic Regression</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-logistic-regression/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-logistic-regression/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Logistic Regression Cross Validation</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-logistic-regression-cross-validation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-logistic-regression-cross-validation/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Multi-layer Perceptron</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-multi-layer-perceptron/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-multi-layer-perceptron/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Multinomial Naive Bayes</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-multinomial-naive-bayes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-multinomial-naive-bayes/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Nearest Centroid</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-nearest-centroid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-nearest-centroid/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Passive Aggressive</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-passive-aggressive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-passive-aggressive/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Probability Calibration</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-probability-calibration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-probability-calibration/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Random Forest</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-random-forest/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-random-forest/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Ridge Regression</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-ridge-regression/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-ridge-regression/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Ridge Regression Cross Validation</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-ridge-regression-cross-validation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-ridge-regression-cross-validation/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Stochastic Gradient Descent</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-stochastic-gradient-descent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-stochastic-gradient-descent/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Training: Support Vector Machine</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-support-vector-machine/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-support-vector-machine/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Target Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset corresponding to target&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Count Vectorizer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Convert a collection of text documents to a&lt;br&gt;matrix of token counts&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Text Attribute&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;Attribute in your dataset with text to vectorize&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Tfidf Transformer&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Boolean&lt;/td&gt;
- &lt;td&gt;false&lt;/td&gt;
- &lt;td&gt;Transform a count matrix to a normalized tf or&lt;br&gt;tf-idf representation&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../../../output-modes/#set-snapshot"&gt;Set Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sklearn Training on Apache Texera</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/</link><description>Recent content in Sklearn Training on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/index.xml" rel="self" type="application/rss+xml"/><item><title>Training: Adaptive Boosting</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-adaptive-boosting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-adaptive-boosting/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Adaptive Boosting&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Adaptive Boosting Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingAdaptiveBoosting&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Bagging Training</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-bagging-training/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-bagging-training/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Bagging Training&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Bagging Training Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingBagging&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Bernoulli Naive Bayes</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-bernoulli-naive-bayes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-bernoulli-naive-bayes/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Bernoulli Naive Bayes&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Bernoulli Naive Bayes Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingBernoulliNaiveBayes&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Complement Naive Bayes</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-complement-naive-bayes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-complement-naive-bayes/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Complement Naive Bayes&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Complement Naive Bayes Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingComplementNaiveBayes&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Decision Tree</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-decision-tree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-decision-tree/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Decision Tree&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Decision Tree Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingDecisionTree&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Dummy Classifier</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-dummy-classifier/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-dummy-classifier/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Dummy Classifier&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Dummy Classifier Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingDummyClassifier&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Extra Tree</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-extra-tree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-extra-tree/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Extra Tree&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Extra Tree Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingExtraTree&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Extra Trees</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-extra-trees/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-extra-trees/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Extra Trees&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Extra Trees Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingExtraTrees&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Gaussian Naive Bayes</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-gaussian-naive-bayes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-gaussian-naive-bayes/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Gaussian Naive Bayes&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Gaussian Naive Bayes Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingGaussianNaiveBayes&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Gradient Boosting</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-gradient-boosting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-gradient-boosting/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Gradient Boosting&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Gradient Boosting Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingGradientBoosting&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: K-nearest Neighbors</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-k-nearest-neighbors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-k-nearest-neighbors/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: K-nearest Neighbors&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: K-nearest Neighbors Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingKNN&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Linear Perceptron</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-linear-perceptron/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-linear-perceptron/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Linear Perceptron&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Linear Perceptron Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingPerceptron&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Linear Regression</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-linear-regression/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-linear-regression/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Linear Regression&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Linear Regression Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingLinearRegression&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Linear Support Vector Machine</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-linear-support-vector-machine/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-linear-support-vector-machine/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Linear Support Vector Machine&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Linear Support Vector Machine Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingLinearSVM&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Logistic Regression</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-logistic-regression/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-logistic-regression/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Logistic Regression&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Logistic Regression Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingLogisticRegression&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Logistic Regression Cross Validation</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-logistic-regression-cross-validation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-logistic-regression-cross-validation/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Logistic Regression Cross Validation&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Logistic Regression Cross Validation Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingLogisticRegressionCV&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Multi-layer Perceptron</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-multi-layer-perceptron/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-multi-layer-perceptron/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Multi-layer Perceptron&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Multi-layer Perceptron Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingMultiLayerPerceptron&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Multinomial Naive Bayes</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-multinomial-naive-bayes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-multinomial-naive-bayes/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Multinomial Naive Bayes&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Multinomial Naive Bayes Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingMultinomialNaiveBayes&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Nearest Centroid</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-nearest-centroid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-nearest-centroid/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Nearest Centroid&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Nearest Centroid Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingNearestCentroid&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Passive Aggressive</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-passive-aggressive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-passive-aggressive/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Passive Aggressive&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Passive Aggressive Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingPassiveAggressive&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Probability Calibration</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-probability-calibration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-probability-calibration/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Probability Calibration&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Probability Calibration Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingProbabilityCalibration&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Random Forest</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-random-forest/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-random-forest/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Random Forest&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Random Forest Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingRandomForest&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Ridge Regression</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-ridge-regression/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-ridge-regression/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Ridge Regression&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Ridge Regression Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingRidge&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Ridge Regression Cross Validation</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-ridge-regression-cross-validation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-ridge-regression-cross-validation/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Ridge Regression Cross Validation&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Ridge Regression Cross Validation Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingRidgeCV&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Stochastic Gradient Descent</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-stochastic-gradient-descent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-stochastic-gradient-descent/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Stochastic Gradient Descent&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Stochastic Gradient Descent Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingSDG&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Training: Support Vector Machine</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-support-vector-machine/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/sklearn-training/training-support-vector-machine/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-machine-learning-sklearn-sklearn-training"&gt;title: &amp;ldquo;Training: Support Vector Machine&amp;rdquo;
+description: &amp;ldquo;Sklearn Training: Support Vector Machine Operator&amp;rdquo;
+category: &amp;ldquo;Sklearn Training&amp;rdquo;
+operator_type: &amp;ldquo;SklearnTrainingSVM&amp;rdquo;
+tags: [machine-learning, sklearn, sklearn-training]&lt;a class="td-heading-self-link" href="#tags-machine-learning-sklearn-sklearn-training" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Sklearn&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/sklearn/"&gt;Sklearn Training&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

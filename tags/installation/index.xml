@@ -1,24 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Installation on Apache Texera</title><link>https://texera.staged.apache.org/tags/installation/</link><description>Recent content in Installation on Apache Texera</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 25 May 2026 13:56:42 -0700</lastBuildDate><atom:link href="https://texera.staged.apache.org/tags/installation/index.xml" rel="self" type="application/rss+xml"/><item><title>Access/Login to Texera</title><link>https://texera.staged.apache.org/docs/latest/getting-started/accesslogin/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/getting-started/accesslogin/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
-&lt;p&gt;Guide to use Texera on your local machine or development environment.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Installation on Apache Texera</title><link>https://texera.staged.apache.org/tags/installation/</link><description>Recent content in Installation on Apache Texera</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 09 Aug 2026 16:45:51 +0000</lastBuildDate><atom:link href="https://texera.staged.apache.org/tags/installation/index.xml" rel="self" type="application/rss+xml"/><item><title>Access/Login to Texera</title><link>https://texera.staged.apache.org/docs/latest/getting-started/accesslogin/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/getting-started/accesslogin/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-installation-setup-developer"&gt;title: &amp;ldquo;Access/Login to Texera&amp;rdquo;
+date: 2025-10-29
+weight: 70
+description: &amp;gt;
+Instructions on how to install and set up Texera as a developer.
+categories: [Texera]
+tags: [installation, setup, developer]&lt;a class="td-heading-self-link" href="#tags-installation-setup-developer" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 
-&lt;/div&gt;
 
-&lt;h2 id="prerequisites"&gt;Prerequisites&lt;a class="td-heading-self-link" href="#prerequisites" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;We assume you either went through&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/getting-started/installing-using-docker/"&gt;Installing Apache Texera using Docker&lt;/a&gt;, or&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://texera.staged.apache.org/docs/contribution-guidelines/guide-for-developers/"&gt;Guide for Texera Developers&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Texera should be &lt;strong&gt;up-and-running on your laptop&lt;/strong&gt; before proceeding.&lt;/p&gt;
-
-
-&lt;div class="alert alert-warning" role="alert"&gt;
-&lt;h4 class="alert-heading"&gt;Note&lt;/h4&gt;
-
- Ensure Docker and Docker Compose are installed before building Texera.
-
-&lt;/div&gt;
-
-&lt;h2 id="access-texera-through-browser"&gt;Access Texera through Browser&lt;a class="td-heading-self-link" href="#access-texera-through-browser" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Enter Texera&amp;rsquo;s URL in your browser to access the interface.&lt;/p&gt;
-&lt;p&gt;By default, an &lt;strong&gt;admin account&lt;/strong&gt; is pre-created:&lt;/p&gt;</description></item></channel></rss>
+&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;Guide to use Texera on your local machine or development environment.&lt;/p&gt;</description></item></channel></rss>

@@ -1,58 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Visualization on Apache Texera</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/</link><description>Recent content in Visualization on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/index.xml" rel="self" type="application/rss+xml"/><item><title>Nested Table</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/nested-table/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/nested-table/</guid><description>&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="input-properties"&gt;Input Properties&lt;a class="td-heading-self-link" href="#input-properties" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Property&lt;/th&gt;
- &lt;th&gt;Requirement&lt;/th&gt;
- &lt;th&gt;Type&lt;/th&gt;
- &lt;th&gt;Default&lt;/th&gt;
- &lt;th&gt;Description&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;Add Attribute&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;List&lt;Attribute&gt;&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;List of columns to include in the nested table&lt;br&gt;chart and their subgroup&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Attribute group&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ Original attribute Name&lt;/td&gt;
- &lt;td&gt;✓&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;↳ New Attribute Name&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;String&lt;/td&gt;
- &lt;td&gt;-&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="output-ports"&gt;Output Ports&lt;a class="td-heading-self-link" href="#output-ports" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Port&lt;/th&gt;
- &lt;th&gt;Mode&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;0&lt;/td&gt;
- &lt;td&gt;&lt;a href="../../output-modes/#single-snapshot"&gt;Single Snapshot&lt;/a&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Visualization on Apache Texera</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/</link><description>Recent content in Visualization on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/index.xml" rel="self" type="application/rss+xml"/><item><title>Nested Table</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/nested-table/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/nested-table/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-visualization"&gt;title: &amp;ldquo;Nested Table&amp;rdquo;
+description: &amp;ldquo;Visualize Data in a Depth Two Nested Table&amp;rdquo;
+category: &amp;ldquo;Visualization&amp;rdquo;
+operator_type: &amp;ldquo;NestedTable&amp;rdquo;
+tags: [visualization]&lt;a class="td-heading-self-link" href="#tags-visualization" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

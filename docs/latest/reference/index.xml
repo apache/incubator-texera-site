@@ -1,1 +1,106 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reference on Apache Texera</title><link>https://texera.staged.apache.org/docs/latest/reference/</link><description>Recent content in Reference on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/docs/latest/reference/index.xml" rel="self" type="application/rss+xml"/><item><title>Engine</title><link>https://texera.staged.apache.org/docs/latest/reference/engine/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/engine/</guid><description/></item><item><title>Frontend</title><link>https://texera.staged.apache.org/docs/latest/reference/frontend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/frontend/</guid><description/></item><item><title>Project Structure</title><link>https://texera.staged.apache.org/docs/latest/reference/project-structure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/project-structure/</guid><description/></item><item><title>Storage</title><link>https://texera.staged.apache.org/docs/latest/reference/storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/storage/</guid><description/></item><item><title>Configuration</title><link>https://texera.staged.apache.org/docs/latest/reference/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/configuration/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reference on Apache Texera</title><link>https://texera.staged.apache.org/docs/latest/reference/</link><description>Recent content in Reference on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/docs/latest/reference/index.xml" rel="self" type="application/rss+xml"/><item><title>Engine</title><link>https://texera.staged.apache.org/docs/latest/reference/engine/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/engine/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="weight-10"&gt;title: Engine
+description: In-depth technical and configuration references for Texera’s components and environment.
+weight: 10&lt;a class="td-heading-self-link" href="#weight-10" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;</description></item><item><title>Frontend</title><link>https://texera.staged.apache.org/docs/latest/reference/frontend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/frontend/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="weight-20"&gt;title: Frontend
+description: In-depth technical and configuration references for Texera’s components and environment.
+weight: 20&lt;a class="td-heading-self-link" href="#weight-20" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;</description></item><item><title>Project Structure</title><link>https://texera.staged.apache.org/docs/latest/reference/project-structure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/project-structure/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="weight-30"&gt;title: Project Structure
+description: In-depth technical and configuration references for Texera’s components and environment.
+weight: 30&lt;a class="td-heading-self-link" href="#weight-30" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;</description></item><item><title>Storage</title><link>https://texera.staged.apache.org/docs/latest/reference/storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/storage/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="weight-40"&gt;title: Storage
+description: In-depth technical and configuration references for Texera’s components and environment.
+weight: 40&lt;a class="td-heading-self-link" href="#weight-40" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;</description></item><item><title>Configuration</title><link>https://texera.staged.apache.org/docs/latest/reference/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/configuration/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="weight-50"&gt;title: Configuration
+description: In-depth technical and configuration references for Texera’s components and environment.
+weight: 50&lt;a class="td-heading-self-link" href="#weight-50" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;</description></item></channel></rss>

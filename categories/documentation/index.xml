@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentation on Apache Texera</title><link>https://texera.staged.apache.org/categories/documentation/</link><description>Recent content in Documentation on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/categories/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Operators</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/</guid><description>&lt;!-- Generated: 2026-04-25T14:25:46.235567 --&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentation on Apache Texera</title><link>https://texera.staged.apache.org/categories/documentation/</link><description>Recent content in Documentation on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/categories/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Operators</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id="tags-operators-reference-index"&gt;title: &amp;ldquo;Operators&amp;rdquo;
+description: &amp;ldquo;Complete reference for all Texera operators organized by category&amp;rdquo;
+weight: 1
+categories: [Documentation]
+tags: [operators, reference, index]&lt;a class="td-heading-self-link" href="#tags-operators-reference-index" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;!-- Generated: 2026-04-25T14:25:46.235567 --&gt;
 &lt;!-- Total Operators: 162 --&gt;
 &lt;h2 id="quick-links"&gt;Quick Links&lt;a class="td-heading-self-link" href="#quick-links" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
