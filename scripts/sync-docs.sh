@@ -41,9 +41,9 @@ DOCS_SUBDIR="${DOCS_SUBDIR:-docs}"
 # Where versioned docs are written in this repo.
 DEST_ROOT="${DEST_ROOT:-content/docs}"
 
-# Mapping of "<source-branch>:<version-folder>". To publish a new version, add
-# a "release/vX.Y:vX.Y.0" entry here (and bump params.docs_version in hugo.toml
-# so site-wide doc links point at it).
+# Mapping of "<source-ref>:<version-folder>". The ref may be a branch (tracks
+# its tip) or a tag (frozen snapshot); git clone --branch accepts both. To add
+# a version, add an entry (and bump params.docs_version in hugo.toml).
 VERSIONS=(
   "release/v1.1:v1.1.0"
   "release/v1.2:v1.2.0"
@@ -123,24 +123,24 @@ PY
 # --- Main ------------------------------------------------------------------
 
 for entry in "${VERSIONS[@]}"; do
-  branch="${entry%%:*}"
+  ref="${entry%%:*}"
   version="${entry##*:}"
 
   dest="${DEST_ROOT}/${version}"
-  log "Syncing ${DOCS_REPO} (${branch}:${DOCS_SUBDIR}) into ${dest}"
+  log "Syncing ${DOCS_REPO} (${ref}:${DOCS_SUBDIR}) into ${dest}"
 
   tmpdir="$(mktemp -d)"
   trap 'rm -rf "$tmpdir"' EXIT
 
-  # Sparse, blobless, shallow clone of just the docs folder. This keeps the
-  # fetch small even though the texera code repo is large.
-  git clone --quiet --depth 1 --branch "$branch" \
+  # Sparse, blobless, shallow clone of just the docs folder to keep the fetch
+  # small. --branch accepts a branch or a tag.
+  git clone --quiet --depth 1 --branch "$ref" \
     --filter=blob:none --sparse "$DOCS_REPO" "$tmpdir/repo"
   git -C "$tmpdir/repo" sparse-checkout set "$DOCS_SUBDIR" >/dev/null
 
   src="$tmpdir/repo/${DOCS_SUBDIR}"
   if [ ! -d "$src" ]; then
-    log "WARNING: ${DOCS_SUBDIR}/ not found on ${branch}; writing empty version folder"
+    log "WARNING: ${DOCS_SUBDIR}/ not found on ${ref}; writing empty version folder"
     rm -rf "$dest"
     mkdir -p "$dest"
   else

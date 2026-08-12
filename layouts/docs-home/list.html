@@ -17,12 +17,19 @@
 
 <div class="container">
   <div class="td-content releases-page">
-    {{/* Build a sortable list of {version, url} from the child section folders. */}}
+    {{/* List {version, url} from child folders. Sort by a zero-padded numeric
+         key so versions order by semver, not lexically (else v1.10.0 < v1.2.0). */}}
     {{ $versions := slice }}
     {{ range .Sections -}}
-      {{ $versions = $versions | append (dict "ver" .File.ContentBaseName "url" .RelPermalink) }}
+      {{ $ver := .File.ContentBaseName }}
+      {{ $key := slice }}
+      {{ range split (strings.TrimPrefix "v" $ver) "." -}}
+        {{ $n := int (index (findRE `[0-9]+` . 1) 0 | default "0") }}
+        {{ $key = $key | append (printf "%06d" $n) }}
+      {{- end }}
+      {{ $versions = $versions | append (dict "ver" $ver "url" .RelPermalink "key" (delimit $key ".")) }}
     {{ end -}}
-    {{ $versions = sort $versions "ver" "desc" }}
+    {{ $versions = sort $versions "key" "desc" }}
 
     {{ if $versions -}}
     <ul class="announcements-list releases-list">
