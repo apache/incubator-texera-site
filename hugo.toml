@@ -96,6 +96,12 @@ contributingUrl = "https://github.com/apache/texera/blob/main/CONTRIBUTING.md"
 latest_release = "1.1.0-incubating"
 latest_release_url = "/releases/1.1.0-incubating/"
 
+# Documentation version that site-wide doc links point to (footer, community
+# page, etc.). Links in this file use the literal token DOCS_VERSION, which is
+# resolved to this value at render time. Update this one value when a new docs
+# version becomes the default.
+docs_version = "v1.2.0"
+
 # Menu title if your navbar has a versions selector to access old versions of your site.
 version_menu = "Releases"
 
@@ -144,7 +150,7 @@ enable = false
 # End user relevant links (left side footer & "Are you a User?" community section)
 [[params.links.user]]
 name = "Quick Start"
-url = "/docs/latest/getting-started/"
+url = "/docs/DOCS_VERSION/getting-started/"
 icon = "fa fa-rocket"
 desc_key = "quickstart_desc"
 
@@ -156,7 +162,7 @@ desc_key = "releases_desc"
 
 [[params.links.user]]
 name = "Documentation"
-url = "/docs/latest/"
+url = "/docs/DOCS_VERSION/"
 icon = "fa fa-book"
 desc_key = "docs_desc"
 
@@ -193,7 +199,7 @@ desc_key = "contributing_desc"
 
 [[params.links.developer]]
 name = "Developer docs"
-url = "/docs/latest/contribution-guidelines/"
+url = "/docs/DOCS_VERSION/contribution-guidelines/"
 icon = "fa fa-code"
 desc_key = "devGuide_desc"
 

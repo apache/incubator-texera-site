@@ -35,6 +35,10 @@ jobs:
           hugo-version: '0.152.2'
           extended: true
 
+      - name: Sync versioned docs from texera repo
+        run: |
+          bash scripts/sync-docs.sh
+
       - name: Build Hugo site
         run: |
           hugo --minify -d public

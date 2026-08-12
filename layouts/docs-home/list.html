@@ -1,0 +1,50 @@
+{{/* Landing page for /docs/ : lists each documentation version.
+     Versions are the child section folders under content/docs/ (e.g. v1.2.0),
+     which are pulled from the texera repo at build time by scripts/sync-docs.sh.
+     The list is generated from those folders, so it updates itself as new
+     versions are added. */}}
+{{ define "main" -}}
+
+<div><a class="td-offset-anchor"></a></div>
+<section class="row td-box td-box--white position-relative td-box--height-auto releases-hero">
+  <div class="col-12">
+    <div class="container text-center">
+      <h1>{{ .Title }}</h1>
+      {{ with .Content }}<div class="releases-hero-lead">{{ . }}</div>{{ end }}
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="td-content releases-page">
+    {{/* Build a sortable list of {version, url} from the child section folders. */}}
+    {{ $versions := slice }}
+    {{ range .Sections -}}
+      {{ $versions = $versions | append (dict "ver" .File.ContentBaseName "url" .RelPermalink) }}
+    {{ end -}}
+    {{ $versions = sort $versions "ver" "desc" }}
+
+    {{ if $versions -}}
+    <ul class="announcements-list releases-list">
+      {{ range $i, $v := $versions -}}
+      <li class="announcement-item release-item">
+        <div class="announcement-card release-card">
+          <h2 class="announcement-title">
+            <a href="{{ $v.url }}" class="stretched-link">{{ $v.ver }}</a>
+            {{ if eq $i 0 }}<span class="announcement-tag">Latest</span>{{ end }}
+          </h2>
+          <div class="release-actions">
+            <a href="{{ $v.url }}" class="release-action">View documentation →</a>
+          </div>
+        </div>
+      </li>
+      {{ end -}}
+    </ul>
+    {{ else -}}
+    <p>No documentation versions are available yet. They are pulled from the
+       Apache Texera repository during the site build.</p>
+    {{- end }}
+  </div>
+</div>
+
+{{- end }}
