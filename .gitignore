@@ -1,5 +1,9 @@
 /public
 resources/
+
+# Versioned docs are pulled from the texera repo at build time by
+# scripts/sync-docs.sh; only content/docs/_index.md is tracked here.
+/content/docs/*/
 node_modules/
 package-lock.json
 .hugo_build.lock
