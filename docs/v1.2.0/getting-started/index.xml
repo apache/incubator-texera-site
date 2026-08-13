@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Getting Started on Apache Texera</title><link>https://texera.staged.apache.org/docs/v1.2.0/getting-started/</link><description>Recent content in Getting Started on Apache Texera</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 29 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://texera.staged.apache.org/docs/v1.2.0/getting-started/index.xml" rel="self" type="application/rss+xml"/><item><title>Install Texera</title><link>https://texera.staged.apache.org/docs/v1.2.0/getting-started/install-texera/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/getting-started/install-texera/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;p&gt;To install Texera, you may choose one of the two supported architectures depending on your needs:&lt;/p&gt;</description></item><item><title>Installing Apache Texera using Docker</title><link>https://texera.staged.apache.org/docs/v1.2.0/getting-started/installing-using-docker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/getting-started/installing-using-docker/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;p&gt;This document describes how to set up and run Texera on a single machine using &amp;ldquo;Docker Compose&amp;rdquo;.&lt;/p&gt;</description></item><item><title>How to run Texera on local Kubernetes</title><link>https://texera.staged.apache.org/docs/v1.2.0/getting-started/run-on-kubernetes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/getting-started/run-on-kubernetes/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;p&gt;This document explains how to run Texera on Kubernetes locally for development purposes.&lt;/p&gt;</description></item><item><title>Access/Login to Texera</title><link>https://texera.staged.apache.org/docs/v1.2.0/getting-started/accesslogin/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/getting-started/accesslogin/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+
+
+&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;Guide to use Texera on your local machine or development environment.&lt;/p&gt;</description></item><item><title>Texera UI Overview</title><link>https://texera.staged.apache.org/docs/v1.2.0/getting-started/ui-overview/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/getting-started/ui-overview/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+
+
+&lt;div class="pageinfo pageinfo-primary"&gt;
+&lt;p&gt;Understand the layout and functionality of Texera’s User Dashboard.&lt;/p&gt;</description></item></channel></rss>
