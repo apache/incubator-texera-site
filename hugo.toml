@@ -155,8 +155,8 @@ icon = "fa fa-rocket"
 desc_key = "quickstart_desc"
 
 [[params.links.user]]
-name = "Releases"
-url = "/releases/"
+name = "Downloads"
+url = "/downloads/"
 icon = "fa fa-download"
 desc_key = "releases_desc"
 

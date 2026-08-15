@@ -1,6 +1,10 @@
 ---
 title: Downloads
-menu: {main: {weight: 30}}
+sitemap_exclude: true
+robotsdisallow: true
 ---
 
-Each release page below contains the source distribution, container images, verification instructions, release notes, and documentation links for that version.
+<meta http-equiv="refresh" content="0; url=/downloads/">
+<script>window.location.replace("/downloads/");</script>
+
+Redirecting to [Downloads](/downloads/)…
