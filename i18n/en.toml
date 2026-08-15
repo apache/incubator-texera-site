@@ -110,7 +110,7 @@ other = "Report bugs and track features"
 [quickstart_desc]
 other = "Install Texera and run your first workflow"
 
-[releases_desc]
+[downloads_desc]
 other = "Source artifacts and release notes"
 
 [docs_desc]
