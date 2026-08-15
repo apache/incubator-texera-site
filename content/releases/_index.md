@@ -1,5 +1,5 @@
 ---
-title: Releases
+title: Downloads
 menu: {main: {weight: 30}}
 ---
 

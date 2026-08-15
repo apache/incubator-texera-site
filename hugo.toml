@@ -93,8 +93,8 @@ contributingUrl = "https://github.com/apache/texera/blob/main/CONTRIBUTING.md"
 
 # Latest release shown discreetly in the footer.
 # Update these two values when shipping a new version.
-latest_release = "1.1.0-incubating"
-latest_release_url = "/releases/1.1.0-incubating/"
+latest_release = "1.2.0-incubating"
+latest_release_url = "/releases/1.2.0-incubating/"
 
 # Documentation version that site-wide doc links point to (footer, community
 # page, etc.). Links in this file use the literal token DOCS_VERSION, which is
