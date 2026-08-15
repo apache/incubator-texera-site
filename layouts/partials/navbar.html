@@ -19,7 +19,7 @@
             {{- /**/ -}}
         </a>
         {{ with .Site.Params.latest_release -}}
-        <a class="navbar-version-badge" href="{{ $.Site.Params.latest_release_url | default "/releases/" }}" aria-label="Latest release {{ . }}">latest: v{{ . }}</a>
+        <a class="navbar-version-badge" href="{{ $.Site.Params.latest_release_url | default "/downloads/" }}" aria-label="Latest release {{ . }}">latest: v{{ . }}</a>
         {{- end }}
         <div class="td-navbar-nav-scroll ms-md-auto" id="main_navbar">
             <ul class="navbar-nav">
