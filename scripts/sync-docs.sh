@@ -59,6 +59,10 @@ cd "$REPO_ROOT"
 
 log() { printf '\033[1;34m[sync-docs]\033[0m %s\n' "$*"; }
 
+# The version folder that /docs/latest/ should point at, read from
+# params.docs_version in hugo.toml so the pointer lives in one place.
+LATEST_VERSION="$(sed -n 's/^docs_version = "\(.*\)"$/\1/p' "$REPO_ROOT/hugo.toml")"
+
 # Post-process a pulled version folder so Hugo can build it correctly:
 #
 #   1. Frontmatter fix: the source docs prepend the ASF license as an HTML
@@ -73,13 +77,17 @@ log() { printf '\033[1;34m[sync-docs]\033[0m %s\n' "$*"; }
 #      are prefixed with the version (`/docs/v1.2.0/getting-started/`), and any
 #      legacy `/docs/latest/` is normalized first. External URLs such as
 #      `https://docs.aws.amazon.com/...` are left untouched.
+#   4. Latest aliases: pages of the version that params.docs_version points at
+#      also get a Hugo alias under /docs/latest/, so that URL always redirects
+#      to the current default version.
 process_docs() {
-  local ver="$1" dir="$2"
-  DOCS_VER="$ver" DOCS_DIR="$dir" python3 - <<'PY'
+  local ver="$1" dir="$2" latest="${3:-0}"
+  DOCS_VER="$ver" DOCS_DIR="$dir" DOCS_LATEST="$latest" python3 - <<'PY'
 import os, re
 
 ver = os.environ["DOCS_VER"]
 root = os.path.normpath(os.environ["DOCS_DIR"])
+is_latest = os.environ.get("DOCS_LATEST") == "1"
 
 # Leading HTML comment followed by a frontmatter block.
 lead_comment = re.compile(r'^\ufeff?\s*(<!--.*?-->)\s*(---\r?\n.*?\r?\n---)(.*)$', re.S)
@@ -113,6 +121,18 @@ for dirpath, _dirs, files in os.walk(root):
         text = text.replace("](/docs/", "](/docs/%s/" % ver)
         text = text.replace('href="/docs/', 'href="/docs/%s/' % ver)
         text = text.replace("href='/docs/", "href='/docs/%s/" % ver)
+
+        # 4) Alias the default version's pages under /docs/latest/.
+        if is_latest and name.endswith(".md") and text.startswith("---\n"):
+            rel = os.path.relpath(path, root).replace(os.sep, "/")
+            if name == "_index.md":
+                sub = os.path.dirname(rel)
+                alias = "/docs/latest/" + (sub + "/" if sub else "")
+            else:
+                alias = "/docs/latest/" + rel[:-3] + "/"
+            head = text[: text.find("\n---", 4)]
+            if "aliases" not in head.lower():
+                text = '---\naliases: ["%s"]\n' % alias + text[len("---\n"):]
 
         if text != original:
             with open(path, "w", encoding="utf-8") as fh:
@@ -150,7 +170,10 @@ for entry in "${VERSIONS[@]}"; do
     cp -R "$src/." "$dest/"
   fi
 
-  process_docs "$version" "$dest"
+  is_latest=0
+  [ "$version" = "$LATEST_VERSION" ] && is_latest=1
+  process_docs "$version" "$dest" "$is_latest"
+  [ "$is_latest" = "1" ] && log "Added /docs/latest/ aliases for ${version}"
   log "Wrote $(find "$dest" -type f | wc -l | tr -d ' ') file(s) into ${dest}"
 
   rm -rf "$tmpdir"
