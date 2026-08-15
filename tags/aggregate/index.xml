@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aggregate on Apache Texera</title><link>https://texera.staged.apache.org/tags/aggregate/</link><description>Recent content in Aggregate on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/aggregate/index.xml" rel="self" type="application/rss+xml"/><item><title>Aggregate</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/aggregate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/aggregate/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aggregate on Apache Texera</title><link>https://texera.staged.apache.org/tags/aggregate/</link><description>Recent content in Aggregate on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/aggregate/index.xml" rel="self" type="application/rss+xml"/><item><title>Aggregate</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/aggregate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/aggregate/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -16,13 +16,7 @@
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-data-cleaning-aggregate"&gt;title: &amp;ldquo;Aggregate&amp;rdquo;
-description: &amp;ldquo;Operators in the Aggregate category&amp;rdquo;
-weight: 3
-categories: [Operators]
-tags: [data-cleaning, aggregate]&lt;a class="td-heading-self-link" href="#tags-data-cleaning-aggregate" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; Aggregate&lt;/p&gt;</description></item><item><title>Aggregate</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/aggregate/aggregate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/aggregate/aggregate/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; Aggregate&lt;/p&gt;</description></item><item><title>Aggregate</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/aggregate/aggregate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/aggregate/aggregate/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -40,10 +34,4 @@ tags: [data-cleaning, aggregate]&lt;a class="td-heading-self-link" href="#tags-d
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-data-cleaning-aggregate"&gt;title: &amp;ldquo;Aggregate&amp;rdquo;
-description: &amp;ldquo;Calculate different types of aggregation values&amp;rdquo;
-category: &amp;ldquo;Aggregate&amp;rdquo;
-operator_type: &amp;ldquo;Aggregate&amp;rdquo;
-tags: [data-cleaning, aggregate]&lt;a class="td-heading-self-link" href="#tags-data-cleaning-aggregate" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/"&gt;Aggregate&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/"&gt;Aggregate&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

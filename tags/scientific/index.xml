@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scientific on Apache Texera</title><link>https://texera.staged.apache.org/tags/scientific/</link><description>Recent content in Scientific on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/scientific/index.xml" rel="self" type="application/rss+xml"/><item><title>Scientific</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scientific on Apache Texera</title><link>https://texera.staged.apache.org/tags/scientific/</link><description>Recent content in Scientific on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/scientific/index.xml" rel="self" type="application/rss+xml"/><item><title>Scientific</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -16,13 +16,7 @@
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-scientific"&gt;title: &amp;ldquo;Scientific&amp;rdquo;
-description: &amp;ldquo;Operators in the Scientific category&amp;rdquo;
-weight: 3
-categories: [Operators]
-tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-visualization-scientific" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Visualization&lt;/a&gt; &amp;gt; Scientific&lt;/p&gt;</description></item><item><title>Carpet Plot</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/carpet-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/carpet-plot/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Visualization&lt;/a&gt; &amp;gt; Scientific&lt;/p&gt;</description></item><item><title>Carpet Plot</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/carpet-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/carpet-plot/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -40,13 +34,7 @@ tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-scientific"&gt;title: &amp;ldquo;Carpet Plot&amp;rdquo;
-description: &amp;ldquo;Visualize data in a Carpet Plot&amp;rdquo;
-category: &amp;ldquo;Scientific&amp;rdquo;
-operator_type: &amp;ldquo;CarpetPlot&amp;rdquo;
-tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-visualization-scientific" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Contour Plot</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/contour-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/contour-plot/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Contour Plot</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/contour-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/contour-plot/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -64,13 +52,7 @@ tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-scientific"&gt;title: &amp;ldquo;Contour Plot&amp;rdquo;
-description: &amp;ldquo;Displays terrain or gradient variations in a Contour Plot&amp;rdquo;
-category: &amp;ldquo;Scientific&amp;rdquo;
-operator_type: &amp;ldquo;ContourPlot&amp;rdquo;
-tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-visualization-scientific" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Dendrogram</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/dendrogram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/dendrogram/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Dendrogram</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/dendrogram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/dendrogram/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -88,13 +70,7 @@ tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-scientific"&gt;title: &amp;ldquo;Dendrogram&amp;rdquo;
-description: &amp;ldquo;Visualize data in a Dendrogram&amp;rdquo;
-category: &amp;ldquo;Scientific&amp;rdquo;
-operator_type: &amp;ldquo;Dendrogram&amp;rdquo;
-tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-visualization-scientific" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Heatmap</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/heatmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/heatmap/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Heatmap</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/heatmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/heatmap/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -112,13 +88,7 @@ tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-scientific"&gt;title: &amp;ldquo;Heatmap&amp;rdquo;
-description: &amp;ldquo;Visualize data in a HeatMap Chart&amp;rdquo;
-category: &amp;ldquo;Scientific&amp;rdquo;
-operator_type: &amp;ldquo;HeatMap&amp;rdquo;
-tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-visualization-scientific" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Network Graph</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/network-graph/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/network-graph/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Network Graph</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/network-graph/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/network-graph/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -136,13 +106,7 @@ tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-scientific"&gt;title: &amp;ldquo;Network Graph&amp;rdquo;
-description: &amp;ldquo;Visualize data in a network graph&amp;rdquo;
-category: &amp;ldquo;Scientific&amp;rdquo;
-operator_type: &amp;ldquo;NetworkGraph&amp;rdquo;
-tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-visualization-scientific" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Parallel Coordinates Plot</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/parallel-coordinates-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/parallel-coordinates-plot/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Parallel Coordinates Plot</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/parallel-coordinates-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/parallel-coordinates-plot/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -160,13 +124,7 @@ tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-scientific"&gt;title: &amp;ldquo;Parallel Coordinates Plot&amp;rdquo;
-description: &amp;ldquo;Visualize multivariate data using parallel coordinate axes&amp;rdquo;
-category: &amp;ldquo;Scientific&amp;rdquo;
-operator_type: &amp;ldquo;ParallelCoordinatesPlot&amp;rdquo;
-tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-visualization-scientific" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Polar Chart</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/polar-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/polar-chart/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Polar Chart</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/polar-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/polar-chart/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -184,13 +142,7 @@ tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-scientific"&gt;title: &amp;ldquo;Polar Chart&amp;rdquo;
-description: &amp;ldquo;Displays data points in a polar scatter plot&amp;rdquo;
-category: &amp;ldquo;Scientific&amp;rdquo;
-operator_type: &amp;ldquo;PolarChart&amp;rdquo;
-tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-visualization-scientific" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Quiver Plot</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/quiver-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/quiver-plot/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Quiver Plot</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/quiver-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/quiver-plot/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -208,13 +160,7 @@ tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-scientific"&gt;title: &amp;ldquo;Quiver Plot&amp;rdquo;
-description: &amp;ldquo;Visualize vector data in a Quiver Plot&amp;rdquo;
-category: &amp;ldquo;Scientific&amp;rdquo;
-operator_type: &amp;ldquo;QuiverPlot&amp;rdquo;
-tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-visualization-scientific" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Radar Chart</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/radar-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/radar-chart/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Radar Chart</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/radar-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/radar-chart/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -232,13 +178,7 @@ tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-scientific"&gt;title: &amp;ldquo;Radar Chart&amp;rdquo;
-description: &amp;ldquo;Visualize data in a Radar Chart&amp;rdquo;
-category: &amp;ldquo;Scientific&amp;rdquo;
-operator_type: &amp;ldquo;RadarChart&amp;rdquo;
-tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-visualization-scientific" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Radar Plot</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/radar-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/radar-plot/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Radar Plot</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/radar-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/radar-plot/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -256,13 +196,7 @@ tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-scientific"&gt;title: &amp;ldquo;Radar Plot&amp;rdquo;
-description: &amp;ldquo;View the result in a radar plot.&amp;rdquo;
-category: &amp;ldquo;Scientific&amp;rdquo;
-operator_type: &amp;ldquo;RadarPlot&amp;rdquo;
-tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-visualization-scientific" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Ternary Contour</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/ternary-contour/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/ternary-contour/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Ternary Contour</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/ternary-contour/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/ternary-contour/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -280,13 +214,7 @@ tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-scientific"&gt;title: &amp;ldquo;Ternary Contour&amp;rdquo;
-description: &amp;ldquo;Shows how a measured value changes across all mixtures of three components that sum to a constant&amp;rdquo;
-category: &amp;ldquo;Scientific&amp;rdquo;
-operator_type: &amp;ldquo;TernaryContour&amp;rdquo;
-tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-visualization-scientific" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Ternary Plot</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/ternary-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/ternary-plot/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Ternary Plot</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/ternary-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/ternary-plot/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -304,13 +232,7 @@ tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-scientific"&gt;title: &amp;ldquo;Ternary Plot&amp;rdquo;
-description: &amp;ldquo;Points are graphed on a Ternary Plot using 3 specified data fields&amp;rdquo;
-category: &amp;ldquo;Scientific&amp;rdquo;
-operator_type: &amp;ldquo;TernaryPlot&amp;rdquo;
-tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-visualization-scientific" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Volcano Plot</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/volcano-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/volcano-plot/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Volcano Plot</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/volcano-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/volcano-plot/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -328,13 +250,7 @@ tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-scientific"&gt;title: &amp;ldquo;Volcano Plot&amp;rdquo;
-description: &amp;ldquo;Displays statistical significance versus effect size&amp;rdquo;
-category: &amp;ldquo;Scientific&amp;rdquo;
-operator_type: &amp;ldquo;VolcanoPlot&amp;rdquo;
-tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-visualization-scientific" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Wind Rose Chart</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/wind-rose-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/scientific/wind-rose-chart/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Wind Rose Chart</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/wind-rose-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/scientific/wind-rose-chart/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -352,10 +268,4 @@ tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-scientific"&gt;title: &amp;ldquo;Wind Rose Chart&amp;rdquo;
-description: &amp;ldquo;Displays wind distribution using a polar bar chart&amp;rdquo;
-category: &amp;ldquo;Scientific&amp;rdquo;
-operator_type: &amp;ldquo;WindRoseChart&amp;rdquo;
-tags: [visualization, scientific]&lt;a class="td-heading-self-link" href="#tags-visualization-scientific" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Scientific&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

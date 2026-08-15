@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>External-Api on Apache Texera</title><link>https://texera.staged.apache.org/tags/external-api/</link><description>Recent content in External-Api on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/external-api/index.xml" rel="self" type="application/rss+xml"/><item><title>External API</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/external-api/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/external-api/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>External-Api on Apache Texera</title><link>https://texera.staged.apache.org/tags/external-api/</link><description>Recent content in External-Api on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/external-api/index.xml" rel="self" type="application/rss+xml"/><item><title>External API</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/external-api/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/external-api/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -16,13 +16,7 @@
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-external-api"&gt;title: &amp;ldquo;External API&amp;rdquo;
-description: &amp;ldquo;Operators in the External API category&amp;rdquo;
-weight: 7
-categories: [Operators]
-tags: [external-api]&lt;a class="td-heading-self-link" href="#tags-external-api" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; External API&lt;/p&gt;</description></item><item><title>Reddit Search</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/external-api/reddit-search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/external-api/reddit-search/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; External API&lt;/p&gt;</description></item><item><title>Reddit Search</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/external-api/reddit-search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/external-api/reddit-search/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -40,13 +34,7 @@ tags: [external-api]&lt;a class="td-heading-self-link" href="#tags-external-api"
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-external-api"&gt;title: &amp;ldquo;Reddit Search&amp;rdquo;
-description: &amp;ldquo;Search for recent posts with python-wrapped Reddit API, PRAW&amp;rdquo;
-category: &amp;ldquo;External API&amp;rdquo;
-operator_type: &amp;ldquo;RedditSearch&amp;rdquo;
-tags: [external-api]&lt;a class="td-heading-self-link" href="#tags-external-api" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;External Api&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Twitter Full Archive Search API</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/external-api/twitter-full-archive-search-api/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/external-api/twitter-full-archive-search-api/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;External Api&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Twitter Full Archive Search API</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/external-api/twitter-full-archive-search-api/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/external-api/twitter-full-archive-search-api/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -64,13 +52,7 @@ tags: [external-api]&lt;a class="td-heading-self-link" href="#tags-external-api"
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-external-api"&gt;title: &amp;ldquo;Twitter Full Archive Search API&amp;rdquo;
-description: &amp;ldquo;Retrieve data from Twitter Full Archive Search API&amp;rdquo;
-category: &amp;ldquo;External API&amp;rdquo;
-operator_type: &amp;ldquo;TwitterFullArchiveSearch&amp;rdquo;
-tags: [external-api]&lt;a class="td-heading-self-link" href="#tags-external-api" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;External Api&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Twitter Search API</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/external-api/twitter-search-api/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/external-api/twitter-search-api/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;External Api&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Twitter Search API</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/external-api/twitter-search-api/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/external-api/twitter-search-api/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -88,13 +70,7 @@ tags: [external-api]&lt;a class="td-heading-self-link" href="#tags-external-api"
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-external-api"&gt;title: &amp;ldquo;Twitter Search API&amp;rdquo;
-description: &amp;ldquo;Retrieve data from Twitter Search API&amp;rdquo;
-category: &amp;ldquo;External API&amp;rdquo;
-operator_type: &amp;ldquo;TwitterSearch&amp;rdquo;
-tags: [external-api]&lt;a class="td-heading-self-link" href="#tags-external-api" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;External Api&lt;/a&gt;&lt;/p&gt;</description></item><item><title>URL Fetcher</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/external-api/url-fetcher/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/external-api/url-fetcher/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;External Api&lt;/a&gt;&lt;/p&gt;</description></item><item><title>URL Fetcher</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/external-api/url-fetcher/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/external-api/url-fetcher/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -112,10 +88,4 @@ tags: [external-api]&lt;a class="td-heading-self-link" href="#tags-external-api"
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-external-api"&gt;title: &amp;ldquo;URL Fetcher&amp;rdquo;
-description: &amp;ldquo;Fetch the content of a single URL&amp;rdquo;
-category: &amp;ldquo;External API&amp;rdquo;
-operator_type: &amp;ldquo;URLFetcher&amp;rdquo;
-tags: [external-api]&lt;a class="td-heading-self-link" href="#tags-external-api" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;External Api&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;External Api&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

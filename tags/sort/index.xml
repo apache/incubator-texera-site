@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sort on Apache Texera</title><link>https://texera.staged.apache.org/tags/sort/</link><description>Recent content in Sort on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/sort/index.xml" rel="self" type="application/rss+xml"/><item><title>Sort</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/sort/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/sort/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sort on Apache Texera</title><link>https://texera.staged.apache.org/tags/sort/</link><description>Recent content in Sort on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/sort/index.xml" rel="self" type="application/rss+xml"/><item><title>Sort</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/sort/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/sort/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -16,13 +16,7 @@
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-data-cleaning-sort"&gt;title: &amp;ldquo;Sort&amp;rdquo;
-description: &amp;ldquo;Operators in the Sort category&amp;rdquo;
-weight: 4
-categories: [Operators]
-tags: [data-cleaning, sort]&lt;a class="td-heading-self-link" href="#tags-data-cleaning-sort" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; Sort&lt;/p&gt;</description></item><item><title>Sort</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/sort/sort/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/sort/sort/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; Sort&lt;/p&gt;</description></item><item><title>Sort</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/sort/sort/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/sort/sort/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -40,13 +34,7 @@ tags: [data-cleaning, sort]&lt;a class="td-heading-self-link" href="#tags-data-c
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-data-cleaning-sort"&gt;title: &amp;ldquo;Sort&amp;rdquo;
-description: &amp;ldquo;Sort based on the columns and sorting methods&amp;rdquo;
-category: &amp;ldquo;Sort&amp;rdquo;
-operator_type: &amp;ldquo;Sort&amp;rdquo;
-tags: [data-cleaning, sort]&lt;a class="td-heading-self-link" href="#tags-data-cleaning-sort" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/"&gt;Sort&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Sort Partitions</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/sort/sort-partitions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/sort/sort-partitions/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/"&gt;Sort&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Sort Partitions</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/sort/sort-partitions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/sort/sort-partitions/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -64,13 +52,7 @@ tags: [data-cleaning, sort]&lt;a class="td-heading-self-link" href="#tags-data-c
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-data-cleaning-sort"&gt;title: &amp;ldquo;Sort Partitions&amp;rdquo;
-description: &amp;ldquo;Sort Partitions&amp;rdquo;
-category: &amp;ldquo;Sort&amp;rdquo;
-operator_type: &amp;ldquo;SortPartitions&amp;rdquo;
-tags: [data-cleaning, sort]&lt;a class="td-heading-self-link" href="#tags-data-cleaning-sort" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/"&gt;Sort&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Stable Merge Sort</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/sort/stable-merge-sort/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/sort/stable-merge-sort/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/"&gt;Sort&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Stable Merge Sort</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/sort/stable-merge-sort/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/sort/stable-merge-sort/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -88,10 +70,4 @@ tags: [data-cleaning, sort]&lt;a class="td-heading-self-link" href="#tags-data-c
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-data-cleaning-sort"&gt;title: &amp;ldquo;Stable Merge Sort&amp;rdquo;
-description: &amp;ldquo;Stable per-partition sort with multi-key ordering (incremental stack of sorted buckets)&amp;rdquo;
-category: &amp;ldquo;Sort&amp;rdquo;
-operator_type: &amp;ldquo;StableMergeSort&amp;rdquo;
-tags: [data-cleaning, sort]&lt;a class="td-heading-self-link" href="#tags-data-cleaning-sort" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/"&gt;Sort&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/"&gt;Sort&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

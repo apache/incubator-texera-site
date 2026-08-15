@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Basic on Apache Texera</title><link>https://texera.staged.apache.org/tags/basic/</link><description>Recent content in Basic on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/basic/index.xml" rel="self" type="application/rss+xml"/><item><title>Basic</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Basic on Apache Texera</title><link>https://texera.staged.apache.org/tags/basic/</link><description>Recent content in Basic on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/basic/index.xml" rel="self" type="application/rss+xml"/><item><title>Basic</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -16,13 +16,7 @@
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-basic"&gt;title: &amp;ldquo;Basic&amp;rdquo;
-description: &amp;ldquo;Operators in the Basic category&amp;rdquo;
-weight: 1
-categories: [Operators]
-tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visualization-basic" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Visualization&lt;/a&gt; &amp;gt; Basic&lt;/p&gt;</description></item><item><title>Bar Chart</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/bar-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/bar-chart/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Visualization&lt;/a&gt; &amp;gt; Basic&lt;/p&gt;</description></item><item><title>Bar Chart</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/bar-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/bar-chart/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -40,13 +34,7 @@ tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visua
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-basic"&gt;title: &amp;ldquo;Bar Chart&amp;rdquo;
-description: &amp;ldquo;Visualize data in a Bar Chart&amp;rdquo;
-category: &amp;ldquo;Basic&amp;rdquo;
-operator_type: &amp;ldquo;BarChart&amp;rdquo;
-tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visualization-basic" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Bubble Chart</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/bubble-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/bubble-chart/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Bubble Chart</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/bubble-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/bubble-chart/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -64,13 +52,7 @@ tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visua
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-basic"&gt;title: &amp;ldquo;Bubble Chart&amp;rdquo;
-description: &amp;ldquo;A 3D Scatter Plot; Bubbles are graphed using x and y labels, and their sizes determined by a z-value.&amp;rdquo;
-category: &amp;ldquo;Basic&amp;rdquo;
-operator_type: &amp;ldquo;BubbleChart&amp;rdquo;
-tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visualization-basic" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Dot Plot</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/dot-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/dot-plot/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Dot Plot</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/dot-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/dot-plot/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -88,13 +70,7 @@ tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visua
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-basic"&gt;title: &amp;ldquo;Dot Plot&amp;rdquo;
-description: &amp;ldquo;Visualize data using a dot plot&amp;rdquo;
-category: &amp;ldquo;Basic&amp;rdquo;
-operator_type: &amp;ldquo;DotPlot&amp;rdquo;
-tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visualization-basic" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Dumbbell Plot</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/dumbbell-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/dumbbell-plot/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Dumbbell Plot</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/dumbbell-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/dumbbell-plot/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -112,13 +88,7 @@ tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visua
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-basic"&gt;title: &amp;ldquo;Dumbbell Plot&amp;rdquo;
-description: &amp;ldquo;Visualize data in a Dumbbell Plot. A dumbbell plot (also known as a lollipop chart) is typically used to compare two distinct values or time points for the same entity.&amp;rdquo;
-category: &amp;ldquo;Basic&amp;rdquo;
-operator_type: &amp;ldquo;DumbbellPlot&amp;rdquo;
-tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visualization-basic" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Figure Factory Table</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/figure-factory-table/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/figure-factory-table/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Figure Factory Table</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/figure-factory-table/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/figure-factory-table/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -136,13 +106,7 @@ tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visua
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-basic"&gt;title: &amp;ldquo;Figure Factory Table&amp;rdquo;
-description: &amp;ldquo;Visualize data in a figure factory table&amp;rdquo;
-category: &amp;ldquo;Basic&amp;rdquo;
-operator_type: &amp;ldquo;FigureFactoryTable&amp;rdquo;
-tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visualization-basic" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Filled Area Plot</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/filled-area-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/filled-area-plot/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Filled Area Plot</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/filled-area-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/filled-area-plot/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -160,13 +124,7 @@ tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visua
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-basic"&gt;title: &amp;ldquo;Filled Area Plot&amp;rdquo;
-description: &amp;ldquo;Visualize data in a filled area plot&amp;rdquo;
-category: &amp;ldquo;Basic&amp;rdquo;
-operator_type: &amp;ldquo;FilledAreaPlot&amp;rdquo;
-tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visualization-basic" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Gantt Chart</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/gantt-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/gantt-chart/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Gantt Chart</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/gantt-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/gantt-chart/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -184,13 +142,7 @@ tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visua
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-basic"&gt;title: &amp;ldquo;Gantt Chart&amp;rdquo;
-description: &amp;ldquo;A Gantt chart is a type of bar chart that illustrates a project schedule. The chart lists the tasks to be performed on the vertical axis, and time intervals on the horizontal axis. The width of the horizontal bars in the graph shows the duration of each activity.&amp;rdquo;
-category: &amp;ldquo;Basic&amp;rdquo;
-operator_type: &amp;ldquo;GanttChart&amp;rdquo;
-tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visualization-basic" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Hierarchy Chart</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/hierarchy-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/hierarchy-chart/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Hierarchy Chart</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/hierarchy-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/hierarchy-chart/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -208,13 +160,7 @@ tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visua
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-basic"&gt;title: &amp;ldquo;Hierarchy Chart&amp;rdquo;
-description: &amp;ldquo;Visualize data in hierarchy&amp;rdquo;
-category: &amp;ldquo;Basic&amp;rdquo;
-operator_type: &amp;ldquo;HierarchyChart&amp;rdquo;
-tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visualization-basic" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Icicle Chart</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/icicle-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/icicle-chart/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Icicle Chart</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/icicle-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/icicle-chart/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -232,13 +178,7 @@ tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visua
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-basic"&gt;title: &amp;ldquo;Icicle Chart&amp;rdquo;
-description: &amp;ldquo;Visualize hierarchical data from root to leaves&amp;rdquo;
-category: &amp;ldquo;Basic&amp;rdquo;
-operator_type: &amp;ldquo;IcicleChart&amp;rdquo;
-tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visualization-basic" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Line Chart</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/line-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/line-chart/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Line Chart</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/line-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/line-chart/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -256,13 +196,7 @@ tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visua
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-basic"&gt;title: &amp;ldquo;Line Chart&amp;rdquo;
-description: &amp;ldquo;View the result in line chart&amp;rdquo;
-category: &amp;ldquo;Basic&amp;rdquo;
-operator_type: &amp;ldquo;LineChart&amp;rdquo;
-tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visualization-basic" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Pie Chart</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/pie-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/pie-chart/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Pie Chart</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/pie-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/pie-chart/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -280,13 +214,7 @@ tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visua
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-basic"&gt;title: &amp;ldquo;Pie Chart&amp;rdquo;
-description: &amp;ldquo;Visualize data in a Pie Chart&amp;rdquo;
-category: &amp;ldquo;Basic&amp;rdquo;
-operator_type: &amp;ldquo;PieChart&amp;rdquo;
-tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visualization-basic" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Range Slider</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/range-slider/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/range-slider/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Range Slider</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/range-slider/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/range-slider/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -304,13 +232,7 @@ tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visua
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-basic"&gt;title: &amp;ldquo;Range Slider&amp;rdquo;
-description: &amp;ldquo;Visualize data in a Range Slider&amp;rdquo;
-category: &amp;ldquo;Basic&amp;rdquo;
-operator_type: &amp;ldquo;RangeSlider&amp;rdquo;
-tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visualization-basic" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Sankey Diagram</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/sankey-diagram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/sankey-diagram/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Sankey Diagram</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/sankey-diagram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/sankey-diagram/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -328,13 +250,7 @@ tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visua
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-basic"&gt;title: &amp;ldquo;Sankey Diagram&amp;rdquo;
-description: &amp;ldquo;Visualize data using a Sankey diagram&amp;rdquo;
-category: &amp;ldquo;Basic&amp;rdquo;
-operator_type: &amp;ldquo;SankeyDiagram&amp;rdquo;
-tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visualization-basic" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Scatter Plot</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/scatter-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/scatter-plot/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Scatter Plot</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/scatter-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/scatter-plot/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -352,13 +268,7 @@ tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visua
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-basic"&gt;title: &amp;ldquo;Scatter Plot&amp;rdquo;
-description: &amp;ldquo;View the result in a scatterplot&amp;rdquo;
-category: &amp;ldquo;Basic&amp;rdquo;
-operator_type: &amp;ldquo;Scatterplot&amp;rdquo;
-tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visualization-basic" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Tables Plot</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/tables-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/tables-plot/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Tables Plot</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/tables-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/tables-plot/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -376,13 +286,7 @@ tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visua
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-basic"&gt;title: &amp;ldquo;Tables Plot&amp;rdquo;
-description: &amp;ldquo;Visualize data in a table chart.&amp;rdquo;
-category: &amp;ldquo;Basic&amp;rdquo;
-operator_type: &amp;ldquo;TablesPlot&amp;rdquo;
-tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visualization-basic" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Time Series Plot</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/time-series-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/basic/time-series-plot/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Time Series Plot</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/time-series-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/basic/time-series-plot/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -400,10 +304,4 @@ tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visua
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-basic"&gt;title: &amp;ldquo;Time Series Plot&amp;rdquo;
-description: &amp;ldquo;Visualize trends and patterns over time.&amp;rdquo;
-category: &amp;ldquo;Basic&amp;rdquo;
-operator_type: &amp;ldquo;TimeSeriesPlot&amp;rdquo;
-tags: [visualization, basic]&lt;a class="td-heading-self-link" href="#tags-visualization-basic" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Basic&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

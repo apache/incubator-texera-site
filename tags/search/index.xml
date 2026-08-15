@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Search on Apache Texera</title><link>https://texera.staged.apache.org/tags/search/</link><description>Recent content in Search on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/search/index.xml" rel="self" type="application/rss+xml"/><item><title>Search</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/search/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Search on Apache Texera</title><link>https://texera.staged.apache.org/tags/search/</link><description>Recent content in Search on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/search/index.xml" rel="self" type="application/rss+xml"/><item><title>Search</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/search/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -16,13 +16,7 @@
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-search"&gt;title: &amp;ldquo;Search&amp;rdquo;
-description: &amp;ldquo;Operators in the Search category&amp;rdquo;
-weight: 3
-categories: [Operators]
-tags: [search]&lt;a class="td-heading-self-link" href="#tags-search" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; Search&lt;/p&gt;</description></item><item><title>Dictionary matcher</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/search/dictionary-matcher/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/search/dictionary-matcher/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; Search&lt;/p&gt;</description></item><item><title>Dictionary matcher</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/search/dictionary-matcher/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/search/dictionary-matcher/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -40,13 +34,7 @@ tags: [search]&lt;a class="td-heading-self-link" href="#tags-search" aria-label=
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-search"&gt;title: &amp;ldquo;Dictionary matcher&amp;rdquo;
-description: &amp;ldquo;Matches tuples if they appear in a given dictionary&amp;rdquo;
-category: &amp;ldquo;Search&amp;rdquo;
-operator_type: &amp;ldquo;DictionaryMatcher&amp;rdquo;
-tags: [search]&lt;a class="td-heading-self-link" href="#tags-search" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Search&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Keyword Search</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/search/keyword-search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/search/keyword-search/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Search&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Keyword Search</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/search/keyword-search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/search/keyword-search/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -64,13 +52,7 @@ tags: [search]&lt;a class="td-heading-self-link" href="#tags-search" aria-label=
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-search"&gt;title: &amp;ldquo;Keyword Search&amp;rdquo;
-description: &amp;ldquo;Search for keyword(s) in a string column&amp;rdquo;
-category: &amp;ldquo;Search&amp;rdquo;
-operator_type: &amp;ldquo;KeywordSearch&amp;rdquo;
-tags: [search]&lt;a class="td-heading-self-link" href="#tags-search" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Search&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Regular Expression</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/search/regular-expression/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/search/regular-expression/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Search&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Regular Expression</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/search/regular-expression/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/search/regular-expression/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -88,13 +70,7 @@ tags: [search]&lt;a class="td-heading-self-link" href="#tags-search" aria-label=
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-search"&gt;title: &amp;ldquo;Regular Expression&amp;rdquo;
-description: &amp;ldquo;Search a regular expression in a string column&amp;rdquo;
-category: &amp;ldquo;Search&amp;rdquo;
-operator_type: &amp;ldquo;Regex&amp;rdquo;
-tags: [search]&lt;a class="td-heading-self-link" href="#tags-search" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Search&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Substring Search</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/search/substring-search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/search/substring-search/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Search&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Substring Search</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/search/substring-search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/search/substring-search/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -112,10 +88,4 @@ tags: [search]&lt;a class="td-heading-self-link" href="#tags-search" aria-label=
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-search"&gt;title: &amp;ldquo;Substring Search&amp;rdquo;
-description: &amp;ldquo;Search for Substring(s) in a string column&amp;rdquo;
-category: &amp;ldquo;Search&amp;rdquo;
-operator_type: &amp;ldquo;SubstringSearch&amp;rdquo;
-tags: [search]&lt;a class="td-heading-self-link" href="#tags-search" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Search&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Search&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

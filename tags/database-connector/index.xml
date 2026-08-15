@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Database-Connector on Apache Texera</title><link>https://texera.staged.apache.org/tags/database-connector/</link><description>Recent content in Database-Connector on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/database-connector/index.xml" rel="self" type="application/rss+xml"/><item><title>Database Connector</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/database-connector/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/database-connector/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Database-Connector on Apache Texera</title><link>https://texera.staged.apache.org/tags/database-connector/</link><description>Recent content in Database-Connector on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/database-connector/index.xml" rel="self" type="application/rss+xml"/><item><title>Database Connector</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/database-connector/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/database-connector/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -16,13 +16,7 @@
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-database-connector"&gt;title: &amp;ldquo;Database Connector&amp;rdquo;
-description: &amp;ldquo;Operators in the Database Connector category&amp;rdquo;
-weight: 2
-categories: [Operators]
-tags: [database-connector]&lt;a class="td-heading-self-link" href="#tags-database-connector" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; Database Connector&lt;/p&gt;</description></item><item><title>AsterixDB Source</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/database-connector/asterixdb-source/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/database-connector/asterixdb-source/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; Database Connector&lt;/p&gt;</description></item><item><title>AsterixDB Source</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/database-connector/asterixdb-source/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/database-connector/asterixdb-source/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -40,13 +34,7 @@ tags: [database-connector]&lt;a class="td-heading-self-link" href="#tags-databas
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-database-connector"&gt;title: &amp;ldquo;AsterixDB Source&amp;rdquo;
-description: &amp;ldquo;Read data from a AsterixDB instance&amp;rdquo;
-category: &amp;ldquo;Database Connector&amp;rdquo;
-operator_type: &amp;ldquo;AsterixDBSource&amp;rdquo;
-tags: [database-connector]&lt;a class="td-heading-self-link" href="#tags-database-connector" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Database Connector&lt;/a&gt;&lt;/p&gt;</description></item><item><title>MySQL Source</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/database-connector/mysql-source/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/database-connector/mysql-source/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Database Connector&lt;/a&gt;&lt;/p&gt;</description></item><item><title>MySQL Source</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/database-connector/mysql-source/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/database-connector/mysql-source/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -64,13 +52,7 @@ tags: [database-connector]&lt;a class="td-heading-self-link" href="#tags-databas
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-database-connector"&gt;title: &amp;ldquo;MySQL Source&amp;rdquo;
-description: &amp;ldquo;Read data from a MySQL instance&amp;rdquo;
-category: &amp;ldquo;Database Connector&amp;rdquo;
-operator_type: &amp;ldquo;MySQLSource&amp;rdquo;
-tags: [database-connector]&lt;a class="td-heading-self-link" href="#tags-database-connector" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Database Connector&lt;/a&gt;&lt;/p&gt;</description></item><item><title>PostgreSQL Source</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/database-connector/postgresql-source/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/database-connector/postgresql-source/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Database Connector&lt;/a&gt;&lt;/p&gt;</description></item><item><title>PostgreSQL Source</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/database-connector/postgresql-source/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/database-connector/postgresql-source/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -88,10 +70,4 @@ tags: [database-connector]&lt;a class="td-heading-self-link" href="#tags-databas
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-database-connector"&gt;title: &amp;ldquo;PostgreSQL Source&amp;rdquo;
-description: &amp;ldquo;Read data from a PostgreSQL instance&amp;rdquo;
-category: &amp;ldquo;Database Connector&amp;rdquo;
-operator_type: &amp;ldquo;PostgreSQLSource&amp;rdquo;
-tags: [database-connector]&lt;a class="td-heading-self-link" href="#tags-database-connector" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Database Connector&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Database Connector&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

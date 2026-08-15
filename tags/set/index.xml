@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Set on Apache Texera</title><link>https://texera.staged.apache.org/tags/set/</link><description>Recent content in Set on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/set/index.xml" rel="self" type="application/rss+xml"/><item><title>Set</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/set/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/set/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Set on Apache Texera</title><link>https://texera.staged.apache.org/tags/set/</link><description>Recent content in Set on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/set/index.xml" rel="self" type="application/rss+xml"/><item><title>Set</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/set/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/set/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -16,13 +16,7 @@
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-data-cleaning-set"&gt;title: &amp;ldquo;Set&amp;rdquo;
-description: &amp;ldquo;Operators in the Set category&amp;rdquo;
-weight: 2
-categories: [Operators]
-tags: [data-cleaning, set]&lt;a class="td-heading-self-link" href="#tags-data-cleaning-set" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; Set&lt;/p&gt;</description></item><item><title>Difference</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/set/difference/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/set/difference/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; Set&lt;/p&gt;</description></item><item><title>Difference</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/set/difference/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/set/difference/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -40,13 +34,7 @@ tags: [data-cleaning, set]&lt;a class="td-heading-self-link" href="#tags-data-cl
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-data-cleaning-set"&gt;title: &amp;ldquo;Difference&amp;rdquo;
-description: &amp;ldquo;Find the set difference of two inputs&amp;rdquo;
-category: &amp;ldquo;Set&amp;rdquo;
-operator_type: &amp;ldquo;Difference&amp;rdquo;
-tags: [data-cleaning, set]&lt;a class="td-heading-self-link" href="#tags-data-cleaning-set" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/"&gt;Set&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Intersect</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/set/intersect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/set/intersect/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/"&gt;Set&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Intersect</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/set/intersect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/set/intersect/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -64,13 +52,7 @@ tags: [data-cleaning, set]&lt;a class="td-heading-self-link" href="#tags-data-cl
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-data-cleaning-set"&gt;title: &amp;ldquo;Intersect&amp;rdquo;
-description: &amp;ldquo;Take the intersect of two inputs&amp;rdquo;
-category: &amp;ldquo;Set&amp;rdquo;
-operator_type: &amp;ldquo;Intersect&amp;rdquo;
-tags: [data-cleaning, set]&lt;a class="td-heading-self-link" href="#tags-data-cleaning-set" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/"&gt;Set&lt;/a&gt;&lt;/p&gt;</description></item><item><title>SymmetricDifference</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/set/symmetricdifference/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/set/symmetricdifference/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/"&gt;Set&lt;/a&gt;&lt;/p&gt;</description></item><item><title>SymmetricDifference</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/set/symmetricdifference/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/set/symmetricdifference/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -88,13 +70,7 @@ tags: [data-cleaning, set]&lt;a class="td-heading-self-link" href="#tags-data-cl
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-data-cleaning-set"&gt;title: &amp;ldquo;SymmetricDifference&amp;rdquo;
-description: &amp;ldquo;Find the symmetric difference (the set of elements which are in either of the sets, but not in their intersection) of two inputs&amp;rdquo;
-category: &amp;ldquo;Set&amp;rdquo;
-operator_type: &amp;ldquo;SymmetricDifference&amp;rdquo;
-tags: [data-cleaning, set]&lt;a class="td-heading-self-link" href="#tags-data-cleaning-set" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/"&gt;Set&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Union</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/set/union/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/set/union/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/"&gt;Set&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Union</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/set/union/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/set/union/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -112,10 +88,4 @@ tags: [data-cleaning, set]&lt;a class="td-heading-self-link" href="#tags-data-cl
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-data-cleaning-set"&gt;title: &amp;ldquo;Union&amp;rdquo;
-description: &amp;ldquo;Unions the output rows from multiple input operators&amp;rdquo;
-category: &amp;ldquo;Set&amp;rdquo;
-operator_type: &amp;ldquo;Union&amp;rdquo;
-tags: [data-cleaning, set]&lt;a class="td-heading-self-link" href="#tags-data-cleaning-set" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/data-cleaning/"&gt;Set&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Data Cleaning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-cleaning/"&gt;Set&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

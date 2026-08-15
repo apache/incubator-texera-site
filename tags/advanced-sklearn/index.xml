@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Advanced-Sklearn on Apache Texera</title><link>https://texera.staged.apache.org/tags/advanced-sklearn/</link><description>Recent content in Advanced-Sklearn on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/advanced-sklearn/index.xml" rel="self" type="application/rss+xml"/><item><title>Advanced Sklearn</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/advanced-sklearn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/advanced-sklearn/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Advanced-Sklearn on Apache Texera</title><link>https://texera.staged.apache.org/tags/advanced-sklearn/</link><description>Recent content in Advanced-Sklearn on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/advanced-sklearn/index.xml" rel="self" type="application/rss+xml"/><item><title>Advanced Sklearn</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/machine-learning/advanced-sklearn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/machine-learning/advanced-sklearn/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -16,13 +16,7 @@
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-machine-learning-advanced-sklearn"&gt;title: &amp;ldquo;Advanced Sklearn&amp;rdquo;
-description: &amp;ldquo;Operators in the Advanced Sklearn category&amp;rdquo;
-weight: 2
-categories: [Operators]
-tags: [machine-learning, advanced-sklearn]&lt;a class="td-heading-self-link" href="#tags-machine-learning-advanced-sklearn" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Machine Learning&lt;/a&gt; &amp;gt; Advanced Sklearn&lt;/p&gt;</description></item><item><title>KNN Classifier</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/advanced-sklearn/knn-classifier/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/advanced-sklearn/knn-classifier/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/machine-learning/"&gt;Machine Learning&lt;/a&gt; &amp;gt; Advanced Sklearn&lt;/p&gt;</description></item><item><title>KNN Classifier</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/machine-learning/advanced-sklearn/knn-classifier/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/machine-learning/advanced-sklearn/knn-classifier/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -40,13 +34,7 @@ tags: [machine-learning, advanced-sklearn]&lt;a class="td-heading-self-link" hre
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-machine-learning-advanced-sklearn"&gt;title: &amp;ldquo;KNN Classifier&amp;rdquo;
-description: &amp;ldquo;Sklearn KNN Classifier Operator&amp;rdquo;
-category: &amp;ldquo;Advanced Sklearn&amp;rdquo;
-operator_type: &amp;ldquo;KNNClassifierTrainer&amp;rdquo;
-tags: [machine-learning, advanced-sklearn]&lt;a class="td-heading-self-link" href="#tags-machine-learning-advanced-sklearn" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Advanced Sklearn&lt;/a&gt;&lt;/p&gt;</description></item><item><title>KNN Regressor</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/advanced-sklearn/knn-regressor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/advanced-sklearn/knn-regressor/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/machine-learning/"&gt;Advanced Sklearn&lt;/a&gt;&lt;/p&gt;</description></item><item><title>KNN Regressor</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/machine-learning/advanced-sklearn/knn-regressor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/machine-learning/advanced-sklearn/knn-regressor/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -64,13 +52,7 @@ tags: [machine-learning, advanced-sklearn]&lt;a class="td-heading-self-link" hre
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-machine-learning-advanced-sklearn"&gt;title: &amp;ldquo;KNN Regressor&amp;rdquo;
-description: &amp;ldquo;Sklearn KNN Regressor Operator&amp;rdquo;
-category: &amp;ldquo;Advanced Sklearn&amp;rdquo;
-operator_type: &amp;ldquo;KNNRegressorTrainer&amp;rdquo;
-tags: [machine-learning, advanced-sklearn]&lt;a class="td-heading-self-link" href="#tags-machine-learning-advanced-sklearn" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Advanced Sklearn&lt;/a&gt;&lt;/p&gt;</description></item><item><title>SVM Classifier</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/advanced-sklearn/svm-classifier/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/advanced-sklearn/svm-classifier/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/machine-learning/"&gt;Advanced Sklearn&lt;/a&gt;&lt;/p&gt;</description></item><item><title>SVM Classifier</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/machine-learning/advanced-sklearn/svm-classifier/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/machine-learning/advanced-sklearn/svm-classifier/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -88,13 +70,7 @@ tags: [machine-learning, advanced-sklearn]&lt;a class="td-heading-self-link" hre
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-machine-learning-advanced-sklearn"&gt;title: &amp;ldquo;SVM Classifier&amp;rdquo;
-description: &amp;ldquo;Sklearn SVM Classifier Operator&amp;rdquo;
-category: &amp;ldquo;Advanced Sklearn&amp;rdquo;
-operator_type: &amp;ldquo;SVCTrainer&amp;rdquo;
-tags: [machine-learning, advanced-sklearn]&lt;a class="td-heading-self-link" href="#tags-machine-learning-advanced-sklearn" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Advanced Sklearn&lt;/a&gt;&lt;/p&gt;</description></item><item><title>SVM Regressor</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/advanced-sklearn/svm-regressor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/advanced-sklearn/svm-regressor/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/machine-learning/"&gt;Advanced Sklearn&lt;/a&gt;&lt;/p&gt;</description></item><item><title>SVM Regressor</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/machine-learning/advanced-sklearn/svm-regressor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/machine-learning/advanced-sklearn/svm-regressor/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -112,10 +88,4 @@ tags: [machine-learning, advanced-sklearn]&lt;a class="td-heading-self-link" hre
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-machine-learning-advanced-sklearn"&gt;title: &amp;ldquo;SVM Regressor&amp;rdquo;
-description: &amp;ldquo;Sklearn SVM Regressor Operator&amp;rdquo;
-category: &amp;ldquo;Advanced Sklearn&amp;rdquo;
-operator_type: &amp;ldquo;SVRTrainer&amp;rdquo;
-tags: [machine-learning, advanced-sklearn]&lt;a class="td-heading-self-link" href="#tags-machine-learning-advanced-sklearn" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/machine-learning/"&gt;Advanced Sklearn&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Machine Learning&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/machine-learning/"&gt;Advanced Sklearn&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

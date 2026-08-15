@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Media on Apache Texera</title><link>https://texera.staged.apache.org/tags/media/</link><description>Recent content in Media on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/media/index.xml" rel="self" type="application/rss+xml"/><item><title>Media</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/media/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/media/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Media on Apache Texera</title><link>https://texera.staged.apache.org/tags/media/</link><description>Recent content in Media on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/media/index.xml" rel="self" type="application/rss+xml"/><item><title>Media</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/media/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/media/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -16,13 +16,7 @@
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-media"&gt;title: &amp;ldquo;Media&amp;rdquo;
-description: &amp;ldquo;Operators in the Media category&amp;rdquo;
-weight: 5
-categories: [Operators]
-tags: [visualization, media]&lt;a class="td-heading-self-link" href="#tags-visualization-media" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Visualization&lt;/a&gt; &amp;gt; Media&lt;/p&gt;</description></item><item><title>HTML Visualizer</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/media/html-visualizer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/media/html-visualizer/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Visualization&lt;/a&gt; &amp;gt; Media&lt;/p&gt;</description></item><item><title>HTML Visualizer</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/media/html-visualizer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/media/html-visualizer/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -40,13 +34,7 @@ tags: [visualization, media]&lt;a class="td-heading-self-link" href="#tags-visua
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-media"&gt;title: &amp;ldquo;HTML Visualizer&amp;rdquo;
-description: &amp;ldquo;Render the result of HTML content&amp;rdquo;
-category: &amp;ldquo;Media&amp;rdquo;
-operator_type: &amp;ldquo;HTMLVisualizer&amp;rdquo;
-tags: [visualization, media]&lt;a class="td-heading-self-link" href="#tags-visualization-media" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Media&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Image Visualizer</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/media/image-visualizer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/media/image-visualizer/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Media&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Image Visualizer</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/media/image-visualizer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/media/image-visualizer/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -64,13 +52,7 @@ tags: [visualization, media]&lt;a class="td-heading-self-link" href="#tags-visua
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-media"&gt;title: &amp;ldquo;Image Visualizer&amp;rdquo;
-description: &amp;ldquo;Visualize image content&amp;rdquo;
-category: &amp;ldquo;Media&amp;rdquo;
-operator_type: &amp;ldquo;ImageVisualizer&amp;rdquo;
-tags: [visualization, media]&lt;a class="td-heading-self-link" href="#tags-visualization-media" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Media&lt;/a&gt;&lt;/p&gt;</description></item><item><title>URL Visualizer</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/media/url-visualizer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/media/url-visualizer/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Media&lt;/a&gt;&lt;/p&gt;</description></item><item><title>URL Visualizer</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/media/url-visualizer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/media/url-visualizer/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -88,13 +70,7 @@ tags: [visualization, media]&lt;a class="td-heading-self-link" href="#tags-visua
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-media"&gt;title: &amp;ldquo;URL Visualizer&amp;rdquo;
-description: &amp;ldquo;Render the content of URL&amp;rdquo;
-category: &amp;ldquo;Media&amp;rdquo;
-operator_type: &amp;ldquo;URLVisualizer&amp;rdquo;
-tags: [visualization, media]&lt;a class="td-heading-self-link" href="#tags-visualization-media" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Media&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Word Cloud</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/media/word-cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/media/word-cloud/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Media&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Word Cloud</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/media/word-cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/media/word-cloud/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -112,10 +88,4 @@ tags: [visualization, media]&lt;a class="td-heading-self-link" href="#tags-visua
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-media"&gt;title: &amp;ldquo;Word Cloud&amp;rdquo;
-description: &amp;ldquo;Generate word cloud for texts&amp;rdquo;
-category: &amp;ldquo;Media&amp;rdquo;
-operator_type: &amp;ldquo;WordCloud&amp;rdquo;
-tags: [visualization, media]&lt;a class="td-heading-self-link" href="#tags-visualization-media" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Media&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Media&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

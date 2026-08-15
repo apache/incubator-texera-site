@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Statistical on Apache Texera</title><link>https://texera.staged.apache.org/tags/statistical/</link><description>Recent content in Statistical on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/statistical/index.xml" rel="self" type="application/rss+xml"/><item><title>Statistical</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/statistical/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/statistical/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Statistical on Apache Texera</title><link>https://texera.staged.apache.org/tags/statistical/</link><description>Recent content in Statistical on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/statistical/index.xml" rel="self" type="application/rss+xml"/><item><title>Statistical</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/statistical/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/statistical/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -16,13 +16,7 @@
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-statistical"&gt;title: &amp;ldquo;Statistical&amp;rdquo;
-description: &amp;ldquo;Operators in the Statistical category&amp;rdquo;
-weight: 2
-categories: [Operators]
-tags: [visualization, statistical]&lt;a class="td-heading-self-link" href="#tags-visualization-statistical" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Visualization&lt;/a&gt; &amp;gt; Statistical&lt;/p&gt;</description></item><item><title>Box/Violin Plot</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/statistical/boxviolin-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/statistical/boxviolin-plot/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Visualization&lt;/a&gt; &amp;gt; Statistical&lt;/p&gt;</description></item><item><title>Box/Violin Plot</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/statistical/boxviolin-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/statistical/boxviolin-plot/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -40,13 +34,7 @@ tags: [visualization, statistical]&lt;a class="td-heading-self-link" href="#tags
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-statistical"&gt;title: &amp;ldquo;Box/Violin Plot&amp;rdquo;
-description: &amp;ldquo;Visualize data using either a Box Plot or a Violin Plot. Box plots are drawn as a box with a vertical line down the middle which is mean value, and has horizontal lines attached to each side (known as “whiskers”). Violin plots provide more detail by showing a smoothed density curve on each side, and also include a box plot inside for comparison.&amp;rdquo;
-category: &amp;ldquo;Statistical&amp;rdquo;
-operator_type: &amp;ldquo;BoxViolinPlot&amp;rdquo;
-tags: [visualization, statistical]&lt;a class="td-heading-self-link" href="#tags-visualization-statistical" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Statistical&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Continuous Error Bands</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/statistical/continuous-error-bands/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/statistical/continuous-error-bands/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Statistical&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Continuous Error Bands</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/statistical/continuous-error-bands/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/statistical/continuous-error-bands/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -64,13 +52,7 @@ tags: [visualization, statistical]&lt;a class="td-heading-self-link" href="#tags
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-statistical"&gt;title: &amp;ldquo;Continuous Error Bands&amp;rdquo;
-description: &amp;ldquo;Visualize error or uncertainty along a continuous line&amp;rdquo;
-category: &amp;ldquo;Statistical&amp;rdquo;
-operator_type: &amp;ldquo;ContinuousErrorBands&amp;rdquo;
-tags: [visualization, statistical]&lt;a class="td-heading-self-link" href="#tags-visualization-statistical" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Statistical&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Empirical Cumulative Distribution Plot</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/statistical/empirical-cumulative-distribution-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/statistical/empirical-cumulative-distribution-plot/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Statistical&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Empirical Cumulative Distribution Plot</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/statistical/empirical-cumulative-distribution-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/statistical/empirical-cumulative-distribution-plot/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -88,13 +70,7 @@ tags: [visualization, statistical]&lt;a class="td-heading-self-link" href="#tags
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-statistical"&gt;title: &amp;ldquo;Empirical Cumulative Distribution Plot&amp;rdquo;
-description: &amp;ldquo;Visualize the empirical cumulative distribution of a numeric column.&amp;rdquo;
-category: &amp;ldquo;Statistical&amp;rdquo;
-operator_type: &amp;ldquo;ECDFPlot&amp;rdquo;
-tags: [visualization, statistical]&lt;a class="td-heading-self-link" href="#tags-visualization-statistical" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Statistical&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Histogram</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/statistical/histogram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/statistical/histogram/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Statistical&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Histogram</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/statistical/histogram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/statistical/histogram/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -112,13 +88,7 @@ tags: [visualization, statistical]&lt;a class="td-heading-self-link" href="#tags
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-statistical"&gt;title: &amp;ldquo;Histogram&amp;rdquo;
-description: &amp;ldquo;Visualize data in a Histogram Chart&amp;rdquo;
-category: &amp;ldquo;Statistical&amp;rdquo;
-operator_type: &amp;ldquo;Histogram&amp;rdquo;
-tags: [visualization, statistical]&lt;a class="td-heading-self-link" href="#tags-visualization-statistical" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Statistical&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Histogram2D</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/statistical/histogram2d/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/statistical/histogram2d/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Statistical&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Histogram2D</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/statistical/histogram2d/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/statistical/histogram2d/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -136,13 +106,7 @@ tags: [visualization, statistical]&lt;a class="td-heading-self-link" href="#tags
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-statistical"&gt;title: &amp;ldquo;Histogram2D&amp;rdquo;
-description: &amp;ldquo;Displays a bivariate histogram as a density heatmap&amp;rdquo;
-category: &amp;ldquo;Statistical&amp;rdquo;
-operator_type: &amp;ldquo;Histogram2D&amp;rdquo;
-tags: [visualization, statistical]&lt;a class="td-heading-self-link" href="#tags-visualization-statistical" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Statistical&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Scatter Matrix Chart</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/statistical/scatter-matrix-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/statistical/scatter-matrix-chart/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Statistical&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Scatter Matrix Chart</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/statistical/scatter-matrix-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/statistical/scatter-matrix-chart/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -160,13 +124,7 @@ tags: [visualization, statistical]&lt;a class="td-heading-self-link" href="#tags
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-statistical"&gt;title: &amp;ldquo;Scatter Matrix Chart&amp;rdquo;
-description: &amp;ldquo;Visualize datasets in a Scatter Matrix&amp;rdquo;
-category: &amp;ldquo;Statistical&amp;rdquo;
-operator_type: &amp;ldquo;ScatterMatrixChart&amp;rdquo;
-tags: [visualization, statistical]&lt;a class="td-heading-self-link" href="#tags-visualization-statistical" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Statistical&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Strip Chart</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/statistical/strip-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/statistical/strip-chart/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Statistical&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Strip Chart</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/statistical/strip-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/statistical/strip-chart/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -184,13 +142,7 @@ tags: [visualization, statistical]&lt;a class="td-heading-self-link" href="#tags
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-statistical"&gt;title: &amp;ldquo;Strip Chart&amp;rdquo;
-description: &amp;ldquo;Visualize distribution of data points as a strip plot&amp;rdquo;
-category: &amp;ldquo;Statistical&amp;rdquo;
-operator_type: &amp;ldquo;StripChart&amp;rdquo;
-tags: [visualization, statistical]&lt;a class="td-heading-self-link" href="#tags-visualization-statistical" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Statistical&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Tree Plot</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/statistical/tree-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/statistical/tree-plot/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Statistical&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Tree Plot</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/statistical/tree-plot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/statistical/tree-plot/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -208,10 +160,4 @@ tags: [visualization, statistical]&lt;a class="td-heading-self-link" href="#tags
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-statistical"&gt;title: &amp;ldquo;Tree Plot&amp;rdquo;
-description: &amp;ldquo;Visualize hierarchical data as a top-down, interactive, auto-sizing tree&amp;rdquo;
-category: &amp;ldquo;Statistical&amp;rdquo;
-operator_type: &amp;ldquo;TreePlot&amp;rdquo;
-tags: [visualization, statistical]&lt;a class="td-heading-self-link" href="#tags-visualization-statistical" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Statistical&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Statistical&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

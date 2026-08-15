@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data-Input on Apache Texera</title><link>https://texera.staged.apache.org/tags/data-input/</link><description>Recent content in Data-Input on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/data-input/index.xml" rel="self" type="application/rss+xml"/><item><title>Data Input</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-input/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-input/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data-Input on Apache Texera</title><link>https://texera.staged.apache.org/tags/data-input/</link><description>Recent content in Data-Input on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/data-input/index.xml" rel="self" type="application/rss+xml"/><item><title>Data Input</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-input/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-input/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -16,13 +16,7 @@
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-data-input"&gt;title: &amp;ldquo;Data Input&amp;rdquo;
-description: &amp;ldquo;Operators in the Data Input category&amp;rdquo;
-weight: 1
-categories: [Operators]
-tags: [data-input]&lt;a class="td-heading-self-link" href="#tags-data-input" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; Data Input&lt;/p&gt;</description></item><item><title>Arrow File Scan</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-input/arrow-file-scan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-input/arrow-file-scan/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; Data Input&lt;/p&gt;</description></item><item><title>Arrow File Scan</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-input/arrow-file-scan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-input/arrow-file-scan/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -40,13 +34,7 @@ tags: [data-input]&lt;a class="td-heading-self-link" href="#tags-data-input" ari
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-data-input"&gt;title: &amp;ldquo;Arrow File Scan&amp;rdquo;
-description: &amp;ldquo;Scan data from an Arrow file&amp;rdquo;
-category: &amp;ldquo;Data Input&amp;rdquo;
-operator_type: &amp;ldquo;ArrowSource&amp;rdquo;
-tags: [data-input]&lt;a class="td-heading-self-link" href="#tags-data-input" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Data Input&lt;/a&gt;&lt;/p&gt;</description></item><item><title>CSV File Scan</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-input/csv-file-scan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-input/csv-file-scan/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Data Input&lt;/a&gt;&lt;/p&gt;</description></item><item><title>CSV File Scan</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-input/csv-file-scan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-input/csv-file-scan/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -64,13 +52,7 @@ tags: [data-input]&lt;a class="td-heading-self-link" href="#tags-data-input" ari
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-data-input"&gt;title: &amp;ldquo;CSV File Scan&amp;rdquo;
-description: &amp;ldquo;Scan data from a CSV file&amp;rdquo;
-category: &amp;ldquo;Data Input&amp;rdquo;
-operator_type: &amp;ldquo;CSVFileScan&amp;rdquo;
-tags: [data-input]&lt;a class="td-heading-self-link" href="#tags-data-input" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Data Input&lt;/a&gt;&lt;/p&gt;</description></item><item><title>CSVOld File Scan</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-input/csvold-file-scan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-input/csvold-file-scan/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Data Input&lt;/a&gt;&lt;/p&gt;</description></item><item><title>CSVOld File Scan</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-input/csvold-file-scan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-input/csvold-file-scan/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -88,13 +70,7 @@ tags: [data-input]&lt;a class="td-heading-self-link" href="#tags-data-input" ari
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-data-input"&gt;title: &amp;ldquo;CSVOld File Scan&amp;rdquo;
-description: &amp;ldquo;Scan data from a CSVOld file&amp;rdquo;
-category: &amp;ldquo;Data Input&amp;rdquo;
-operator_type: &amp;ldquo;CSVOldFileScan&amp;rdquo;
-tags: [data-input]&lt;a class="td-heading-self-link" href="#tags-data-input" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Data Input&lt;/a&gt;&lt;/p&gt;</description></item><item><title>File Lister</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-input/file-lister/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-input/file-lister/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Data Input&lt;/a&gt;&lt;/p&gt;</description></item><item><title>File Lister</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-input/file-lister/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-input/file-lister/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -112,13 +88,7 @@ tags: [data-input]&lt;a class="td-heading-self-link" href="#tags-data-input" ari
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-data-input"&gt;title: &amp;ldquo;File Lister&amp;rdquo;
-description: &amp;ldquo;Select a dataset version and output one filename tuple per file&amp;rdquo;
-category: &amp;ldquo;Data Input&amp;rdquo;
-operator_type: &amp;ldquo;FileLister&amp;rdquo;
-tags: [data-input]&lt;a class="td-heading-self-link" href="#tags-data-input" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Data Input&lt;/a&gt;&lt;/p&gt;</description></item><item><title>File Scan</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-input/file-scan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-input/file-scan/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Data Input&lt;/a&gt;&lt;/p&gt;</description></item><item><title>File Scan</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-input/file-scan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-input/file-scan/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -136,13 +106,7 @@ tags: [data-input]&lt;a class="td-heading-self-link" href="#tags-data-input" ari
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-data-input"&gt;title: &amp;ldquo;File Scan&amp;rdquo;
-description: &amp;ldquo;Scan data from a file&amp;rdquo;
-category: &amp;ldquo;Data Input&amp;rdquo;
-operator_type: &amp;ldquo;FileScan&amp;rdquo;
-tags: [data-input]&lt;a class="td-heading-self-link" href="#tags-data-input" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Data Input&lt;/a&gt;&lt;/p&gt;</description></item><item><title>File Scan From Input</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-input/file-scan-from-input/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-input/file-scan-from-input/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Data Input&lt;/a&gt;&lt;/p&gt;</description></item><item><title>File Scan From Input</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-input/file-scan-from-input/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-input/file-scan-from-input/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -160,13 +124,7 @@ tags: [data-input]&lt;a class="td-heading-self-link" href="#tags-data-input" ari
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-data-input"&gt;title: &amp;ldquo;File Scan From Input&amp;rdquo;
-description: &amp;ldquo;Scan data from file paths provided by input tuples&amp;rdquo;
-category: &amp;ldquo;Data Input&amp;rdquo;
-operator_type: &amp;ldquo;FileScanOp&amp;rdquo;
-tags: [data-input]&lt;a class="td-heading-self-link" href="#tags-data-input" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Data Input&lt;/a&gt;&lt;/p&gt;</description></item><item><title>JSONL File Scan</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-input/jsonl-file-scan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-input/jsonl-file-scan/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Data Input&lt;/a&gt;&lt;/p&gt;</description></item><item><title>JSONL File Scan</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-input/jsonl-file-scan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-input/jsonl-file-scan/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -184,13 +142,7 @@ tags: [data-input]&lt;a class="td-heading-self-link" href="#tags-data-input" ari
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-data-input"&gt;title: &amp;ldquo;JSONL File Scan&amp;rdquo;
-description: &amp;ldquo;Scan data from a JSONL file&amp;rdquo;
-category: &amp;ldquo;Data Input&amp;rdquo;
-operator_type: &amp;ldquo;JSONLFileScan&amp;rdquo;
-tags: [data-input]&lt;a class="td-heading-self-link" href="#tags-data-input" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Data Input&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Text Input</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/data-input/text-input/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/data-input/text-input/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Data Input&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Text Input</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-input/text-input/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/data-input/text-input/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -208,10 +160,4 @@ tags: [data-input]&lt;a class="td-heading-self-link" href="#tags-data-input" ari
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-data-input"&gt;title: &amp;ldquo;Text Input&amp;rdquo;
-description: &amp;ldquo;Source data from manually inputted text&amp;rdquo;
-category: &amp;ldquo;Data Input&amp;rdquo;
-operator_type: &amp;ldquo;TextInput&amp;rdquo;
-tags: [data-input]&lt;a class="td-heading-self-link" href="#tags-data-input" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Data Input&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Data Input&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

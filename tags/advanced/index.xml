@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Advanced on Apache Texera</title><link>https://texera.staged.apache.org/tags/advanced/</link><description>Recent content in Advanced on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/advanced/index.xml" rel="self" type="application/rss+xml"/><item><title>Advanced</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/advanced/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/advanced/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Advanced on Apache Texera</title><link>https://texera.staged.apache.org/tags/advanced/</link><description>Recent content in Advanced on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/advanced/index.xml" rel="self" type="application/rss+xml"/><item><title>Advanced</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/advanced/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/advanced/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -16,13 +16,7 @@
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-advanced"&gt;title: &amp;ldquo;Advanced&amp;rdquo;
-description: &amp;ldquo;Operators in the Advanced category&amp;rdquo;
-weight: 6
-categories: [Operators]
-tags: [visualization, advanced]&lt;a class="td-heading-self-link" href="#tags-visualization-advanced" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Visualization&lt;/a&gt; &amp;gt; Advanced&lt;/p&gt;</description></item><item><title>Choropleth Map</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/advanced/choropleth-map/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/advanced/choropleth-map/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Visualization&lt;/a&gt; &amp;gt; Advanced&lt;/p&gt;</description></item><item><title>Choropleth Map</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/advanced/choropleth-map/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/advanced/choropleth-map/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -40,13 +34,7 @@ tags: [visualization, advanced]&lt;a class="td-heading-self-link" href="#tags-vi
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-advanced"&gt;title: &amp;ldquo;Choropleth Map&amp;rdquo;
-description: &amp;ldquo;Visualize data using a Choropleth Map that uses shades of colors to show differences in properties or quantities between regions&amp;rdquo;
-category: &amp;ldquo;Advanced&amp;rdquo;
-operator_type: &amp;ldquo;ChoroplethMap&amp;rdquo;
-tags: [visualization, advanced]&lt;a class="td-heading-self-link" href="#tags-visualization-advanced" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Advanced&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Scatter3D Chart</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/advanced/scatter3d-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/visualization/advanced/scatter3d-chart/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Advanced&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Scatter3D Chart</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/advanced/scatter3d-chart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/advanced/scatter3d-chart/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -64,10 +52,4 @@ tags: [visualization, advanced]&lt;a class="td-heading-self-link" href="#tags-vi
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-visualization-advanced"&gt;title: &amp;ldquo;Scatter3D Chart&amp;rdquo;
-description: &amp;ldquo;Visualize data in a Scatter3D Plot&amp;rdquo;
-category: &amp;ldquo;Advanced&amp;rdquo;
-operator_type: &amp;ldquo;Scatter3DChart&amp;rdquo;
-tags: [visualization, advanced]&lt;a class="td-heading-self-link" href="#tags-visualization-advanced" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/visualization/"&gt;Advanced&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Visualization&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/visualization/"&gt;Advanced&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Parameters on Apache Texera</title><link>https://texera.staged.apache.org/categories/parameters/</link><description>Recent content in Parameters on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/categories/parameters/index.xml" rel="self" type="application/rss+xml"/><item><title>SklearnAdvancedKNN Parameters</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/parameters/sklearn-advanced-knn-parameters/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/parameters/sklearn-advanced-knn-parameters/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Parameters on Apache Texera</title><link>https://texera.staged.apache.org/categories/parameters/</link><description>Recent content in Parameters on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/categories/parameters/index.xml" rel="self" type="application/rss+xml"/><item><title>SklearnAdvancedKNN Parameters</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/parameters/sklearn-advanced-knn-parameters/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/parameters/sklearn-advanced-knn-parameters/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -16,12 +16,7 @@
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-ml-sklearn-parameters"&gt;title: &amp;ldquo;SklearnAdvancedKNN Parameters&amp;rdquo;
-description: &amp;ldquo;Hyperparameters accepted by SklearnAdvancedKNN&amp;rdquo;
-categories: [Parameters]
-tags: [ml, sklearn, parameters]&lt;a class="td-heading-self-link" href="#tags-ml-sklearn-parameters" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;← Parameters Index&lt;/a&gt;&lt;/p&gt;</description></item><item><title>SklearnAdvancedSVC Parameters</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/parameters/sklearn-advanced-svc-parameters/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/parameters/sklearn-advanced-svc-parameters/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;← Parameters Index&lt;/a&gt;&lt;/p&gt;</description></item><item><title>SklearnAdvancedSVC Parameters</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/parameters/sklearn-advanced-svc-parameters/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/parameters/sklearn-advanced-svc-parameters/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -39,12 +34,7 @@ tags: [ml, sklearn, parameters]&lt;a class="td-heading-self-link" href="#tags-ml
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-ml-sklearn-parameters"&gt;title: &amp;ldquo;SklearnAdvancedSVC Parameters&amp;rdquo;
-description: &amp;ldquo;Hyperparameters accepted by SklearnAdvancedSVC&amp;rdquo;
-categories: [Parameters]
-tags: [ml, sklearn, parameters]&lt;a class="td-heading-self-link" href="#tags-ml-sklearn-parameters" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;← Parameters Index&lt;/a&gt;&lt;/p&gt;</description></item><item><title>SklearnAdvancedSVR Parameters</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/parameters/sklearn-advanced-svr-parameters/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/parameters/sklearn-advanced-svr-parameters/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;← Parameters Index&lt;/a&gt;&lt;/p&gt;</description></item><item><title>SklearnAdvancedSVR Parameters</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/parameters/sklearn-advanced-svr-parameters/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/parameters/sklearn-advanced-svr-parameters/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -62,9 +52,4 @@ tags: [ml, sklearn, parameters]&lt;a class="td-heading-self-link" href="#tags-ml
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-ml-sklearn-parameters"&gt;title: &amp;ldquo;SklearnAdvancedSVR Parameters&amp;rdquo;
-description: &amp;ldquo;Hyperparameters accepted by SklearnAdvancedSVR&amp;rdquo;
-categories: [Parameters]
-tags: [ml, sklearn, parameters]&lt;a class="td-heading-self-link" href="#tags-ml-sklearn-parameters" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;← Parameters Index&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;← Parameters Index&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

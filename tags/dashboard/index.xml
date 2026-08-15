@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dashboard on Apache Texera</title><link>https://texera.staged.apache.org/tags/dashboard/</link><description>Recent content in Dashboard on Apache Texera</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 09 Aug 2026 16:45:51 +0000</lastBuildDate><atom:link href="https://texera.staged.apache.org/tags/dashboard/index.xml" rel="self" type="application/rss+xml"/><item><title>Texera UI Overview</title><link>https://texera.staged.apache.org/docs/latest/getting-started/ui-overview/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/getting-started/ui-overview/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dashboard on Apache Texera</title><link>https://texera.staged.apache.org/tags/dashboard/</link><description>Recent content in Dashboard on Apache Texera</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 29 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://texera.staged.apache.org/tags/dashboard/index.xml" rel="self" type="application/rss+xml"/><item><title>Texera UI Overview</title><link>https://texera.staged.apache.org/docs/v1.2.0/getting-started/ui-overview/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/getting-started/ui-overview/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -16,14 +16,6 @@
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-ui-dashboard-overview"&gt;title: &amp;ldquo;Texera UI Overview&amp;rdquo;
-date: 2025-10-29
-weight: 80
-description: &amp;gt;
-Explore Texera&amp;rsquo;s User Dashboard interface and its components.
-categories: [Texera]
-tags: [ui, dashboard, overview]&lt;a class="td-heading-self-link" href="#tags-ui-dashboard-overview" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 
 
 &lt;div class="pageinfo pageinfo-primary"&gt;

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Control-Block on Apache Texera</title><link>https://texera.staged.apache.org/tags/control-block/</link><description>Recent content in Control-Block on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/control-block/index.xml" rel="self" type="application/rss+xml"/><item><title>Control Block</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/control-block/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/control-block/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Control-Block on Apache Texera</title><link>https://texera.staged.apache.org/tags/control-block/</link><description>Recent content in Control-Block on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/control-block/index.xml" rel="self" type="application/rss+xml"/><item><title>Control Block</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/control-block/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/control-block/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -16,13 +16,7 @@
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-control-block"&gt;title: &amp;ldquo;Control Block&amp;rdquo;
-description: &amp;ldquo;Operators in the Control Block category&amp;rdquo;
-weight: 10
-categories: [Operators]
-tags: [control-block]&lt;a class="td-heading-self-link" href="#tags-control-block" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; Control Block&lt;/p&gt;</description></item><item><title>If</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/control-block/if/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/control-block/if/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; Control Block&lt;/p&gt;</description></item><item><title>If</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/control-block/if/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/control-block/if/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -40,13 +34,7 @@ tags: [control-block]&lt;a class="td-heading-self-link" href="#tags-control-bloc
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-control-block"&gt;title: &amp;ldquo;If&amp;rdquo;
-description: &amp;ldquo;If&amp;rdquo;
-category: &amp;ldquo;Control Block&amp;rdquo;
-operator_type: &amp;ldquo;If&amp;rdquo;
-tags: [control-block]&lt;a class="td-heading-self-link" href="#tags-control-block" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Control Block&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Sleep</title><link>https://texera.staged.apache.org/docs/latest/reference/operators/control-block/sleep/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/reference/operators/control-block/sleep/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Control Block&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Sleep</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/control-block/sleep/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/control-block/sleep/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -64,10 +52,4 @@ tags: [control-block]&lt;a class="td-heading-self-link" href="#tags-control-bloc
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-control-block"&gt;title: &amp;ldquo;Sleep&amp;rdquo;
-description: &amp;ldquo;Sleep n seconds between each tuple&amp;rdquo;
-category: &amp;ldquo;Control Block&amp;rdquo;
-operator_type: &amp;ldquo;Sleep&amp;rdquo;
-tags: [control-block]&lt;a class="td-heading-self-link" href="#tags-control-block" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/latest/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/latest/reference/operators/"&gt;Control Block&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Control Block&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

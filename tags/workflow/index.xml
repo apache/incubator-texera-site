@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workflow on Apache Texera</title><link>https://texera.staged.apache.org/tags/workflow/</link><description>Recent content in Workflow on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/workflow/index.xml" rel="self" type="application/rss+xml"/><item><title>Contribution Guidelines</title><link>https://texera.staged.apache.org/docs/latest/contribution-guidelines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/latest/contribution-guidelines/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workflow on Apache Texera</title><link>https://texera.staged.apache.org/tags/workflow/</link><description>Recent content in Workflow on Apache Texera</description><generator>Hugo</generator><language>en</language><atom:link href="https://texera.staged.apache.org/tags/workflow/index.xml" rel="self" type="application/rss+xml"/><item><title>Contribution Guidelines</title><link>https://texera.staged.apache.org/docs/v1.2.0/contribution-guidelines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/contribution-guidelines/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -16,12 +16,6 @@
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;hr&gt;
-&lt;h2 id="tags-contributing-development-documentation-github-workflow"&gt;title: &amp;ldquo;Contribution Guidelines&amp;rdquo;
-description: &amp;ldquo;How to contribute to Texera code and documentation.&amp;rdquo;
-weight: 60
-categories: [Texera, Contributing]
-tags: [contributing, development, documentation, github, workflow]&lt;a class="td-heading-self-link" href="#tags-contributing-development-documentation-github-workflow" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 
 
 &lt;div class="pageinfo pageinfo-primary"&gt;
