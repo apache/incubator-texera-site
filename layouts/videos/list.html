@@ -1,0 +1,75 @@
+{{ define "main" -}}
+{{ $channel := "https://www.youtube.com/@texeraprojectgeneral" -}}
+
+<div><a class="td-offset-anchor"></a></div>
+<section class="row td-box td-box--white position-relative td-box--height-auto blog-hero">
+  <div class="col-12">
+    <div class="container text-center">
+      <h1>{{ .Title }}</h1>
+      {{ with .Content }}<div class="blog-hero-lead">{{ . }}</div>{{ end }}
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="td-content videos-page">
+    {{ $videos := .Site.Data.videos -}}
+    {{ if $videos -}}
+    <div class="announcements-search-wrap">
+      <i class="fa fa-search announcements-search-icon" aria-hidden="true"></i>
+      <input type="search" id="videoSearch" class="announcements-search" placeholder="Search videos…" aria-label="Search videos">
+    </div>
+
+    <ul class="videos-grid">
+      {{ range $videos -}}
+      {{ if .id -}}
+      <li class="videos-grid-item" data-search="{{ lower (printf "%s %s" .title (.description | default "")) }}">
+        <div class="video-card">
+          <div class="video-embed">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/{{ .id }}"
+              title="{{ .title }}"
+              loading="lazy"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen></iframe>
+          </div>
+          <div class="video-card-body">
+            <h2 class="video-card-title">{{ .title }}</h2>
+            {{ with .description }}<p class="video-card-description">{{ . }}</p>{{ end }}
+          </div>
+        </div>
+      </li>
+      {{- end }}
+      {{- end }}
+    </ul>
+    <p class="announcements-empty" hidden>No videos match your search.</p>
+    {{- else -}}
+    <p class="videos-empty">Videos are coming soon. In the meantime, visit our
+      <a href="{{ $channel }}" target="_blank" rel="noopener">YouTube channel</a>.</p>
+    {{- end }}
+  </div>
+</div>
+
+<script>
+(function() {
+  var input = document.getElementById('videoSearch');
+  if (!input) return;
+  var items = document.querySelectorAll('.videos-grid-item');
+  var empty = document.querySelector('.announcements-empty');
+  input.addEventListener('input', function() {
+    var q = this.value.trim().toLowerCase();
+    var visible = 0;
+    items.forEach(function(item) {
+      var hay = item.getAttribute('data-search') || '';
+      var match = q === '' || hay.indexOf(q) !== -1;
+      item.hidden = !match;
+      if (match) visible++;
+    });
+    if (empty) empty.hidden = visible !== 0;
+  });
+})();
+</script>
+
+{{ end }}

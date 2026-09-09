@@ -1,0 +1,29 @@
+# Videos shown on /videos/ (Community ▸ Videos).
+#
+# Each entry embeds one clip from the Texera Project General YouTube channel:
+#   https://www.youtube.com/@texeraprojectgeneral
+#
+# To add a video, copy its 11-character ID from the watch URL
+# (https://www.youtube.com/watch?v=VIDEO_ID) into a new list item below.
+# `title` is required; `description` is optional. Order top-to-bottom is the
+# order shown on the page.
+#
+# NOTE: The IDs below are Texera demo clips seeded as a starting point. Please
+# confirm each one belongs to @texeraprojectgeneral (and is the clip you want)
+# before publishing, and add any others from the channel.
+
+- id: "Xf79fBpmFfU"
+  title: "Shared Editing and Shared Execution of a Workflow"
+  description: "Collaborators build a workflow together and share its exact execution in real time."
+
+- id: "2gfPUZNsoBs"
+  title: "Real-time Collaborative Data Analytics"
+  description: "A walkthrough of doing data analytics collaboratively in Texera."
+
+- id: "EJ269aWnHv4"
+  title: "Reproduce a Published Paper's Experiment"
+  description: "Reproduce a paper's experiment and share its data and analysis with others."
+
+- id: "l1ZXdRuhc6s"
+  title: "Managing ML Assets with Texera"
+  description: "Use Texera to manage machine-learning assets such as models."
