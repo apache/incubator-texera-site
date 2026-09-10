@@ -3,10 +3,19 @@
 # Each entry embeds one clip from the Texera Project General YouTube channel:
 #   https://www.youtube.com/@texeraprojectgeneral
 #
-# To add a video, copy its 11-character ID from the watch URL
-# (https://www.youtube.com/watch?v=VIDEO_ID) into a new list item below.
-# `title` is required; `description` is optional. Order top-to-bottom is the
-# order shown on the page.
+# Apache's site-wide Content-Security-Policy blocks third-party <iframe>
+# embeds, so each card links out to YouTube and shows a locally hosted
+# thumbnail (Apache also blocks remote images). To add a video:
+#   1. Copy its 11-character ID from the watch URL
+#      (https://www.youtube.com/watch?v=VIDEO_ID).
+#   2. Save its thumbnail under static/images/videos/ with a descriptive,
+#      kebab-case name, e.g.
+#        curl -o static/images/videos/my-video-name.jpg \
+#          https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg
+#      (fall back to .../mqdefault.jpg if maxresdefault 404s).
+#   3. Add a list item below with `id`, `title`, `thumb` (the /images/videos/…
+#      path), and an optional `description`.
+# Order top-to-bottom is the order shown on the page.
 #
 # NOTE: The IDs below are Texera demo clips seeded as a starting point. Please
 # confirm each one belongs to @texeraprojectgeneral (and is the clip you want)
@@ -14,16 +23,20 @@
 
 - id: "Xf79fBpmFfU"
   title: "Shared Editing and Shared Execution of a Workflow"
+  thumb: "/images/videos/shared-editing-execution.jpg"
   description: "Collaborators build a workflow together and share its exact execution in real time."
 
 - id: "2gfPUZNsoBs"
   title: "Real-time Collaborative Data Analytics"
+  thumb: "/images/videos/realtime-collaborative-analytics.jpg"
   description: "A walkthrough of doing data analytics collaboratively in Texera."
 
 - id: "EJ269aWnHv4"
   title: "Reproduce a Published Paper's Experiment"
+  thumb: "/images/videos/reproduce-paper-experiment.jpg"
   description: "Reproduce a paper's experiment and share its data and analysis with others."
 
 - id: "l1ZXdRuhc6s"
   title: "Managing ML Assets with Texera"
+  thumb: "/images/videos/managing-ml-assets.jpg"
   description: "Use Texera to manage machine-learning assets such as models."
