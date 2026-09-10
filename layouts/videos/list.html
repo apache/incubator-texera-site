@@ -23,23 +23,19 @@
     <ul class="videos-grid">
       {{ range $videos -}}
       {{ if .id -}}
+      {{ $watch := printf "https://www.youtube.com/watch?v=%s" .id -}}
+      {{ $thumb := .thumb | default (printf "/images/videos/%s.jpg" .id) -}}
       <li class="videos-grid-item" data-search="{{ lower (printf "%s %s" .title (.description | default "")) }}">
-        <div class="video-card">
-          <div class="video-embed">
-            <iframe
-              src="https://www.youtube-nocookie.com/embed/{{ .id }}"
-              title="{{ .title }}"
-              loading="lazy"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen></iframe>
+        <a class="video-card" href="{{ $watch }}" target="_blank" rel="noopener" aria-label="Watch “{{ .title }}” on YouTube">
+          <div class="video-thumb">
+            <img src="{{ $thumb }}" alt="{{ .title }}" loading="lazy">
+            <span class="video-play" aria-hidden="true"><i class="fas fa-play"></i></span>
           </div>
           <div class="video-card-body">
             <h2 class="video-card-title">{{ .title }}</h2>
             {{ with .description }}<p class="video-card-description">{{ . }}</p>{{ end }}
           </div>
-        </div>
+        </a>
       </li>
       {{- end }}
       {{- end }}
