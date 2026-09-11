@@ -265,9 +265,137 @@ section:has(.services-section) {
 .community-hero h1,
 .announcements-hero h1,
 .releases-hero h1,
+.committers-hero h1,
 .blog-hero h1 {
   font-weight: $font-weight-bold;
   margin-bottom: 0.35rem;
+}
+
+.committers-hero-lead {
+  margin: 0 auto;
+  max-width: 720px;
+  font-size: 1.1rem;
+  color: #5f6368;
+  line-height: 1.55;
+}
+
+.committers-section {
+  margin-bottom: 1.5rem;
+  padding: 1.25rem 1.5rem 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 0.9rem;
+  background-color: #eaedf2;
+}
+
+.committers-section h2 {
+  margin-bottom: 0.35rem;
+  text-align: center;
+}
+
+.committers-group-note {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  color: #5f6368;
+  text-align: center;
+}
+
+.committers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.committer-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 0.9rem 1.1rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  transition:
+    transform 0.15s ease-out,
+    box-shadow 0.15s ease-out,
+    border-color 0.15s ease-out;
+}
+
+.committer-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  border-color: rgba(0, 123, 255, 0.5);
+}
+
+.committer-name {
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.3;
+}
+
+.committer-affiliation {
+  font-size: 0.85rem;
+  color: #5f6368;
+}
+
+.committer-handles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.9rem;
+}
+
+.committer-handle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  color: #5f6368;
+  text-decoration: none;
+}
+
+.committer-handle:hover,
+.committer-handle:focus {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.committer-handle i {
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+.committers-about {
+  margin: 2rem 0 0;
+  text-align: left;
+}
+
+.committers-about h2 {
+  margin-top: 0;
+  text-align: left;
+}
+
+.committers-about p {
+  margin-bottom: 0.9rem;
+}
+
+.committers-about > :last-child {
+  margin-bottom: 0;
+}
+
+.committers-source {
+  margin-top: 1.25rem;
+  font-size: 0.9rem;
+  color: #5f6368;
+  text-align: center;
+}
+
+/* Tighten the space around the committers content: less room above the first
+   section (right under the hero) and below the closing text. */
+.committers-body {
+  padding-top: 1rem !important;
+  padding-bottom: 1.5rem !important;
 }
 
 .releases-hero-lead {
@@ -301,6 +429,7 @@ section:has(.services-section) {
   .td-default main > section.community-hero:first-of-type,
   .td-default main > section.announcements-hero:first-of-type,
   .td-default main > section.releases-hero:first-of-type,
+  .td-default main > section.committers-hero:first-of-type,
   .td-default main > section.blog-hero:first-of-type {
     padding-bottom: 1rem !important;
   }

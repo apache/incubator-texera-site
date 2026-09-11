@@ -1,0 +1,69 @@
+{{ define "main" -}}
+
+<div><a class="td-offset-anchor"></a></div>
+<section class="row td-box td-box--white position-relative td-box--height-auto committers-hero">
+    <div class="col-12">
+        <div class="container text-center">
+            <h1>{{ .Title }}</h1>
+            <p class="committers-hero-lead">
+                Apache Texera (Incubating) is built by its community. Committers
+                have earned write access to the project through sustained
+                contributions and are trusted to review and merge changes.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="row td-box td-box--white td-box--height-auto committers-body">
+    <div class="col-12 col-lg-10 offset-lg-1 px-4 pb-4">
+        {{ $people := .Site.Data.committers.people }}
+        {{ $mentors := sort (where $people "group" "mentor") "lastname" }}
+        {{ $ppmc := sort (where $people "group" "ppmc") "lastname" }}
+        {{ $committers := sort (where $people "group" "committer") "lastname" }}
+
+        {{ with $mentors }}
+        <div class="committers-section">
+            <h2 id="mentors">Mentors</h2>
+            <p class="committers-group-note">
+                Incubation mentors from the Apache Incubator, who are also PPMC members.
+            </p>
+            {{ partial "committers_grid.html" . }}
+        </div>
+        {{ end }}
+
+        {{ with $ppmc }}
+        <div class="committers-section">
+            <h2 id="ppmc">PPMC Members</h2>
+            <p class="committers-group-note">
+                The Podling Project Management Committee guides the project during
+                incubation. Together with the mentors above, the PPMC has 14 members.
+            </p>
+            {{ partial "committers_grid.html" . }}
+        </div>
+        {{ end }}
+
+        {{ with $committers }}
+        <div class="committers-section">
+            <h2 id="committers">Committers</h2>
+            <p class="committers-group-note">
+                Every PPMC member above is also a committer. Including them, the
+                project has 16 committers.
+            </p>
+            {{ partial "committers_grid.html" . }}
+        </div>
+        {{ end }}
+
+        {{ with .Content -}}
+        <div class="td-content committers-about">
+            {{ . }}
+        </div>
+        {{- end }}
+
+        <p class="committers-source">
+            The authoritative roster is maintained at
+            <a href="https://whimsy.apache.org/roster/ppmc/texera" target="_blank" rel="noopener">whimsy.apache.org/roster/ppmc/texera</a>.
+        </p>
+    </div>
+</section>
+
+{{ end }}
