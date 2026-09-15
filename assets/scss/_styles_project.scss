@@ -32,6 +32,12 @@
   }
 }
 
+@media (min-width: 768px) {
+  body.td-blog main>.td-content {
+    padding-top: 4.5rem;
+  }
+}
+
 .cover-split-content {
   flex: 1 1 auto;
   max-width: 750px;
