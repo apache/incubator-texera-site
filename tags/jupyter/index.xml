@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jupyter on Apache Texera</title><link>https://texera.staged.apache.org/tags/jupyter/</link><description>Recent content in Jupyter on Apache Texera</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 15 Sep 2026 11:25:55 -0700</lastBuildDate><atom:link href="https://texera.staged.apache.org/tags/jupyter/index.xml" rel="self" type="application/rss+xml"/><item><title>Migrating Jupyter Notebooks into Texera Workflows</title><link>https://texera.staged.apache.org/blog/2026/09/15/notebook-migration-tool/</link><pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/blog/2026/09/15/notebook-migration-tool/</guid><description>&lt;div style="max-width: 100%; width: 100%; margin: 0 0 32px;"&gt;
+ &lt;img src="https://texera.staged.apache.org/images/blog_hero/notebook-migration.png" alt="A Texera workspace showing a generated workflow beside the notebook it was generated from" style="width: 90%; height: auto; display: block; margin: 0 auto; border-radius: 12px;"&gt;
+&lt;/div&gt;
+&lt;div style="max-width: 100%; width: 100%; margin: 0; font-family: 'Helvetica Neue',Arial,sans-serif; color: #14110f; background: #ffffff; line-height: 1.65;"&gt;
+&lt;div style="padding: 44px 44px 8px; background: #ffffff;"&gt;
+&lt;p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 14px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: #c8451f; margin: 0 0 28px;"&gt;
+Feature Introduction &amp;middot; Apache Texera
+&lt;/p&gt;</description></item></channel></rss>

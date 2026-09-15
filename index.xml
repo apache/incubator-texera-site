@@ -1205,7 +1205,14 @@ adding a Copyright profile:&lt;/p&gt;</description></item><item><title>Texera UI
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;p&gt;Subject: [VOTE] Release Apache Texera (incubating) ${VERSION} RC${RC_NUM}&lt;/p&gt;</description></item><item><title>Apache Texera 1.2.0-incubating</title><link>https://texera.staged.apache.org/releases/1.2.0-incubating/</link><pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/releases/1.2.0-incubating/</guid><description>&lt;p&gt;Apache Texera 1.2.0-incubating introduces new cloud-native deployment, AI-integration, and workflow features.&lt;/p&gt;
+&lt;p&gt;Subject: [VOTE] Release Apache Texera (incubating) ${VERSION} RC${RC_NUM}&lt;/p&gt;</description></item><item><title>Migrating Jupyter Notebooks into Texera Workflows</title><link>https://texera.staged.apache.org/blog/2026/09/15/notebook-migration-tool/</link><pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/blog/2026/09/15/notebook-migration-tool/</guid><description>&lt;div style="max-width: 100%; width: 100%; margin: 0 0 32px;"&gt;
+ &lt;img src="https://texera.staged.apache.org/images/blog_hero/notebook-migration.png" alt="A Texera workspace showing a generated workflow beside the notebook it was generated from" style="width: 90%; height: auto; display: block; margin: 0 auto; border-radius: 12px;"&gt;
+&lt;/div&gt;
+&lt;div style="max-width: 100%; width: 100%; margin: 0; font-family: 'Helvetica Neue',Arial,sans-serif; color: #14110f; background: #ffffff; line-height: 1.65;"&gt;
+&lt;div style="padding: 44px 44px 8px; background: #ffffff;"&gt;
+&lt;p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 14px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: #c8451f; margin: 0 0 28px;"&gt;
+Feature Introduction &amp;middot; Apache Texera
+&lt;/p&gt;</description></item><item><title>Apache Texera 1.2.0-incubating</title><link>https://texera.staged.apache.org/releases/1.2.0-incubating/</link><pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/releases/1.2.0-incubating/</guid><description>&lt;p&gt;Apache Texera 1.2.0-incubating introduces new cloud-native deployment, AI-integration, and workflow features.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://downloads.apache.org/incubator/texera/1.2.0-incubating/"&gt;Source download&lt;/a&gt; · &lt;a href="https://github.com/apache/texera/releases/tag/v1.2.0-incubating"&gt;Git tag &lt;code&gt;v1.2.0-incubating&lt;/code&gt;&lt;/a&gt; · &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/getting-started/"&gt;Quick Start&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="whats-new-in-120-incubating"&gt;What&amp;rsquo;s new in 1.2.0-incubating&lt;a class="td-heading-self-link" href="#whats-new-in-120-incubating" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Major changes include:&lt;/p&gt;
