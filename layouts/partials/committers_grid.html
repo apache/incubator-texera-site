@@ -1,0 +1,22 @@
+{{/* Renders a grid of committer cards from a slice of people.
+     Each entry has: name, id (Apache ID), github (optional). */}}
+<ul class="committers-grid">
+    {{ range . }}
+    <li class="committer-card">
+        <span class="committer-name">{{ .name }}</span>
+        {{ with .affiliation }}
+        <span class="committer-affiliation">{{ . }}</span>
+        {{ end }}
+        <span class="committer-handles">
+            <a class="committer-handle" href="https://people.apache.org/committer-index.html#{{ .id }}" target="_blank" rel="noopener" title="Apache profile">
+                <i class="fa fa-feather" aria-hidden="true"></i>{{ .id }}
+            </a>
+            {{ with .github }}
+            <a class="committer-handle" href="https://github.com/{{ . }}" target="_blank" rel="noopener" title="GitHub profile">
+                <i class="fab fa-github" aria-hidden="true"></i>{{ . }}
+            </a>
+            {{ end }}
+        </span>
+    </li>
+    {{ end }}
+</ul>
