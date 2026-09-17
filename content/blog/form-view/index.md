@@ -3,7 +3,7 @@ title: "Form View: Running a Workflow Without the Canvas"
 linkTitle: "Form View"
 slug: "form-view"
 date: 2026-09-17
-author: Yang Zhang, advised by Professor Chen Li
+author: Yang Zhang and Meng Wang, advised by Professor Chen Li
 description: "A workflow can now be opened as a form. The author marks which operator properties a reader may change, and the reader fills them in, runs the workflow, and reads the results, without meeting the canvas."
 images:
   - /images/blog_hero/form-view.png
