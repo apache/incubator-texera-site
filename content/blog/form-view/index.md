@@ -206,7 +206,7 @@ Which view a workflow opens in is the deliberate exception. It is a <code>defaul
 </p>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-The feature shipped as a stack of seventeen pull requests under one issue, bottom-up, the last of which turned the flag on. Every one of them was mergeable on its own and none changed anything a user could see until that last one. The load-bearing pieces:
+The feature shipped as a stack of eighteen pull requests under one issue, bottom-up, the last of which turned the flag on. Every one of them was mergeable on its own and none changed anything a user could see until that last one. The load-bearing pieces:
 </p>
 
 <table class="td-initial" style="border: 2px solid #14110f; border-collapse: collapse; margin: 6px 0 26px; width: 100%;" role="presentation" cellspacing="0" cellpadding="0">
