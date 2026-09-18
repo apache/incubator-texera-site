@@ -89,7 +89,7 @@ A property name that reads well beside an operator often reads badly on its own,
 </div>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-Results are chosen the same way. By default the form shows the results of the workflow's terminal operators, which is what a reader almost always wants. An author who cares about an intermediate result can feature it as well, and the choice is stored with the workflow rather than being inferred each time.
+Results are chosen the same way. Until the author chooses, the form shows the results of the workflow's final steps, which is what a reader almost always wants. An author who cares about an intermediate step can put that on the list too, once that step's result is being kept on the canvas. What the author chooses is what everyone sees.
 </p>
 
 <h2 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 32px; letter-spacing: -.01em; margin: 48px 0 6px; line-height: 1.1; color: #14110f;">
@@ -105,6 +105,10 @@ A reader opening the workflow sees the instruction, the fields the author expose
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
 Running works the way it does on the canvas, because it is the same machinery: the same computing-unit selector, the same run and stop states, the same errors. The form remembers which computing unit the workflow last ran on, so a reader who only ever uses one does not have to choose it again. Results appear below the form as cards as they arrive.
+</p>
+
+<p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
+A reader can narrow those cards too, turning off a step they do not care about. That choice lives on their page and nowhere else: it changes nothing for anyone else and is not kept once they leave. What the author chose is what the next visit starts from.
 </p>
 
 <div style="margin: 40px 0; text-align: center;">
@@ -147,7 +151,7 @@ The preference is a default, not a restriction. Both views carry a switch to the
     Your browser does not support the video tag.
   </video>
   <p style="font-size: 14px; color: #666; margin-top: 10px;">
-    Opening a workflow in its default view, and switching between the two.
+    Switching between the two views of one workflow.
   </p>
 </div>
 
