@@ -138,7 +138,7 @@ Two Views of One Workflow
 <div style="height: 3px; width: 60px; background: #14110f; margin: 0 0 22px;"></div>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-Every workflow can be opened either way. Which one it opens in is a per-workflow preference the author sets, stored on the workflow itself, so the dashboard can send a card straight to the view its author intended. A workflow that is meant to be used opens as a form; a workflow that is still being built opens on the canvas.
+Every workflow can be opened either way, and every workflow still opens on the canvas. Which view a workflow arrives in is a per-workflow preference stored on the workflow itself, and it starts on the canvas for all of them; an author who wants a particular workflow to greet people as a form turns that on for that workflow, and the dashboard then sends its card straight there. Nothing changes for a workflow whose author has not asked for it.
 </p>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
@@ -285,11 +285,15 @@ Turning It On
 <div style="height: 3px; width: 60px; background: #14110f; margin: 0 0 22px;"></div>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-The Form View is on by default, behind the <code>form-view-enabled</code> configuration flag. With it off, every entrance closes together: the tick box in the property panel, the switch in the canvas menu, the dashboard's per-card control, and the route itself, which hands anyone who reaches it back to the canvas without loading anything. A workflow whose stored preference is the form opens on the canvas instead. A deployment that does not want a second view turns it off and sees nothing of it.
+The feature ships enabled, behind the <code>form-view-enabled</code> configuration flag, which means the Form View is reachable for every workflow. It does not mean any workflow arrives in it. <code>default_view</code> is <code>CANVAS</code> for every workflow that exists and every workflow created from now on, so opening one still lands on the canvas until its author chooses otherwise for that workflow.
 </p>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-Nothing has to be migrated. A workflow with no form definition opens as a form with no fields, which is the correct answer for a workflow whose author has not chosen any, and its content is written back byte for byte as it was, so a workflow that never meets the Form View is not changed by its existence.
+Turning the flag off closes every entrance together: the tick box in the property panel, the switch in the canvas menu, the dashboard's per-card control, and the route itself, which hands anyone who reaches it back to the canvas without loading anything. A workflow whose stored preference is the form opens on the canvas instead. A deployment that does not want a second view turns it off and sees nothing of it.
+</p>
+
+<p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
+Nothing has to be migrated, and nothing about an existing workflow changes. It keeps opening where it always opened, and its content is written back byte for byte as it was, so a workflow that never meets the Form View is not touched by the feature's existence. Reached deliberately, a workflow with no form definition shows a form with no fields, which is the honest answer for a workflow whose author has not chosen any.
 </p>
 
 <div style="background: #2a241d; color: #f4efe6; border-radius: 16px; padding: 38px 40px; margin: 36px 0 0; text-align: center;">
