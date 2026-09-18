@@ -243,11 +243,23 @@ Problems That Came Up
 </p>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-<strong>The form definition was private, and two editors overwrote each other.</strong> Texera's graph is a shared Yjs document, but <code>formBinding</code> and <code>settings</code> sat outside it, as fields each browser held privately. Autosave writes the whole content, so a co-editor whose private copy was stale put it back on their next canvas edit, and one author's renames disappeared with no conflict and no warning. Moving both into a shared map beside the graph fixes the lost update, and raises a second one: seeding the database's copy into a document that has not finished syncing with the room is a concurrent whole-value write, and Yjs settles those by client id rather than by recency, which is the same lost update wearing a different hat. The seed therefore waits for the room's first sync, writes only when the key is still absent, and never deletes a value that arrived from the room. The wait is bounded so an unreachable sync server still ends with the value in the document, and the database copy is read from while the seed waits, so the page is never blank and an autosave in that window does not save an empty one. <em>In review, <a style="color:#c8451f;" href="https://github.com/apache/texera/pull/8351">PR #8351</a>.</em>
+<h2 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 32px; letter-spacing: -.01em; margin: 48px 0 6px; line-height: 1.1; color: #14110f;">
+<span style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 14px; font-weight: 800; color: #c8451f; letter-spacing: .1em; border: 2px solid #c8451f; border-radius: 999px; padding: 3px 11px; margin-right: 10px;">08</span>
+Still in Flight
+</h2>
+
+<div style="height: 3px; width: 60px; background: #14110f; margin: 0 0 22px;"></div>
+
+<p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
+Three more came out of building the feature and are fixed in review rather than shipped. They are worth stating plainly, because each is a case where the Form View made an existing seam visible rather than introducing one.
 </p>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-<strong>A save's answer could undo a rename.</strong> Every save's response is applied back as the workflow's metadata, and saves go out one at a time. Rename a workflow while an earlier save is in flight and that save's answer, carrying the name it was sent with, arrives last and wins. Rename during the view switch's save and the rename is lost outright, because the switch left as soon as its own save completed and the page load aborted the one queued behind it. The rule belongs in the one service every save passes through: each response is relayed with the page's current name and description in place of its own, and the switch waits for the whole save queue to drain rather than only for its own save. <em>In review, <a style="color:#c8451f;" href="https://github.com/apache/texera/pull/8540">PR #8540</a>.</em>
+<strong>The form definition is private, so two editors can overwrite each other.</strong> Texera's graph is a shared Yjs document, but <code>formBinding</code> and <code>settings</code> sit outside it, as fields each browser holds privately. Autosave writes the whole content, so a co-editor whose private copy is stale puts it back on their next canvas edit, and one author's renames disappear with no conflict and no warning. Moving both into a shared map beside the graph fixes the lost update, and raises a second one: seeding the database's copy into a document that has not finished syncing with the room is a concurrent whole-value write, and Yjs settles those by client id rather than by recency, which is the same lost update wearing a different hat. The seed therefore waits for the room's first sync, writes only when the key is still absent, and never deletes a value that arrived from the room. The wait is bounded so an unreachable sync server still ends with the value in the document, and the database copy is read from while the seed waits, so the page is never blank and an autosave in that window does not save an empty one. <em>In review, <a style="color:#c8451f;" href="https://github.com/apache/texera/pull/8351">PR #8351</a>.</em>
+</p>
+
+<p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
+<strong>A save's answer can undo a rename.</strong> Every save's response is applied back as the workflow's metadata, and saves go out one at a time. Rename a workflow while an earlier save is in flight and that save's answer, carrying the name it was sent with, arrives last and wins. Rename during the view switch's save and the rename is lost outright, because the switch left as soon as its own save completed and the page load aborted the one queued behind it. The rule belongs in the one service every save passes through: each response is relayed with the page's current name and description in place of its own, and the switch waits for the whole save queue to drain rather than only for its own save. <em>In review, <a style="color:#c8451f;" href="https://github.com/apache/texera/pull/8540">PR #8540</a>.</em>
 </p>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
@@ -255,7 +267,7 @@ Problems That Came Up
 </p>
 
 <h2 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 32px; letter-spacing: -.01em; margin: 48px 0 6px; line-height: 1.1; color: #14110f;">
-<span style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 14px; font-weight: 800; color: #c8451f; letter-spacing: .1em; border: 2px solid #c8451f; border-radius: 999px; padding: 3px 11px; margin-right: 10px;">08</span>
+<span style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 14px; font-weight: 800; color: #c8451f; letter-spacing: .1em; border: 2px solid #c8451f; border-radius: 999px; padding: 3px 11px; margin-right: 10px;">09</span>
 Turning It On
 </h2>
 
