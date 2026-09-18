@@ -256,29 +256,6 @@ Problems That Came Up
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
 <h2 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 32px; letter-spacing: -.01em; margin: 48px 0 6px; line-height: 1.1; color: #14110f;">
 <span style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 14px; font-weight: 800; color: #c8451f; letter-spacing: .1em; border: 2px solid #c8451f; border-radius: 999px; padding: 3px 11px; margin-right: 10px;">08</span>
-Still in Flight
-</h2>
-
-<div style="height: 3px; width: 60px; background: #14110f; margin: 0 0 22px;"></div>
-
-<p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-Three more came out of building the feature and are fixed in review rather than shipped. They are worth stating plainly, because each is a case where the Form View made an existing seam visible rather than introducing one.
-</p>
-
-<p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-<strong>The form definition is private, so two editors can overwrite each other.</strong> Texera's graph is a shared Yjs document, but <code>formBinding</code> and <code>settings</code> sit outside it, as fields each browser holds privately. Autosave writes the whole content, so a co-editor whose private copy is stale puts it back on their next canvas edit, and one author's renames disappear with no conflict and no warning. Moving both into a shared map beside the graph fixes the lost update, and raises a second one: seeding the database's copy into a document that has not finished syncing with the room is a concurrent whole-value write, and Yjs settles those by client id rather than by recency, which is the same lost update wearing a different hat. The seed therefore waits for the room's first sync, writes only when the key is still absent, and never deletes a value that arrived from the room. The wait is bounded so an unreachable sync server still ends with the value in the document, and the database copy is read from while the seed waits, so the page is never blank and an autosave in that window does not save an empty one. <em>In review.</em><a style="text-decoration: none;" href="https://github.com/apache/texera/pull/8351" target="_blank" rel="noopener"><span style="font-size: 12.5px; font-weight: bold; color: #c8451f; background: rgba(200,69,31,.10); padding: 1px 7px; border-radius: 5px; white-space: nowrap; margin-left: 6px;">PR #8351</span></a>
-</p>
-
-<p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-<strong>A save's answer can undo a rename.</strong> Every save's response is applied back as the workflow's metadata, and saves go out one at a time. Rename a workflow while an earlier save is in flight and that save's answer, carrying the name it was sent with, arrives last and wins. Rename during the view switch's save and the rename is lost outright, because the switch left as soon as its own save completed and the page load aborted the one queued behind it. The rule belongs in the one service every save passes through: each response is relayed with the page's current name and description in place of its own, and the switch waits for the whole save queue to drain rather than only for its own save. <em>In review.</em><a style="text-decoration: none;" href="https://github.com/apache/texera/pull/8540" target="_blank" rel="noopener"><span style="font-size: 12.5px; font-weight: bold; color: #c8451f; background: rgba(200,69,31,.10); padding: 1px 7px; border-radius: 5px; white-space: nowrap; margin-left: 6px;">PR #8540</span></a>
-</p>
-
-<p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-<strong>Switching views is still a full page load.</strong> The switch reloads the browser, which throws away the shared document, the computing unit connection and the execution state, then rebuilds all of it on the other side, including an Angular bootstrap that blocks on the config endpoint and a re-fetch of operator metadata a root singleton already had. It was chosen because handing over in process left stale state attached, and the most interesting piece of that turned out to be a leak that predates the Form View: a JointJS paper binds to the root-provided graph and nothing ever disposes one, so every remount leaves another paper listening to that graph from a detached node, competing for the pointer events that decide whether an operator can be dragged. <em>In review.</em><a style="text-decoration: none;" href="https://github.com/apache/texera/pull/8581" target="_blank" rel="noopener"><span style="font-size: 12.5px; font-weight: bold; color: #c8451f; background: rgba(200,69,31,.10); padding: 1px 7px; border-radius: 5px; white-space: nowrap; margin-left: 6px;">PR #8581</span></a><a style="text-decoration: none;" href="https://github.com/apache/texera/issues/8582" target="_blank" rel="noopener"><span style="font-size: 12.5px; font-weight: bold; color: #c8451f; background: rgba(200,69,31,.10); padding: 1px 7px; border-radius: 5px; white-space: nowrap; margin-left: 6px;">Issue #8582</span></a>
-</p>
-
-<h2 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 32px; letter-spacing: -.01em; margin: 48px 0 6px; line-height: 1.1; color: #14110f;">
-<span style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 14px; font-weight: 800; color: #c8451f; letter-spacing: .1em; border: 2px solid #c8451f; border-radius: 999px; padding: 3px 11px; margin-right: 10px;">09</span>
 Turning It On
 </h2>
 
@@ -302,7 +279,7 @@ Where This Goes Next
 </h2>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 16px; color: #cbc1b1; margin: 0 auto 22px; max-width: 680px;">
-Two lines of work are open. The first is the widgets: the more elaborate canvas controls should render in a form as well as they do beside an operator. The second is the harder one, a reader's own set of values, so that one shared workflow can serve several people at once without them overwriting each other. Development is tracked on GitHub, and design discussion happens there and on <a style="color: #f4efe6; font-weight: bold;" href="https://lists.apache.org/list.html?dev@texera.apache.org">dev@texera.apache.org</a>.
+Three lines of work are open. Switching between the two views still reloads the page, which is a second or two a reader should not have to spend; the session behind the views can be handed over instead of rebuilt. The widgets are the second: the more elaborate canvas controls should render in a form as well as they do beside an operator. The third is the hard one, a reader's own set of values, so that one shared workflow can serve several people at once without them overwriting each other. Development is tracked on GitHub, and design discussion happens there and on <a style="color: #f4efe6; font-weight: bold;" href="https://lists.apache.org/list.html?dev@texera.apache.org">dev@texera.apache.org</a>.
 </p>
 
 <a style="display: inline-block; background: #c8451f; color: #fff; font-weight: 800; letter-spacing: .04em; text-decoration: none; padding: 14px 30px; border-radius: 999px; font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 15px;" href="https://github.com/apache/texera/issues/8011" target="_blank" rel="noopener">Follow the work on issue #8011</a>
