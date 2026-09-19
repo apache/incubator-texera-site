@@ -62,42 +62,26 @@ Exporting a Workflow
 In the workspace toolbar there is a button marked with a code icon, titled <b>export as Python script</b>. It sends the workflow the user currently has open to the compiling service and shows the script that comes back, with a copy button beside it. Nothing about the workflow changes, and nothing has to be running first.
 </p>
 
+<div style="margin: 34px 0;">
+  <img src="/images/blog_hero/workflow-to-python-toolbar.png" alt="The workflow toolbar, with the export control sixth from the left" style="width: 60%; height: auto; display: block; margin: 0 auto; border-radius: 6px;">
+  <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 14px; color: #5b5347; margin: 12px 0 0; text-align: center;">
+    The sixth control, between the download and the info buttons.
+  </p>
+</div>
+
 <h3 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 22px; margin: 30px 0 10px;">What comes back</h3>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-A small workflow makes the result concrete. Take a CSV file scan, a filter on one column, a sort on another, a limit, and a projection that renames a column. The button is the sixth in the toolbar, between the download and the info buttons:
+A small workflow makes the result concrete. Take a CSV file scan, a filter on one column, a sort on another, a limit, and a projection that renames a column. This is what the button hands back:
 </p>
 
 <div style="margin: 40px 0; text-align: center;">
   <img src="/images/blog_hero/workflow-to-python-export.jpg" alt="The Texera workspace with the export modal open, showing the Python script generated from a five-operator workflow" style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
   <p style="font-size: 14px; color: #666; margin-top: 10px;">
-    The script the workflow on the canvas produced, ready to copy.
+    The script the workflow on the canvas produced, ready to copy. Every line names the operator above it.
   </p>
 </div>
 
-```python
-import pandas as pd
-
-# [CSV File Scan]
-df1 = pd.read_csv(filepath_or_buffer="canonical_fixture.csv", sep=",", encoding="utf-8", header=0, keep_default_na=False, na_values=[""])
-df1.columns = ["id", "name", "score"]
-
-# [Filter]
-df2 = df1[(df1["score"].notna() & (df1["score"] > 2.0))].reset_index(drop=True)
-
-# [Sort]
-df3 = df2.sort_values(by=["score"], ascending=[False])
-
-# [Limit]
-df4 = df3.head(5).reset_index(drop=True)
-
-# [Projection]
-df5 = df4[["id", "name", "score"]].rename(columns={"name": "person"})
-
-# --- Output ---
-print("\n[Projection] df5:")
-print(df5)
-```
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
 It is plain pandas. There is no Texera import, no runtime to install and no configuration file beside it. Each operator appears as a comment naming the operator that produced the line below it, which is what makes the script readable next to the canvas it came from. Only pandas is imported for every script; everything beyond it is asked of the operators actually in the plan, so a workflow that draws no chart never imports a plotting library. Two lines are there because the engine does the same thing: the filter guards against a null, which is how the engine's own filter answers a null field, and the scan renames its columns to the names the schema gave them, which is what every downstream operator was configured against.
