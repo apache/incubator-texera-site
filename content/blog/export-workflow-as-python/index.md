@@ -95,7 +95,7 @@ It is plain pandas. There is no Texera import, no runtime to install and no conf
 <td style="padding: 16px 18px; background: #fbf7ef; border-bottom: 1px solid #e3dccd; font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 15.5px; vertical-align: top;"><b>One file, in run order.</b> The script reads top to bottom in the order the workflow executes, with a comment naming the operator behind every block.</td>
 </tr>
 <tr>
-<td style="padding: 16px 18px; background: #fbf7ef; border-bottom: 1px solid #e3dccd; font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 15.5px; vertical-align: top;"><b>No dependency on Texera.</b> Plain pandas and Plotly, so the script runs wherever those are installed.</td>
+<td style="padding: 16px 18px; background: #fbf7ef; border-bottom: 1px solid #e3dccd; font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 15.5px; vertical-align: top;"><b>No dependency on Texera.</b> Plain pandas, with Plotly for a chart and scikit-learn or transformers for a model, so the script runs wherever those are installed.</td>
 </tr>
 <tr>
 <td style="padding: 16px 18px; background: #fbf7ef; border-bottom: 1px solid #e3dccd; font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 15.5px; vertical-align: top;"><b>Every branch is printed.</b> Any output that no other operator consumes is printed at the end, labelled with the operator it came from.</td>
@@ -161,11 +161,11 @@ Every operator that implements the trait now has two descriptions of its own beh
 <h3 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 22px; margin: 30px 0 10px;">Run it two ways, compare the outputs</h3>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-One path drives the operator through the engine's own execution, the way a running workflow would. The other takes the generated block, wraps it in a script, and runs it in a Python subprocess. The comparison is per output port and by kind of data: tables column by column with their types, models by the columns they carry, and a chart by the HTML the two paths drew. The suite reports one result per operator, named so that it says which operator it was and how its input was configured.
+One path drives the operator through the engine's own execution, the way a running workflow would. The other takes the generated block, wraps it in a script, and runs it in a Python subprocess. The comparison is per output port and by kind of data: tables column by column with their types, a model by unpickling both sides and checking that they predict the same thing, and a chart by the Plotly figure each path built, falling back to the HTML when a path drew a reason page instead of a figure. The suite reports one result per operator, named so that it says which operator it was and how its input was configured.
 </p>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-On the most recent full run the suite covered <b>153 operators</b>, and <b>148 agreed on both paths</b>. The other five are withheld, and each states its reason in the report rather than being quietly absent.
+On the most recent full run the suite covered <b>151 operators</b>, and <b>146 agreed on both paths</b>. The other five are withheld, and each states its reason in the report rather than being quietly absent.
 </p>
 
 <table class="td-initial" style="border: 2px solid #14110f; border-collapse: collapse; margin: 6px 0 26px; width: 100%;" role="presentation" cellspacing="0" cellpadding="0">
@@ -205,13 +205,13 @@ What It Covers, and What It Does Not
 <h3 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 22px; margin: 30px 0 10px;">The families that export today</h3>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-They are the ones a typical workflow is made of: the relational and text operators, sampling, the file and table sources, the visualizations, and the machine learning operators, including the scikit-learn families and the Hugging Face models. Ninety-nine operator classes write their own standalone code, and a further 56 scikit-learn descriptors inherit theirs from a shared base.
+They are the ones a typical workflow is made of: the relational and text operators, sampling, the file and table sources, the visualizations, and the machine learning operators, including the scikit-learn families and the Hugging Face models. Ninety-six operator classes write their own standalone code, and a further 55 scikit-learn descriptors inherit theirs from a shared base.
 </p>
 
 <h3 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 22px; margin: 30px 0 10px;">The operators that leave a gap</h3>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-Some operators are outside what a single file can reasonably do. A Java or R user defined function has no pandas form. The Twitter and Reddit sources need credentials and a live service. The database sources need a connection the script has no way to reproduce. The loop operators have no standalone form yet either. In each case a comment in the script says so at the point where the line would have been.
+Some operators are outside what a single file can reasonably do. A user defined function does not export in any of its languages: the Java and R ones have no pandas form at all, and a Python one is written against the engine's own operator API, a class with a <code>process_tuple</code> method, rather than against a data frame. The Twitter and Reddit sources need credentials and a live service. The database sources need a connection the script has no way to reproduce. A few more have no standalone form yet: the loop operators, the file lister, the table reducer, the Python lambda and the Hugging Face inference operator. In each case a comment in the script says so at the point where the line would have been.
 </p>
 
 <h3 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 22px; margin: 30px 0 10px;">Two limits worth stating plainly</h3>
