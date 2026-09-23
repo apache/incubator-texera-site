@@ -155,6 +155,26 @@ Everything above is what the tool does and where it stops. What follows is how i
 
 <h2 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 32px; letter-spacing: -.01em; margin: 48px 0 6px; line-height: 1.1; color: #14110f;">
 <span style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 14px; font-weight: 800; color: #c8451f; letter-spacing: .1em; border: 2px solid #c8451f; border-radius: 999px; padding: 3px 11px; margin-right: 10px;">05</span>
+The Path of a Conversion
+</h2>
+
+<div style="height: 3px; width: 60px; background: #14110f; margin: 0 0 22px;"></div>
+
+<p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
+A conversion touches four components spread across the gateway, the computation tier, and storage. The diagram traces a single one, from the upload through to the workspace reloading.
+</p>
+
+<div style="margin: 34px 0;">
+  <img src="/images/blog_hero/notebook-migration-architecture-diagram.png" alt="An eight step flow: the user uploads a notebook through the gateway, which sends it to LiteLLM and a model provider, receives a workflow and mapping back, saves the workflow, passes the notebook and mapping to notebook-migration-service, which stores them in the Texera database and renders the notebook in JupyterLab" style="width: 70%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
+  <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 14px; color: #5b5347; margin: 12px 0 0; text-align: center;">One conversion, from the upload to the reloaded workspace.</p>
+</div>
+
+<p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
+The notebook goes up through the gateway, which forwards it to LiteLLM and on to whichever model provider the deployment has been configured with. The workflow and the cell mapping come back together in one response. The gateway saves the workflow the way it would save any other, then hands the notebook and the mapping to <code>notebook-migration-service</code>, which writes both to the Texera database and uploads the notebook to JupyterLab so the panel has something to render. The workspace reloads with the workflow on the canvas and the notebook beside it.
+</p>
+
+<h2 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 32px; letter-spacing: -.01em; margin: 48px 0 6px; line-height: 1.1; color: #14110f;">
+<span style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 14px; font-weight: 800; color: #c8451f; letter-spacing: .1em; border: 2px solid #c8451f; border-radius: 999px; padding: 3px 11px; margin-right: 10px;">06</span>
 How It Is Built
 </h2>
 
@@ -198,7 +218,7 @@ Moving the notebook service into that pattern took four stages, each small enoug
 </table>
 
 <h2 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 32px; letter-spacing: -.01em; margin: 48px 0 6px; line-height: 1.1; color: #14110f;">
-<span style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 14px; font-weight: 800; color: #c8451f; letter-spacing: .1em; border: 2px solid #c8451f; border-radius: 999px; padding: 3px 11px; margin-right: 10px;">06</span>
+<span style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 14px; font-weight: 800; color: #c8451f; letter-spacing: .1em; border: 2px solid #c8451f; border-radius: 999px; padding: 3px 11px; margin-right: 10px;">07</span>
 Problems That Came Up
 </h2>
 
@@ -245,7 +265,7 @@ The gateway's default request timeout is 15 seconds. An LLM completion routinely
 </p>
 
 <h2 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 32px; letter-spacing: -.01em; margin: 48px 0 6px; line-height: 1.1; color: #14110f;">
-<span style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 14px; font-weight: 800; color: #c8451f; letter-spacing: .1em; border: 2px solid #c8451f; border-radius: 999px; padding: 3px 11px; margin-right: 10px;">07</span>
+<span style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 14px; font-weight: 800; color: #c8451f; letter-spacing: .1em; border: 2px solid #c8451f; border-radius: 999px; padding: 3px 11px; margin-right: 10px;">08</span>
 Deploying It
 </h2>
 
