@@ -5,7 +5,7 @@
     <li class="committer-card">
         <span class="committer-name">{{ .name }}</span>
         {{ with .affiliation }}
-        <span class="committer-affiliation">{{ . }}</span>
+        <span class="committer-affiliation">{{ range $i, $p := split . ", " }}{{ if $i }}<br>{{ end }}{{ $p }}{{ end }}</span>
         {{ end }}
         <span class="committer-handles">
             <a class="committer-handle" href="https://people.apache.org/committer-index.html#{{ .id }}" target="_blank" rel="noopener" title="Apache profile">

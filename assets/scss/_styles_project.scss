@@ -372,6 +372,19 @@ section:has(.services-section) {
   text-align: left;
 }
 
+/* Docsy caps `.td-content` headings/text at 80% width on large screens
+   (`.td-max-width-on-larger-screens`). Let the "Becoming a Committer"
+   section use the full width of the column like the card sections above. */
+.committers-about.td-content > h1,
+.committers-about.td-content > h2,
+.committers-about.td-content > h3,
+.committers-about.td-content > p,
+.committers-about.td-content > ol,
+.committers-about.td-content > ul,
+.committers-about.td-content > pre {
+  max-width: 100%;
+}
+
 .committers-about h2 {
   margin-top: 0;
   text-align: left;
