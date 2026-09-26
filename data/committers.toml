@@ -11,48 +11,13 @@
 #   id          - Apache ID / LDAP username. Links to the committer's ASF profile.
 #   github      - GitHub username (optional). Links to the GitHub profile.
 #   affiliation - Organization the person is affiliated with.
-#   group       - "mentor", "ppmc", or "committer".
+#   group       - "ppmc" or "committer".
 #
 # Groups are listed without duplication, mirroring the project roster:
-#   mentor    -> incubator mentors (also PPMC members)
-#   ppmc      -> PPMC members excluding the mentors above (10; 14 PPMC total)
-#   committer -> committers excluding the PPMC above (16 committers total)
+#   ppmc      -> PPMC members
+#   committer -> committers who are not on the PPMC
 
-# --- Mentors --------------------------------------------------------------
-
-[[people]]
-name = "Cezar Cristian Andrei"
-lastname = "Andrei"
-id = "cezar"
-github = "cezarfx"
-affiliation = "Apache"
-group = "mentor"
-
-[[people]]
-name = "Gordon King"
-lastname = "King"
-id = "garyw"
-github = "bigdata-memory"
-affiliation = "Apache"
-group = "mentor"
-
-[[people]]
-name = "Ian Maxon"
-lastname = "Maxon"
-id = "imaxon"
-github = "parshimers"
-affiliation = "UCI"
-group = "mentor"
-
-[[people]]
-name = "PJ Fanning"
-lastname = "Fanning"
-id = "fanningpj"
-github = "pjfanning"
-affiliation = "Apache"
-group = "mentor"
-
-# --- PPMC Members (excluding mentors) -------------------------------------
+# --- PPMC Members ---------------------------------------------------------
 
 [[people]]
 name = "Ali Risheh"
@@ -115,7 +80,7 @@ name = "Yicong Huang"
 lastname = "Huang"
 id = "yiconghuang"
 github = "Yicong-Huang"
-affiliation = "Databricks"
+affiliation = "Databricks Inc., UMass Amherst"
 group = "ppmc"
 
 [[people]]
