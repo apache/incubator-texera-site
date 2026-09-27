@@ -10,7 +10,11 @@ images:
 tags: ["kubernetes", "computing-units", "resource-management"]
 ---
 
-<div style="max-width: 100%; width: 100%; margin: 0 0 32px;">
+<p style="text-align: center; font-size: 15px; color: #6a6257; margin: 0 0 22px;">
+Reviewed by <a style="color: #c8451f; font-weight: 700; text-decoration: none;" href="https://github.com/kunwp1" target="_blank" rel="noopener">Kunwoo Park</a>, <a style="color: #c8451f; font-weight: 700; text-decoration: none;" href="https://github.com/aicam" target="_blank" rel="noopener">Ali Risheh</a>, and <a style="color: #c8451f; font-weight: 700; text-decoration: none;" href="https://github.com/Ma77Ball" target="_blank" rel="noopener">Matthew Ball</a>, and advised by <a style="color: #c8451f; font-weight: 700; text-decoration: none;" href="https://github.com/chenlica" target="_blank" rel="noopener">Chen Li</a>.
+</p>
+
+<div style="max-width: 860px; width: 100%; margin: 0 auto 32px;">
   <img src="/images/blog_hero/idle-kubernetes-computing-units.svg" alt="Texera removes a Kubernetes computing unit only when no workflow is running and the unit has been idle longer than the chosen time limit" style="width: 100%; height: auto; display: block; border-radius: 12px;">
 </div>
 
@@ -73,24 +77,27 @@ What Changes
   </div>
 </div>
 
-<p style="font-size: 17px; margin: 0 0 18px;">
-Texera considers a Kubernetes CU idle only when both of these statements are true:
-</p>
+<h3 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 25px; margin: 34px 0 14px; color: #14110f;">
+How Texera Detects an Idle CU
+</h3>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin: 24px 0;">
-  <div style="background: #fbf7ef; border: 1.5px solid #d8cfbf; border-radius: 12px; padding: 22px 24px;">
-    <div style="font-family: Georgia,'Times New Roman',serif; font-size: 22px; font-weight: 900; margin-bottom: 8px;">No workflow is running</div>
-    <div style="font-size: 15.5px; color: #5b5347;">If a workflow is still active, Texera keeps the CU.</div>
-  </div>
-  <div style="background: #fbf7ef; border: 1.5px solid #d8cfbf; border-radius: 12px; padding: 22px 24px;">
-    <div style="font-family: Georgia,'Times New Roman',serif; font-size: 22px; font-weight: 900; margin-bottom: 8px;">The CU has been idle long enough</div>
-    <div style="font-size: 15.5px; color: #5b5347;">The time since its latest activity is longer than the limit chosen by the administrator.</div>
-  </div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 28px; align-items: center; margin: 22px 0 28px;">
+<div>
+<p style="font-size: 17px; margin: 0 0 18px;">
+During each cleanup check, Texera looks only at Kubernetes CUs that have not already been removed. It first checks the workflows connected to each CU. If any workflow is still active, Texera keeps the CU, even if it has been running for a long time.
+</p>
+<p style="font-size: 17px; margin: 0;">
+When no workflow is active, Texera finds the CU's latest activity by comparing its creation time with the latest workflow start and update times. The CU is idle only when that activity is older than the limit chosen by the administrator. The database update that marks the CU as terminated repeats the workflow checks. If the CU became active during the scan, the update does nothing and Texera keeps the CU.
+</p>
 </div>
 
-<p style="font-size: 17px; margin: 0 0 18px;">
-For a new CU that has never run a workflow, the idle time starts when the CU is created. For a CU that has been used, Texera starts from its most recent workflow activity.
-</p>
+  <figure style="margin: 0;">
+    <img src="/images/blog/idle-kubernetes-cu-detection.svg" alt="Flowchart showing how Texera checks whether a Kubernetes computing unit is idle before removing its pod" style="width: 100%; max-width: 590px; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
+    <figcaption style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">
+      A CU is removed only when it has no active workflow and its latest activity is older than the chosen limit.
+    </figcaption>
+  </figure>
+</div>
 
 <h2 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 32px; letter-spacing: -.01em; margin: 48px 0 6px; line-height: 1.1; color: #14110f;">
 <span style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 14px; font-weight: 800; color: #c8451f; letter-spacing: .1em; border: 2px solid #c8451f; border-radius: 999px; padding: 3px 11px; margin-right: 10px;">03</span>
@@ -99,18 +106,28 @@ See It in Action
 
 <div style="height: 3px; width: 60px; background: #14110f; margin: 0 0 22px;"></div>
 
-<p style="font-size: 17px; margin: 0 0 18px;">
-The video below creates two CUs. One is removed by the user, and the other is left idle until Texera removes it automatically. In both cases, the service log shows which CU was removed and why. This helps administrators tell a user-requested removal from automatic cleanup.
-</p>
+<div style="display: flex; flex-wrap: wrap; gap: 28px; align-items: center; max-width: 1180px; margin: 26px auto 34px;">
+  <figure style="flex: 1.7 1 560px; margin: 0; text-align: center;">
+    <video controls playsinline preload="metadata" style="width: 100%; max-width: 780px; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
+      <source src="/videos/texera-pr6046.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption style="font-size: 14px; color: #666; margin-top: 8px;">
+      Manual removal followed by automatic idle cleanup.
+    </figcaption>
+  </figure>
 
-<div style="margin: 40px 0; text-align: center;">
-  <video controls playsinline preload="metadata" style="width: 100%; border-radius: 12px;">
-    <source src="/videos/texera-pr6046.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <p style="font-size: 14px; color: #666; margin-top: 10px;">
-    Removing one CU manually, then watching Texera remove another CU after it becomes idle. The log records the CU and the reason for each removal.
-  </p>
+  <div style="flex: 1 1 300px; background: #fbf7ef; border: 1.5px solid #d8cfbf; border-radius: 12px; padding: 24px 26px;">
+    <h3 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 23px; margin: 0 0 12px; color: #14110f;">What the demo shows</h3>
+    <p style="font-size: 16px; margin: 0 0 12px; color: #5b5347;">
+      The demo creates two CUs and shows how administrators can tell why each one was removed:
+    </p>
+    <ol style="font-size: 16px; margin: 0; padding-left: 22px;">
+      <li style="margin-bottom: 8px;">A user removes the first CU manually.</li>
+      <li style="margin-bottom: 8px;">The second CU is left unused until Texera removes it automatically.</li>
+      <li>The service log records the CU and the reason in both cases.</li>
+    </ol>
+  </div>
 </div>
 
 <h2 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 32px; letter-spacing: -.01em; margin: 48px 0 6px; line-height: 1.1; color: #14110f;">
