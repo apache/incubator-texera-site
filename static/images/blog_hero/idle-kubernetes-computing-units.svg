@@ -11,7 +11,7 @@
   </defs>
 
   <rect width="1600" height="900" fill="#f7f9fc"/>
-  <text x="90" y="105" fill="#172033" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">Removing idle Kubernetes computing units</text>
+  <text x="90" y="105" fill="#172033" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">Automatic cleanup for idle Kubernetes computing units</text>
   <text x="90" y="156" fill="#5e6b7e" font-family="Arial, Helvetica, sans-serif" font-size="25">Texera checks workflow status and activity—not CPU or memory use.</text>
 
   <g filter="url(#shadow)">
