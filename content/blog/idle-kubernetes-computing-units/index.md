@@ -87,14 +87,14 @@ How Texera Detects an Idle CU
 During each cleanup check, Texera looks only at Kubernetes CUs that have not already been removed. It first checks the workflows connected to each CU. If any workflow is still active, Texera keeps the CU, even if it has been running for a long time.
 </p>
 <p style="font-size: 17px; margin: 0;">
-When no workflow is active, Texera finds the CU's latest activity by comparing its creation time with the latest workflow start and update times. The CU is idle only when that activity is older than the limit chosen by the administrator. The database update that marks the CU as terminated repeats the workflow checks. If the CU became active during the scan, the update does nothing and Texera keeps the CU.
+When no workflow is active, Texera calculates the CU's last active timestamp. It uses the most recent time among the CU's creation time, latest workflow start time, and latest workflow update time. Texera then compares the last active timestamp with the idle cutoff. If the timestamp is older than the cutoff, the CU is considered idle; otherwise, Texera keeps it. The database update that marks the CU as terminated repeats the workflow checks. If the CU became active during the scan, the update does nothing and Texera keeps the CU.
 </p>
 </div>
 
   <figure style="margin: 0;">
     <img src="/images/blog/idle-kubernetes-cu-detection.svg" alt="Flowchart showing how Texera checks whether a Kubernetes computing unit is idle before removing its pod" style="width: 100%; max-width: 590px; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
     <figcaption style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">
-      A CU is removed only when it has no active workflow and its latest activity is older than the chosen limit.
+      Texera uses the CU's last active timestamp to decide whether it has been idle longer than the chosen limit.
     </figcaption>
   </figure>
 </div>
