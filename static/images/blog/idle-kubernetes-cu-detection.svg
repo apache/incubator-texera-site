@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="715" viewBox="0 0 800 715" role="img" aria-labelledby="title desc">
+  <title id="title">How Texera detects an idle Kubernetes computing unit</title>
+  <desc id="desc">A standard flowchart with start and end terminals, process rectangles, decision diamonds, and labeled branches showing when Texera keeps, skips, or removes a computing unit.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#70675b"/>
+    </marker>
+    <style>
+      .label { font: 700 20px Arial, sans-serif; fill: #14110f; }
+      .detail { font: 16px Arial, sans-serif; fill: #5b5347; }
+      .branch { font: 700 16px Arial, sans-serif; fill: #9d391f; }
+      .line { fill: none; stroke: #70675b; stroke-width: 3; marker-end: url(#arrow); }
+      .decision { fill: #fffdf8; stroke: #c8bdaa; stroke-width: 2.5; }
+      .terminal { fill: #edf9f2; stroke: #63a77d; stroke-width: 2.5; }
+      .skip { fill: #f1eee8; stroke: #a99f91; stroke-width: 2.5; }
+    </style>
+  </defs>
+
+  <rect width="800" height="715" rx="18" fill="#fbf7ef"/>
+
+  <!-- Start -->
+  <rect x="270" y="22" width="260" height="58" rx="29" fill="#2a241d"/>
+  <text x="400" y="58" text-anchor="middle" style="font: 700 20px Arial, sans-serif; fill: #ffffff;">Cleanup check starts</text>
+  <path d="M400 80 V105" class="line"/>
+
+  <!-- Decision 1 -->
+  <polygon points="400,112 620,167 400,222 180,167" class="decision"/>
+  <text x="400" y="161" text-anchor="middle" class="label">Active Kubernetes CU?</text>
+  <text x="400" y="186" text-anchor="middle" class="detail">Not already removed</text>
+
+  <path d="M180 167 H154" class="line"/>
+  <text x="166" y="151" text-anchor="middle" class="branch">No</text>
+  <rect x="18" y="137" width="130" height="60" rx="30" class="skip"/>
+  <text x="83" y="174" text-anchor="middle" class="label">Skip CU</text>
+
+  <path d="M400 222 V247" class="line"/>
+  <text x="421" y="241" class="branch">Yes</text>
+
+  <!-- Decision 2 -->
+  <polygon points="400,254 620,309 400,364 180,309" class="decision"/>
+  <text x="400" y="316" text-anchor="middle" class="label">Any workflow still active?</text>
+
+  <path d="M620 309 H646" class="line"/>
+  <text x="633" y="293" text-anchor="middle" class="branch">Yes</text>
+  <rect x="652" y="279" width="130" height="60" rx="30" class="terminal"/>
+  <text x="717" y="316" text-anchor="middle" class="label">Keep CU</text>
+
+  <path d="M400 364 V389" class="line"/>
+  <text x="421" y="383" class="branch">No</text>
+
+  <!-- Decision 3 -->
+  <polygon points="400,396 620,451 400,506 180,451" class="decision"/>
+  <text x="400" y="445" text-anchor="middle" class="label">Last active timestamp before</text>
+  <text x="400" y="470" text-anchor="middle" class="label">the idle cutoff?</text>
+
+  <path d="M620 451 H646" class="line"/>
+  <text x="633" y="435" text-anchor="middle" class="branch">No</text>
+  <rect x="652" y="421" width="130" height="60" rx="30" class="terminal"/>
+  <text x="717" y="458" text-anchor="middle" class="label">Keep CU</text>
+
+  <path d="M400 506 V551" class="line"/>
+  <text x="421" y="525" class="branch">Yes</text>
+
+  <!-- Process and End -->
+  <rect x="215" y="558" width="370" height="58" rx="7" fill="#fff3ef" stroke="#c8451f" stroke-width="2.5"/>
+  <text x="400" y="594" text-anchor="middle" class="label">Record the reason and delete the pod</text>
+  <path d="M400 616 V641" class="line"/>
+
+  <rect x="285" y="648" width="230" height="48" rx="24" fill="#c8451f"/>
+  <text x="400" y="678" text-anchor="middle" style="font: 700 19px Arial, sans-serif; fill: #ffffff;">CU removed</text>
+</svg>
