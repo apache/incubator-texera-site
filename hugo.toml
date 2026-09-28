@@ -12,6 +12,10 @@ enableRobotsTXT = true
 # Will give values to .Lastmod etc.
 enableGitInfo = true
 
+# Documentation-only files that live under content/ but must not be rendered as
+# pages (e.g. AGENTS.md, the blog authoring guide).
+ignoreFiles = ['AGENTS\.md$']
+
 # Comment out to disable taxonomies in Docsy
 # disableKinds = ["taxonomy"]
 
