@@ -3,7 +3,7 @@ title: "Migrating Jupyter Notebooks into Texera Workflows"
 linkTitle: "Notebook Migration Tool"
 slug: "notebook-migration-tool"
 date: 2026-09-15
-author: Ryan Zhang and Meng Wang, advised by Professor Chen Li
+author: Ryan Zhang and Meng Wang, advised by Chen Li
 description: "A new tool converts a Jupyter notebook into a Texera workflow using a large language model, and keeps the notebook open beside the workflow so users can see which cell produced which operator."
 images:
   - /images/blog_hero/notebook-migration.png
