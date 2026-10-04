@@ -1,0 +1,410 @@
+// =============================================================================
+// Blog post styling
+// -----------------------------------------------------------------------------
+// Shared design system for a single blog post (content/blog/<slug>/index.md,
+// rendered by layouts/blog/single.html inside `.td-content .blog-post`).
+//
+// Posts author clean, semantic markup and pick from the classes below; none of
+// this lives inline anymore. Scoped to `.blog-post` so nothing else on the site
+// is affected. See content/blog/AGENTS.md for the authoring guide.
+// =============================================================================
+
+// --- design tokens (local to blog posts) ------------------------------------
+$bp-ink:          #14110f;
+$bp-accent:       #c8451f;   // Texera orange
+$bp-muted:        #5b5347;
+$bp-cream:        #fbf7ef;
+$bp-cream-border: #d8cfbf;
+$bp-green:        #1f6b5c;
+$bp-green-bg:     #eef2f0;
+$bp-dark:         #2a241d;
+$bp-dark-text:    #f4efe6;
+$bp-dark-muted:   #cbc1b1;
+$bp-gold:         #c9a227;
+$bp-logo-cream:   #fdf6e9;
+$bp-rule:         #e3dccd;
+
+$bp-sans:  'Helvetica Neue', Arial, sans-serif;
+$bp-serif: Georgia, 'Times New Roman', serif;
+
+$bp-measure: 100%;
+
+// --- article shell -----------------------------------------------------------
+.td-content .blog-post {
+  max-width: $bp-measure;
+  margin: 0 auto;
+  padding: 8px 44px 40px;
+  font-family: $bp-sans;
+  color: $bp-ink;
+  line-height: 1.65;
+
+  @media (max-width: 640px) {
+    padding: 4px 18px 28px;
+  }
+
+  // keep long code identifiers and URLs from blowing out the measure
+  code { word-break: break-word; }
+  img  { max-width: 100%; }
+}
+
+// --- title -------------------------------------------------------------------
+.blog-post .post-title {
+  font-family: $bp-serif;
+  font-weight: 900;
+  font-size: clamp(2rem, 5vw, 2.6rem);
+  line-height: 1.12;
+  letter-spacing: -.01em;
+  color: $bp-ink;
+  margin: 0 0 28px;
+}
+
+// --- hero image --------------------------------------------------------------
+.blog-post .post-hero {
+  margin: 0 0 32px;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+  }
+
+  // centered-logo variant on a soft card (e.g. DS4ALL)
+  &.post-hero--card {
+    text-align: center;
+    background: $bp-logo-cream;
+    border-radius: 12px;
+    padding: 24px;
+
+    img { width: 100%; max-width: 380px; display: inline-block; }
+  }
+}
+
+// --- typography --------------------------------------------------------------
+.blog-post .post-eyebrow {
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: $bp-accent;
+  margin: 0 0 28px;
+}
+
+.blog-post .post-lead {
+  font-family: $bp-serif;
+  font-size: 21px;
+  line-height: 1.5;
+  margin: 0 0 20px;
+}
+
+.blog-post p {
+  font-size: 17px;
+  margin: 0 0 18px;
+}
+
+.blog-post a {
+  color: $bp-accent;
+  font-weight: bold;
+  text-decoration: none;
+
+  &:hover { text-decoration: underline; }
+}
+
+// numbered section heading + short rule beneath it
+.blog-post h2 {
+  font-family: $bp-serif;
+  font-weight: 900;
+  font-size: 32px;
+  letter-spacing: -.01em;
+  line-height: 1.1;
+  color: $bp-ink;
+  margin: 48px 0 6px;
+
+  &[data-num]::before {
+    content: attr(data-num);
+    display: inline-block;
+    font-family: $bp-sans;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: .1em;
+    color: $bp-accent;
+    border: 2px solid $bp-accent;
+    border-radius: 999px;
+    padding: 3px 11px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 60px;
+    background: $bp-ink;
+    margin: 12px 0 22px;
+  }
+}
+
+.blog-post h3 {
+  font-family: $bp-serif;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 1.15;
+  margin: 30px 0 10px;
+}
+
+.blog-post ul,
+.blog-post ol { font-size: 17px; margin: 0 0 18px; }
+
+// --- boxes -------------------------------------------------------------------
+// small inline note (muted, on cream)
+.blog-post .post-note {
+  font-size: 16px;
+  color: $bp-muted;
+  background: $bp-cream;
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin: 0 0 18px;
+}
+
+// green-accented callout
+.blog-post .post-callout {
+  background: $bp-green-bg;
+  border-left: 4px solid $bp-green;
+  border-radius: 0 8px 8px 0;
+  padding: 18px 22px;
+  margin: 24px 0;
+  font-size: 16px;
+}
+
+// cream card
+.blog-post .post-card {
+  background: $bp-cream;
+  border: 1.5px solid $bp-cream-border;
+  border-radius: 12px;
+  padding: 24px 26px;
+  margin: 22px 0;
+
+  > :first-child { margin-top: 0; }
+  > :last-child  { margin-bottom: 0; }
+  h3 { margin-top: 0; }
+}
+
+// dark banner (mid-article dividers and the closing call to action)
+.blog-post .post-banner {
+  background: $bp-dark;
+  color: $bp-dark-text;
+  border-radius: 16px;
+  padding: 38px 40px;
+  margin: 40px 0;
+  text-align: center;
+
+  .post-banner__eyebrow {
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: $bp-gold;
+    margin: 0 0 10px;
+  }
+
+  h2 {
+    color: $bp-dark-text;
+    margin: 0 0 12px;
+    &::before, &::after { content: none; }   // no pill/rule inside a banner
+  }
+
+  p {
+    font-size: 16px;
+    color: $bp-dark-muted;
+    max-width: 680px;
+    margin: 0 auto 8px;
+  }
+
+  a { color: $bp-dark-text; }
+}
+
+// pill button
+.blog-post .post-btn {
+  display: inline-block;
+  background: $bp-accent;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: .04em;
+  text-decoration: none;
+  padding: 14px 30px;
+  border-radius: 999px;
+  font-size: 15px;
+  margin-top: 12px;
+
+  &:hover { color: #fff; text-decoration: none; opacity: .92; }
+}
+
+// --- figures (images / video with a caption) --------------------------------
+.blog-post .post-figure {
+  margin: 34px 0;
+  text-align: center;
+
+  img,
+  video {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+  }
+
+  figcaption {
+    font-size: 14px;
+    color: $bp-muted;
+    margin: 12px 0 0;
+    text-align: center;
+  }
+}
+
+// --- tables ------------------------------------------------------------------
+// three-up stat cells (big number + label)
+.blog-post .post-stats {
+  width: 100%;
+  border: 2px solid $bp-ink;
+  border-collapse: collapse;
+  margin: 6px 0 24px;
+
+  td {
+    padding: 24px 20px;
+    background: $bp-cream;
+    vertical-align: top;
+    border-right: 2px solid $bp-ink;
+    &:last-child { border-right: 0; }
+  }
+
+  .post-stat-num {
+    font-family: $bp-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1;
+    color: $bp-accent;
+  }
+
+  .post-stat-label {
+    font-size: 13.5px;
+    margin-top: 10px;
+    color: $bp-muted;
+    line-height: 1.45;
+  }
+
+  @media (max-width: 560px) {
+    td { display: block; border-right: 0; border-bottom: 2px solid $bp-ink; }
+    td:last-child { border-bottom: 0; }
+  }
+}
+
+// bordered step / summary rows
+.blog-post .post-steps {
+  width: 100%;
+  border: 2px solid $bp-ink;
+  border-collapse: collapse;
+  margin: 6px 0 26px;
+
+  td {
+    padding: 16px 18px;
+    background: $bp-cream;
+    border-bottom: 1px solid $bp-rule;
+    font-size: 15.5px;
+    vertical-align: top;
+  }
+  tr:last-child td { border-bottom: 0; }
+}
+
+// award rows (label column + entry)
+.blog-post .post-awards {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+  table-layout: fixed;
+
+  col.post-awards-label { width: 120px; }
+
+  td {
+    padding: 14px 0;
+    border-top: 1px solid $bp-rule;
+    font-size: 15.5px;
+    line-height: 1.55;
+    vertical-align: middle;
+  }
+  td.post-awards-tag { padding-right: 14px; }
+}
+
+// --- badges ------------------------------------------------------------------
+.blog-post .badge-pill {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 999px;
+  color: #fff;
+  white-space: nowrap;
+
+  &.badge--winner   { background: $bp-accent; }
+  &.badge--runner   { background: $bp-green; }
+  &.badge--honorable,
+  &.badge--special  { background: #b88a2e; }
+}
+
+// inline PR link badge
+.blog-post .pr-badge {
+  font-size: 12.5px;
+  font-weight: bold;
+  color: $bp-accent;
+  background: rgba(200, 69, 31, .10);
+  padding: 1px 7px;
+  border-radius: 5px;
+  white-space: nowrap;
+  margin-left: 6px;
+}
+
+// --- feature grid (e.g. PVE benefits) ---------------------------------------
+.blog-post .post-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 2px solid $bp-ink;
+  margin: 6px 0 24px;
+
+  .post-grid-cell {
+    padding: 24px 26px;
+    background: $bp-cream;
+    border-right: 2px solid $bp-ink;
+    border-bottom: 2px solid $bp-ink;
+
+    h3 {
+      font-family: $bp-serif;
+      font-size: 28px;
+      color: $bp-accent;
+      margin: 0 0 12px;
+    }
+    p { margin: 0; }
+  }
+
+  // two-column layout: right column & bottom row drop their outer borders
+  .post-grid-cell:nth-child(2n)     { border-right: 0; }
+  .post-grid-cell:nth-last-child(-n+2):nth-child(odd),
+  .post-grid-cell:last-child        { border-bottom: 0; }
+
+  @media (max-width: 560px) {
+    grid-template-columns: 1fr;
+    .post-grid-cell { border-right: 0; }
+  }
+}
+
+// --- closing italic note -----------------------------------------------------
+.blog-post .post-outro {
+  font-family: $bp-serif;
+  font-style: italic;
+  font-size: 19px;
+  color: $bp-muted;
+  text-align: center;
+  padding: 40px 0 12px;
+  margin: 0;
+}
