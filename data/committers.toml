@@ -1,0 +1,118 @@
+# Apache Texera (Incubating) committers roster.
+#
+# Rendered by layouts/committers/list.html at /committers/.
+#
+# The authoritative roster lives at (requires ASF login):
+#   https://whimsy.apache.org/roster/ppmc/texera
+#
+# Fields per entry:
+#   name        - Public full name.
+#   lastname    - Family name, used to sort each group alphabetically.
+#   id          - Apache ID / LDAP username. Links to the committer's ASF profile.
+#   github      - GitHub username (optional). Links to the GitHub profile.
+#   affiliation - Organization the person is affiliated with.
+#   group       - "ppmc" or "committer".
+#
+# Groups are listed without duplication, mirroring the project roster:
+#   ppmc      -> PPMC members
+#   committer -> committers who are not on the PPMC
+
+# --- PPMC Members ---------------------------------------------------------
+
+[[people]]
+name = "Ali Risheh"
+lastname = "Risheh"
+id = "aicam"
+github = "aicam"
+affiliation = "UCI"
+group = "ppmc"
+
+[[people]]
+name = "Chen Li"
+lastname = "Li"
+id = "chenli"
+github = "chenlica"
+affiliation = "UCI"
+group = "ppmc"
+
+[[people]]
+name = "Chris Park"
+lastname = "Park"
+id = "kunwp1"
+github = "kunwp1"
+affiliation = "UCI"
+group = "ppmc"
+
+[[people]]
+name = "Jiadong Bai"
+lastname = "Bai"
+id = "jiadongb"
+github = "bobbai00"
+affiliation = "UCI"
+group = "ppmc"
+
+[[people]]
+name = "Shengquan Ni"
+lastname = "Ni"
+id = "shengquan"
+github = "shengquan-ni"
+affiliation = "UCI"
+group = "ppmc"
+
+[[people]]
+name = "Xiaozhen Liu"
+lastname = "Liu"
+id = "xiaozhenliu"
+github = "Xiao-zhen-Liu"
+affiliation = "UCI"
+group = "ppmc"
+
+[[people]]
+name = "Xinyuan Lin"
+lastname = "Lin"
+id = "linxinyuan"
+github = "aglinxinyuan"
+affiliation = "UCI"
+group = "ppmc"
+
+[[people]]
+name = "Yicong Huang"
+lastname = "Huang"
+id = "yiconghuang"
+github = "Yicong-Huang"
+affiliation = "Databricks Inc., UMass Amherst"
+group = "ppmc"
+
+[[people]]
+name = "Yunyan Ding"
+lastname = "Ding"
+id = "yunyd"
+github = "yunyad"
+affiliation = "UCI"
+group = "ppmc"
+
+[[people]]
+name = "Zuozhi Wang"
+lastname = "Wang"
+id = "zuozhiw"
+github = "zuozhiw"
+affiliation = "Snowflake"
+group = "ppmc"
+
+# --- Committers (excluding PPMC) ------------------------------------------
+
+[[people]]
+name = "Meng Wang"
+lastname = "Wang"
+id = "mengw15"
+github = "mengw15"
+affiliation = "UCI"
+group = "committer"
+
+[[people]]
+name = "Xuan Gu"
+lastname = "Gu"
+id = "xuangu"
+github = "xuang7"
+affiliation = "Columbia University"
+group = "committer"
