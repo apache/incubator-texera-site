@@ -11,11 +11,47 @@
 #   id          - Apache ID / LDAP username. Links to the committer's ASF profile.
 #   github      - GitHub username (optional). Links to the GitHub profile.
 #   affiliation - Organization the person is affiliated with.
-#   group       - "ppmc" or "committer".
+#   group       - "mentor", "ppmc", or "committer".
 #
 # Groups are listed without duplication, mirroring the project roster:
+#   mentor    -> Apache Incubator mentors. Not shown as cards; used only for the
+#                acknowledgment line at the bottom of the page.
 #   ppmc      -> PPMC members
 #   committer -> committers who are not on the PPMC
+
+# --- Mentors (acknowledged at the bottom of the page, not shown as cards) --
+
+[[people]]
+name = "Cezar Cristian Andrei"
+lastname = "Andrei"
+id = "cezar"
+github = "cezarfx"
+affiliation = "Apache"
+group = "mentor"
+
+[[people]]
+name = "Gordon King"
+lastname = "King"
+id = "garyw"
+github = "bigdata-memory"
+affiliation = "Apache"
+group = "mentor"
+
+[[people]]
+name = "Ian Maxon"
+lastname = "Maxon"
+id = "imaxon"
+github = "parshimers"
+affiliation = "UCI"
+group = "mentor"
+
+[[people]]
+name = "PJ Fanning"
+lastname = "Fanning"
+id = "fanningpj"
+github = "pjfanning"
+affiliation = "Apache"
+group = "mentor"
 
 # --- PPMC Members ---------------------------------------------------------
 

@@ -19,6 +19,7 @@
         {{ $people := .Site.Data.committers.people }}
         {{ $ppmc := sort (where $people "group" "ppmc") "lastname" }}
         {{ $committers := sort (where $people "group" "committer") "lastname" }}
+        {{ $mentors := sort (where $people "group" "mentor") "lastname" }}
 
         {{ with $ppmc }}
         <div class="committers-section">
@@ -47,6 +48,14 @@
             {{ . }}
         </div>
         {{- end }}
+
+        {{ with $mentors }}
+        <p class="committers-ack">
+            Apache Texera (Incubating) gratefully thanks its Apache Incubator mentors
+            for their guidance: {{ $last := sub (len .) 1 -}}
+            {{ range $i, $m := . }}{{ if $i }}{{ if eq $i $last }}{{ if gt $last 1 }},{{ end }} and {{ else }}, {{ end }}{{ end }}{{ $m.name }}{{ end }}.
+        </p>
+        {{ end }}
 
         <p class="committers-source">
             The authoritative roster is maintained at
