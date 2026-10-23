@@ -24,7 +24,8 @@
 
 .td-navbar {
   @extend .navbar;
-  @extend .navbar-expand;
+  // Collapse behind a hamburger below lg.
+  @extend .navbar-expand-lg;
 
   background: $dark;
   min-height: 4rem;
@@ -75,21 +76,44 @@
     }
   }
 
+  // Collapsed menu: stacked, full-width rows.
   @include media-breakpoint-down(lg) {
-    .td-navbar-nav-scroll {
-      max-width: 100%;
-      height: 2.5rem;
-      overflow: hidden;
-      font-size: 0.9rem;
-    }
-
     .navbar-brand {
       margin-right: 0;
     }
 
+    .navbar-collapse {
+      margin-top: 0.5rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+      // Scroll if taller than the viewport.
+      max-height: calc(100vh - 4rem);
+      overflow-y: auto;
+    }
+
     .navbar-nav {
-      padding-bottom: 2rem;
-      overflow-x: auto;
+      padding-top: 0.25rem;
+      padding-bottom: 0.5rem;
+      white-space: normal;
+    }
+
+    .nav-link {
+      padding: 0.65rem 0.25rem;
+      font-size: 1.05rem;
+    }
+
+    // Submenu rendered inline (static), not floated.
+    .dropdown-menu {
+      border: 0;
+      margin: 0;
+      padding: 0 0 0.25rem 0.9rem;
+      background: transparent;
+      box-shadow: none;
+    }
+
+    .dropdown-item {
+      padding: 0.5rem 0.25rem;
+      font-size: 1rem;
+      white-space: normal;
     }
   }
 
