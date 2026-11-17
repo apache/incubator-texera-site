@@ -35,7 +35,7 @@ tags: ["python", "udf", "ui-parameters", "workflows"]
 
 <p class="feature-kicker"><strong>Feature Introduction · Apache Texera</strong></p>
 
-<p>Python UDFs let workflow authors add custom logic to Texera. Many of those scripts also contain values that change between runs: a score threshold, a maximum number of results, or a switch for an optional step. Hardcoding each choice means opening the script whenever it changes.</p>
+<p>Python user-defined functions (UDFs) let workflow authors add custom logic to Texera. Many of those scripts also contain values that change between runs: a score threshold, a maximum number of results, or a switch for an optional step. Hardcoding each choice means opening the script whenever it changes.</p>
 
 <p>Python UDF UI parameters in Texera 1.3 let workflow authors expose those choices in the operator’s <strong>Parameters</strong> panel. The author defines the custom logic and the parameter’s type; someone running the workflow can then enter a new value and rerun it without editing the Python script.</p>
 
@@ -49,13 +49,15 @@ tags: ["python", "udf", "ui-parameters", "workflows"]
 
 class ProcessTupleOperator(UDFOperatorV2):
     @overrides
-    def open(self):
+    def open(self) -> None:
         self.threshold = self.UiParameter(
             "threshold", AttributeType.DOUBLE
         ).value
 
     @overrides
-    def process_tuple(self, tuple_: Tuple, port: int):
+    def process_tuple(
+        self, tuple_: Tuple, port: int
+    ) -> Iterator[Optional[TupleLike]]:
         if tuple_["score"] &gt;= self.threshold:
             yield tuple_
 </code></pre>
@@ -64,11 +66,19 @@ class ProcessTupleOperator(UDFOperatorV2):
 
 <h2><span class="section-number">02</span> Change the value and rerun</h2>
 
-<p>To try the example:</p>
+<p>For a small input you can reproduce, save the following as a CSV file:</p>
+
+<pre><code class="language-csv">score
+0.42
+0.76
+0.91
+</code></pre>
+
+<p>Then configure the workflow:</p>
 
 <ol>
 <li>
-<p>Connect a source containing a numeric <code>score</code> column to a <strong>Python UDF</strong>, and connect its output to a result operator.</p>
+<p>Import the CSV with a <strong>CSV File Scan</strong> operator and set the <code>score</code> column’s type to <strong>double</strong>. Connect its output to a <strong>Python UDF</strong>.</p>
 </li>
 <li>
 <p>Paste the code above into the UDF’s code editor. Keep <strong>Retain input columns</strong> enabled; this example adds no output columns.</p>
@@ -77,7 +87,7 @@ class ProcessTupleOperator(UDFOperatorV2):
 <p>In the <strong>Parameters</strong> panel, enter <code>0.5</code> in the Value field for <code>threshold</code>.</p>
 </li>
 <li>
-<p>Run the workflow and inspect the results.</p>
+<p>Run the workflow and inspect the Python UDF’s output in the results panel.</p>
 </li>
 <li>
 <p>Change the value to <code>0.8</code> and rerun the workflow.</p>
@@ -117,7 +127,7 @@ class ProcessTupleOperator(UDFOperatorV2):
 
 <p><img alt="Adding an integer max_results parameter" src="/images/blog_hero/python-udf-ui-parameters-add.png"/></p>
 
-<p><em>Adding max_results as an integer parameter from the panel.</em></p>
+<p><em>Choosing integer for a new max_results parameter. Confirming adds its declaration to the script.</em></p>
 
 <p>The panel keeps the parameter’s <strong>Name</strong> and <strong>Type</strong> read-only because they come from the script; <strong>Value</strong> remains editable. Changing a declaration in the code updates the parameter rows. Existing values are preserved by parameter name, so renaming a parameter requires entering its value again. Commented-out declarations do not create parameter rows.</p>
 
