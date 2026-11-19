@@ -38,6 +38,17 @@
       font-weight: $font-weight-bold;
     }
 
+    // Two-line "Apache Texera®" wordmark (static/images/brand/)
+    .brand-logo {
+      display: block;
+      height: 46px;
+      width: auto;
+
+      @include media-breakpoint-down(md) {
+        height: 40px;
+      }
+    }
+
     svg {
       display: inline-block;
       margin: 0 10px;
