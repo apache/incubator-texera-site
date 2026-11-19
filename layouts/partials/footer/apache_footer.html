@@ -6,9 +6,12 @@
 
 <!-- Unified Apache Footer -->
 <div class="td-apachefooter mt-3 py-4 bg-secondary text-center">
-    <!-- Logo Placeholder -->
-    <div class="footer-logo mb-3">
-        <img src="/images/apache-incubator.png" alt="Logo Placeholder" style="max-width:120px;">
+    <!-- Project + Incubator logos -->
+    <div class="footer-logo mb-3 d-flex flex-wrap justify-content-center align-items-center gap-4">
+        <a href="{{ site.Home.RelPermalink }}" aria-label="Apache Texera home">
+            <img src="{{ "images/brand/apache-texera-logo-white.svg" | relURL }}" alt="Apache Texera®" class="footer-texera-logo">
+        </a>
+        <img src="{{ "images/apache-incubator.png" | relURL }}" alt="Apache Incubator" style="max-width:120px;">
     </div>
 
     <!-- Links Below Logo -->
