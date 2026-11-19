@@ -76,11 +76,96 @@
   </div>
 </section>
 
+{{/* Below lg the desktop carousel above is hidden (see _mobile.scss). The same
+     operator cards become a horizontal "slide" gallery, Apple-style: swipe left
+     or right, one card snaps into place, a peek of the next card and the dots
+     below show there is more. */}}
+<div class="workflow-mobile" aria-label="Texera features">
+  <div class="wm-track" id="wm-track">
+    {{ range $i, $f := $features }}
+    <div class="workflow-node" data-wm-index="{{ $i }}">
+      <div class="node-header">
+        <div class="node-icon badge-{{ $f.color }}">
+          <i class="{{ $f.icon }}"></i>
+        </div>
+        <div class="node-title-group">
+          <div class="node-label">Operator 0{{ add $i 1 }}</div>
+          <h4 class="node-title">{{ $f.title }}</h4>
+        </div>
+      </div>
+      <div class="node-body">
+        <div class="node-tags">
+          {{ range $f.tags }}<span class="node-tag">{{ . }}</span>{{ end }}
+        </div>
+        <p class="node-desc">{{ $f.desc }}</p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="wm-controls">
+    <div class="wm-hint" id="wm-hint">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-4 5 4 5M16 7l4 5-4 5"/></svg>
+      <span>Swipe to explore</span>
+    </div>
+    <div class="wm-dots" id="wm-dots" role="tablist" aria-label="Operators">
+      {{ range $i, $f := $features }}
+      <button class="wm-dot{{ if eq $i 0 }} is-active{{ end }}" data-wm-dot="{{ $i }}" aria-label="Operator 0{{ add $i 1 }}: {{ $f.title }}"></button>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
 <script>
+// Mobile operators: a horizontal slide gallery with Apple-style dot indicators.
+// Independent of the desktop carousel below (own scope via the IIFE).
+document.addEventListener("DOMContentLoaded", function () {
+  (function () {
+    var wmTrack = document.getElementById("wm-track");
+    var dotsWrap = document.getElementById("wm-dots");
+    if (!wmTrack || !dotsWrap) return;
+    var cards = Array.prototype.slice.call(wmTrack.querySelectorAll(".workflow-node"));
+    var dots = Array.prototype.slice.call(dotsWrap.querySelectorAll(".wm-dot"));
+    var hint = document.getElementById("wm-hint");
+
+    function activeIndex() {
+      var center = wmTrack.scrollLeft + wmTrack.clientWidth / 2;
+      var best = 0, bestDist = Infinity;
+      cards.forEach(function (c, i) {
+        var cc = c.offsetLeft + c.offsetWidth / 2;
+        var d = Math.abs(cc - center);
+        if (d < bestDist) { bestDist = d; best = i; }
+      });
+      return best;
+    }
+    function update() {
+      var a = activeIndex();
+      dots.forEach(function (d, i) { d.classList.toggle("is-active", i === a); });
+    }
+    var ticking = false;
+    wmTrack.addEventListener("scroll", function () {
+      if (hint) hint.classList.add("is-hidden"); // fade the cue after first swipe
+      if (!ticking) {
+        window.requestAnimationFrame(function () { update(); ticking = false; });
+        ticking = true;
+      }
+    }, { passive: true });
+    dots.forEach(function (d, i) {
+      d.addEventListener("click", function () {
+        cards[i].scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+      });
+    });
+    update();
+  })();
+});
+
 document.addEventListener("DOMContentLoaded", function () {
   var track    = document.getElementById("workflow-track");
   var viewport = document.getElementById("workflow-viewport");
   if (!track || !viewport) return;
+  // On mobile the carousel is hidden (the slide gallery is shown instead), so
+  // there is nothing here to measure or animate.
+  if (!viewport.offsetWidth) return;
 
   var nodes    = Array.from(track.querySelectorAll(".workflow-node"));
   var edges    = Array.from(track.querySelectorAll(".workflow-edge:not(.is-spacer)"));

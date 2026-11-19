@@ -1,0 +1,174 @@
+//
+// Mobile operators: a horizontal "slide" gallery
+// ----------------------------------------------
+// Keep the desktop look and feel. Below the lg breakpoint the sliding/animated
+// desktop carousel is hidden and the SAME operator cards become a clean
+// horizontal gallery (Apple-style): swipe left or right, one card snaps into
+// place, a peek of the next card plus a swipe cue and pagination dots make it
+// obvious there is more. Nothing is clipped, and the section has room to breathe.
+
+.workflow-mobile {
+  display: none; // the desktop carousel is shown at lg and up
+}
+
+@include media-breakpoint-down(lg) {
+  // Hide the desktop carousel section and the decorative hero wave.
+  .workflow-section,
+  .hero-wave {
+    display: none;
+  }
+
+  // --- Hero ------------------------------------------------------------------
+  // Stack the logo above the text and size it up so the top section fills out
+  // on a phone (the site otherwise hides the logo below 900px).
+  .cover-split-hero {
+    flex-direction: column;
+    gap: 2.5rem; // room between the logo and the title block
+    padding: 2rem 1.25rem 3rem;
+  }
+
+  .cover-split-logo {
+    display: flex !important;
+  }
+
+  .hero-logo-img {
+    width: 168px;
+    max-width: 50%;
+  }
+
+  .cover-split-content {
+    h1 {
+      font-size: clamp(2.3rem, 9.5vw, 3.1rem);
+      line-height: 1.14;
+      margin-bottom: 1.6rem !important; // more space before the description
+    }
+
+    p.lead {
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+  }
+
+  .workflow-mobile {
+    display: block;
+    padding: 1rem 0 0.5rem;
+  }
+
+  // --- The sliding track -----------------------------------------------------
+  .wm-track {
+    display: flex;
+    align-items: stretch; // cards share one height for a tidy row
+    gap: 16px;
+    overflow-x: auto;
+    overflow-y: visible;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    // Side padding frames the first/last card; vertical padding leaves room for
+    // the card shadow so nothing is clipped.
+    padding: 18px 20px 24px;
+    scrollbar-width: none;
+  }
+
+  .wm-track::-webkit-scrollbar {
+    display: none;
+  }
+
+  // Each card: a fixed share of the width with a peek of the neighbour, snapping
+  // to centre. Reuse the real node styling, dropping the carousel's faded /
+  // collapsed states so every card is fully visible and expanded.
+  .wm-track .workflow-node {
+    flex: 0 0 85%;
+    max-width: 360px;
+    width: auto;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    opacity: 1;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    padding: 1.75rem;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  // Ports imply a left-to-right wiring that does not exist here.
+  .wm-track .node-port {
+    display: none;
+  }
+
+  // Always show the card body (tags + description).
+  .wm-track .node-body {
+    max-height: none;
+    opacity: 1;
+    margin-top: 1.1rem;
+    padding-top: 1.1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
+  // --- Controls: swipe cue + pagination dots ---------------------------------
+  .wm-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.9rem;
+    padding: 0.25rem 1rem 0;
+  }
+
+  .wm-hint {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 0.85rem;
+    letter-spacing: 0.01em;
+    transition: opacity 0.4s ease;
+
+    &.is-hidden {
+      opacity: 0;
+    }
+
+    svg {
+      opacity: 0.85;
+      animation: wm-nudge 1.8s ease-in-out infinite;
+    }
+  }
+
+  .wm-dots {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  // Apple-style dots: small and dim, the active one a bright pill.
+  .wm-dot {
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    border: 0;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.32);
+    cursor: pointer;
+    transition:
+      width 0.25s ease,
+      background-color 0.25s ease;
+
+    &.is-active {
+      width: 24px;
+      background: #ffffff;
+    }
+  }
+}
+
+@keyframes wm-nudge {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-3px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wm-hint svg {
+    animation: none !important;
+  }
+}

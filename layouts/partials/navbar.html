@@ -4,9 +4,9 @@
 -}}
 {{ $baseURL := urls.Parse $.Site.Params.Baseurl -}}
 
-<nav class="td-navbar js-navbar-scroll
+<nav class="navbar td-navbar js-navbar-scroll
             {{- if $cover }} td-navbar-cover {{- end }}" data-bs-theme="dark">
-    <div class="container-fluid flex-column flex-md-row">
+    <div class="container-fluid">
         <a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}">
             {{- /**/ -}}
             <span class="navbar-brand__logo navbar-logo">
@@ -21,7 +21,10 @@
         {{ with .Site.Params.latest_release -}}
         <a class="navbar-version-badge" href="{{ $.Site.Params.latest_release_url | default "/downloads/" }}" aria-label="Latest release {{ . }}">latest: v{{ . }}</a>
         {{- end }}
-        <div class="td-navbar-nav-scroll ms-md-auto" id="main_navbar">
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#main_navbar" aria-controls="main_navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="td-navbar-nav-scroll collapse navbar-collapse ms-lg-auto" id="main_navbar">
             <ul class="navbar-nav">
                 {{ $p := . -}}
                 {{ range .Site.Menus.main -}}
