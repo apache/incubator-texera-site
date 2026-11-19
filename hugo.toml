@@ -93,14 +93,14 @@ contributingUrl = "https://github.com/apache/texera/blob/main/CONTRIBUTING.md"
 
 # Latest release shown discreetly in the footer.
 # Update these two values when shipping a new version.
-latest_release = "1.2.0-incubating"
-latest_release_url = "/releases/1.2.0-incubating/"
+latest_release = "1.3.0-incubating"
+latest_release_url = "/releases/1.3.0-incubating/"
 
 # Documentation version that site-wide doc links point to (footer, community
 # page, etc.). Links in this file use the literal token DOCS_VERSION, which is
 # resolved to this value at render time. Update this one value when a new docs
 # version becomes the default.
-docs_version = "v1.2.0"
+docs_version = "v1.3.0"
 
 # Menu title if your navbar has a versions selector to access old versions of your site.
 version_menu = "Releases"
