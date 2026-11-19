@@ -16,7 +16,25 @@
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/"&gt;User-defined Functions&lt;/a&gt; &amp;gt; Python&lt;/p&gt;</description></item><item><title>Migrating Jupyter Notebooks into Texera Workflows</title><link>https://texera.staged.apache.org/blog/2026/09/15/notebook-migration-tool/</link><pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/blog/2026/09/15/notebook-migration-tool/</guid><description>&lt;div style="max-width: 100%; width: 100%; margin: 0 0 32px;"&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/"&gt;User-defined Functions&lt;/a&gt; &amp;gt; Python&lt;/p&gt;</description></item><item><title>Python</title><link>https://texera.staged.apache.org/docs/v1.3.0/reference/operators/user-defined-functions/python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.3.0/reference/operators/user-defined-functions/python/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.3.0/reference/operators/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.3.0/reference/operators/user-defined-functions/"&gt;User-defined Functions&lt;/a&gt; &amp;gt; Python&lt;/p&gt;</description></item><item><title>Migrating Jupyter Notebooks into Texera Workflows</title><link>https://texera.staged.apache.org/blog/2026/09/15/notebook-migration-tool/</link><pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/blog/2026/09/15/notebook-migration-tool/</guid><description>&lt;div style="max-width: 100%; width: 100%; margin: 0 0 32px;"&gt;
  &lt;img src="https://texera.staged.apache.org/images/blog_hero/notebook-migration.png" alt="A Texera workspace showing a generated workflow beside the notebook it was generated from" style="width: 90%; height: auto; display: block; margin: 0 auto; border-radius: 12px;"&gt;
 &lt;/div&gt;
 &lt;div style="max-width: 100%; width: 100%; margin: 0; font-family: 'Helvetica Neue',Arial,sans-serif; color: #14110f; background: #ffffff; line-height: 1.65;"&gt;
@@ -48,7 +66,7 @@ Python UDFs allow users to extend Texera workflows with custom code, but many wo
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;User Defined Functions&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/"&gt;Python&lt;/a&gt;&lt;/p&gt;</description></item><item><title>2-in Python UDF</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/python/2-in-python-udf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/python/2-in-python-udf/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;User Defined Functions&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/"&gt;Python&lt;/a&gt;&lt;/p&gt;</description></item><item><title>1-out Python UDF</title><link>https://texera.staged.apache.org/docs/v1.3.0/reference/operators/user-defined-functions/python/1-out-python-udf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.3.0/reference/operators/user-defined-functions/python/1-out-python-udf/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -66,7 +84,7 @@ Python UDFs allow users to extend Texera workflows with custom code, but many wo
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;User Defined Functions&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/"&gt;Python&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Python Lambda Function</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/python/python-lambda-function/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/python/python-lambda-function/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.3.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.3.0/reference/operators/"&gt;User Defined Functions&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.3.0/reference/operators/user-defined-functions/"&gt;Python&lt;/a&gt;&lt;/p&gt;</description></item><item><title>2-in Python UDF</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/python/2-in-python-udf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/python/2-in-python-udf/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -84,7 +102,7 @@ Python UDFs allow users to extend Texera workflows with custom code, but many wo
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;User Defined Functions&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/"&gt;Python&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Python Table Reducer</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/python/python-table-reducer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/python/python-table-reducer/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;User Defined Functions&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/"&gt;Python&lt;/a&gt;&lt;/p&gt;</description></item><item><title>2-in Python UDF</title><link>https://texera.staged.apache.org/docs/v1.3.0/reference/operators/user-defined-functions/python/2-in-python-udf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.3.0/reference/operators/user-defined-functions/python/2-in-python-udf/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -102,7 +120,7 @@ Python UDFs allow users to extend Texera workflows with custom code, but many wo
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;User Defined Functions&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/"&gt;Python&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Python UDF</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/python/python-udf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/python/python-udf/</guid><description>&lt;!--
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.3.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.3.0/reference/operators/"&gt;User Defined Functions&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.3.0/reference/operators/user-defined-functions/"&gt;Python&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Python Lambda Function</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/python/python-lambda-function/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/python/python-lambda-function/</guid><description>&lt;!--
  ~ Licensed to the Apache Software Foundation (ASF) under one
  ~ or more contributor license agreements. See the NOTICE file
  ~ distributed with this work for additional information
@@ -120,4 +138,94 @@ Python UDFs allow users to extend Texera workflows with custom code, but many wo
  ~ specific language governing permissions and limitations
  ~ under the License.
 --&gt;
-&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;User Defined Functions&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/"&gt;Python&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;User Defined Functions&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/"&gt;Python&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Python Lambda Function</title><link>https://texera.staged.apache.org/docs/v1.3.0/reference/operators/user-defined-functions/python/python-lambda-function/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.3.0/reference/operators/user-defined-functions/python/python-lambda-function/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.3.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.3.0/reference/operators/"&gt;User Defined Functions&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.3.0/reference/operators/user-defined-functions/"&gt;Python&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Python Table Reducer</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/python/python-table-reducer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/python/python-table-reducer/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;User Defined Functions&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/"&gt;Python&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Python Table Reducer</title><link>https://texera.staged.apache.org/docs/v1.3.0/reference/operators/user-defined-functions/python/python-table-reducer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.3.0/reference/operators/user-defined-functions/python/python-table-reducer/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.3.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.3.0/reference/operators/"&gt;User Defined Functions&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.3.0/reference/operators/user-defined-functions/"&gt;Python&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Python UDF</title><link>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/python/python-udf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/python/python-udf/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/"&gt;User Defined Functions&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.2.0/reference/operators/user-defined-functions/"&gt;Python&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Python UDF</title><link>https://texera.staged.apache.org/docs/v1.3.0/reference/operators/user-defined-functions/python/python-udf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://texera.staged.apache.org/docs/v1.3.0/reference/operators/user-defined-functions/python/python-udf/</guid><description>&lt;!--
+ ~ Licensed to the Apache Software Foundation (ASF) under one
+ ~ or more contributor license agreements. See the NOTICE file
+ ~ distributed with this work for additional information
+ ~ regarding copyright ownership. The ASF licenses this file
+ ~ to you under the Apache License, Version 2.0 (the
+ ~ "License"); you may not use this file except in compliance
+ ~ with the License. You may obtain a copy of the License at
+ ~
+ ~ http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing,
+ ~ software distributed under the License is distributed on an
+ ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ ~ KIND, either express or implied. See the License for the
+ ~ specific language governing permissions and limitations
+ ~ under the License.
+--&gt;
+&lt;p&gt;&lt;a href="https://texera.staged.apache.org/docs/v1.3.0/reference/"&gt;Home&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.3.0/reference/operators/"&gt;User Defined Functions&lt;/a&gt; &amp;gt; &lt;a href="https://texera.staged.apache.org/docs/v1.3.0/reference/operators/user-defined-functions/"&gt;Python&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
