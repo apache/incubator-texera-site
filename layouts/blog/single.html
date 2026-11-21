@@ -1,0 +1,19 @@
+{{ define "main" -}}
+<div><a class="td-offset-anchor"></a></div>
+<section class="td-box td-box--white position-relative td-box--height-auto" style="padding-top: 6rem; padding-bottom: 4rem;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="td-content">
+          <article class="blog-post">
+            <h1 class="post-title">{{ .Title }}</h1>
+            {{ with .Content }}
+              {{ . }}
+            {{ end }}
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{- end }}
