@@ -2,9 +2,9 @@
 title: "Taking a Workflow Out of Texera as a Python Script"
 linkTitle: "Workflow to Python Script"
 slug: "export-workflow-as-python"
-date: 2026-09-18
+date: 2026-11-23
 author: Kary Zheng, advised by Professor Chen Li
-description: "Texera can now hand a user the workflow they built as a single standalone Python file, and every operator that does so is checked by running it both ways and comparing the results."
+description: "Texera can now hand a user the workflow they built as a standalone Python script, and every operator that exports is checked by running it both ways and comparing the results."
 images:
   - /images/blog_hero/workflow-to-python-export.jpg
 tags: ["python", "export", "pandas", "verification", "workflows"]
@@ -19,7 +19,7 @@ Feature Introduction &middot; Apache Texera
 </p>
 
 <p style="font-family: Georgia,'Times New Roman',serif; font-size: 21px; line-height: 1.5; margin: 0 0 20px;">
-A workflow built on the Texera canvas can be run, shared and read, but only inside Texera. A user who wants to keep a pipeline after the fact, hand it to a colleague who does not run Texera, or step through it in a notebook has had nothing to take away. Texera is gaining an export that closes that gap: given a workflow, it produces a single Python file that reads the same sources, applies the same operators in the same order, and prints its results.
+A workflow built on the Texera canvas can be run, shared and read, but only inside Texera. A user who wants to keep a pipeline after the fact, hand it to a colleague who does not run Texera, or step through it in a notebook has had nothing to take away. Texera now has an export that closes that gap. Given a workflow, it produces a Python script that reads the same sources, applies the same operators in the same order, and prints its results.
 </p>
 
 <p style="font-family: Georgia,'Times New Roman',serif; font-size: 21px; line-height: 1.5; margin: 0 0 20px;">
@@ -27,7 +27,7 @@ The harder half of the work is not the export. It is the question that follows i
 </p>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 16px; color: #5b5347; margin: 0 0 8px; padding: 14px 18px; background: #fbf7ef; border-radius: 10px;">
-This post has two halves. The first shows what the export does, with no assumptions about Texera's internals. The second covers how it works and how it is kept honest, for readers who want that. The feature is rolling out one operator family at a time under <a style="color: #c8451f; font-weight: bold;" href="https://github.com/apache/texera/issues/8325">issue #8325</a>.
+This post has two halves. The first shows what the export does, with no assumptions about Texera's internals. The second covers how it works and how it is kept honest, for readers who want that. The work landed one operator family at a time under <a style="color: #c8451f; font-weight: bold;" href="https://github.com/apache/texera/issues/8325">issue #8325</a>.
 </p>
 
 <h2 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 32px; letter-spacing: -.01em; margin: 48px 0 6px; line-height: 1.1; color: #14110f;">
@@ -59,7 +59,7 @@ Exporting a Workflow
 <div style="height: 3px; width: 60px; background: #14110f; margin: 0 0 22px;"></div>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-In the workspace toolbar there is a button marked with a code icon, titled <b>export as Python script</b>. It sends the workflow the user currently has open to the compiling service and shows the script that comes back, with a copy button beside it. Nothing about the workflow changes, and nothing has to be running first.
+In the workspace toolbar there is a button marked with a code icon, titled <b>export as Python script</b>. It sends the workflow the user currently has open to the compiling service and shows the script that comes back. One button beside it downloads a zip, and another copies the script. Nothing about the workflow changes, and nothing has to be running first.
 </p>
 
 <div style="margin: 34px 0;">
@@ -72,19 +72,23 @@ In the workspace toolbar there is a button marked with a code icon, titled <b>ex
 <h3 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 22px; margin: 30px 0 10px;">What comes back</h3>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-A small workflow makes the result concrete. Take a CSV file scan, a filter on one column, a sort on another, a limit, and a projection that renames a column. This is what the button hands back:
+A small workflow makes the result concrete. Take a CSV file scan of the Iris dataset, a filter on petal length, a sort on the same column, a limit, and a bar chart. This is what the button hands back:
 </p>
 
 <div style="margin: 40px 0; text-align: center;">
   <img src="/images/blog_hero/workflow-to-python-export.jpg" alt="The Texera workspace with the export modal open, showing the Python script generated from a five-operator workflow" style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
   <p style="font-size: 14px; color: #666; margin-top: 10px;">
-    The script the workflow on the canvas produced, ready to copy. Every line names the operator above it.
+    The script the workflow on the canvas produced, ready to download or copy. A comment names the operator behind every block.
   </p>
 </div>
 
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-It is plain pandas. There is no Texera import, no runtime to install and no configuration file beside it. Each operator appears as a comment naming the operator that produced the line below it, which is what makes the script readable next to the canvas it came from. Only pandas is imported for every script; everything beyond it is asked of the operators actually in the plan, so a workflow that draws no chart never imports a plotting library. Two lines are there because the engine does the same thing: the filter guards against a null, which is how the engine's own filter answers a null field, and the scan renames its columns to the names the schema gave them, which is what every downstream operator was configured against.
+It is pandas, with Plotly for the chart. Each operator appears as a comment naming the operator that produced the block below it, which is what makes the script readable next to the canvas it came from. Only pandas is imported for every script. Everything beyond it is asked of the operators actually in the plan, so a workflow that draws no chart never imports a plotting library.
+</p>
+
+<p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
+The one import from Texera is <code>texera_helpers</code>, a small module that ships in the zip beside the script. The script names the three helpers it calls, and each is there because the engine does something pandas does not. The scan reads each decimal column the way Java reads a number from text. The filter drops a row whose field is null and compares the rest the way the engine compares doubles. The sort first hands its input over as the engine hands a table to a Python operator. The scan also renames its columns to the names the schema gave them, which is what every downstream operator was configured against.
 </p>
 
 <h3 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 22px; margin: 30px 0 10px;">What the export guarantees</h3>
@@ -92,10 +96,10 @@ It is plain pandas. There is no Texera import, no runtime to install and no conf
 <table class="td-initial" style="border: 2px solid #14110f; border-collapse: collapse; margin: 6px 0 26px; width: 100%;" role="presentation" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
-<td style="padding: 16px 18px; background: #fbf7ef; border-bottom: 1px solid #e3dccd; font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 15.5px; vertical-align: top;"><b>One file, in run order.</b> The script reads top to bottom in the order the workflow executes, with a comment naming the operator behind every block.</td>
+<td style="padding: 16px 18px; background: #fbf7ef; border-bottom: 1px solid #e3dccd; font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 15.5px; vertical-align: top;"><b>One script, in run order.</b> The script reads top to bottom in the order the workflow executes, with a comment naming the operator behind every block.</td>
 </tr>
 <tr>
-<td style="padding: 16px 18px; background: #fbf7ef; border-bottom: 1px solid #e3dccd; font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 15.5px; vertical-align: top;"><b>No dependency on Texera.</b> Plain pandas, with Plotly for a chart and scikit-learn or transformers for a model, so the script runs wherever those are installed.</td>
+<td style="padding: 16px 18px; background: #fbf7ef; border-bottom: 1px solid #e3dccd; font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 15.5px; vertical-align: top;"><b>Nothing to install from Texera.</b> The zip holds <code>script.py</code> and the <code>texera_helpers.py</code> it imports from, so the unzipped folder runs with <code>python script.py</code>. Beyond that it needs pandas, with Plotly for a chart and scikit-learn or transformers for a model.</td>
 </tr>
 <tr>
 <td style="padding: 16px 18px; background: #fbf7ef; border-bottom: 1px solid #e3dccd; font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 15.5px; vertical-align: top;"><b>Every branch is printed.</b> Any output that no other operator consumes is printed at the end, labelled with the operator it came from.</td>
@@ -114,7 +118,7 @@ How the Translation Works
 <div style="height: 3px; width: 60px; background: #14110f; margin: 0 0 22px;"></div>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-An operator says how it reads outside the engine by implementing one trait, <code>StandaloneCodeGenerator</code>. Its central method returns a block of pandas, and beside it an operator can name the imports it needs, helper definitions to emit once for the whole script, and, for a source, the file it reads. The block does not know the names of any variables. It refers to its inputs and outputs by position, as <code>in1df</code> and <code>out1df</code>, and the translator substitutes real names later. Sort's whole implementation builds a column list and an ascending list and emits one <code>sort_values</code> call.
+An operator says how it reads outside the engine by implementing one trait, <code>StandaloneCodeGenerator</code>. Its central method returns a block of pandas, and beside it an operator can name the imports it needs, the shared helpers it calls, and, for a source, the file it reads. The block does not know the names of any variables. It refers to its inputs and outputs by position, as <code>in1df</code> and <code>out1df</code>, and the translator substitutes real names later. Sort's whole implementation builds a column list and an ascending list and emits one <code>sort_values</code> call.
 </p>
 
 <div style="margin: 40px 0; text-align: center;">
@@ -132,6 +136,12 @@ The translator walks the plan in topological order, gives every output port of e
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
 At the end the translator finds every port that no link consumes and prints it. A workflow with one terminal operator prints once; a workflow that branches prints each branch, labelled with the operator it came from.
+</p>
+
+<h3 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 22px; margin: 30px 0 10px;">Helpers in a module of their own</h3>
+
+<p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
+Some operators cannot be written as one pandas call and still match the engine. Java reads a number from text, trims whitespace and compares a NaN its own way, and an operator that does any of these needs a few lines of Python that do it Java's way. Those lines live in one module, <code>texera_helpers</code>, generated from the helper blocks the operators declare. The script imports only the names it calls, so the workflow's own code stays at the top of the file where a reader looks for it. The module comes from the same Texera that wrote the script, so the two always match. A test fails when the checked-in module falls behind the operators, and the translator refuses an operator whose helper the module does not hold.
 </p>
 
 <h3 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 22px; margin: 30px 0 10px;">An operator with no standalone form</h3>
@@ -165,17 +175,11 @@ One path drives the operator through the engine's own execution, the way a runni
 </p>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-On the most recent full run the suite covered <b>151 operators</b>, and <b>146 agreed on both paths</b>. The other five are withheld, and each states its reason in the report rather than being quietly absent.
+On the most recent full run the suite covered <b>151 operators</b>, and <b>149 agreed on both paths</b>. The other two are withheld, and each states its reason in the report rather than being quietly absent.
 </p>
 
 <table class="td-initial" style="border: 2px solid #14110f; border-collapse: collapse; margin: 6px 0 26px; width: 100%;" role="presentation" cellspacing="0" cellpadding="0">
 <tbody>
-<tr>
-<td style="padding: 16px 18px; background: #fbf7ef; border-bottom: 1px solid #e3dccd; font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 15.5px; vertical-align: top;"><b>Two score or predict from a fitted model</b> that arrives on an input port, and a fixture written from the JVM cannot carry a live model object.</td>
-</tr>
-<tr>
-<td style="padding: 16px 18px; background: #fbf7ef; border-bottom: 1px solid #e3dccd; font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 15.5px; vertical-align: top;"><b>One reads file names that arrive at run time</b> on an input port, which this runner does not feed to a source.</td>
-</tr>
 <tr>
 <td style="padding: 16px 18px; background: #fbf7ef; border-bottom: 1px solid #e3dccd; font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 15.5px; vertical-align: top;"><b>One fetches a live URL</b> over the network, so it has no fixed answer to compare against.</td>
 </tr>
@@ -192,7 +196,7 @@ It is worth being precise about what this proves. The comparison shows that the 
 <h3 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 22px; margin: 30px 0 10px;">What it is for, day to day</h3>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-The harness has a second use, which turned out to matter more than the first. Adding an operator to it is the step that tells a contributor their standalone code is finished. A new operator arrives with its generated block and a fixture, the suite runs it both ways, and a disagreement becomes a failing test on the pull request rather than a bug a user finds in an exported script months later. Because these runs launch Python subprocesses, they live in their own continuous integration job instead of slowing down the ordinary unit tests.
+The harness has a second use, which turned out to matter more than the first. It is the step that tells a contributor their standalone code is finished. The suite finds a new operator the moment it is registered, builds a configuration from the operator's own schema, runs it both ways, and turns a disagreement into a failing test on the pull request rather than a bug a user finds in an exported script months later. Because these runs launch Python subprocesses, they live in their own continuous integration job, which runs only on a pull request that could change their result.
 </p>
 
 <h2 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 32px; letter-spacing: -.01em; margin: 48px 0 6px; line-height: 1.1; color: #14110f;">
@@ -217,7 +221,7 @@ Some operators are outside what a single file can reasonably do. A user defined 
 <h3 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 22px; margin: 30px 0 10px;">Two limits worth stating plainly</h3>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-The script is sequential. The engine's parallelism is a property of the runtime, not of the operators, so the script computes the same answer without the engine's distribution. And a file source is written as a plain file name, on the assumption that the file sits beside the script, because a Texera resource URI means nothing outside the system. Someone exporting a workflow that reads a dataset should expect to put the file next to the script, or to edit that one line.
+The script is sequential. The engine's parallelism is a property of the runtime, not of the operators, so the script computes the same answer without the engine's distribution. And a file source is written as a plain file name, on the assumption that the file sits beside the script, because a Texera resource URI means nothing outside the system. Someone exporting a workflow that reads a dataset should expect to put the file next to the script, or to edit that one line. Where two sources read files with the same name, or one shares a name with a file in the zip, the script reads the later one under a numbered name such as <code>data-2.csv</code>, and the export dialog says which file to save under which name.
 </p>
 
 <div style="background: #2a241d; color: #f4efe6; border-radius: 16px; padding: 38px 40px; margin: 36px 0 0; text-align: center;">
@@ -226,7 +230,7 @@ Where This Goes Next
 </h2>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 16px; color: #cbc1b1; margin: 0 auto 22px; max-width: 680px;">
-The export is landing as a series of changes, one operator family at a time, each with its parity tests. A guide for contributors adding an operator to the export and to the harness lands with the last of them. Development is tracked on GitHub, and design discussion happens there and on <a style="color: #f4efe6; font-weight: bold;" href="https://lists.apache.org/list.html?dev@texera.apache.org">dev@texera.apache.org</a>.
+The export landed as a series of changes, one operator family at a time, each with its parity tests. A contributor adding an operator now starts from the <a style="color: #f4efe6; font-weight: bold;" href="https://github.com/apache/texera/blob/main/docs/contribution-guidelines/guide-to-add-a-new-operator.md">guide to adding a new operator</a>, which says what the export and the harness ask of it. Development is tracked on GitHub, and design discussion happens there and on <a style="color: #f4efe6; font-weight: bold;" href="https://lists.apache.org/list.html?dev@texera.apache.org">dev@texera.apache.org</a>.
 </p>
 
 <a style="display: inline-block; background: #c8451f; color: #fff; font-weight: 800; letter-spacing: .04em; text-decoration: none; padding: 14px 30px; border-radius: 999px; font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 15px;" href="https://github.com/apache/texera/issues/8325" target="_blank" rel="noopener">Follow the work on issue #8325</a>
