@@ -8,14 +8,7 @@
             {{- if $cover }} td-navbar-cover {{- end }}" data-bs-theme="dark">
     <div class="container-fluid flex-column flex-md-row">
         <a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}">
-            {{- /**/ -}}
-            <span class="navbar-brand__logo navbar-logo">
-              <img src="{{ "images/logo.png" | relURL }}" alt="{{ $.Site.Title }}®" height="40" class="brand-logo">
-            </span>
-            {{- /**/ -}}
-            <span class="navbar-brand__name">
-      {{- .Site.Title -}}®
-    </span>
+            <img src="{{ "images/brand/apache-texera-logo-white.svg" | relURL }}" alt="{{ $.Site.Title }}™" class="navbar-brand__logo brand-logo">
             {{- /**/ -}}
         </a>
         {{ with .Site.Params.latest_release -}}
