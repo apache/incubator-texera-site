@@ -4,7 +4,7 @@ linkTitle: "Workflow to Python Script"
 slug: "export-workflow-as-python"
 date: 2026-11-23
 author: Kary Zheng, advised by Professor Chen Li
-description: "Texera can now hand a user the workflow they built as a standalone Python script, and every operator that exports is checked by running it both ways and comparing the results."
+description: "Texera can now hand a user the workflow they built as a standalone Python script, and the operators that export are checked by running them both ways and comparing the results."
 images:
   - /images/blog_hero/workflow-to-python-export.jpg
 tags: ["python", "export", "pandas", "verification", "workflows"]
@@ -19,11 +19,11 @@ Feature Introduction &middot; Apache Texera
 </p>
 
 <p style="font-family: Georgia,'Times New Roman',serif; font-size: 21px; line-height: 1.5; margin: 0 0 20px;">
-A workflow built on the Texera canvas can be run, shared and read, but only inside Texera. A user who wants to keep a pipeline after the fact, hand it to a colleague who does not run Texera, or step through it in a notebook has had nothing to take away. Texera now has an export that closes that gap. Given a workflow, it produces a Python script that reads the same sources, applies the same operators in the same order, and prints its results.
+A workflow built on the Texera canvas can be run, shared and read, but only inside Texera. A user who wants to keep a pipeline after the fact, hand it to a colleague who does not run Texera, or step through it in a notebook has had nothing to take away. Texera now has an export that closes that gap. Given a workflow, it produces a Python script that reads the same sources, applies the same operators in the same order, and prints its tables or writes its charts to files.
 </p>
 
 <p style="font-family: Georgia,'Times New Roman',serif; font-size: 21px; line-height: 1.5; margin: 0 0 20px;">
-The harder half of the work is not the export. It is the question that follows it. A script that looks like the workflow is worth very little if it quietly computes something else, so every operator that knows how to export itself is run twice, once through the Texera engine and once as the generated Python, and the two answers are compared.
+The harder half of the work is not the export. It is the question that follows it. A script that looks like the workflow is worth very little if it quietly computes something else, so the operators that know how to export themselves are run twice, once through the Texera engine and once as the generated Python, and the two answers are compared.
 </p>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 16px; color: #5b5347; margin: 0 0 8px; padding: 14px 18px; background: #fbf7ef; border-radius: 10px;">
@@ -102,7 +102,7 @@ The one import from Texera is <code>texera_helpers</code>, a small module that s
 <td style="padding: 16px 18px; background: #fbf7ef; border-bottom: 1px solid #e3dccd; font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 15.5px; vertical-align: top;"><b>Nothing to install from Texera.</b> The zip holds <code>script.py</code> and the <code>texera_helpers.py</code> it imports from, so the unzipped folder runs with <code>python script.py</code>. Beyond that it needs pandas, with Plotly for a chart and scikit-learn or transformers for a model.</td>
 </tr>
 <tr>
-<td style="padding: 16px 18px; background: #fbf7ef; border-bottom: 1px solid #e3dccd; font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 15.5px; vertical-align: top;"><b>Every branch is printed.</b> Any output that no other operator consumes is printed at the end, labelled with the operator it came from.</td>
+<td style="padding: 16px 18px; background: #fbf7ef; border-bottom: 1px solid #e3dccd; font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 15.5px; vertical-align: top;"><b>Every branch ends in a result.</b> A table at the end of a branch is printed, labelled with the operator it came from. A chart is written to an HTML file beside the script.</td>
 </tr>
 <tr>
 <td style="padding: 16px 18px; background: #fbf7ef; font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 15.5px; vertical-align: top;"><b>A gap is marked, not guessed.</b> An operator with no standalone form yet leaves a comment where its line would be, so the script stops at the gap instead of running on quietly.</td>
@@ -135,7 +135,7 @@ The translator walks the plan in topological order, gives every output port of e
 </p>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-At the end the translator finds every port that no link consumes and prints it. A workflow with one terminal operator prints once; a workflow that branches prints each branch, labelled with the operator it came from.
+At the end the translator finds every port that no link consumes. A table there is printed, labelled with the operator it came from, so a workflow that branches prints each branch. A chart has already written its HTML file under a name taken from the operator, such as <code>bar_chart_1.html</code>.
 </p>
 
 <h3 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 22px; margin: 30px 0 10px;">Helpers in a module of their own</h3>
@@ -171,7 +171,7 @@ Every operator that implements the trait now has two descriptions of its own beh
 <h3 style="font-family: Georgia,'Times New Roman',serif; font-weight: 900; font-size: 22px; margin: 30px 0 10px;">Run it two ways, compare the outputs</h3>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
-One path drives the operator through the engine's own execution, the way a running workflow would. The other takes the generated block, wraps it in a script, and runs it in a Python subprocess. The comparison is per output port and by kind of data: tables column by column with their types, a model by unpickling both sides and checking that they predict the same thing, and a chart by the Plotly figure each path built, falling back to the HTML when a path drew a reason page instead of a figure. The suite reports one result per operator, named so that it says which operator it was and how its input was configured.
+One path drives the operator through the engine's own execution, the way a running workflow would. The other takes the generated block, wraps it in a script, and runs it in a Python subprocess. The comparison is per output port and by kind of data: tables column by column with their types, a model by unpickling both sides and checking that they predict the same thing, and a chart by the Plotly figure each path built, falling back to the HTML when a path drew a reason page instead of a figure. The suite reports one result per operator, named after the operator and the kind of output it compared.
 </p>
 
 <p style="font-family: 'Helvetica Neue',Arial,sans-serif; font-size: 17px; margin: 0 0 18px;">
